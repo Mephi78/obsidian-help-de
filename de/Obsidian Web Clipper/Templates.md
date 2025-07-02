@@ -31,7 +31,7 @@ Define how content from Web Clipper will be added to Obsidian:
 
 - **Create a new note**
 - **Add to an existing note**, at the top or bottom
-- **Add to daily note**, at the top or bottom (requires the [[daily notes]] plugin to be active)
+- **Add to daily note**, at the top or bottom (requires the [[Daily notes]] plugin to be active)
 
 ### Automatically trigger a template
 

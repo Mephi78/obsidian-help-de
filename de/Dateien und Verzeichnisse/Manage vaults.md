@@ -10,7 +10,7 @@ A **vault** is a folder on your file system which contains your notes, [[Attachm
 
 You can manage your vaults using the **Vault switcher**. The *Vault profile* opens the first time you open Obsidian.
 
-To open the vault switcher from an existing vault, select **Vault profile** ( ![[lucide-chevrons-up-down.svg#icon]]) at the bottom of the [[Sidebar|left sidebar]]. Or, select **Open another vault** from the [[command palette]].
+To open the vault switcher from an existing vault, select **Vault profile** ( ![[lucide-chevrons-up-down.svg#icon]]) at the bottom of the [[Sidebar|left sidebar]]. Or, select **Open another vault** from the [[Command palette]].
 
 ## Create new vault
 

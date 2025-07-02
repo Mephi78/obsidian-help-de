@@ -66,7 +66,7 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	- Sync your notes across devices.
 - [[Tags view|Tags view]]
 	- List all the tags in your vault.
-- [[Plugins/Templates|Templates]]
+- [[Integrierte Erweiterungen/Templates|Templates]]
 	- Insert pre-defined content into your notes.
 - [[Unique note creator]]
 	- Create a unique note using a time-coded title.
