@@ -20,7 +20,7 @@ You can open multiple folders as individual vaults, for example to separate note
 
 ## Vault settings
 
-Obsidian creates an `.obsidian` [[configuration folder]] in the root folder of the vault, which contains preferences specific to that vault, such as [[Hotkeys]], [[themes]], and [[community plugins]].
+Obsidian creates an `.obsidian` [[Configuration folder]] in the root folder of the vault, which contains preferences specific to that vault, such as [[Hotkeys]], [[themes]], and [[community plugins]].
 
 By default, most operating systems hide folders that start with a period (`.`), so you may need to update the settings for your file manager to see it.
 
