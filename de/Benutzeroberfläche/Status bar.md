@@ -8,7 +8,7 @@ The status bar shows small bits of information in the bottom right corner of the
 
 ![[status-bar-desktop.png#interface]]
 
-Status items are added both by [[Core plugins|core plugins]] and [[community plugins]]. Some items are interactive but some are purely informational. 
+Status items are added both by [[Core plugins|core plugins]] and [[Community plugins]]. Some items are interactive but some are purely informational. 
 
 For example, the [[word count]] plugin adds the word and character count that’s not clickable, and the [[Introduction to Obsidian Sync|Sync plugin]] adds an icon that both shows the sync status as well as shows the sync log upon being clicked. 
 
