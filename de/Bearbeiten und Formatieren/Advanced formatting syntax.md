@@ -54,7 +54,7 @@ You can use [[Basic formatting syntax]] to style content within a table.
 | [[Embed files]]    | ![[Engelbart.jpg\|100]]                 |
 
 > [!note] Vertical bars in tables
-> If you want to use [[aliases]], or to [[Basic formatting syntax#External images|resize an image]] in your table, you need to add a `\` before the vertical bar.
+> If you want to use [[Aliases]], or to [[Basic formatting syntax#External images|resize an image]] in your table, you need to add a `\` before the vertical bar.
 >
 > ```md
 > First column | Second column
@@ -121,7 +121,7 @@ Biology --> Chemistry
 
 ### Linking files in a diagram
 
-You can create [[internal links]] in your diagrams by attaching the `internal-link` [class](https://mermaid.js.org/syntax/flowchart.html#classes) to your nodes.
+You can create [[Internal links]] in your diagrams by attaching the `internal-link` [class](https://mermaid.js.org/syntax/flowchart.html#classes) to your nodes.
 
 ````md
 ```mermaid

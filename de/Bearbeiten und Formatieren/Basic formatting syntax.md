@@ -151,7 +151,7 @@ Formatting can be forced to display in plain text by adding a backslash `\` in f
 
 ## Internal links
 
-Obsidian supports two formats for [[internal links]] between notes:
+Obsidian supports two formats for [[Internal links]] between notes:
 
 - Wikilink: `[[Three laws of motion]]`
 - Markdown: `[Three laws of motion](Three%20laws%20of%20motion.md)`
