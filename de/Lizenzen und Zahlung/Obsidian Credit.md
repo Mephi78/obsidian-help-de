@@ -19,7 +19,7 @@ Obsidian Credit will be applied before any payment is due, including auto-renewa
 4. Proceed to pay for the credit with any of the supported payment methods.
 
 > [!Note] Sales tax
-> Any applicable [[sales tax]] will be charged when you make a purchase of a product, such as Obsidian Sync, not when you buy Obsidian Credit.
+> Any applicable [[Sales tax]] will be charged when you make a purchase of a product, such as Obsidian Sync, not when you buy Obsidian Credit.
 >
 > If you plan to cover auto-renewals with your credit, please keep this factor in mind.
 
