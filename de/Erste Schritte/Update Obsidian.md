@@ -4,6 +4,7 @@ aliases:
   - Installer version update
 permalink: updates
 ---
+#TODO
 Obsidian regularly checks for new updates. If automatic updates are enabled, the application will apply any available updates when you restart it.
 
 ## Check for an update and the current version
@@ -35,7 +36,7 @@ To update Obsidian when an installer update is required:
 1. Navigate to [https://obsidian.md/download](https://obsidian.md/download "https://obsidian.md/download").
 2. Download the installer onto your system.
 	1. If Obsidian is open, completely close it.
-3. Run the installation process as directed in [[Download and install Obsidian]].
+3. Run the installation process as directed in [[Obsidian herunterladen und installieren|Obsidian herunterladen und installieren]].
 
 Your installer update is now complete. You may now re-open Obsidian.
 
@@ -48,4 +49,4 @@ Your installer update is now complete. You may now re-open Obsidian.
 
 ## Troubleshooting
 
-Some features may depend on a more recent installer version. If you experience issues with a recently added feature, consider [[Download and install Obsidian|reinstalling Obsidian]] to update the installer version.
+Some features may depend on a more recent installer version. If you experience issues with a recently added feature, consider [[Obsidian herunterladen und installieren|reinstalling Obsidian]] to update the installer version.

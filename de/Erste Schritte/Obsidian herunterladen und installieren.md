@@ -1,16 +1,24 @@
 ---
 permalink: install
 ---
-Obsidian is available for all major desktop and mobile platforms. These are all the supported ways to download and install Obsidian.
+Obsidian ist für alle gängigen Desktop- und mobilen Plattformen erhältlich. Diese Möglichkeiten hast du, um Obsidian herunterzuladen und zu installieren.
+%%Obsidian is available for all major desktop and mobile platforms. These are all the supported ways to download and install Obsidian.%%
 
-## Install Obsidian on Windows
+## Installiere Obsidian unter Windows #WIP/Mephi
 
 1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
 2. Under **Windows**, click **Universal** to download the installation file.
 3. Open the installation file and follow the instructions.
 4. Open Obsidian the same way you would open any other application.
 
-## Install Obsidian on macOS
+%%
+1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
+2. Under **Windows**, click **Universal** to download the installation file.
+3. Open the installation file and follow the instructions.
+4. Open Obsidian the same way you would open any other application.
+%%
+
+## Installiere Obsidian unter macOS
 
 1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
 2. Under **macOS**, click **Universal** to download the installation file.
@@ -18,7 +26,7 @@ Obsidian is available for all major desktop and mobile platforms. These are all 
 4. In the window that opens, drag Obsidian to the Applications folder.
 5. Open Obsidian the same way you would open any other application.
 
-## Install Obsidian on Linux
+## Installiere Obsidian unter Linux
 
 If you use Linux, you can install Obsidian in several ways. Follow the instructions for the packaging system that you're using.
 

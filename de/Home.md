@@ -34,7 +34,7 @@ Du kannst diese Seite in deiner bevorzugten Sprache durchstöbern:
 
 Lerne die Grundlagen - deine ersten Schritte mit Obsidian:
 
-1. [[Download and install Obsidian|Obsidian herunterladen und installieren]]
+1. [[Obsidian herunterladen und installieren|Obsidian herunterladen und installieren]]
 2. [[Create a vault|Lege einen Vault an]]
 3. [[Create your first note|Erstelle deine erste Notiz]]
 4. [[Link notes|Verlinke Notizen]]
@@ -56,7 +56,7 @@ Mit unzähligen Erweiterungen und Farbschemata kannst du Obsidian ganz deiner in
 - [[Introduction to Obsidian Web Clipper|Web Clipper]]
 	- Markiere Texte und speichere Webseiten in Obsidian mit unserer Browser-Erweiterung.
 
-## Kostenpflichtige Erweiterungen
+## Zusatzdienste
 
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
 	- Synchronisiere deine Notizen zwischen Geräten und Betriebssystemen zuverlässig und sicher.
