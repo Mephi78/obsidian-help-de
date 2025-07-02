@@ -46,7 +46,7 @@ Marie | Curie
 
 ### Format content within a table
 
-You can use [[basic formatting syntax]] to style content within a table.
+You can use [[Basic formatting syntax]] to style content within a table.
 
 | First column       | Second column                           |
 | ------------------ | --------------------------------------- |

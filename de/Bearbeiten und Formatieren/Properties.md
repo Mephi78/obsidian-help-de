@@ -236,7 +236,7 @@ Obsidian comes with a set of default properties:
 
 | Property | Description |
 |-|-|
-| `tags` | See [[Editing and formatting/Tags\|Tags]]. |
+| `tags` | See [[Tags\|Tags]]. |
 | `aliases` | See [[Aliases]]. |
 | `cssclasses` | Allows you to style individual notes using [[CSS snippets]]. |
 
