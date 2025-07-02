@@ -22,7 +22,7 @@ To bypass Defuddle in Web Clipper use the following methods:
 
 If you don't see any content in Obsidian when you click **Add to Obsidian**:
 
-- Check for errors in the Obsidian [[Help and support#Capture console logs|developer console]].
+- Check for errors in the Obsidian [[Hilfe und Kontakt#Capture console logs|developer console]].
 - Check that your vault name in Web Clipper settings exactly matches your *vault name* in Obsidian *not the vault path*.
 - Check that the folder name is correctly formatted.
 

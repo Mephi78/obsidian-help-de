@@ -34,7 +34,7 @@ Displays a progress bar showing how much of your sync storage is used.
 > [!tip] It may take up to 30 minutes for the current usage to update due to server-side processing.
 
 **Contact support**  
-Provides instructions on how to [[Help and support#Contact Obsidian support|contact Obsidian support]], including options to **Copy debug info** and **Email support**.
+Provides instructions on how to [[Hilfe und Kontakt#Contact Obsidian support|contact Obsidian support]], including options to **Copy debug info** and **Email support**.
 
 ---
 

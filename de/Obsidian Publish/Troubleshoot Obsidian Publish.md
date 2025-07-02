@@ -19,7 +19,7 @@ Are you using a [[Community plugins|community plugin]] that edits the file's mod
 
 **I am receiving an odd network error, and I have a very large Publish site.**
 
-It is likely we need to examine your database. Please [[Help and support#Contact Obsidian support|contact Obsidian support]] for assistance.
+It is likely we need to examine your database. Please [[Hilfe und Kontakt#Contact Obsidian support|contact Obsidian support]] for assistance.
 
 ## CSS and themes
 

@@ -42,7 +42,7 @@ Thanks for being an early bird! None of these discounts stack with the early bir
 If you’re already an early bird, there’s generally no point in applying for discounts. But keep in mind that early bird pricing is separate for Sync and Publish, so if you missed early bird pricing for one of them, you may still want to apply for a discount.
 
 **What if my educational or non-profit organization doesn't provide an email address?**
-In that case, you can send other forms of verification such as student ID card, transcript, or employee ID card to the [[Help and support#Contact Obsidian support|Obsidian support]]. Be sure to include your Obsidian account email address too. Our team will review your application and get back to you. Thank you for your patience!
+In that case, you can send other forms of verification such as student ID card, transcript, or employee ID card to the [[Hilfe und Kontakt#Contact Obsidian support|Obsidian support]]. Be sure to include your Obsidian account email address too. Our team will review your application and get back to you. Thank you for your patience!
 
 ### Refunds
 

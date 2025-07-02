@@ -39,7 +39,7 @@ Community plugins undergo an initial review when they're submitted to the plugin
 
 The Obsidian team is small and unable to manually review every new release of community plugins. Instead, we rely on the help of the community to identify and report issues with plugins.
 
-- If you discover any minor security vulnerabilities in a community plugin, refer to the plugin author's `security.md` or `readme.md` for how to report those. For Critical category flaws, please report the issue to [[Help and support#Contact Obsidian support|Obsidian support]] as well. 
-- If you suspect that a community plugin is malicious, report it to [[Help and support#Contact Obsidian support|Obsidian support]], or by sending a DM to our moderators.
+- If you discover any minor security vulnerabilities in a community plugin, refer to the plugin author's `security.md` or `readme.md` for how to report those. For Critical category flaws, please report the issue to [[Hilfe und Kontakt#Contact Obsidian support|Obsidian support]] as well. 
+- If you suspect that a community plugin is malicious, report it to [[Hilfe und Kontakt#Contact Obsidian support|Obsidian support]], or by sending a DM to our moderators.
 
 
