@@ -8,7 +8,7 @@ mobile: true
 permalink: sync/plans
 publish: true
 ---
-
+#TODO
 ## Plans
 
 To sync your notes with [[Introduction to Obsidian Sync|Obsidian Sync]] you need a subscription plan. You can purchase a Sync plan by logging into [your account](https://obsidian.md/account/sync). See the [Sync landing page](https://obsidian.md/sync) for pricing.

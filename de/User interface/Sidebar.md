@@ -3,7 +3,7 @@ aliases:
   - User interface/Workspace/Sidebar
 permalink: sidebar
 ---
-
+#TODO
 Obsidian has two sidebars, left and right. On desktop and larger tablets, the left sidebar includes the [[Ribbon]]. On mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
 
 ## Open hidden sidebars

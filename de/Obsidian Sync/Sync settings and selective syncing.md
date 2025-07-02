@@ -9,7 +9,7 @@ mobile: false
 permalink: sync/settings
 publish: true
 ---
-
+#TODO
 When you [[Plans and storage limits#Create a new remote vault|create a remote vault]] and [[Set up Obsidian Sync#Connect to a remote vault|connect to it]], the Sync Core plugin becomes the place for managing your remote vault.
 
 ## Sync settings

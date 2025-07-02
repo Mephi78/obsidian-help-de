@@ -5,6 +5,7 @@ description: Learn how to customize the appearance and style of your Obsidian Pu
 permalink: publish/customize
 publish: true
 ---
+#TODO
 This page explains how you can customize how your [[Introduction to Obsidian Publish|Obsidian Publish]] site looks and feels.
 
 ## Static assets

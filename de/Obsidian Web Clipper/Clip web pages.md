@@ -3,6 +3,7 @@ permalink: web-clipper/capture
 aliases:
   - Obsidian Web Clipper/Capture web pages
 ---
+#TODO
 Once you install the [[Introduction to Obsidian Web Clipper|Web Clipper]] browser extension, you can access it in several ways, depending on your browser:
 
 1. The Obsidian icon in your browser toolbar.

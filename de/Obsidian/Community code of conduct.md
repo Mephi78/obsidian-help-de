@@ -7,7 +7,7 @@ mobile: true
 permalink: community-code-of-conduct
 publish: true
 ---
-
+#TODO
 ## The rules
 
 The following behaviors are not tolerated within the official Obsidian community channels, including the [Forum](https://forum.obsidian.md), [Discord](https://discord.gg/obsidianmd), and [Reddit](https://reddit.com/r/ObsidianMD).

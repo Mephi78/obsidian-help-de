@@ -1,6 +1,7 @@
 ---
 permalink: import/html
 ---
+#TODO
 Obsidian allows you to easily import individual HTML files and entire folders of HTML files using the official [[Importer|Importer plugin]]. This is useful if you want to save whole websites to [[Obsidian Flavored Markdown|Markdown]] format, or if you want to import data from a tool that exports to HTML. 
 
 If you are importing notes from a specific app, you may want to first review the list of apps supported by [[Importer|Importer plugin]] to check if there is a specific converter that will better preserve the data you are migrating.

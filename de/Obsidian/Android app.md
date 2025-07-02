@@ -1,6 +1,7 @@
 ---
 permalink: android
 ---
+#TODO
 To Sync your notes with Obsidian on Android see [[Sync your notes across devices]].
 
 ## Vault location

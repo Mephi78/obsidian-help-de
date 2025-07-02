@@ -7,7 +7,7 @@ mobile: false
 permalink: sync/security
 publish: true
 ---
-
+#TODO
 ## Encryption
 
 For your safety, [[Introduction to Obsidian Sync|Obsidian Sync]] encrypts your [[Local and remote vaults|remote vault]] and all communication with Obsidian's servers.

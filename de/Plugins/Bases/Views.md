@@ -1,6 +1,7 @@
 ---
 permalink: bases/views
 ---
+#TODO
 Views allow you to organize the information in a [[Introduction to Bases|Base]] in multiple different ways. A base can contain several views, and each view can have a unique configuration to display, sort, and filter files.
 
 For example, you may want to create a base called "Books" that has separate views for "Reading list" and "Recently finished".

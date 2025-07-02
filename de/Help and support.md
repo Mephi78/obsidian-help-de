@@ -1,6 +1,7 @@
 ---
 permalink: resources
 ---
+#TODO
 Find support resources, report security or community violations, and learn how to contribute to Obsidian.
 
 ## Questions and advice

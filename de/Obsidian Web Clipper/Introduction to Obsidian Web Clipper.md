@@ -7,6 +7,7 @@ cssclasses:
   - list-cards-mobile-full
 permalink: web-clipper
 ---
+#TODO
 Obsidian Web Clipper is a free browser extension that lets you highlight pages and save web content to your vault.
 
 > [!warning]- Requires Obsidian 1.7.2 or above

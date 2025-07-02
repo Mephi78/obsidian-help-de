@@ -4,6 +4,7 @@ aliases:
   - Advanced topics/Using obsidian URI
   - Concepts/Obsidian URI
 ---
+#TODO
 Obsidian URI is a custom URI protocol supported by Obsidian that lets you trigger various actions, such as opening a note or creating a note. Obsidian URI enables automation and cross-app workflows.
 
 ## URI format

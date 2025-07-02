@@ -1,6 +1,7 @@
 ---
 permalink: publish/social-share
 ---
+#TODO
 Many social networks display a rich preview for your website when a user shares a link to it.  Using [[Properties]], you can customize how your notes appear in the preview.
 
 > [!warning]

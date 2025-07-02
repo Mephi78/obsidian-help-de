@@ -4,6 +4,7 @@ mobile: true
 publish: true
 permalink: publish/troubleshoot
 ---
+#TODO
 This page lists common issues you might encounter with [[Introduction to Obsidian Publish|Obsidian Publish]] and how to address them.
 
 Be sure to review [[Media files]] and [[Publish limitations|Publish limitations]] first.

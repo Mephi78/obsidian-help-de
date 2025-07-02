@@ -4,6 +4,7 @@ aliases:
   - Recovery codes
 permalink: 2fa
 ---
+#TODO
 If you have an [Obsidian account](https://obsidian.md/account) you can enable two-factor authentication (2FA) to protect your account with a second verification step.
 
 ## Enable 2FA

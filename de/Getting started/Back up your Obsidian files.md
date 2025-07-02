@@ -5,6 +5,7 @@ aliases:
   - backup
 permalink: backup
 ---
+#TODO
 If you haven't backed up your computer yet, it's a good idea to start now! Obsidian’s [[File recovery]] plugin is a useful tool, but it only backs up your notes. To be safe, you should also back up the snapshots created by the plugin.
 
 **Why back up your data?**

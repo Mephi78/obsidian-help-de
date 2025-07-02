@@ -3,6 +3,7 @@ aliases:
   - Advanced Markdown
 permalink: advanced-syntax
 ---
+#TODO
 Learn how to add advanced formatting syntax to your notes.
 
 ## Tables

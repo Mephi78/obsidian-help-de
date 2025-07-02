@@ -1,6 +1,7 @@
 ---
 permalink: plugins/audio-recorder
 ---
+#TODO
 Audio recorder is a [[Core plugins|core plugin]] that lets you record and save audio in an Obsidian note. With the Audio recorder plugin, you can record details from a lecture, meeting, or other important situations where you can't type fast enough.
 
 > [!note]

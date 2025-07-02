@@ -10,7 +10,7 @@ aliases:
   - Editing mode
 permalink: edit-and-read
 ---
-
+#TODO
 Obsidian lets you control how you read and edit notes written in Markdown using _views_ and _modes_.
 
 - **Views** toggle between reading and editing your notes.

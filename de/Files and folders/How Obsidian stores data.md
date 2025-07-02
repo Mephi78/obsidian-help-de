@@ -6,7 +6,7 @@ mobile: true
 permalink: data-storage
 publish: true
 ---
-
+#TODO
 Obsidian stores your notes as [[Basic formatting syntax|Markdown-formatted]] plain text files in a _vault_. A vault is a folder on your local file system, including any subfolders.
 
 Because notes are plain text files, you can use other text editors and file managers to edit and manage notes. Obsidian automatically refreshes your vault to keep up with any external changes.

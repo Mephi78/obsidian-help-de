@@ -3,6 +3,7 @@ aliases:
   - Obsidian Publish/Set up Google Analytics
 permalink: publish/analytics
 ---
+#TODO
 ## Prerequisites
 
 To use analytics on your [[Introduction to Obsidian Publish|Obsidian Publish]] site, you need a [[Custom domains|custom domain]].

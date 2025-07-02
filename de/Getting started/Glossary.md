@@ -1,6 +1,7 @@
 ---
 permalink: glossary
 ---
+#TODO
 This glossary includes common Obsidian terminology.
 
 ## Alias

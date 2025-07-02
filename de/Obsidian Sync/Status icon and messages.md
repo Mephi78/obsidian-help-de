@@ -8,7 +8,7 @@ mobile: true
 permalink: sync/messages
 publish: true
 ---
-
+#TODO
 Obsidian Sync provides several elements to indicate sync status, mainly the [[#Sync status icon]] and [[#Sync log]]. Details about version control in Obsidian Sync are covered in the [[Version history]] page.
 
 ## Sync status icon

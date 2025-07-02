@@ -3,6 +3,7 @@ aliases:
   - Advanced topics/HTML sanitization
   - Editing and formatting/Using HTML
 ---
+#TODO
 Obsidian supports HTML to allow you to display your notes the way you want, or even [[Embed web pages|embed web pages]]. Allowing HTML inside your notes comes with risks. To prevent malicious code from doing harm, Obsidian _sanitizes_ any HTML in your notes. 
 
 > [!example] 

@@ -3,6 +3,7 @@ aliases:
   - Editing and formatting/Keyboard shortcuts for editing
 permalink: editing-shortcuts
 ---
+#TODO
 Learn how to use keyboard shortcuts to navigate and edit text in your notes. You can also define [[Hotkeys|custom hotkeys]].
 
 ## Windows and Linux shortcuts

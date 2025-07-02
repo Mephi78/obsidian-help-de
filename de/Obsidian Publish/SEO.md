@@ -3,6 +3,7 @@ aliases:
   - Search Engine Optimization
 permalink: publish/seo
 ---
+#TODO
 [[Introduction to Obsidian Publish|Obsidian Publish]] sites are automatically optimized for search engines and [[Social media link previews|social sharing cards]]. You can also customize page metadata with descriptions, permalinks, and images.
 
 Note that you can disallow search engine indexing, in your [[Manage sites#Site Options|site options]].

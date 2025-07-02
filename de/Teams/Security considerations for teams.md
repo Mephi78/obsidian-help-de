@@ -3,6 +3,7 @@ cssclasses:
   - soft-embed
 permalink: teams/security
 ---
+#TODO
 Our [Security](https://obsidian.md/security) page compiles information about how Obsidian approaches protecting your data. It is also the home for security audits completed by third parties.
 
 ## Considerations

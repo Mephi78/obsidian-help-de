@@ -9,6 +9,7 @@ mobile: true
 permalink: sync-notes
 publish: true
 ---
+#TODO
 Obsidian stores notes locally on your device so you always have access to them, even offline. To access your notes on multiple devices you need to set up a sync method.
 
 This guide covers common sync methods, including tips to avoid data loss and ensure a smooth experience.

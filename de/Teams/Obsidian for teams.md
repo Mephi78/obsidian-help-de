@@ -6,6 +6,7 @@ cssclasses:
   - list-cards-mobile-full
 permalink: teams
 ---
+#TODO
 Obsidian can be used as a note-taking application for individuals, and as a collaboration tool for your team.
 
 ## Use Obsidian with your team

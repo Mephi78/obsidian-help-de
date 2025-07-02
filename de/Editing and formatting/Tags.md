@@ -3,6 +3,7 @@ aliases:
   - How to/Working with tags
 permalink: tags
 ---
+#TODO
 Tags are keywords or topics that help you quickly find the notes you want.
 
 ## Add a tag to a note

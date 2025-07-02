@@ -4,6 +4,7 @@ aliases:
   - Commercial licenses
 permalink: teams/license
 ---
+#TODO
 Obsidian is free to use and is 100% user-supported. Organizations can choose to support Obsidian by purchasing Commercial licenses.
 
 Organizations that support Obsidian can be featured on our [Enterprise page](https://obsidian.md/enterprise/) by purchasing 25 or more licenses.

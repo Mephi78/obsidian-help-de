@@ -4,6 +4,7 @@ aliases:
   - Developers/Build themes
 permalink: developers
 ---
+#TODO
 If you are a developer you can contribute to Obsidian in various ways.
 
 ### Plugins and themes

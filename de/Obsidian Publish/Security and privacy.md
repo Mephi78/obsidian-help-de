@@ -4,6 +4,7 @@ aliases:
   - Security/privacy for Obsidian Publish
 permalink: publish/security
 ---
+#TODO
 You can choose the notes you want to publish to [[Introduction to Obsidian Publish|Obsidian Publish]]. The rest of your notes stay safe in your vault.
 
 Only the notes you choose to publish are sent to Obsidian's servers, and any notes you unpublish are removed.

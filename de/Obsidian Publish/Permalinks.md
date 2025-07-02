@@ -4,6 +4,7 @@ aliases:
   - Obsidian Publish/Redirect old notes
 permalink: publish/permalinks
 ---
+#TODO
 You can rename the URL to your notes, using _permalinks_.
 
 For example, you can turn this:

@@ -4,6 +4,7 @@ aliases:
   - How to/Rename notes
 permalink: manage-notes
 ---
+#TODO
 You can manage files and folders in several ways, using [[Hotkeys]], [[Command palette|commands]], or [[File explorer]].
 
 ## Create a new note

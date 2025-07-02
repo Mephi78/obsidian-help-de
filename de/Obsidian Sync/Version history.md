@@ -8,6 +8,7 @@ description: Obsidian Sync keeps a record of all changes made to your notes and 
 mobile: true
 publish: true
 ---
+#TODO
 [[Introduction to Obsidian Sync|Obsidian Sync]] regularly checks for updates to your [[Sync settings and selective syncing|synced files]], keeping a record of any changes. These are stored as new entries in the [[#Version history]]. This information can be accessed in a few ways:
 
 - [[#Sync history]]

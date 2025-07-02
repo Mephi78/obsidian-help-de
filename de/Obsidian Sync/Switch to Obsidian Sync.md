@@ -9,6 +9,7 @@ mobile: true
 permalink: sync/switch
 publish: true
 ---
+#TODO
 Learn how to transition from your current syncing solution to Obsidian Sync.
 
 > [!warning] Avoid using multiple solutions to sync the same files

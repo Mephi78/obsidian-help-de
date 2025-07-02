@@ -1,6 +1,7 @@
 ---
 permalink: plugins/templates
 ---
+#TODO
 Templates is a [[Core plugins|core plugin]] that lets you insert pre-defined snippets of text into your active note.
 
 ## Set your template folder

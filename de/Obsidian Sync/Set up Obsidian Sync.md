@@ -8,6 +8,7 @@ mobile: true
 permalink: sync/setup
 publish: true
 ---
+#TODO
 You purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
 
 - **New to Obsidian Sync?** See: [[#Set up Obsidian Sync for the first time]]

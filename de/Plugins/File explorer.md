@@ -1,6 +1,7 @@
 ---
 permalink: plugins/file-explorer
 ---
+#TODO
 File explorer is a [[Core plugins|core plugin]] that lets you manage files and folders inside your vault. You can browse notes and other [[Accepted file formats]] in your vault and perform many common file operations:
 
 - Create, delete, and rename files and folders.

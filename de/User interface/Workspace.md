@@ -3,6 +3,7 @@ aliases:
   - User interface/Workspace/Workspace
 permalink: workspace
 ---
+#TODO
 ## Desktop
 
 In the Obsidian desktop app the workspace includes:

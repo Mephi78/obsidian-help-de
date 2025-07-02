@@ -1,6 +1,7 @@
 ---
 permalink: financial-contributions
 ---
+#TODO
 This page explains the ways you can support the development of Obsidian financially.
 
 One of the best ways to support the team is through one or more of our paid products.

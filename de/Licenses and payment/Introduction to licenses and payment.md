@@ -4,6 +4,7 @@ cssclasses:
   - list-cards-mobile-full
 permalink: payment
 ---
+#TODO
 Obsidian offers several services and licenses available for purchase.
 
 - [[Introduction to Obsidian Sync|Obsidian Sync]]

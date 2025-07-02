@@ -3,6 +3,7 @@ aliases:
   - How to/Add custom styles
 permalink: themes
 ---
+#TODO
 Learn how to change the look and feel of Obsidian using themes built by the community.
 
 ## Browse themes

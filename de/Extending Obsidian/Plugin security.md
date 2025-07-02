@@ -1,6 +1,7 @@
 ---
 permalink: plugin-security
 ---
+#TODO
 The Obsidian team takes security seriously. This page explains the risks involved when installing community plugins, and what the Obsidian team does to address them.
 
 ## Restricted mode

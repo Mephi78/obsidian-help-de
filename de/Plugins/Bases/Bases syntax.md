@@ -3,7 +3,7 @@ permalink: bases/syntax
 aliases:
   - Bases file format
 ---
-
+#TODO
 > [!Warning] Work in progress
 > Bases are still in [[Early access versions|beta]] and the syntax is continuing to evolve with feedback we receive during the early access phase. Expect the syntax to change.
 

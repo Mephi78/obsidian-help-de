@@ -7,6 +7,7 @@ cssclasses:
   - soft-embed
 permalink: refunds
 ---
+#TODO
 We offer full refunds within 7 days of purchase with no questions asked for the following services:
 
 - [[Introduction to Obsidian Publish|Obsidian Publish]]

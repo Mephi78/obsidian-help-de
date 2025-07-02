@@ -3,6 +3,7 @@ aliases:
   - Customization/Appearance
 permalink: appearance
 ---
+#TODO
 ### Color scheme
 
 Obsidian comes with two color schemes, light and dark. By default, the color scheme is set to adapt to your operating system. You can change this by going to **Settings → Appearance**.

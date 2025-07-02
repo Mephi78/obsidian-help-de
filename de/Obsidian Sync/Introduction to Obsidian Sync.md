@@ -9,7 +9,7 @@ mobile: true
 permalink: sync
 publish: true
 ---
-
+#TODO
 [Obsidian Sync](https://obsidian.md/sync) is an add-on service that allows you to privately sync your notes across devices.
 
 ## How to use Obsidian Sync

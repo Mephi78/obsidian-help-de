@@ -6,6 +6,7 @@ permalink: plugins
 aliases:
   - core plugin
 ---
+#TODO
 This page lists the core plugins that come installed with Obsidian. Core plugins are officially built and supported by the Obsidian team. 
 
 Some core plugins are disabled by default. You can enable them under **Settings → Core plugins**.

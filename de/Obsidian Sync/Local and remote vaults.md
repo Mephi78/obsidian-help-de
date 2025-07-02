@@ -9,6 +9,7 @@ mobile: true
 permalink: sync/vault-types
 publish: true
 ---
+#TODO
 Obsidian saves your notes in a **local vault** on your computer or device. A local vault is simply a folder that holds your notes.
 
 > [!example] `C:\Users\Obsidian\Vaults\Help` is the folder location for a local vault called `Help`.

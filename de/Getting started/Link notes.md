@@ -3,6 +3,7 @@ aliases:
   - How to/Basic note taking
 permalink: link-notes
 ---
+#TODO
 While Obsidian is great for taking notes, the true power of Obsidian lies in being able to link your notes together. By understanding how one piece of information relates to another, you can improve your ability to remember them and to form deeper insights. In this guide, you'll learn how to create and navigate links in Obsidian.
 
 ## Step 1: Create a link

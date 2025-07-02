@@ -7,6 +7,7 @@ cssclasses:
   - soft-embed
 permalink: discounts
 ---
+#TODO
 Obsidian currently offers two types of discounts: education and non-profit. They both give you 40% off our add-on services [[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]].
 
 ## How to apply

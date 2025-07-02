@@ -3,6 +3,7 @@ aliases:
   - Add a language
 permalink: translations
 ---
+#TODO
 If you know another language, preferably natively, you can help translate the Obsidian user interface or the documentation.
 
 To help translate the user interface, submit a pull request to the [translations repository](https://github.com/obsidianmd/obsidian-translations).
