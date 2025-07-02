@@ -4,7 +4,7 @@ permalink: plugins/web-viewer
 #TODO
 Web viewer is a [[Core plugins|core plugin]] that lets you open external links within Obsidian on desktop. This lets you reading link content without leaving the app and makes multitasking on web research projects easier.
 
-External links open as a [[Tabs|tab]] which you can rearrange, split, and open in a [[pop-out windows|pop-out window]]. Any web page cards embedded in [[canvas]] files can be opened as web viewer tabs.
+External links open as a [[Tabs|tab]] which you can rearrange, split, and open in a [[Pop-out windows|pop-out window]]. Any web page cards embedded in [[canvas]] files can be opened as web viewer tabs.
 
 Web viewer is not a replacement for your primary browser. Web viewer provides a quick way to access web pages for research within Obsidian. However, it does not offer the full functionality, security controls, or extensibility of a dedicated browser.
 

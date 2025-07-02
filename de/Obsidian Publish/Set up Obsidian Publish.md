@@ -62,7 +62,7 @@ The **Publish changes** menu will appear as a slide-up.
 
 #### Open via ribbon
 
-You can also access Obsidian Publish via the [[ribbon]].
+You can also access Obsidian Publish via the [[Ribbon]].
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
