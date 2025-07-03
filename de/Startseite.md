@@ -35,7 +35,7 @@ Du kannst diese Seite in deiner bevorzugten Sprache durchstöbern:
 Lerne die Grundlagen - deine ersten Schritte mit Obsidian:
 
 1. [[Obsidian herunterladen und installieren|Obsidian herunterladen und installieren]]
-2. [[Create a vault|Lege einen Vault an]]
+2. [[Lege einen Vault an|Lege einen Vault an]]
 3. [[Create your first note|Erstelle deine erste Notiz]]
 4. [[Link notes|Verlinke Notizen]]
 5. [[Import notes|Importiere Notizen]]
