@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Start here
+  - Beginne hier
   - Obsidian/Index
 cssclasses:
   - list-cards
