@@ -1,37 +1,37 @@
 ---
 aliases:
-  - How to/Create notes
-permalink: create-note
+  - Gewusst wie/Notizen erstellen
+permalink: notiz-erstellen
 ---
-#WIP/Mephi 
-Notes in Obsidian are stored as plain text files. This means your data is durable and not locked into a proprietary format. By writing your notes in plain text, they'll outlive any app—even Obsidian itself.
 
-## Create a new note
+Obsidian speichert Notizen als einfache Textdateien. Das bedeutet, deine Daten sind langlebig und nicht an ein proprietäres Dateiformat gebunden. Indem du deine Notizen in Klartext verfasst, können sie jede App überdauern - sogar Obsidian.
 
-To create a new note:
+## Erstelle eine neue Notiz
 
-1. Press `Ctrl+N` (or `Cmd+N` on macOS) on your keyboard.
-2. Type "Obsidian" as the name of your note and press `Enter`.
-3. Copy and paste the following text into your note:
+Um eine neue Notiz zu erstellen:
 
-> Obsidian is the private and flexible writing app that adapts to the way you think.
+1. Drücke die Tastenkombination `Ctrl+N` (oder `Cmd+N` unter macOS).
+2. Tippe "Obsidian" als Namen deiner Notiz und drücke `Enter`.
+3. Kopiere den folgenden Text und füge ihn in deine Notiz ein:
 
-## Formatting text
+   > Obsidian ist die private und flexible Notiz-App, die sich an deine Denkweise anpasst.
 
-Obsidian supports [[Basic formatting syntax|Markdown]] syntax to make text bold, italic, and add links and headings.
+## Formatiere Text
 
-1. Copy and paste the following text at the top of the Obsidian note:
+Obsidian unterstützt [[Basic formatting syntax|Markdown]] Syntax, um einen Text fett, kursiv, als Link oder als Überschrift zu formatieren.
+
+1. Kopiere den folgenden Text und füge ihn in deine Notiz ein:
 
    > \# Sharpen your thinking.
 
-   The hash symbol (`#`) turns a line of text into a heading.
+   Das Hash Symbol (`#`) verwandelt eine Zeile in eine Überschrift.
 
-2. In your note, select any text and press `Ctrl+B` (or `Cmd+B` on macOS) to make it bold.
+2. Markiere eine Textauswahl in deiner Notiz und drücke `Ctrl+B` (oder `Cmd+B` unter macOS), um den Text fett zu formatieren.
 
-To learn more about how to format your notes using Markdown, refer to [[Basic formatting syntax]].
+Erfahre mehr darüber, wie du deine Notizen mit Markdown formatieren kannst unter [[Basic formatting syntax|Formatierungsgrundlagen]].
 
-## Learn more
+## Erfahre mehr
 
-Learn how to [[Verlinke Notizen|link notes]] to create a network of connected thoughts.
+Erfahre, wie du [[Verlinke Notizen| Notizen verlinkst]], um deine Gedanken und Ideen zu vernetzen.
 
-You may also want to check out the [[Sandbox vault]] to explore other features of the application.
+Vielleicht möchtest du auch mit dem [[Sandbox vault|Sandkasten Vault]] weitere Anwendungsfunktionen entdecken.
