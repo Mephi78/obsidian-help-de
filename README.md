@@ -143,7 +143,7 @@ Wurden mit der Aktualisierung Dateien im Verzeichnis `/en` geändert, werden ihr
 > SORT file.name ASC
 > ```
 
-> [!SUCCESS]+ Erledigt: **`$= dv.span( dv.pages().where( p => !p.file.tags.includes("#WIP") && !p.file.tags.includes("#TODO") && !p.file.tags.includes("#UPDATE") ).length )`** von `$= dv.span( dv.pages().length-1 )`
+> [!SUCCESS]+ Erledigt: **`$= dv.span( dv.pages().where( p => !p.file.tags.includes("#WIP") && !p.file.tags.includes("#TODO") && !p.file.tags.includes("#UPDATE") ).length-1 )`** von `$= dv.span( dv.pages().length-1 )`
 > ```dataview
 > LIST WITHOUT ID
 > FROM -#TODO AND -#WIP AND -#UPDATE
