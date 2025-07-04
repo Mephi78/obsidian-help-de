@@ -5,7 +5,7 @@
 - erstelle einen Fork [dieses Repositories](https://github.com/Mephi78/obsidian-help-de)
 - achte darauf, **alle Branches** zu forken, indem du das Häkchen neben *Copy the `master` branch only* entfernst!
 
-![Screenshot Fork All Branches](obsidian-help-de-anleitung-fork.png)
+![Screenshot Fork All Branches](https://raw.githubusercontent.com/Mephi78/obsidian-help-de/translation-guide/obsidian-help-de-anleitung-fork.png)
 
 - checke den `translation-colab` Branch aus
 - nun erstelle daraus deinen eigenen neuen Branch und benenne ihn, wie du möchtest
