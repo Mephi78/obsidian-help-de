@@ -1,62 +1,62 @@
 ---
 aliases:
-  - Gewusst wie/Basic note taking
-permalink: link-notes
+  - Gewusst wie/Verlinkungen
+permalink: notizen-verlinken
 ---
-#WIP/Mephi 
-While Obsidian is great for taking notes, the true power of Obsidian lies in being able to link your notes together. By understanding how one piece of information relates to another, you can improve your ability to remember them and to form deeper insights. In this guide, you'll learn how to create and navigate links in Obsidian.
 
-## Step 1: Create a link
+Obsidian ist großartig, um sich Notizen zu machen - die wahre Stärke der Anwendung liegt jedoch in der Möglichkeit, diese Notizen zu verlinken. Zu verstehen, wie eine Information mit einer anderen zusammenhängt, kann deine Merkfähigkeit verbessern und die Fähigkeit, tiefere Einsichten zu gewinnen. Diese Anleitung wird dir helfen, Links mit Obsidian zu erstellen und durch deinen Vault zu navigieren.
 
-In this step, you'll create two notes and link them together using the \[\[double bracket syntax\]\].
+## Schritt 1: Erstelle einen Link
 
-1. [[Erstelle deine erste Notiz|Create a note]] with the name "Three laws of motion":
+Zunächst wirst du zwei Notizen erstellen und diese mit Hilfe der \[\[Doppelklammer-Syntax\]\] miteinander verlinken.
 
-   > The laws of motion are three laws stated by Isaac Newton, that describe the relationship between the motion of an object, and the forces acting on it.
+1. [[Erstelle deine erste Notiz|Erstelle eine Notiz]] mit dem Titel "Grundgesetze der Bewegung" und dem folgenden Text:
 
-2. Create another note with the name "Law of Inertia" with the following text:
+   > Die Grundgesetze der Bewegung, auch bekannt als Newtonsche Axiome, wurden von Isaac Newton formuliert und stellen drei Grundprinzipien dar, die das Verhalten von Objekten in Bewegung beschreiben.
 
-   > The Law of Inertia is one of the
+2. Erstelle eine weitere Notiz mit dem Titel "Gesetz der Trägheit" und tippe folgenden Text:
 
-3. At the end of the sentence, press the left square bracket (`[`) twice on your keyboard.
-4. Type "three" to find the first note you created.
-5. Press `Enter` to create a link to the highlighted note.
+   > Das Gesetz der Trägheit ist eines der 
 
-   > The Law of Inertia is one of the \[\[Three laws of motion\]\]
+3. Am Ende dieser Zeile tippe zwei öffnende eckige Klammern (`[`) ein.
+4. Tippe "Grund", um die erste Notiz zu finden, die du zuvor erstellt hast.
+5. Drücke `Enter`, um einen Link zu der hervorgehobenen Notiz zu erstellen.
 
-Open the "Three laws of motion" note by clicking on the link while pressing `Ctrl` (or `Cmd` on macOS).
+   > Das Gesetz der Trägheit ist eines der  \[\[Grundgesetze der Bewegung\]\]
 
-## Step 2: Create a link to a non-existing note
+Öffne die Notiz "Grundgesetze der Bewegung" in einem neuen Tab, indem du `Ctrl` (oder `Cmd` unter macOS) gedrückt hältst und auf den Link klickst.
 
-You can create links to notes that don't exist yet, for when you want to dive into a topic at a later time.
+## Step 2: Erstelle einen Link zu einer nicht existierenden Notiz
 
-1. In your "Three laws of motion" note, select the text "Isaac Newton".
-2. Press the left square bracket (`[`) twice on your keyboard to create a link. The second link has a more muted color to indicate that the note doesn't exist yet.
-3. Create the note by clicking on the link while pressing `Ctrl` (or `Cmd` on macOS).
+Du kannst auch Links zu Notizen erstellen, die noch gar nicht existieren, falls du erst zu einem späteren Zeitpunkt tiefer in ein Thema einsteigen möchtest.
 
-## Step 3: Navigate between notes
+1. In deiner Notiz "Grundgesetze der Bewegung" markiere den Text "Isaac Newton".
+2. Tippe zweimal die öffnende eckige Klammer (`[`), um einen weiteren Link zu erzeugen. Dieser Link erscheint etwas blasser als der erste und zeigt damit an, dass die Notiz noch nicht existiert.
+3. Erzeuge die Notiz in einem neuen Tab, indem du `Ctrl` (oder `Cmd` unter macOS) gedrückt hältst und auf den Link klickst.
 
-As you've seen in the previous steps, you can click a link while pressing `Ctrl` (or `Cmd` on macOS) to go to the linked note.
+## Step 3: Navigiere zwischen Notizen
 
-Another way to navigate between notes is through _backlinks_. A backlink lets you navigate in the opposite direction of an existing link.
+Wie in den vorhergehenden Schritten gezeigt, kannst du zu einer verlinkten Notiz wechseln, indem du `Ctrl` (oder `Cmd` unter macOS) gedrückt hältst und auf den Link klickst.
 
-1. Open the "Isaac Newton" note.
-2. In the right sidebar, click the **Backlinks** tab.
-3. Under **Linked mentions**, click the mention in "Three laws of motion" to go to that note.
+Eine weitere Möglichkeit, zwischen Notizen zu navigieren, bieten die [[Backlinks|Rückverweise]]. Ein Rückverweis lässt dich in die entgegengesetzte Richtung durch deine Notizen navigieren.
 
-Another way to navigate between your notes is by using a visual representation of how your notes are connected.
+1. Öffne die "Isaac Newton" Notiz.
+2. In der rechten Seitenleiste klicke auf den Tab **Rückverweise**.
+3. Unter **Verlinkte Erwähnungen** klicke die Erwähnung in "Grundgesetze der Bewegung", um zu dieser Notiz zu wechseln.
+
+Eine dritte Möglichkeit, zwischen deinen Notizen zu navigieren, bietet die graphische Darstellung der Verknüpfungen zwischen deinen Notizen.
 
 **Desktop**
-1. In the upper-right corner of the note, click **More options** (![[lucide-more-horizontal.svg#icon]]).
-2. Select **Open linked view**.
-3. Select **Open local graph**.
-4. Click any of the nodes in the graph to navigate to that note.
+1. Klicke in deiner Notiz rechts oben auf das Drei-Punkte-Menü (![[lucide-ellipsis-vertical.svg]]) **Weitere Optionen**.
+2. Wähle **Verlinkte Ansicht öffnen**.
+3. Wähle **Lokalen Graph öffnen**.
+4. Klicke auf einen der Knoten im Graphen, um zu dieser Notiz zu navigieren.
 
 **Mobile**
-1. In the top of the note, select **More options** (![[lucide-more-horizontal.svg#icon]]).
-2. Select **Open local graph**.
-3. Click any of the nodes in the graph to navigate to that note.
+1. Tippe oben in deiner Notiz auf das Drei-Punkte-Menü (![[lucide-ellipsis-vertical.svg]]) **Weitere Optionen**.
+2. Tippe auf **Lokalen Graph öffnen**.
+3. Tippe auf einen Knoten im Graphen, um zu dieser Notiz zu navigieren.
 
-## Learn more
+## Erfahre mehr
 
-Understanding how your notes are connected becomes increasingly more difficult as your vault grows. Learn how to use the [[Graph view]] to gain deeper insights from your knowledge base.
+Zu verstehen, wie deine Notizen zusammenhängen, wird zunehmend schwieriger, während dein Vault wächst. Erfahre, wie du die [[Graph view|Graphansicht]] nutzen kannst, um tiefere Einsichten aus deinem gesammelten Wissen zu gewinnen.
