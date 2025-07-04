@@ -3,7 +3,7 @@ aliases:
   - How to/Create notes
 permalink: create-note
 ---
-#TODO
+#WIP/Mephi 
 Notes in Obsidian are stored as plain text files. This means your data is durable and not locked into a proprietary format. By writing your notes in plain text, they'll outlive any app—even Obsidian itself.
 
 ## Create a new note
@@ -32,6 +32,6 @@ To learn more about how to format your notes using Markdown, refer to [[Basic fo
 
 ## Learn more
 
-Learn how to [[Link notes|link notes]] to create a network of connected thoughts.
+Learn how to [[Verlinke Notizen|link notes]] to create a network of connected thoughts.
 
 You may also want to check out the [[Sandbox vault]] to explore other features of the application.
