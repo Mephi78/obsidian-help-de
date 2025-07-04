@@ -1,6 +1,6 @@
 ---
 aliases:
-  - How to/Basic note taking
+  - Gewusst wie/Basic note taking
 permalink: link-notes
 ---
 #WIP/Mephi 

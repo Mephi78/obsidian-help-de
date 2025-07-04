@@ -1,6 +1,6 @@
 ---
 aliases:
-  - How to/Read and edit modes
+  - Gewusst wie/Read and edit modes
   - Editing and formatting/Editing and previewing Markdown
   - Editing and formatting/Edit and previewing Markdown
   - Reading view

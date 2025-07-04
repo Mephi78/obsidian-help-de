@@ -1,7 +1,7 @@
 ---
 aliases:
-  - How to/Import data
-  - How to/Capture information
+  - Gewusst wie/Import data
+  - Gewusst wie/Capture information
 cssclasses:
   - list-cards
 permalink: import

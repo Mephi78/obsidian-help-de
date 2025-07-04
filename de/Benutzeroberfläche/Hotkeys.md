@@ -1,6 +1,6 @@
 ---
 aliases:
-  - How to/Use hotkeys
+  - Gewusst wie/Use hotkeys
   - Customization/Custom hotkeys
   - Keyboard shortcuts
 permalink: hotkeys

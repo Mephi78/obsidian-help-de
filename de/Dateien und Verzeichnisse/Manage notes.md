@@ -1,7 +1,7 @@
 ---
 aliases:
   - Advanced topics/Deleting files
-  - How to/Rename notes
+  - Gewusst wie/Rename notes
 permalink: manage-notes
 ---
 #TODO

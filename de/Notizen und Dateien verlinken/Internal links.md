@@ -1,7 +1,7 @@
 ---
 aliases:
-  - How to/Internal link
-  - How to/Link to blocks
+  - Gewusst wie/Internal link
+  - Gewusst wie/Link to blocks
 cssclasses:
   - soft-embed
 description: Learn how to link to notes, attachments, and other files from your notes, using internal links.

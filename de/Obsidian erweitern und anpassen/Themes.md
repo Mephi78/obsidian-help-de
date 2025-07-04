@@ -1,6 +1,6 @@
 ---
 aliases:
-  - How to/Add custom styles
+  - Gewusst wie/Add custom styles
 permalink: themes
 ---
 #TODO

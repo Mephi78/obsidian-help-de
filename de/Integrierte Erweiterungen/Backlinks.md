@@ -1,6 +1,6 @@
 ---
 aliases:
-  - How to/Working with backlinks
+  - Gewusst wie/Working with backlinks
 permalink: plugins/backlinks
 ---
 #TODO
