@@ -55,11 +55,11 @@ Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichni
 |---------------------------|-----------------------------------|
 | Getting started           | ==Erste Schritte==                |
 | Import notes              | Notizen Importieren               |
-| User interface            | ==Benutzeroberfläche==            |
+| User interface            | ==Benutzerschnittstelle==         |
 | Editing and formatting    | ==Bearbeiten und Formatieren==    |
 | Linking notes and files   | ==Notizen und Dateien verlinken== |
 | Files and folders         | Dateien und Verzeichnisse         |
-| Plugins                   | ==Integrierte Erweiterungen== |
+| Plugins                   | ==Integrierte Erweiterungen==     |
 | Obsidian Publish          | ==Obsidian Publish==              |
 | Obsidian Sync             | ==Obsidian Sync==                 |
 | Obsidian Web Clipper      | Obsidian Web Clipper              |
@@ -86,7 +86,7 @@ Den aktuellen Arbeitsstand der deutschen Übersetzung kannst du sehen, wenn du d
 > Damit diese Notiz nicht versehentlich in den Master übernommen wird, führe nach dem Stagen deiner Änderungen den folgenden Befehl aus, um die Datei von deinem Commit auszuschließen.
 > 
 > ```bash
-> $ git reset -- 'README.md'
+> $ git reset -- README.md
 > ```
 
 ### Aktualisierungen im Master
