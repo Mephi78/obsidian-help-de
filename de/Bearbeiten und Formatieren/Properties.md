@@ -4,9 +4,13 @@ aliases:
   - Advanced topics/YAML front matter
   - metadata
   - property
+  - frontmatter
 cssclasses:
   - soft-embed
+description: Properties allow you to organize information about a note. Properties contain structured data such as text, links, dates, checkboxes, and numbers.
+mobile: false
 permalink: properties
+publish: true
 ---
 #TODO
 Properties allow you to organize information about a note. Properties contain structured data such as text, links, dates, checkboxes, and numbers. Properties can also be used in combination with [[Community plugins]] that can do useful things with your structured data.
@@ -28,7 +32,7 @@ Once you choose the property name, you can give it a value.
 
 ### Property types
 
-In addition to a name and value, properties also have a *type*. A property's type describes the kind of values it can store. To change the type of a property, click the property's icon or use the **Edit file property** command.
+In addition to a name and value, properties also have a _type_. A property's type determines what kind of values it can store and how Obsidian handles them. To change the type of a property, click the type icon next to the property name and select a different option. You can also manage property types using the [[Properties view]] core plugin.
 
 Obsidian supports the following property types:
 
@@ -39,7 +43,7 @@ Obsidian supports the following property types:
 - **[[#^date-time|Date]]**
 - **[[#^date-time|Date & time]]**
 
-Once a property type is assigned to a property, all properties with that name are assumed to have the same property type.
+Once a property type is assigned to a property name, all properties with that name across your vault will use the same type.
 
 ## Advanced uses
 
@@ -53,7 +57,9 @@ Properties have their own [[Search|search syntax]] that you can use alongside ot
 
 ### Templates
 
-You can add properties to [[Integrierte Erweiterungen/Templates]]. When you insert a template into the active note, all the properties from the template will be added to the note. Obsidian will also merge any properties that exist in your note with properties in the template.
+You can add properties to [[Integrierte Erweiterungen/Templates]].
+
+When you insert a template into the active note, all the properties from the template will be added to the note. Obsidian will also merge any properties that exist in your note with properties in the template. ^templates-properties
 
 ### Rename properties
 
@@ -73,12 +79,11 @@ You can use [[CSS snippets]] to change the appearance of specific notes.
 
 ### Not supported
 
-A few features are not supported in Obsidian:
+A few features are not currently supported in Obsidian:
 
-- **Nested properties** — to view nested properties, we recommend using the Source display.
-- **Bulk-editing properties** — this can be achieved with bulk-editing tools like VSCode, scripts, and community plugins.
-- **Markdown in properties** — this is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
-
+- **Nested properties**: To view nested properties, we recommend using the [[Views and editing mode#Source mode|source mode]].
+- **Bulk-editing properties**: For in-depth bulk editing outside of [[Properties view]], we recommend using bulk-editing tools like VSCode, scripts, and community plugins.
+- **Markdown in properties**: This is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
 ## Hotkeys
 
 ### Add a property
@@ -168,7 +173,6 @@ linklist:
 ---
 ```
 
-
 Number type properties must always be a literal number, not an expression with operators. Integers and decimals are both allowed.
 ^numbers
 
@@ -188,7 +192,6 @@ favorite: true
 reply: false
 last: # this will default to false
 ```
-
 
 **Date** and **Date & time** type properties are stored in the following format: 
 ^date-time
@@ -215,6 +218,7 @@ The date picker follows your operating system's default date and time format. Yo
 With the [[Daily notes]] plugin enabled, the date property will additionally function as an internal link to the corresponding daily note for that date.
 
 ![[Daily notes#^daily-notes-date]]
+
 ### JSON Properties
 
 While we recommend using YAML to define properties, you can also define properties using [JSON](https://www.json.org/):
@@ -234,31 +238,33 @@ Note that the JSON block will be read, interpreted, and saved as YAML.
 
 Obsidian comes with a set of default properties:
 
-| Property | Description |
-|-|-|
-| `tags` | See [[Tags\|Tags]]. |
-| `aliases` | See [[Aliases]]. |
-| `cssclasses` | Allows you to style individual notes using [[CSS snippets]]. |
+| Property     | Type | Description                                                  |
+| ------------ | ---- | ------------------------------------------------------------ |
+| `tags`       | List | See [[Bearbeiten und Formatieren/Tags\|Tags]].                   |
+| `aliases`    | List | See [[Aliases]].                                             |
+| `cssclasses` | List | Allows you to style individual notes using [[CSS snippets]]. |
 
-### Properties for Obsidian Publish
+## Properties for Obsidian Publish
 
 The following properties can be used with [[Introduction to Obsidian Publish|Obsidian Publish]]:
 
-| Property      | Description                                                                                                       |
-| ------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Property      | Description                                                                                                |
+| ------------- | ---------------------------------------------------------------------------------------------------------- |
 | `publish`     | See [[Publish your content#Automatically select notes to publish\|Automatically select notes to publish]]. |
-| `permalink`   | See [[Permalinks\|Permalinks]].                                                                                   |
-| `description` | See [[Social media link previews#Description\|Description]].                                                      |
-| `image`       | See [[Social media link previews#Image\|Image]].                                                                  |
-| `cover`       | See [[Social media link previews#Image\|Image]].                                                                  |
+| `permalink`   | See [[Permalinks\|Permalinks]].                                                                            |
+| `description` | See [[Social media link previews#Description\|Description]].                                               |
+| `image`       | See [[Social media link previews#Image\|Image]].                                                           |
+| `cover`       | See [[Social media link previews#Image\|Image]].                                                           |
 
-### Deprecated properties
+## Deprecated properties
 
-These properties were deprecated in Obsidian 1.4. Please do not use them anymore:
+These properties were deprecated in Obsidian 1.4 and should be replaced with their modern equivalents. Support for them as [[#Default properties]] is dropped in Obsidian 1.9.
 
 | Property | Description |
 |-|-|
 | `tag` | Deprecated alias for `tags`. |
 | `alias` | Deprecated alias for `aliases`. |
 | `cssclass` | Deprecated alias for `cssclasses`. |
+
+> [!tip] If you need to convert your files in your vault to the [[#Default properties]] format, you can use [[Format converter]] to change your vault en masse.
 
