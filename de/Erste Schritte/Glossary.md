@@ -26,7 +26,7 @@ Frontmatter is a way to define [[#property|properties]] by adding [YAML](https:/
 
 ## Graph
 
-A **graph** is a visualization that highlights connections between [[#note|notes]]. See also [[Graph view]].
+A **graph** is a visualization that highlights connections between [[#note|notes]]. See also [[Graph-Ansicht]].
 
 ## Hotkey
 

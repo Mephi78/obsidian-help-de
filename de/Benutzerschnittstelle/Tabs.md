@@ -106,7 +106,7 @@ _Linked views_ are tabs that reference a different tab. When the content of the 
 
 For note tabs, you can use the following plugins as linked views:
 
-- [[Graph view]] (local)
+- [[Graph-Ansicht]] (local)
 - [[Backlinks]]
 - [[Outline]]
 

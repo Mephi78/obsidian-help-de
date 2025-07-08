@@ -47,16 +47,16 @@ Eine weitere Möglichkeit, zwischen Notizen zu navigieren, bieten die [[Backlink
 Eine dritte Möglichkeit, zwischen deinen Notizen zu navigieren, bietet die graphische Darstellung der Verknüpfungen zwischen deinen Notizen.
 
 **Desktop**
-1. Klicke in deiner Notiz rechts oben auf das Drei-Punkte-Menü (![[lucide-ellipsis-vertical.svg]]) **Weitere Optionen**.
+1. Klicke in deiner Notiz rechts oben auf das Drei-Punkte-Menü (<sub>![[lucide-ellipsis-vertical.svg#icon]]</sub>) **Weitere Optionen**.
 2. Wähle **Verlinkte Ansicht öffnen**.
 3. Wähle **Lokalen Graph öffnen**.
 4. Klicke auf einen der Knoten im Graphen, um zu dieser Notiz zu navigieren.
 
 **Mobile**
-1. Tippe oben in deiner Notiz auf das Drei-Punkte-Menü (![[lucide-ellipsis-vertical.svg]]) **Weitere Optionen**.
+1. Tippe oben in deiner Notiz auf das Drei-Punkte-Menü (<sub>![[lucide-ellipsis-vertical.svg#icon]]</sub>) **Weitere Optionen**.
 2. Tippe auf **Lokalen Graph öffnen**.
 3. Tippe auf einen Knoten im Graphen, um zu dieser Notiz zu navigieren.
 
 ## Erfahre mehr
 
-Zu verstehen, wie deine Notizen zusammenhängen, wird zunehmend schwieriger, während dein Vault wächst. Erfahre, wie du die [[Graph view|Graphansicht]] nutzen kannst, um tiefere Einsichten aus deinem gesammelten Wissen zu gewinnen.
+Zu verstehen, wie deine Notizen zusammenhängen, wird zunehmend schwieriger, während dein Vault wächst. Erfahre, wie du die [[Graph-Ansicht]] nutzen kannst, um tiefere Einsichten aus deinem gesammelten Wissen zu gewinnen.
