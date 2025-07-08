@@ -5,7 +5,7 @@ aliases:
   - Obsidian Sync/Select files and settings to sync
   - Settings profile
 description: This page explains the Sync settings and guides you in selecting which files to sync.
-mobile: false
+mobile: true
 permalink: sync/settings
 publish: true
 ---
@@ -23,7 +23,7 @@ This section shows your currently connected remote vault. It includes a **Discon
 Displays the current sync status of the remote vault. This section includes either a **Pause** or **Resume** button, depending on the status.
 
 **Device name**  
-Assign a unique name to the device currently syncing. This helps track activity in the [[Status icon and messages#Sync log|sync log]].
+Assign a unique name to the device currently syncing. This helps track activity in the [[Status icon and messages#Sync activity log|sync log]].
 
 **Deleted files**  
 Contains a button to **View** or **Restore** deleted files. For more details, see [[Version history]].
@@ -74,21 +74,29 @@ Note that your [[Plans and storage limits|Sync plan]] defines the maximum file s
 ### Exclude a folder from syncing
 
 By default, Obsidian syncs all files and folders in your vault. To exclude a specific folder from syncing:
-
 1. Open **Settings → Sync**.
 2. Next to **Excluded folders**, select **Manage**.
-3. Check the box next to the folder you want to exclude.
+3. Select the folder you want to exclude from the list.
 4. Select **Done**.
+
+To remove a folder from the exclusion list, select the ![[lucide-x.svg#icon]] button next to the folder name.
 
 #### Always excluded from sync
 
-##### Hidden folders (folders starting with a dot) are not synced
+##### File recovery snapshots
 
-Folders that begin with a `.` (e.g., `.hidden`) are treated as hidden folders and are not synced. The only exception is the [[Configuration folder]], typically named `.obsidian`.
+The snapshots in the [[File recovery]] plugin are not synced via Obsidian Sync, as snapshots are kept in the [[How Obsidian stores data#Global settings|Global settings]].
 
-Common examples of hidden folders that are not synced include `.vscode`, `.git`, and `.idea`.
+##### Hidden folders
 
-##### Sync settings are not synced
+Folders beginning with a `.` are treated as hidden and excluded from sync. The only exception is the vault's [[Configuration folder|configuration folder]] (`.obsidian`), which does sync.
+
+Common examples of hidden folders that are not synced:
+- `.vscode`
+- `.git`
+- `.idea`
+
+##### Sync settings
 
 Sync settings do not sync across devices. You need to configure them separately on each device as needed.
 
