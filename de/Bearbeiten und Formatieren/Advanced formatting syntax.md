@@ -142,7 +142,7 @@ class Biology,Chemistry internal-link;
 ```
 
 > [!note]
-> Internal links from diagrams don't show up in the [[Graph view]].
+> Internal links from diagrams don't show up in the [[Graph-Ansicht]].
 
 If you have many nodes in your diagrams, you can use the following snippet.
 

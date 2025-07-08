@@ -1,6 +1,6 @@
 ---
 aliases:
-  - How to/Embed files
+  - Gewusst wie/Embed files
   - Linking notes and files/Embedding files
 cssclasses:
   - soft-embed

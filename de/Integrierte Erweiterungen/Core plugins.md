@@ -36,7 +36,7 @@ Some core plugins are disabled by default. You can enable them under **Settings 
 	-  Recover your work from regular snapshots.
 - [[Format converter]]
 	- Convert Markdown from other apps to Obsidian format.
-- [[Graph view]]
+- [[Graph-Ansicht]]
 	- Visualize relationships between notes in your vault.
 - [[Importer]]
 	- Convert files from various apps and formats to Obsidian.

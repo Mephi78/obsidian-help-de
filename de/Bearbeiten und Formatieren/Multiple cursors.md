@@ -1,6 +1,6 @@
 ---
 aliases:
-  - How to/Working with multiple cursors
+  - Gewusst wie/Working with multiple cursors
 permalink: multiple-cursors
 ---
 #TODO

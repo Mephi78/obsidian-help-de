@@ -2,7 +2,7 @@
 aliases:
   - alias
   - aliases
-  - How to/Add aliases to note
+  - Gewusst wie/Add aliases to note
 permalink: aliases
 cssclasses:
   - soft-embed

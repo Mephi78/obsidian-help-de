@@ -27,4 +27,4 @@ Wenn du bereits einen Ordner hast, den du als Vault nutzen möchtest:
 
 Möchtest du mehr darüber erfahren, wie Vaults funktionieren, lerne, [[How Obsidian stores data|wie Obsidian Daten speichert]].
 
-Du hast nun deinen ersten Vault angelegt und bist bereit, [[Create your first note|deine erste Notiz zu erstellen]].
+Du hast nun deinen ersten Vault angelegt und bist bereit, [[Erstelle deine erste Notiz|deine erste Notiz zu erstellen]].

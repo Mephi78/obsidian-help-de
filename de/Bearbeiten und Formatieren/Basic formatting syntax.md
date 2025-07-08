@@ -1,6 +1,6 @@
 ---
 aliases:
-  - How to/Format your notes
+  - Gewusst wie/Format your notes
   - Markdown
 description: Learn how to apply basic formatting to your notes in Obsidian, using Markdown.
 mobile: true

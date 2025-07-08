@@ -1,7 +1,7 @@
 ---
 aliases:
   - User interface/Vault switcher
-  - How to/Working with multiple vaults
+  - Gewusst wie/Working with multiple vaults
   - Vault switcher
 permalink: manage-vaults
 ---

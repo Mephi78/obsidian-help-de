@@ -1,6 +1,6 @@
 ---
 aliases:
-  - How to/Embedding web pages
+  - Gewusst wie/Embedding web pages
   - Iframe
   - Editing and formatting/Embedding web pages
 permalink: embed-web-pages

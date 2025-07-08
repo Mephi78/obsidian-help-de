@@ -1,6 +1,6 @@
 ---
 aliases:
-  - How to/Update Obsidian
+  - Gewusst wie/Update Obsidian
   - Installer version update
 permalink: updates
 ---

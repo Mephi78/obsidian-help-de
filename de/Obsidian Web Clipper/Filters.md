@@ -173,7 +173,7 @@ Converts an array or array of objects into a [[Advanced formatting syntax#Tables
 
 ### `wikilink`
 
-Converts strings, arrays, or objects into Obsidian [[Link notes|wikilink]] syntax.
+Converts strings, arrays, or objects into Obsidian [[Verlinke Notizen|wikilink]] syntax.
 
 - For strings: `"page"|wikilink` returns `[[page]]`.
 - For strings with alias: `"page"|wikilink:"alias"` returns `[[page|alias]]`.

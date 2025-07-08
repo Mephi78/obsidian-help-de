@@ -16,7 +16,7 @@ Whereas a plugin that requires a plugin codeblock to render, such as Dataview or
 
 Publish offers basic color customization for its graph view using CSS. You can modify the node colors in your `publish.css` file by utilizing the [Graph View CSS variables](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
 
-Note that the published graph does not support the comprehensive sorting and viewing options available in the application's [[Graph view]].
+Note that the published graph does not support the comprehensive sorting and viewing options available in the application's [[Graph-Ansicht]].
 
 ## Media files
 

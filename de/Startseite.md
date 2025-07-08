@@ -36,8 +36,8 @@ Lerne die Grundlagen - deine ersten Schritte mit Obsidian:
 
 1. [[Obsidian herunterladen und installieren|Obsidian herunterladen und installieren]]
 2. [[Lege einen Vault an|Lege einen Vault an]]
-3. [[Create your first note|Erstelle deine erste Notiz]]
-4. [[Link notes|Verlinke Notizen]]
+3. [[Erstelle deine erste Notiz|Erstelle deine erste Notiz]]
+4. [[Verlinke Notizen|Verlinke Notizen]]
 5. [[Import notes|Importiere Notizen]]
 6. [[Sync your notes across devices|Synchronisiere deine Notizen zwischen Geräten]]
 

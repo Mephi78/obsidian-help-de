@@ -1,6 +1,6 @@
 ---
 aliases:
-  - How to/Use callouts
+  - Gewusst wie/Use callouts
 description: This page details how to use callouts to include additional content without breaking the flow of your notes.
 mobile: true
 publish: true

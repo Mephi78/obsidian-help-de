@@ -1,6 +1,6 @@
 ---
 aliases:
-  - How to/Working with tags
+  - Gewusst wie/Working with tags
 permalink: tags
 ---
 #TODO

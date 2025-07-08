@@ -1,6 +1,6 @@
 ---
 aliases:
-  - How to/Manage attachments
+  - Gewusst wie/Manage attachments
 permalink: attachments
 ---
 #TODO
