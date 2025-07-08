@@ -4,7 +4,7 @@ permalink: plugins/graph
 
 Die Graph-Ansicht ist eine [[Core plugins|Standard-Erweiterung]], die Beziehungen zwischen den Notizen in deinem Vault sichtbar macht.
 
-Um die Graph-Ansicht zu öffnen, klicke **Graph-Ansicht öffnen** ( <sub>![[lucide-git-fork.svg#icon]]</sub> ) im [[Ribbon|Seitenleisten-Menü]].
+Um die Graph-Ansicht zu öffnen, klicke **Graph-Ansicht öffnen** ( ![[lucide-git-fork.svg#icon]] ) im [[Ribbon|Seitenleisten-Menü]].
 
 - Die Knoten oder Kreise repräsentieren deine Notizen.
 - Kanten repräsentieren [[Internal links|interne Verlinkungen]] zwischen zwei Knoten bzw. Notizen.
@@ -26,9 +26,9 @@ Du kannst dabei `Shift` gedrückt halten, um die Navigation zu beschleunigen.
 
 ## Einstellungen
 
-Öffne die Graph-Einstellungen per Klick auf das Zahnrad-Symbol ( <sub>![[lucide-settings.svg#icon]]</sub> ) oben rechts in der Graph-Ansicht.
+Öffne die Graph-Einstellungen per Klick auf das Zahnrad-Symbol ( ![[lucide-settings.svg#icon]] ) oben rechts in der Graph-Ansicht.
 
-Klicke **Voreinstellungen wiederherstellen** ( <sub>![[lucide-rotate-ccw.svg#icon]]</sub> ) oben rechts, um die Einstellungen der Graph-Ansicht wieder auf die Standardwerte zurückzusetzen.
+Klicke **Voreinstellungen wiederherstellen** ( ![[lucide-rotate-ccw.svg#icon]] ) oben rechts, um die Einstellungen der Graph-Ansicht wieder auf die Standardwerte zurückzusetzen.
 
 ### Filter
 
@@ -81,4 +81,4 @@ Notizen und Anhänge erscheinen in chronologischer Reihenfolge basierend auf ihr
 
 Um einen lokalen Graphen zu öffnen, nutze den Befehl **Lokalen Graphen öffnen**. Während die Graph-Ansicht alle Dateien in deinem Vault enthält, zeigt der lokale Graph nur Dateien, die mit der aktiven Notiz verknüpft sind.
 
-Der lokale Graph hat dieselben [[#Einstellungen|Einstellungsmöglichkeiten]] wie die Graph-Ansicht. Zusätzlich kannst du die Darstellungstiefe für den lokalen Graphen anpassen. Jede Tiefenstufe fügt der Ansicht Dateien hinzu, die mit den Notizen in der vorherigen Tiefenebene verknüpft sind. Verwende den Schieberegler oben in den Einstellungen für den lokalen Graphen, um die Darstellungstiefe anzupassen.
+Der lokale Graph hat dieselben [[#Einstellungen|Einstellungsmöglichkeiten]] wie die Graph-Ansicht. Zusätzlich hast du weitere Filtermöglichkeiten. Du kannst wählen, ob eingehende, ausgehende und Links zwischen benachbarten Knoten angezeigt werden sollen oder nicht. Über den Schieberegler wird die Darstellungstiefe für den lokalen Graphen angepasst. Jede Tiefenstufe fügt der Ansicht Dateien hinzu, die mit den Notizen in der vorherigen Tiefenebene verknüpft sind.
