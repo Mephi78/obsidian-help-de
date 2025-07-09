@@ -1,15 +1,15 @@
 ---
 aliases:
-  - Gewusst wie/Import data
-  - Gewusst wie/Capture information
+  - Gewusst wie/Daten importieren
+  - Gewusst wie/Informationen erfassen
 cssclasses:
   - list-cards
 permalink: import
 ---
-#TODO
-Apps come and go, but your data should last. Obsidian uses non-proprietary plain text Markdown files stored locally on your device. You have total control over your data, which means you can use Obsidian offline and switch to another app easily if you ever need to.
 
-## Import from other apps and file formats
+Anwendungen kommen und gehen - deine Daten jedoch sollten überdauern. Obsidian speichert Notizen lokal in einfachen Textdateien im Markdown-Format. Im Gegensatz zur Verwendung proprietärer Dateiformate im Cloud-Speicher behältst du damit die volle Kontrolle über deine Daten. Auf diese Weise kannst du Obsidian offline verwenden oder bei Bedarf auch ganz einfach zu einer anderen Anwendung wechseln.
+
+## Import aus anderen Anwendungen und Dateiformaten
 
 - <span class="icon-app icon-notion"></span> [[Import from Notion|Notion]]
 - <span class="icon-app icon-roam"></span> [[Import from Roam Research|Roam Research]]
@@ -24,11 +24,11 @@ Apps come and go, but your data should last. Obsidian uses non-proprietary plain
 - <span class="icon-app icon-md"></span> [[Import Textbundle files|Textbundle files]]
 - <span class="icon-app icon-md"></span> [[Import Zettelkasten notes|Zettelkasten notes]]
 
-## More formats
+## Weitere Formate
 
-Don't see your app? You can request it or contribute to the [open-source repository](https://github.com/obsidianmd/obsidian-importer) for the [[Importer]] plugin.
+Deine Notiz-App ist nicht dabei? Schicke uns eine Anfrage oder [mach einfach mit](https://github.com/obsidianmd/obsidian-importer) bei der Weiterentwicklung unsere [[Importer]]-Erweiterung.
 
-Additional guides have been shared by our community that may help you migrate to Obsidian: 
+Unsere Community hat weitere Anleitungen geteilt, die dir bei der Migration nach Obsidian helfen könnten:
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
