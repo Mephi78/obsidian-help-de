@@ -2,7 +2,7 @@
 permalink: android
 ---
 #TODO
-To Sync your notes with Obsidian on Android see [[Sync your notes across devices]].
+To Sync your notes with Obsidian on Android see [[Synchronisiere deine Notizen zwischen Geräten]].
 
 ## Vault location
 
@@ -10,7 +10,7 @@ When you launch Obsidian on Android, you'll be asked to choose where your vault 
 
 ### Device storage
 
-With the **device storage** option, your data is stored in a shared location on your device. This allows your Obsidian vault to be accessed by other apps and services, such as third-party [[Sync your notes across devices|sync]] tools.
+With the **device storage** option, your data is stored in a shared location on your device. This allows your Obsidian vault to be accessed by other apps and services, such as third-party [[Synchronisiere deine Notizen zwischen Geräten|sync]] tools.
 
 This is the recommended option because it offers better compatibility with sync tools and ensures your data persists even if you uninstall the app. However, this option requires additional permissions to access your device's files.
 

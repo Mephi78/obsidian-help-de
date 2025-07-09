@@ -36,7 +36,7 @@ To add a CSS snippet on **Mobile/Tablet** ![[obsidian-smartphone.svg#icon]], you
 8. Tap the toggle to enable the snippet.
 
 Alternately, you can
-- [[Sync your notes across devices|Sync]] any changes in with your syncing service.
+- [[Synchronisiere deine Notizen zwischen Geräten|Sync]] any changes in with your syncing service.
 - Use a community plugin to create a snippet from within Obsidian. 
 
 Once enabled, Obsidian will automatically detect changes to CSS snippets and apply them when you save the file. 

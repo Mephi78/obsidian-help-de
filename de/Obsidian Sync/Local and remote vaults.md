@@ -12,7 +12,7 @@ permalink: sync/vault-types
 publish: true
 ---
 #TODO
-If you want to use your notes on different devices, one of the options you have is to [[Sync your notes across devices]]. Obsidian offers one such service, [[Introduction to Obsidian Sync|Obsidian Sync]], that works differently than other syncing services, like [[Sync your notes across devices#iCloud|iCloud]] and [[Sync your notes across devices#OneDrive|OneDrive]].
+If you want to use your notes on different devices, one of the options you have is to [[Synchronisiere deine Notizen zwischen Geräten]]. Obsidian offers one such service, [[Introduction to Obsidian Sync|Obsidian Sync]], that works differently than other syncing services, like [[Synchronisiere deine Notizen zwischen Geräten#iCloud|iCloud]] and [[Synchronisiere deine Notizen zwischen Geräten#OneDrive|OneDrive]].
 
 Here are some key terms:
 
@@ -112,4 +112,4 @@ Changes made while offline are queued and sync automatically when your device re
 
 - [[Set up Obsidian Sync]] to get started with remote vaults.
 - [[Switch to Obsidian Sync]] if you're currently using file-based sync and want to use Obsidian Sync.
-- [[Sync your notes across devices|Explore other sync options]] if you're still deciding.
+- [[Synchronisiere deine Notizen zwischen Geräten|Explore other sync options]] if you're still deciding.

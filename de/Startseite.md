@@ -39,7 +39,7 @@ Lerne die Grundlagen - deine ersten Schritte mit Obsidian:
 3. [[Erstelle deine erste Notiz|Erstelle deine erste Notiz]]
 4. [[Verlinke Notizen|Verlinke Notizen]]
 5. [[Importiere Notizen|Importiere Notizen]]
-6. [[Sync your notes across devices|Synchronisiere deine Notizen zwischen Geräten]]
+6. [[Synchronisiere deine Notizen zwischen Geräten|Synchronisiere deine Notizen zwischen Geräten]]
 
 ## Obsidian erweitern
 

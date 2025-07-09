@@ -1,22 +1,21 @@
 ---
 aliases:
-  - Sync your notes across devices
-  - getting-started/sync-your-notes-across-devices
+  - Gewusst wie/Geräteübergreifende Synchronisation
 cssclasses:
   - soft-embed
-description: How to sync your Obsidian notes across devices and platforms.
+description: Wie man Obsidian Notizen zwischen Geräten und Plattformen synchronisiert.
 mobile: true
-permalink: sync-notes
+permalink: notizen-synchronisieren
 publish: true
 ---
-#TODO
+#WIP/Mephi 
 Obsidian stores notes locally on your device so you always have access to them, even offline. To access your notes on multiple devices you need to set up a sync method.
 
 This guide covers common sync methods, including tips to avoid data loss and ensure a smooth experience.
 
 We also recommend reading our [[Back up your Obsidian files|backup guide]] to protect your data.
 
-## Syncing methods
+## Synchronisierungsmethoden
 
 With Obsidian your data is simply stored as files in a folder called a [[Local and remote vaults|vault]]. This means there are many ways to sync your data.
 
@@ -166,7 +165,7 @@ Syncthing is a decentralized file synchronization tool that doesn't rely on clou
 
 > [!Note] Git provides strong version control, but syncing isn't automatic. You must manually push and pull changes.
 
-## iPhone and iPad syncing
+## iPhone und iPad
 
 **Recommended options**:
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
@@ -205,7 +204,7 @@ Some users have successfully used plugins like **Remotely Save** or **LiveSync**
 
 > [!Note] While Working Copy isn't officially supported, many users have successfully used it to sync vaults with Git.
 
-## Comparison
+## Vergleich
 
 Each sync method has tradeoffs including cost, privacy and features.
 
@@ -218,7 +217,7 @@ Each sync method has tradeoffs including cost, privacy and features.
 | Syncthing                                        | Optional                 | ✅                  |
 | Git                                              | ❌                        | ✅                  |
 
-## Frequently asked questions
+## Häufig gestellte Fragen (FAQ)
 
 **Why is my preferred syncing service not officially supported?**
 
