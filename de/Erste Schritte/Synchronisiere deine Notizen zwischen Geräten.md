@@ -8,207 +8,210 @@ mobile: true
 permalink: notizen-synchronisieren
 publish: true
 ---
-#WIP/Mephi 
-Obsidian stores notes locally on your device so you always have access to them, even offline. To access your notes on multiple devices you need to set up a sync method.
 
-This guide covers common sync methods, including tips to avoid data loss and ensure a smooth experience.
+Obsidian speichert Notizen lokal auf deinem Gerät, so dass du jederzeit Zugriff darauf hast, sogar offline. Um deine Notizen auf mehreren Geräten verfügbar zu machen, musst du eine Synchronisierung einrichten.
 
-We also recommend reading our [[Back up your Obsidian files|backup guide]] to protect your data.
+Dieser Leitfaden erklärt gängige Synchronisierungsmethoden und gibt Tipps, wie du Datenverlust vermeiden und einen reibungslosen Ablauf sicherstellen kannst.
+
+Wir empfehlen auch, unseren [[Back up your Obsidian files|Backup-Leitfaden]] zu lesen, um deine Daten zu sichern.
 
 ## Synchronisierungsmethoden
 
-With Obsidian your data is simply stored as files in a folder called a [[Local and remote vaults|vault]]. This means there are many ways to sync your data.
+Obsidian speichert deine Daten einfach als Dateien in einem Ordner, dem sogenannten [[Local and remote vaults|Vault]]. Damit ergeben sich viele Möglichkeiten, deine Daten zu synchronisieren.
 
-These are a few commonly used sync methods reported by members of the [Obsidian Community](https://obsidian.md/community):
+Hier sind einige Synchronisierungsmethoden, die sich für [Obsidian-Nutzer](https://obsidian.md/community) bewährt haben:
 
-1. **First-party sync**: [[#Obsidian Sync]]
-2. **Third-party cloud sync**: [[#iCloud]], [[#OneDrive]], and [[#Google Drive]]
-3. **Local sync**: [[#Syncthing]]
-4. **Version control**: [[#Git]] and [[#Working Copy]]
+1. **Unsere Eigenentwicklung**: [[#Obsidian Sync]]
+2. **Cloud-Lösungen von Drittanbietern**: [[#iCloud]], [[#OneDrive]] oder [[#Google Drive]]
+3. **Lokale Synchronisierung**: [[#Syncthing]]
+4. **Versionskontrolle**: [[#Git]] und [[#Working Copy]]
 
 ## Obsidian Sync
 
-**Recommended systems**: `Windows`, `macOS`, `Linux`, `iOS`, `Android`
+**Empfohlene Systeme**: `Windows`, `macOS`, `Linux`, `iOS`, `Android`
 
-The most straightforward and officially supported sync method is our first party solution: [[Introduction to Obsidian Sync|Obsidian Sync]].
+Die einfachste und offiziell unterstützte Synchronisierungsmethode bietet unsere Lösung aus erster Hand: [[Introduction to Obsidian Sync|Obsidian Sync]].
 
-Obsidian Sync is end-to-end encrypted for maximum privacy, and provides seamless integration with the Obsidian app.
+Obsidian Sync ist Ende-zu-Ende-verschlüsselt für maximale Privatsphäre und bietet eine nahtlose Integration in Obsidian.
 
-Follow the [[Set up Obsidian Sync|setup guide]] to configure Obsidian Sync.
+Folge dem [[Set up Obsidian Sync|Konfigurationsleitfaden]], um Obsidian Sync einzurichten.
 
-> [!Important] Avoid using Obsidian Sync alongside other cloud services like Dropbox or OneDrive **for the same vault**, as this can cause data conflicts and file corruption.
+> [!Important] Vermeide die gleichzeitige Nutzung von Obsidian Sync mit anderen Cloud-Diensten, wie Dropbox oder OneDrive, **für denselben Vault**, da dies zu Datenkonflikten und Beschädigung deiner Dateien führen kann.
 
 ## iCloud
 
-**Recommended systems**: `macOS`, `iOS`, `iPadOS`
+**Empfohlene Systeme**: `macOS`, `iOS`, `iPadOS`
 
-iCloud can be used to sync vaults between iOS and macOS. However, **iCloud Drive on Windows** may lead to file duplication or corruption.
+iCloud kann verwendet werden, um Vaults zwischen iOS und macOS zu synchronisieren. Allerdings kann die Verwendung von **iCloud Drive unter Windows** zur Duplizierung oder Beschädigung von Dateien führen.
 
-**How to create and store your vault in iCloud Drive**:
+**Wie du einen Vault mit iCloud Drive synchronisierst**:
 
-- **Enable iCloud Drive**:
-    - On macOS: Go to **System Preferences → Apple ID → iCloud → iCloud Drive**.
-    - On iOS: Go to **Settings → [Your Name] → iCloud → iCloud Drive**.
-- **Create a new vault in iCloud**:
-    - On macOS:
-        1. Open **Obsidian** and select **Create new vault**.
-        2. In the file picker, navigate to **iCloud Drive → Obsidian**.
-        3. Create a folder for your vault and name it.
-        4. Select **Create** to finish.
-    - On iOS:
-        1. Open **Obsidian** and tap **Create new vault**.
-        2. Enter a name for your vault.
-        3. Toggle on **Store in iCloud**.
-        4. Tap **Create**.
-- **Open the vault on another Apple device**: 
-    - On another macOS or iOS device, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**. Navigate to **iCloud Drive → Obsidian**.
+- **Aktiviere iCloud Drive**:
+    - macOS: Öffne die **Systemeinstellungen**, klicke auf **Apple ID** bzw. **iCloud → iCloud Drive**.
+    - iOS: Öffne die **Einstellungen**, tippe auf deinen **Namen → iCloud → iCloud Drive**.
+- **Erstelle einen neuen Vault in iCloud**:
+    - macOS:
+        1. Öffne **Obsidian** und wähle **Einen neuen Vault erstellen**.
+        2. Im Dateiauswahl-Dialog navigiere zu **iCloud Drive → Obsidian**.
+        3. Erstelle einen Ordner für deinen Vault und gib ihm einen Namen.
+        4. Wähle **Erstellen**.
+    - iOS:
+        1. Öffne **Obsidian** und tippe **Einen neuen Vault erstellen**.
+        2. Gib einen Namen für deinen Vault ein.
+        3. Aktiviere **In iCloud speichern**.
+        4. Tippe **Erstellen**.
+- **Öffne den Vault auf einem anderen Apple Gerät**: 
+    - Auf einem anderen macOS oder iOS Gerät starte **Obsidian**, öffne die [[Manage vaults|Vault-Verwaltung]] und wähle **Ordner als Vault öffnen**. Navigiere zu **iCloud Drive → Obsidian**.
 
-> [!Tip] Best Practices
-> - For **macOS 14 (Sonoma) and earlier**: Disable **Optimize Mac Storage** in iCloud settings to prevent files from being offloaded. This setting affects all iCloud storage on the device, not just Obsidian.
-> - For **macOS 15 (Sequoia)**: Right-click the **Obsidian** folder in iCloud Drive and select **Keep Downloaded**.
+> [!Tip] Erfolgsrezepte:
+> - Unter **macOS 14 (Sonoma) und älter**: Deaktiviere **Speicher optimieren** in den iCloud Einstellungen, um zu verhindern, dass Dateien ausgelagert werden. Diese Einstellung wirkt sich auf deinen gesamten iCloud Speicher aus, nicht nur auf Obsidian
+> - Unter **macOS 15 (Sequoia)**: Klicke im iCloud Drive mit Rechts auf den **Obsidian** Ordner und wähle **Heruntergeladene Dateien behalten**.
 
 ## OneDrive
 
-**Recommended systems**: `Windows`, `macOS` (limited functionality on Android)
+**Empfohlene Systeme**: `Windows`, `macOS` (eingeschränkte Funktionalität auf Android)
 
-[OneDrive](https://support.microsoft.com/en-us/office/Sync-with-OneDrive-bb89981b-e382-4969-b8fd-d413a90b6db3#ID0EAABAAA=Set_up) is a popular cloud storage option for Windows and macOS users. However, it has limitations on Android and isn't officially supported for syncing Obsidian vaults on iOS.
+[OneDrive](https://support.microsoft.com/de-de/office/synchronisieren-mit-onedrive-bb89981b-e382-4969-b8fd-d413a90b6db3) ist ein beliebter Cloud-Speicher für Windows und macOS. Unter Android ist dieser allerdings nur eingeschränkt nutzbar. Eine Synchronisierung von Obsidian Vaults auf iOS wird nicht offiziell unterstützt.
 
-> [!Important] Before using OneDrive for syncing, ensure that your vault folder is marked as **Always keep on this device**. This prevents OneDrive from offloading files and causing Obsidian to think they are missing.
+> [!Important] Vor der Synchronisierung mit OneDrive solltest unbedingt du sicherstellen, dass für deinen Vault-Ordner die Option **Immer auf diesem Gerät behalten** aktiviert ist. Diese Einstellung verhindert, dass OneDrive Dateien auslagert und Obsidian denken lässt, dass diese fehlen.
 
-**How to create and store your vault in OneDrive**:
+**Wie du einen Vault mit OneDrive synchronisierst**:
 
-1. **Set up OneDrive**:
-   - On Windows: Sign in through the OneDrive app or your Microsoft account.
-   - On macOS: Download the OneDrive app and sign in.
-2. **Create a new vault in OneDrive**:
-   - On Windows/macOS:
-     1. Open **File Explorer** (Windows) or **Finder** (macOS) and navigate to **OneDrive → Documents**.
-     2. Create a new folder (e.g., "Obsidian Vault").
-     3. Open **Obsidian**, click **Create new vault**, and select the OneDrive folder.
-3. **Open the vault on another device**:
-   - On another device, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**. Navigate to **OneDrive → Documents**.
+1. **OneDrive einrichten**:
+   - Windows: Melde dich mit deinem Microsoft-Benutzerkonto in der OneDrive App an.
+   - macOS: Lade die OneDrive App herunter und melde dich an.
+1. **Erstelle einen neuen Vault in OneDrive**:
+   - Windows/macOS:
+     1. Öffne den **Explorer** (Windows) oder den **Finder** (macOS) und navigiere zu **OneDrive → Dokumente**.
+     2. Erstelle einen neuen Ordner (z.B. "Obsidian Vault").
+     3. Starte **Obsidian**, klicke **Einen neuen Vault erstellen** und wähle den OneDrive Ordner aus.
+1. **Öffne den Vault auf einem anderen Gerät**:
+	- Auf einem anderen Gerät starte **Obsidian**, öffne die [[Manage vaults|Vault-Verwaltung]] und wähle **Ordner als Vault öffnen**. Navigiere zu **OneDrive → Dokumente**.
 
-> [!Note] OneDrive may not function well for Android syncing. Consider using apps like [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync) or [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite).
+> [!Note] OneDrive funktioniert möglicherweise nicht gut für die Synchronisierung mit Android. Wir empfehlen die Nutzung anderer Apps, wie [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync&hl=de) oder [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite&hl=de).
 
-> [!Tip] Best Practices:
-> - Always keep your vault files **Available Offline** by right-clicking the folder and selecting **Always keep on this device**.
-> - Avoid using OneDrive's **Files On-Demand** feature for vaults to prevent syncing issues.
+> [!Tip] Erfolgsrezepte:
+> - Behalte deine Vault-Dateien immer **Offline verfügbar** mit Rechtsklick auf den Ordner und der Auswahl **Immer auf diesem Gerät behalten**.
+> - Verzichte auf die Verwendung der OneDrive-Funktion **Files On-Demand** für deine Vaults, um Synchronisierungsprobleme zu vermeiden.
 
 ## Google Drive
 
-**Recommended systems**: `Windows`, `macOS`, `Android` (limited functionality on iOS)
+**Empfohlene Systeme**: `Windows`, `macOS`, `Android` (eingeschränkte Funktionalität unter iOS)
 
-[Google Drive](https://support.google.com/drive/answer/10838124?hl=en) is another popular cloud storage solution. Although it's not officially supported for syncing Obsidian vaults, you can use third-party apps and plugins to sync across devices.
+[Google Drive](https://support.google.com/a/users/answer/9310246?hl=de) ist eine weitere beliebte Cloud-Speicher-Lösung. Obwohl nicht offiziell als Synchronisierungsmethode unterstützt, kannst du Drittanbieter-Anwendungen und Plugins verwenden, um deine Obsidian Vaults geräteübergreifend zu synchronisieren.
 
-> [!Important] Google Drive is not officially supported for syncing Obsidian vaults on iOS. Consider using a third-party solution or plugin to sync on iOS.
+> [!Important] Google Drive wird nicht offiziell unterstützt für die Synchronisierung von Obsidian Vaults unter iOS. Wir empfehlen die Verwendung anderer Synchronisierungsmethoden.
 
-**How to create and store your vault in Google Drive**:
+**Wie du einen Vault mit Google Drive synchronisierst**:
 
-1. **Set up Google Drive**:
-    - On Windows or macOS: Download the Google Drive app and sign in.
-    - On Android: Ensure Google Drive is enabled and signed in.
-2. **Create a new vault in Google Drive**:
-    - On Windows/macOS:
-        1. Open **File Explorer** (Windows) or **Finder** (macOS) and navigate to **Google Drive**.
-        2. Create a new folder (e.g., "Obsidian Vault").
-        3. Open **Obsidian**, click **Create new vault**, and select the Google Drive folder.
-3. **Open the vault on another device**:
-    - On another device, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**. Navigate to your Google Drive folder.
+1. **Google Drive einrichten**:
+    - Windows/macOS: Lade die Google Drive App herunter und melde dich an.
+    - Android: Stelle sicher, dass Google Drive aktiviert ist und melde dich an.
+2. **Erstelle einen neuen Vault in Google Drive**:
+    - Windows/macOS:
+        1. Öffne den **Explorer** (Windows) oder **Finder** (macOS) navigiere zu **Google Drive**.
+        2. Erstelle einen neuen Ordner (z.B. "Obsidian Vault").
+        3. Starte **Obsidian**, klicke **Einen neuen Vault erstellen** und wähle den Google Drive Ordner aus.
+3. **Öffne den Vault auf einem anderen Gerät**:
+	- Auf einem anderen Gerät starte **Obsidian**, öffne die [[Manage vaults|Vault-Verwaltung]] und wähle **Ordner als Vault öffnen**. Navigiere zu deinem Google Drive Ordner.
 
-> [!Tip] Best Practices:
-> - Set vault files to **Available Offline** in Google Drive to avoid syncing issues due to offloading.
-> - For iOS, consider alternative methods like [[Introduction to Obsidian Sync|Obsidian Sync]], [[#iCloud]], or use the **Remotely Save** plugin.
+> [!Tip] Erfolgsrezepte:
+> - Setze deine Vault-Dateien auf **Offline verfügbar**, um Synchronisierungsprobleme mit Google Drive aufgrund von Dateiauslagerungen zu vermeiden.
+> - Für iOS empfehlen wir, eine alternative Synchronierungsmethode zu nutzen, wie [[Introduction to Obsidian Sync|Obsidian Sync]], [[#iCloud]] oder das **Remotely Save** Plugin.
 
 ## Syncthing
 
-**Recommended systems**: `Windows`, `macOS`, `Linux`, `Android`
+**Empfohlene Systeme**: `Windows`, `macOS`, `Linux`, `Android`
 
-Syncthing is a decentralized file synchronization tool that doesn't rely on cloud storage. It syncs your vault directly between devices over the network or internet.
+Syncthing ermöglicht die dezentralisierte Synchronisierung von Dateien ohne Cloud-Speicher. Die quelloffene Software synchronisiert deine Daten direkt zwischen deinen Geräten, privat und sicher, über eine Peer-to-Peer-Verbindung.
 
-**How to create and store your vault using Syncthing**:
+**Wie du einen Vault mit Syncthing synchronisierst**:
 
-1. **Set up Syncthing**:
-   - Install Syncthing on each device. Refer to the [Syncthing website](https://syncthing.net/) for installation guides.
-2. **Create and configure a shared folder**:
-   - On all devices:
-     1. Open Syncthing and create a shared folder. Set the folder path to your Obsidian vault.
-     2. Ensure the same folder is selected on all devices.
-     3. Configure folder syncing preferences (e.g., **Send & Receive** for bidirectional syncing).
-3. **Open the vault in Obsidian**:
-   - Once the folder is synced across devices, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**.
+1. **Syncthing einrichten**:
+   - Installiere Syncthing auf jedem Gerät, mit dem du deine Dateien synchronisieren möchtest. Eine Installationsanleitung findest du in der [Syncthing-Dokumentation](https://docs.syncthing.net/).
+1. **Einen freigegebenen Ordner erstellen und einrichten**:
+   - Auf allen Geräten:
+     1. Öffne Syncthing und erstelle einen freigegebenen Ordner (Sharing). Setze den Verzeichnispfad auf deinen Obsidian Vault.
+     2. Stelle sicher, dass auf allen Geräten derselbe Ordner ausgewählt ist.
+     3. Konfiguriere die Verzeichnissynchronisation (z.B. **Send & Receive** für die bidirektionale Synchronisierung).
+1. **Öffne den Vault auf einem anderen Gerät**:
+	- Sobald der Ordner geräteübergreifend synchronisiert ist, starte **Obsidian** auf einem anderen Gerät, öffne die [[Manage vaults|Vault-Verwaltung]] und wähle **Ordner als Vault öffnen**.
 
-> [!Note] Syncthing works best when at least one device is always on to ensure continuous syncing.
+> [!Note] Syncthing funktioniert am besten, wenn mindestens ein Gerät immer eingeschaltet ist, um eine kontinuierliche Synchronisation zu gewährleisten.
 
-> [!Tip] Best Practices:
-> - For local syncing, ensure all devices are connected to the same network.
-> - Exclude `.obsidian` from syncing if you want separate settings on each device.
-> - Use ignore patterns to avoid syncing temporary or backup files.
+> [!Tip] Erfolgsrezepte:
+> - Für die lokale Synchronisierung stelle sicher, dass alle Geräte mit demselben Netzwerk verbunden sind.
+> - Schließe den Ordner `.obsidian` von der Synchronisation aus, wenn du Obsidian auf deinen Geräten unterschiedlich konfigurieren möchtest.
+> - Verwende die Funktion **Ignore Patterns**, um temporäre Dateien oder Sicherungskopien von der Synchronisation auszuschließen.
 
 ## Git
 
-**Recommended systems**: `Windows`, `macOS`, `Linux`
+**Empfohlene Systeme**: `Windows`, `macOS`, `Linux`
 
-**Git** is a version control system that allows you to track changes, collaborate with others, and sync your vaults through repositories like GitHub, GitLab, or a self-hosted server.
+**Git** ist ein verteiltes Versionskontrollsystem, das es dir ermöglicht, gleichzeitig mit anderen an einem Vault zu arbeiten, Änderungen nachzuverfolgen und den Vault über ein Repository zu synchronisieren, bspw. auf Codeberg, GitHub, GitLab oder einer selbst gehosteten Instanz.
 
-**How to sync your vault using Git**:
+**Wie du einen Vault mit Git synchronisierst**:
 
-1. **Set up a remote repository**:
-    - Create a repository on a Git hosting platform (e.g., GitHub, GitLab, or a self-hosted server).
-2. **Sync your vault**:
-    1. Open a terminal or Git GUI (e.g., GitKraken, Sourcetree).
-    2. Initialize a Git repository in your vault folder using `git init`.
-    3. Add the remote repository: `git remote add origin [URL]`.
-    4. Commit your changes: `git add .` and `git commit -m "Your message"`.
-    5. Push the changes: `git push origin main`.
-3. **Pull changes on other devices**:
-    - Clone the repository on another device and pull changes using `git pull origin main`.
+1. **Ein Remote-Repository einrichten**:
+    - Erstelle ein Repository auf einer Git-Hosting-Plattform (z.B. Codeberg, GitHub, GitLab, oder Self-Hosting).
+2. **Synchronisiere deinen Vault**:
+    1. Öffne ein Terminal oder einen Git-Client mit graphischer Bedienoberfläche (z.B. GitKraken oder Sourcetree) und wechsle in deinen Vault-Ordner: `cd pfad/zum/vault`
+    2. Initialisiere ein Git-Repository in deinem Vault-Ordner: `git init`
+    3. Füge das Remote-Repository hinzu: `git remote add origin [URL]`
+    4. Füge die Dateien, die du synchronisieren möchtest, dem Staging-Bereich zu: `git add .`
+    5. Committe deine Änderungen: `git commit -m "Deine Commit-Nachricht"`
+    6. Übertrage deine Änderungen: `git push origin main`
+3. **Synchronisiere deinen Vault mit anderen Geräten**:
+    - Klone das Repository auf einem anderen Gerät und rufe die Änderungen ab, um sie auf das Gerät zu übertragen: `git pull origin main`
+    - Denke daran, Änderungen auf diesem Gerät wiederum an das Remote-Repository zu übertragen (siehe oben).
 
-> [!Note] Git provides strong version control, but syncing isn't automatic. You must manually push and pull changes.
+> [!Note] Git bietet eine starke Versionskontrolle, aber die Synchronisierung erfolgt nicht automatisch. Du musst Änderungen manuell herunterladen (pullen) bzw. übertragen (pushen).
 
 ## iPhone und iPad
 
-**Recommended options**:
+**Empfohlene Methoden**:
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
 - [[#iCloud]]
 
-> [!Important] Avoid syncing the same vault across multiple services (e.g., using both Obsidian Sync and iCloud simultaneously) to prevent data conflicts or corruption.
+> [!Important] Vermeide die gleichzeitige Verwendung unterschiedlicher Synchronisierungsdienste **für denselben Vault** (bspw. die gleichzeitige Nutzung von Obsidian Sync und iCloud), da dies zu Datenkonflikten und Beschädigung deiner Dateien führen kann.
 
-**Unsupported options**:
-The following services aren't officially supported on iOS, but users have found workarounds using third-party tools or plugins:
+**Nicht unterstützte Methoden**:
+
+Die folgenden Dienste sind nicht offiziell unterstützt auf iOS, aber Obsidian-Anwender haben Workarounds gefunden für den Einsatz von Drittanbieter-Tools oder Plugins:
 
 - Dropbox
 - Google Drive
 - OneDrive
 - Syncthing
 
-Some users have successfully used plugins like **Remotely Save** or **LiveSync** to sync vaults on iOS. However, these methods aren't officially supported, and results may vary.
+Einige Anwender haben Plugins wie **Remotely Save** oder **LiveSync** erfolgreich zur Vault-Synchronisierung unter iOS eingesetzt. Allerdings sind diese Methoden nicht offiziell unterstützt und die Ergebnisse können unterschiedlich ausfallen.
 
 ### Working Copy
 
-**Recommended systems**: `iOS`
-**Requires**: [[#Git]]
+**Empfohlene Systeme**: `iOS`
+**Erfordert**: [[#Git]]
 
-**Working Copy** is a Git client for iOS that allows you to clone, commit, and push changes to a Git repository. It works well for syncing Obsidian vaults via Git, though some features require a paid in-app purchase.
+**Working Copy** ist ein Git-Client für iOS, der es ermöglicht, ein Git-Repository zu klonen und Änderungen via Commit und Push zu übertragen. Die Lösung funktioniert gut für die Git-Synchronisierung von Obsidian-Vaults, jedoch sind einige Funktionen kostenpflichtig und erfordern In-App-Käufe.
 
-**How to sync your vault using Working Copy**:
+**Wie du einen Vault mit Working Copy synchronisierst**:
 
-1. **Install Working Copy**:
-    - Download the **[Working Copy](https://apps.apple.com/us/app/working-copy-git-client/id896694807)** app on your iPhone or iPad.
-2. **Clone your Git repository**:
-    - Open Working Copy, tap **Add Repository**, and enter your repository URL (e.g., GitHub, GitLab).
-3. **Link repository to Obsidian**:
-    - Link the cloned repository folder to an empty vault in **Obsidian**.
-4. **Commit and push changes**:
-    - After editing notes in Obsidian, use Working Copy to **Commit** and **Push** changes to the remote repository.
-    - On other devices, pull changes using Git to sync the vault.
+1. **Installiere Working Copy**:
+    - Lade die **[Working Copy](https://apps.apple.com/de/app/working-copy-git-client/id896694807)** App auf dein iPhone oder iPad.
+2. **Klone dein Git-Repository**:
+    - Öffne die Working Copy App, tippe auf das `+` rechts oben in der Repository-Liste, gib die URL deines Repositorys ein und tippe auf **Klonen**.
+3. **Repository mit Obsidian verknüpfen**:
+    - Verknüpfe den Ordner des geklonten Repositorys mit einem leeren Vault in **Obsidian**.
+4. **Synchronisiere deinen Vault mit anderen Geräten**:
+    - Übertrage deine Änderungen im Obsidian-Vault, indem du diese mit Working Copy committest und auf dein Remote-Repository pushst.
+    - Klone dein Remote-Repository auf anderen Geräten und pulle die Änderungen mit [[#Git]].
 
-> [!Note] While Working Copy isn't officially supported, many users have successfully used it to sync vaults with Git.
+> [!Note] Obwohl Working Copy nicht offiziell unterstützt wird, haben viele Anwender ihre Obsidian-Vaults bereits erfolgreich mit Git synchronisiert.
 
 ## Vergleich
 
-Each sync method has tradeoffs including cost, privacy and features.
+Jede Synchronisierungsmethode hat ihre Vor- und Nachteile, was Kosten, Privatsphäre und Funktionalität betrifft.
 
-|                                                  | End-to-end<br>encryption | Version<br>history |
+|                                                  | Ende-zu-Ende<br>Verschlüsselung | Versions-<br>Historie |
 | ------------------------------------------------ | ------------------------ | ------------------ |
 | [[Introduction to Obsidian Sync\|Obsidian Sync]] | ✅                        | ✅                  |
 | iCloud                                           | Optional                 | ❌                  |
@@ -219,14 +222,14 @@ Each sync method has tradeoffs including cost, privacy and features.
 
 ## Häufig gestellte Fragen (FAQ)
 
-**Why is my preferred syncing service not officially supported?**
+**Warum wird mein bevorzugter Synchronisierungsdienst nicht offiziell unterstützt?**
 
-Unlike some note-taking apps that access one file at a time, Obsidian requires access to the entire vault for its features (e.g., updating links when renaming a file). This makes it difficult for some services to function reliably with Obsidian.
+Im Gegensatz zu anderen Notiz-Apps, die nur jeweils auf einzelne Dateien zugreifen, benötigt Obsidian den Zugriff auf den gesamten Vault, damit bestimmte Funktionen - wie die automatische Aktualisierung von Links beim Umbenennen von Notizen - wirksam werden. Das erschwert es einigen Diensten, zuverlässig mit Obsidian zu funktionieren.
 
-**Why do I need to keep files "Available Offline"?**
+**Warum sollte ich Dateien "Offline verfügbar" halten?**
 
-If services like OneDrive or iCloud offload files (e.g., using **Files On-Demand** or **Optimize Mac Storage**), Obsidian can't access them, causing sync issues. Mark your vault folder as **Always keep on this device** (OneDrive) or ensure **Keep Downloaded** is enabled (iCloud).
+Wenn Dienste wie OneDrive oder iCloud Dateien auslagern, (z.B. mit Funktionen wie **Files On-Demand** oder **Speicher optimieren**), kann Obsidian nicht darauf zugreifen, was zu Synchronisierungsproblemen führt. Kennzeichne deinen Vault-Ordner als **Immer auf diesem Gerät behalten** (OneDrive) bzw. stelle sicher, dass **Heruntergeladene Dateien behalten** aktiviert ist (iCloud).
 
-**How do I manage different configurations for my vaults?**
+**Wie verwalte ich unterschiedliche Einstellungen für meine Vaults?**
 
-Obsidian allows you to customize the configuration folder per device using the [[Configuration folder|Config folders]] feature.
+Obsidian erlaubt dir, für jeden Vault-Ordner auf jedem Gerät das Verzeichnis für die Konfigurationsdateien festzulegen mit der [[Configuration folder|Konfigurationsordner-Einstellung]].
