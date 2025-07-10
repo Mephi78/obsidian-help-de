@@ -24,7 +24,7 @@ For security-related questions concerning these topics, please refer to [[Securi
 
 ### Configuration folders
 
-The [[Configuration folder]] is where an Obsidian [[Glossary#Vault|vault]] stores its application settings. By default, this folder is named `.obsidian`, but you have the flexibility to [[Configuration folder#Changing your configuration folder|change the configuration folder]] name according to your preference.
+The [[Configuration folder]] is where an Obsidian [[Glossar#Vault|vault]] stores its application settings. By default, this folder is named `.obsidian`, but you have the flexibility to [[Configuration folder#Changing your configuration folder|change the configuration folder]] name according to your preference.
 
 We recommend creating a standardized template of the configuration folder to be deployed across your team's devices.
 
