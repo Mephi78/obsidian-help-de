@@ -17,6 +17,7 @@ $ git checkout -b dein-neuer-branch-name
 
 - erstelle ein [Issue](https://github.com/Mephi78/obsidian-help-de/issues) mit einer Liste der Seiten, die du bearbeiten möchtest und warte, dass dir die Aufgabe zugewiesen wird
 - übersetze die dir zugeordneten Seiten in deiner lokalen Kopie
+- öffne dazu den Ordner `de` deiner lokalen Kopie als Obsidian Vault, während du deinen neuen Branch ausgecheckt hast
 - achte darauf, keine Dateinamen (Titel der Notiz) zu ändern
 - interne Links kannst du so übersetzen:
 
@@ -68,6 +69,11 @@ Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichni
 | Licenses and payment      | Lizenzen und Zahlung              |
 | Teams                     | Teams                             |
 | Obsidian                  | Obsidian                          |
+### Tricks & Kniffe
+
+> [!TIP] Überschriften übersetzen
+> Achte darauf, **Überschriften** zu übersetzen, indem du im Editor mit Rechtsklick auf die Überschrift das Kontextmenü aufrufst und **Diese Überschrift umbenennen...** auswählst. Auf diese (und **nur auf diese**) Weise aktualisieren sich Links auf Überschriften im gesamten Vault automatisch. 
+> Wichtig: **Optionen > Dateien & Links > Links immer aktualisieren** muss aktiviert sein!
 
 ### Verwendung von KI
 
