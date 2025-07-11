@@ -1,18 +1,16 @@
 ---
 permalink: glossar
 ---
-#WIP/Mephi 
+
 Dieses Glossar enthält in Obsidian gebräuchliche Begriffe.
 
 ## Alias
 
-Ein **Alias** ist ein [[#Eigenschaft|Eigenschaftstyp]], der einen alternativen Namen für eine [[#Notiz]] definiert.
-%%An **alias** is a type of [[#property]] that defines alternative names for a [[#note]].%%
+Ein **Alias** ist ein alternativer Titel für eine [[#Notiz]]. Nutze die [[#Eigenschaft]] `aliases`,  wenn du eine Notiz in deinem Vault mit unterschiedlichen Namen [[Aliases|referenzieren]] möchtest. Obsidian listet diese dann bspw. automatisch in der [[Search|Suchansicht]] auf.
 
 ## Anhang
 
-Ein **Anhang** ist eine Datei in einem [[Accepted file formats|akzeptierten Format]], die außerhalb des Vaults erstellt und anschließend hinzugefügt wurde.
-%%An **attachment** is an [[Accepted file formats|accepted file format]] that was created outside of the vault and added later.%%
+Ein **Anhang** ist eine Datei in einem [[Accepted file formats|akzeptierten Format]], die außerhalb des [[#Vault|Vaults]] erstellt und anschließend hinzugefügt wurde.
 
 ## Ansicht
 
@@ -21,36 +19,51 @@ Eine **Ansicht** zeigt Informationen, z.B. die [[Search|Suchansicht]].
 ## Befehl
 
 Ein **Befehl** ist eine Aktion, die ausgeführt werden kann, indem du sie in der [[Command palette|Befehlspalette]] auswählst oder ihr ein [[#Tastenkürzel]] zuweist.
-%%A **command** is an action that can be performed either by selecting it from the [[Command palette]] or by assigning it to a [[#hotkey]].%%
+
+## CSS-Baustein
+
+`Aliasse: CSS-Schnipsel, Snippet`
+
+**CSS-Bausteine** ändern das Aussehen von Obsidian, so wie Farbschemata. Im Gegensatz zu [[#Farbschema|Farbschemata]] jedoch kannst du mehrere [[CSS snippets|CSS-Schnipsel]] gleichzeitig aktivieren.
+
+## Eigenschaft
+
+`Aliasse: Property`
+
+Eine **Eigenschaft** definiert zusätzliche Informationen, sogenannte Metadaten, über eine [[#Notiz]] und wird als Schlüssel-Wert-Paar in [[#Frontmatter]] ganz am Anfang deiner Notiz definiert. Integrierte Funktionen und [[#Erweiterung|Erweiterungen]] können Eigenschaften lesen und entsprechende Aktionen ausführen, in Abhängigkeit vom jeweiligen Wert einer Eigenschaft, wie z.B. [[#Alias]], Erstelldatum oder Autor.
 
 ## Einbetten
 
 **Einbetten** bedeutet, eine Referenz zu externem Inhalt mit dem Inhalt selbst zu ersetzen, z.B. ein Bild in eine Notiz einzubinden. Siehe auch [[Embed files]].
 
-%%## Embed
-
-**Embedding** means replacing a reference to external content with the content itself, for example to include an image in your note. See also [[Embed files]].%%
-
 ## Erweiterung
 
-Siehe [[#Plugin]].
+`Aliasse: Feature, Plugin, Zusatzfunktion`
+
+Eine **Erweiterung** ergänzt Obsidian um zusätzliche Funktionen.
+
+- [[Core plugins|Integrierte Erweiterungen]] sind vom Obsidian Team entwickelte, bereits vorinstallierte Zusatzfunktionen, die nach Bedarf aktiviert oder deaktiviert werden können
+- [[Community plugins|Externe Erweiterungen]] (auch: Community Plugin) wurden von Drittanbietern entwickelt und können [[Community plugins#Installiere eine externe Erweiterung|nachinstalliert]] werden.
+
+Du kannst auch [eigene Erweiterungen erstellen](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
 
 ## Farbschema
 
-Ein **Farbschema** oder Theme ändert das Aussehen deiner Obsidian-Anwendung mittels [CSS](https://developer.mozilla.org/de/docs/Web/CSS). Du kannst Teile eines Farbschemas überschreiben mit Hilfe von [[#snippet|CSS-Schnipseln]].
+`Aliasse: Design, Theme`
+
+Ein **Farbschema** ändert das Aussehen deiner Obsidian-Anwendung mittels [CSS](https://developer.mozilla.org/de/docs/Web/CSS). Du kannst Teile eines Farbschemas überschreiben mit Hilfe von [[#CSS-Baustein|CSS-Schnipseln]].
 
 ## Frontmatter
 
-Frontmatter is a way to define [[#property|properties]] by adding [YAML](https://yaml.org/) or [JSON](https://www.json.org/) at the top of the note. See also [[Properties#Property format|Property format]]. #TODO 
+**Frontmatter** ist eine Möglichkeit, [[#Eigenschaft|Eigenschaften]] für deine Notizen zu definieren, indem du sie als [YAML](https://yaml.org/) oder [JSON](https://www.json.org/) am Anfang deiner [[#Notiz]] einfügst. Siehe auch [[Properties#Eigenschaftsformat|Eigenschaftsformat]].
 
 ## Graph
 
-Ein **Graph** ist eine Visualisierung, die Beziehungen zwischen den Notizen in deinem Vault sichtbar macht. Siehe auch [[Graph-Ansicht]].
+Ein **Graph** ist eine bildhafte Darstellung der Beziehungen zwischen den Notizen in deinem Vault. Siehe auch [[Graph-Ansicht]].
 
 ## Hauptbereich
 
-Der **Hauptbereich** ist der zentrale Bereich in Obsidian, wo du hauptsächlich deine [[#Notiz|Notizen]] bearbeitest.
-%%The **main area** is the central area of the Obsidian app, where you primarily edit [[#note|notes]]. %%
+Der **Hauptbereich** ist der zentrale Bereich in Obsidian, in dem du in erster Linie deine [[#Notiz|Notizen]] bearbeitest.
 
 ## Hotkey
 
@@ -58,12 +71,11 @@ Siehe [[#Tastenkürzel]].
 
 ## Link
 
-Ein **Link** referenziert eine andere Notiz oder Datei. Ein [[Internal links|interner Link]] zeigt auf eine Datei innerhalb des aktuellen Vaults. Ein [[Basic formatting syntax#External links|externer Link]] referenziert ein Ziel außerhalb des Vaults, für gewöhnlich eine Webseite.
+Ein **Link** referenziert eine Datei, Notiz oder [[Internal links#Link to a heading in a note|Überschrift]] in einer Notiz. Ein [[Internal links|interner Link]] zeigt auf eine [[#Notiz]] oder [[#Anhang|Datei]] innerhalb des aktuellen Vaults. Ein [[Basic formatting syntax#External links|externer Link]] referenziert ein Ziel außerhalb des Vaults, für gewöhnlich eine Webseite.
 
 ## Markdown
 
-**Markdown** ist eine Auszeichnungssprache zum Formatieren von Text und das gleichnamige Dateiformat das primäre Format für Obsidian-Notizen (`.md` Dateien). Siehe auch [[Basic formatting syntax]].
-%%Markdown is a markup language for formatting text and the primary file format used for notes in Obsidian, `.md` files. See also [[Basic formatting syntax]].%%
+**Markdown** ist eine Auszeichnungssprache zum Formatieren von Text. Das gleichnamige Dateiformat ist das primäre Format für Obsidian-Notizen (`.md` Dateien). Siehe auch [[Basic formatting syntax]].
 
 ## Notiz
 
@@ -71,66 +83,65 @@ Eine **Notiz** ist eine [[#Markdown]]-Datei in einem [[#Vault]].
 
 ## Plugin
 
-A **plugin** extends Obsidian with additional features.
+Siehe [[#Erweiterung]].
 
-- [[Core plugins]] are written by the Obsidian team and included by default.
-- [[Community plugins]] are written by third-party plugin developers and need to be [[Community plugins#Install a community plugin|installed]] before you can use them.
+## Pop-out Fenster
 
-You can [build your own plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin). #TODO
-
-## Pop-out window
-
-By default, all notes within a vault opens in the same app window. A **pop-out window** lets you open notes from the same vault in separate windows, for example to display on a second screen.
-
-See also [[Pop-out windows]]. #TODO 
+Standardmäßig öffnet Obsidian alle [[#Notiz|Notizen]] eines Vaults im selben Anwendungsfenster. Ein **Pop-out Fenster** lässt dich Notizen desselben Vaults in einem separaten Fenster öffnen, um diese bspw. auf einem zweiten Bildschirm anzuzeigen. Siehe auch [[Pop-out windows]].
 
 ## Property
 
-[[Properties|Properties]] define additional information about a note, such as a due date or author. #TODO 
+Siehe [[#Eigenschaft]].
 
 ## Registerkarte
 
-Siehe [[#Tab]].
+`Aliasse: Tab`
+
+Eine **Registerkarte** enthält eine [[#Ansicht]]. Registerkarten können innerhalb des [[#Hauptbereich|Hauptbereiches]] und in den [[#Seitenleiste|Seitenleisten]] angeordnet werden. Siehe auch [[Tabs]].
 
 ## Ribbon
 
-The **ribbon** functions as a container for frequently used action icons. 
-
-In the desktop version, it's the vertical area situated on the far left. 
-
-In the mobile version, it's represented by a menu button ( ![[lucide-menu.svg#icon]] ) on the [[#status bar|status bar]]. #TODO 
+Siehe [[#Werkzeugleiste]].
 
 ## Seitenleiste
 
-Ein Bereich, der unterstützende [[#Ansicht|Ansichten]] enthält, die als [[#Tab|Tabs]] organisiert sind. Eine **Seitenleiste** kann in mehrere [[#Tab-Gruppe|Tab-Gruppen]] unterteilt werden.
+Ein Bereich, der unterstützende [[#Ansicht|Ansichten]] enthält, die als [[#Registerkarte|Tabs]] organisiert sind. Eine **Seitenleiste** kann in mehrere [[#Tab-Gruppe|Tab-Gruppen]] unterteilt werden.
 
-Obsidian Desktop hat je eine Seitenleiste rechts und links des [[#Hauptbereich|Hauptbereiches]]. Beide können zum Einen über entsprechende Symbole in der linken bzw. rechten oberen Ecke aufgerufen werden. Auf dem Touchscreen können Seitenleisten auch durch Wischen nach rechts bzw. links aufgerufen werden. Halte auf dem Touchscreen das Icon in der rechten oberen Ecke länger gedrückt, um die rechte Seitenleiste aufzurufen.
+Obsidian *Desktop* hat je eine Seitenleiste rechts und links des [[#Hauptbereich|Hauptbereiches]]. Beide können zum Einen über entsprechende Symbole in der linken bzw. rechten oberen Ecke aufgerufen werden. Auf dem Touchscreen können Seitenleisten auch durch Wischen nach rechts bzw. links aufgerufen werden. Halte auf dem Touchscreen das Icon in der rechten oberen Ecke länger gedrückt, um die rechte Seitenleiste aufzurufen.
+
+## Seitenleistenmenü
+
+Siehe [[#Werkzeugleiste]].
 
 ## Snippet
 
-A **snippet**, or [[CSS snippets|CSS snippet]], changes the appearance of Obsidian, just like a [[#theme]]. Unlike themes, you can apply multiple snippets at the same time. #TODO 
+Siehe [[#CSS-Baustein]].
 
-## Status bar
+## Statusleiste
 
-The **status bar** in the Obsidian application shows you essential statistics and statuses. In the desktop version, you'll find it in the bottom-right corner, while on mobile devices, it's positioned along the bottom of the app. #TODO 
-
+Die **Statusleiste** zeigt Statistiken und Status über deinen Vault. In der *Desktop Version* findest du sie am rechten unteren Rand der Anwendung. In der *Mobile Version* nimmt sie den gesamten unteren Rand der App ein.
 
 ## Tab
 
-Ein **Tab** oder Registerkarte enthält eine [[#Ansicht]]. Tabs können innerhalb des [[#Hauptbereich|Hauptbereiches]] und in den [[#Seitenleiste|Seitenleisten]] angeordnet werden. Siehe auch [[Tabs]].
+Siehe [[#Registerkarte]].
 
 ## Tab-Gruppe
 
-Eine **Tab-Gruppe** ist eine Sammlung von [[#Tab|Tabs]] im [[#Hauptbereich]]. Tabs in einer Gruppe können gestapelt werden.
+`Aliasse: Registerkartengruppe, Tab Stack, Tab-Stapel`
+
+Eine **Tab-Gruppe** ist eine Sammlung von [[#Registerkarte|Registerkarten]] im [[#Hauptbereich]]. Tabs in einer Gruppe können gestapelt werden.
 
 ## Tag
+
+`Aliasse: Kategorie`
 
 Ein **Tag** ist ein Wort, dem ein Hash (`#`) vorangestellt ist, z.B. `#buch`. Mit Tags kannst du deine [[#Notiz|Notizen]] nach Kategorien sortieren und finden.
 
 ## Tastenkürzel
 
-Ein **Tastenkürzel** oder Hotkey ist eine Tastenkombination für einen [[#Befehl]]. Siehe auch [[Hotkeys|Tastenkürzel]].
-%%A **hotkey** is a keyboard shortcut for a [[#command]]. See also [[Hotkeys]] and [[Hotkeys|How to/Use hotkeys]].%%
+`Aliasse: Hotkey, Shortcut, Tastenkombination`
+
+Ein **Tastenkürzel** ist eine Tastenkombination für einen [[#Befehl]]. Siehe auch [[Hotkeys|Tastenkürzel]].
 
 ## Theme
 
@@ -138,14 +149,18 @@ Siehe [[#Farbschema]].
 
 ## Vault
 
-`Aliases: local vault, local data` #TODO 
+`Aliasse: lokaler Vault, lokale Daten, Notizbuch`
 
-A **vault** is a folder on your file system which contains [[#note|notes]] and an `.obsidian` folder with Obsidian-specific configuration. See also [[How Obsidian stores data]]. #TODO 
+Ein **Vault** ist ein Ordner in deinem Dateisystem, der deine [[#Notiz|Notizen]] enthält sowie einen Ordner `.obsidian`, in welchem Obsidian anwendungsspezifische Einstellungen speichert. Siehe auch [[How Obsidian stores data]].
 
-### Remote vault
+### Remote-Vault
 
-`Aliases: Remote data` #TODO 
+`Aliasse: Remote-Daten`
 
-A [[Local and remote vaults|remote vault]] is a copy of your local vault that is maintained with [[Introduction to Obsidian Sync|Obsidian Sync]]. The remote vault data is updated based on changes to local data. #TODO 
+Ein **Remote Vault** ist eine Kopie deines lokalen Vaults, die mit [[Introduction to Obsidian Sync|Obsidian Sync]] aktuell gehalten wird. Die Daten im Remote-Vault werden abhängig von Änderungen deiner lokalen Daten aktualisiert. Siehe auch [[Local and remote vaults]].
 
+## Werkzeugleiste
 
+`Aliasse: Ribbon, Seitenleistenmenü`
+
+Die **Werkzeugleiste** dient als Container für oft genutzte Aktionen. In der *Desktop Version* wird sie als vertikale Menüleiste am linken Rand dargestellt. In der *Mobile Version* findest du sie als Menü-Schaltfläche ( ![[lucide-menu.svg#icon]] ) rechts unten in der [[#Statusleiste]].
