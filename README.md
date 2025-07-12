@@ -73,7 +73,10 @@ Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichni
 
 > [!TIP] Überschriften übersetzen
 > Achte darauf, **Überschriften** zu übersetzen, indem du im Editor mit Rechtsklick auf die Überschrift das Kontextmenü aufrufst und **Diese Überschrift umbenennen...** auswählst. Auf diese (und **nur auf diese**) Weise aktualisieren sich Links auf Überschriften im gesamten Vault automatisch. 
-> Wichtig: **Optionen > Dateien & Links > Links immer aktualisieren** muss aktiviert sein!
+> 
+> **Hinweise**:
+> - **Optionen > Dateien & Links > Links immer aktualisieren** muss aktiviert sein!
+> - prüfe in der Rückverweise-Ansicht für die von dir bearbeitete Notiz, ob die automatische Aktualisierung der Links funktioniert hat und bessere ggf. manuell nach
 
 ### Verwendung von KI
 
