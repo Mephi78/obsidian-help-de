@@ -96,7 +96,7 @@ The value of the `data-callout` attribute is the type identifier you want to use
 
 > [!warning] Note about lucide icon versions
 > Obsidian updates Lucide icons periodically. The current version included is shown below; use these or earlier icons in custom callouts.
-> ![[Credits#^lucide]]
+> ![[Danksagung#^lucide]]
 
 > [!tip] SVG icons
 > Instead of using a Lucide icon, you can also use a SVG element as the callout icon.

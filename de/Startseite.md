@@ -69,4 +69,4 @@ Du bist herzlich eingeladen, mögliche Tippfehler auf dieser Seite zu berichtige
 
 Falls du Obsidian finanziell unterstützen möchtest, bietet sich der Erwerb einer [[Catalyst license|Catalyst Lizenz]] an. Damit erhältst du frühzeitigen Zugang zu Beta-Versionen. Als Organisation kannst du uns mit dem Erwerb einer [[Commercial license|Kommerziellen Lizenz]] unterstützen.
 
-Ein besonderer [[Credits|Dank]] geht an all jene wunderbaren Menschen, die Obsidian möglich machen.
+Ein besonderer [[Danksagung|Dank]] geht an all jene wunderbaren Menschen, die Obsidian möglich machen.

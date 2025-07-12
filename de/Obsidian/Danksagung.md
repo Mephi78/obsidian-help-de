@@ -1,12 +1,13 @@
 ---
+aliases: Credits
 permalink: credits
 ---
-#TODO
-Names aren't listed by amount of contribution, but alphabetically (or at least we try!).
+
+Die Namen sind nicht nach Beitragsumfang, sondern alphabetisch geordnet (zumindest bemühen wir uns!).
 
 ## Team
 
-### Development
+### Entwicklung
 
 - Licat (Shida Li)<span class='flair mod-pop'>Obsidian office cat</span>
 - liam ([Liam Cain](https://liamca.in/)) <span class='flair mod-pop'>Maker of Calendar</span> <span class='flair mod-pop'>Plugin API Master</span> <span class='flair mod-pop'>Volcano Veteran</span>
@@ -14,13 +15,13 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 - tgrosinger ([Tony Grosinger](https://grosinger.net))
 - mgmeyers ([Matthew Meyers](https://matthewmeye.rs/))
 
-### Product & Operations
+### Produkt & Betrieb
 
 - Silver ([Erica Xu](https://ericaxu.com))<span class='flair mod-pop'>Team Little Silvers</span>
 - kepano ([Steph Ango](https://stephanango.com/))
 - Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Sorcerous Support Dragon</span> <span class='flair mod-pop'>TTRPG Enthusiast</span>
 
-## Moderators
+## Moderatoren
 
 - argentum<span class='flair mod-pop'>Team Little Silvers</span> <span class='flair mod-pop'>Linux master</span> <span class='flair mod-pop'>Zotero master</span> ^a4b3a2
 - cotemaxime ([Maxime Côté](https://www.maximecote.me/))<span class='flair mod-pop'>Linux master</span>
@@ -35,26 +36,26 @@ Names aren't listed by amount of contribution, but alphabetically (or at least w
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair mod-pop'>Templater Templar</span><span class='flair mod-pop'>Board Gamer</span>
 - Carl the Turtle<span class='flair mod-pop'>Online 24/7</span> <span class='flair mod-pop'>Easily triggered</span> <span class='flair mod-pop'>Good and pure</span> <span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
 
-### Retired
+### Im Ruhestand
 
 - Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair mod-pop'>Halp Obsidian turned me into a dev</span>
 - mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
 
-## Plugin inspirations
+## Plugin Inspirationen
 
-Credits to these plugin developers for pioneering functionality that were adapted into Obsidian:
+Wir danken diesen Plugin-Entwicklern für ihre Pionierarbeit an Funktionen, die in den Obsidian-Standard aufgenommen wurden:
 
-- pjeby for the Hotkey Helper plugin
-- javalent for the Admonition plugin
-- NothingIsLost for several CodeMirror 6 improvements
-- mgmeyers for the Indentation Guides plugin
+- pjeby für das Hotkey Helper Plugin
+- javalent für das Admonition Plugin
+- NothingIsLost für verschiedene CodeMirror 6-Verbesserungen
+- mgmeyers für das Indentation Guides Plugin
 
 ## Builds
 
-- jstone for maintaining our builds on flathub
-- adamgibbins and ran-dall for maintaining our builds on homebrew
+- jstone für die Pflege unserer Builds auf flathub
+- adamgibbins und ran-dall für die Pflege unserer Builds auf homebrew
 
-## Translators
+## Übersetzer
 
 - Andrea Brandi (Italian)
 - bongudth (Vietnamese)
@@ -71,6 +72,7 @@ Credits to these plugin developers for pioneering functionality that were adapte
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, Patrick Danilevici (Romanian)
 - Manuel Arias Almada (Spanish)
+- Mephi (German)
 - Muhammad Mauli Mubassari (Indonesian)
 - Olivier Anthonioz (French) 
 - Ryooo，睿悠ryooo (Chinese Simplified)
@@ -82,23 +84,24 @@ Credits to these plugin developers for pioneering functionality that were adapte
 - yo-goto, ぱだわん (Japanese)
 - Zachary Shirmohammadli (Persian) 
 
-## Documentation
+## Dokumentation
 
-The first version of the help vault was written by Silver. Later part of it was written by [@mediapathic](http://mediapathic.net), with a big help from Reggie. We also got corrections from the many pairs of eyes in the Discord and forum community.
+Die erste Version des Hilfe-Vaults wurde von Silver erstellt. Später wurde ein Teil von [@mediapathic](http://mediapathic.net) geschrieben, mit viel Unterstützung von Reggie. Die viele Augenpaare auf Discord und im Forum halfen mit Korrekturen.
 
-The docs was maintained by [Marcus Olsson](https://marcus.se.net/) for a while. Currently it’s maintained by the Obsidian team.
+Die Entwicklerdokumentation wurde eine Zeit lang von [Marcus Olsson](https://marcus.se.net/) gepflegt. Derzeit übernimmt dies das Obsidian Team.
 
-We now accept pull requests to the help vault in [our docs repo](https://github.com/obsidianmd/obsidian-docs/). Issues are welcome.
 
-### Add your name
+Wir akzeptieren Pull Requests für den Hilfe-Vault in [unserem Doku-Repo](https://github.com/obsidianmd/obsidian-docs/). Issues sind willkommen.
 
-If you're a translator, please make a pull request to add "Your Name (contributed language)" to the section above. Please keep the list of names alphabetical, thanks!
+### Deinen Namen hinzufügen
 
-If your name isn't in English and can't be alphabetically listed, use this format: `your-github-username, [your name in your language] (Language name)`.
+Wenn du zu den Übersetzern zählst, sende einen Pull Request, um `Dein Name (Sprache der Übersetzung)` in den obigen Abschnitt einzufügen. Bitte belasse die Liste in alphabetischer Reihenfolge!
 
-## Third party acknowledgements
+Wenn dein Name aufgrund anderer Schriftzeichen nicht alphabetisch gelistet werden kann, nutze dieses Format: `dein-github-username, [dein Name in deiner Sprache] (Sprache der Übersetzung)`.
 
-Obsidian uses the open source libraries below (in alphabetical order):
+## Anerkennungen für Drittanbieter
+
+Obsidian verwendet die folgenden Open-Source-Bibliotheken (alphabetische Reihenfolge):
 
 ### Capacitor
 
