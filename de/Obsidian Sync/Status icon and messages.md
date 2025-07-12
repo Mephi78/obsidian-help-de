@@ -50,7 +50,7 @@ The log categorizes messages into the following types:
 
 You can filter the Sync log by **All**, **Errors**, **Skipped**, and **Merge Conflicts**. Additionally, you can search the Sync log using the search box in the Sync window.
 
-> [!summary] We have included some of the likely messages you have come across below. The list is not exhaustive. If you are experiencing an issue and have a sync log message you are not sure about, [[Hilfe und Kontakt#Contact Obsidian support|contact Obsidian support]].
+> [!summary] We have included some of the likely messages you have come across below. The list is not exhaustive. If you are experiencing an issue and have a sync log message you are not sure about, [[Hilfe und Kontakt#Obsidian Support kontaktieren|contact Obsidian support]].
 
 ### General messages
 
@@ -62,7 +62,7 @@ Obsidian is trying to connect to your remote vault's [[Obsidian Sync/Security an
 **Connected to server. Detecting changes...**  
 Obsidian has established a connection and is comparing the local vault with the remote vault to determine if changes are needed.
 
-> [!info] This message can also indicate other potential Sync issues. If you see it repeatedly and believe there are still items to sync, [[Hilfe und Kontakt#Contact Obsidian support|contact Obsidian support]].
+> [!info] This message can also indicate other potential Sync issues. If you see it repeatedly and believe there are still items to sync, [[Hilfe und Kontakt#Obsidian Support kontaktieren|contact Obsidian support]].
 
 **Fully synced**  
 - The local and remote vaults are fully synchronized.

@@ -20,7 +20,7 @@ Interagiere mit den Knoten im Graphen:
 Navigiere im Graphen:
 
 - Vergrößere oder verkleinere die Ansicht mit dem Scrollrad deiner Maus oder mit den Tasten `+` und `-` auf der Tastatur.
-- Bewege den Graphen per Drag & Drop oder mit den Pfeiltasten deiner Tastatur.
+- Bewege den Graphen durch Ziehen und Loslassen oder mit den Pfeiltasten deiner Tastatur.
 
 Du kannst dabei `Shift` gedrückt halten, um die Navigation zu beschleunigen.
 

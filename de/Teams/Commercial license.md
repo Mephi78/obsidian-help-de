@@ -27,7 +27,7 @@ If you need an invoice for this transaction, you can [[Introduction to licenses 
 
 **Purchasing using a purchase order**
 
-For purchases using a purchase order (PO), contact [[Hilfe und Kontakt#Contact Obsidian support|Obsidian support]].
+For purchases using a purchase order (PO), contact [[Hilfe und Kontakt#Obsidian Support kontaktieren|Obsidian support]].
 
 Your PO must include:
 
@@ -53,7 +53,7 @@ To optionally apply a commercial license to your Obsidian installation follow th
 
 ## Supporting organizations
 
-If your organization has purchased at least 25 commercial licenses, you can request to be featured as a [supporting organization](https://obsidian.md/enterprise/). If you would like your organization to be added or removed from the page, please [[Hilfe und Kontakt#Contact Obsidian support|contact Obsidian support]].
+If your organization has purchased at least 25 commercial licenses, you can request to be featured as a [supporting organization](https://obsidian.md/enterprise/). If you would like your organization to be added or removed from the page, please [[Hilfe und Kontakt#Obsidian Support kontaktieren|contact Obsidian support]].
 
 Your logo should be provided as an SVG file, filling a 32 by 32 pixel square, and using only white, with no background color.
 

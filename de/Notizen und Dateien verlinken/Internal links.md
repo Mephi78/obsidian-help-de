@@ -71,7 +71,7 @@ For example, `[[Obsidian#Links are first-class citizens]]` will create a link 
 
 You can add multiple hash symbols for each subheading.
 
-For example, `[[Help and support#Questions and advice#Report bugs and request features]]` will create a link to [[Hilfe und Kontakt#Questions and advice#Report bugs and request features]].
+For example, `[[Hilfe und Kontakt#Fragen und Empfehlungen#### Fehler melden oder neue Funktionen anfragen]]` will create a link to [[Hilfe und Kontakt#Fragen und Empfehlungen#### Fehler melden oder neue Funktionen anfragen]].
 
 **Searching for headers across the vault**
 
