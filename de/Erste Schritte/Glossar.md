@@ -6,11 +6,11 @@ Dieses Glossar enthält in Obsidian gebräuchliche Begriffe.
 
 ## Alias
 
-Ein **Alias** ist ein alternativer Titel für eine [[#Notiz]]. Nutze die [[#Eigenschaft]] `aliases`,  wenn du eine Notiz in deinem Vault mit unterschiedlichen Namen [[Aliases|referenzieren]] möchtest. Obsidian listet diese dann bspw. automatisch in der [[Search|Suchansicht]] auf.
+Ein **Alias** ist ein alternativer Titel für eine [[#Notiz]]. Nutze die [[#Eigenschaft]] `aliases`,  wenn du eine Notiz in deinem Vault mit unterschiedlichen Begriffen [[Aliases|referenzieren]] möchtest. Obsidian listet diese dann bspw. automatisch in der [[Search|Suchansicht]] auf.
 
 ## Anhang
 
-Ein **Anhang** ist eine Datei in einem [[Accepted file formats|akzeptierten Format]], die außerhalb des [[#Vault|Vaults]] erstellt und anschließend hinzugefügt wurde.
+Ein **Anhang** ist eine Datei in einem [[Accepted file formats|akzeptierten Format]], die außerhalb des [[#Vault|Vaults]] erstellt und diesem anschließend hinzugefügt wurde.
 
 ## Ansicht
 
@@ -43,7 +43,7 @@ Eine **Eigenschaft** definiert zusätzliche Informationen, sogenannte Metadaten,
 Eine **Erweiterung** ergänzt Obsidian um zusätzliche Funktionen.
 
 - [[Core plugins|Integrierte Erweiterungen]] sind vom Obsidian Team entwickelte, bereits vorinstallierte Zusatzfunktionen, die nach Bedarf aktiviert oder deaktiviert werden können
-- [[Community plugins|Externe Erweiterungen]] (auch: Community Plugin) wurden von Drittanbietern entwickelt und können [[Community plugins#Installiere eine externe Erweiterung|nachinstalliert]] werden.
+- [[Community plugins|Externe Erweiterungen]] (auch: Community-Erweiterung) wurden von Drittanbietern entwickelt und können [[Community plugins#Installiere eine externe Erweiterung|nachinstalliert]] werden.
 
 Du kannst auch [eigene Erweiterungen erstellen](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
 
@@ -63,7 +63,7 @@ Ein **Graph** ist eine bildhafte Darstellung der Beziehungen zwischen den Notize
 
 ## Hauptbereich
 
-Der **Hauptbereich** ist der zentrale Bereich in Obsidian, in dem du in erster Linie deine [[#Notiz|Notizen]] bearbeitest.
+Der **Hauptbereich** ist der zentrale Fensterbereich in Obsidian, in dem du in erster Linie deine [[#Notiz|Notizen]] bearbeitest.
 
 ## Hotkey
 
@@ -108,10 +108,6 @@ Siehe [[#Werkzeugleiste]].
 Ein Bereich, der unterstützende [[#Ansicht|Ansichten]] enthält, die als [[#Registerkarte|Tabs]] organisiert sind. Eine **Seitenleiste** kann in mehrere [[#Tab-Gruppe|Tab-Gruppen]] unterteilt werden.
 
 Obsidian *Desktop* hat je eine Seitenleiste rechts und links des [[#Hauptbereich|Hauptbereiches]]. Beide können zum Einen über entsprechende Symbole in der linken bzw. rechten oberen Ecke aufgerufen werden. Auf dem Touchscreen können Seitenleisten auch durch Wischen nach rechts bzw. links aufgerufen werden. Halte auf dem Touchscreen das Icon in der rechten oberen Ecke länger gedrückt, um die rechte Seitenleiste aufzurufen.
-
-## Seitenleistenmenü
-
-Siehe [[#Werkzeugleiste]].
 
 ## Snippet
 
@@ -161,6 +157,6 @@ Ein **Remote Vault** ist eine Kopie deines lokalen Vaults, die mit [[Introductio
 
 ## Werkzeugleiste
 
-`Aliasse: Ribbon, Seitenleistenmenü`
+`Aliasse: Ribbon`
 
 Die **Werkzeugleiste** dient als Container für oft genutzte Aktionen. In der *Desktop Version* wird sie als vertikale Menüleiste am linken Rand dargestellt. In der *Mobile Version* findest du sie als Menü-Schaltfläche ( ![[lucide-menu.svg#icon]] ) rechts unten in der [[#Statusleiste]].
