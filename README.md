@@ -71,6 +71,9 @@ Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichni
 | Obsidian                  | Obsidian                          |
 ### Tricks & Kniffe
 
+> [!INFO] Publish Styles imitieren
+> Wenn du beim Übersetzen das *Look & Feel*  der veröffentlichten Hilfeseite haben möchtest, z.B. die Anzeige von List Cards anstatt einer Liste, kannst du den CSS-Baustein `publish-styles.css` lokal in den Vault einbinden.
+
 > [!TIP] Überschriften übersetzen
 > Achte darauf, **Überschriften** zu übersetzen, indem du im Editor mit Rechtsklick auf die Überschrift das Kontextmenü aufrufst und **Diese Überschrift umbenennen...** auswählst. Auf diese (und **nur auf diese**) Weise aktualisieren sich Links auf Überschriften im gesamten Vault automatisch. 
 > 
