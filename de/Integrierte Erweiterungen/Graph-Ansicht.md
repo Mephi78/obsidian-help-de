@@ -2,7 +2,7 @@
 permalink: plugins/graph
 ---
 
-Die Graph-Ansicht ist eine [[Core plugins|Standard-Erweiterung]], die Beziehungen zwischen den Notizen in deinem Vault sichtbar macht.
+Die Graph-Ansicht ist eine [[Standarderweiterungen|Standard-Erweiterung]], die Beziehungen zwischen den Notizen in deinem Vault sichtbar macht.
 
 Um die Graph-Ansicht zu öffnen, klicke **Graph-Ansicht öffnen** ( ![[lucide-git-fork.svg#icon]] ) im [[Ribbon|Seitenleisten-Menü]].
 

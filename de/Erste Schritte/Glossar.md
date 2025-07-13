@@ -42,7 +42,7 @@ Eine **Eigenschaft** definiert zusätzliche Informationen, sogenannte Metadaten,
 
 Eine **Erweiterung** ergänzt Obsidian um zusätzliche Funktionen.
 
-- [[Core plugins|Integrierte Erweiterungen]] sind vom Obsidian Team entwickelte, bereits vorinstallierte Zusatzfunktionen, die nach Bedarf aktiviert oder deaktiviert werden können
+- [[Standarderweiterungen|Integrierte Erweiterungen]] sind vom Obsidian Team entwickelte, bereits vorinstallierte Zusatzfunktionen, die nach Bedarf aktiviert oder deaktiviert werden können
 - [[Community plugins|Externe Erweiterungen]] (auch: Community-Erweiterung) wurden von Drittanbietern entwickelt und können [[Community plugins#Installiere eine externe Erweiterung|nachinstalliert]] werden.
 
 Du kannst auch [eigene Erweiterungen erstellen](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).

@@ -2,7 +2,7 @@
 permalink: plugins/outline
 ---
 #TODO
-Outline is a [[Core plugins|core plugin]] that lists the headings in the active note.
+Outline is a [[Standarderweiterungen|core plugin]] that lists the headings in the active note.
 
 To navigate to that section in the note, click on the heading in the outline.
 

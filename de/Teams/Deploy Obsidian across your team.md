@@ -30,7 +30,7 @@ We recommend creating a standardized template of the configuration folder to be 
 
 ### Plugins
 
-[[Core plugins]] are optional features created by the Obsidian team. These features are integrated in the core application codebase and can be turned on or off.
+[[Standarderweiterungen]] are optional features created by the Obsidian team. These features are integrated in the core application codebase and can be turned on or off.
 
 [[Community plugins]] are third-party features added to the Obsidian application, and can be installed via the community directory. Third-party plugins leverage the [Obsidian API](https://github.com/obsidianmd/obsidian-api). Plugins are located in the `.obsidian/plugins` folder within a vault, and can be installed manually at this location.
 

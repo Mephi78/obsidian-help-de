@@ -6,7 +6,7 @@ permalink: plugins/file-recovery
 publish: true
 ---
 #TODO
-File recovery is a [[Core plugins|core plugin]] that helps protect your work from accidental deletions, file corruption, or unwanted changes by automatically saving complete snapshots of your notes at regular intervals.
+File recovery is a [[Standarderweiterungen|core plugin]] that helps protect your work from accidental deletions, file corruption, or unwanted changes by automatically saving complete snapshots of your notes at regular intervals.
 
 To avoid taking up [[#Storage and performance|too much space]], Obsidian keeps snapshots for a certain number of days before deleting them. Snapshots capture the full content of your files, not just changes, allowing you to restore any previous version.
 

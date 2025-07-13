@@ -2,7 +2,7 @@
 permalink: plugins/command-palette
 ---
 #TODO
-The Command palette [[Core plugins|plugin]] lets you run any command directly from your keyboard. It also lets you explore all the available commands and their [[Hotkeys|keyboard shortcuts]].
+The Command palette [[Standarderweiterungen|plugin]] lets you run any command directly from your keyboard. It also lets you explore all the available commands and their [[Hotkeys|keyboard shortcuts]].
 
 To run a command from the Command palette:
 

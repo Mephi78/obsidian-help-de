@@ -4,7 +4,7 @@ aliases:
 permalink: plugins/unique-note
 ---
 #TODO
-Unique note creator is a [[Core plugins|core plugin]] that lets you create notes with time-based names, also known as Zettelkasten notes.
+Unique note creator is a [[Standarderweiterungen|core plugin]] that lets you create notes with time-based names, also known as Zettelkasten notes.
 
 For example, if you create a new note at 09:45 on Jan 1st, 2024, Unique note creator creates a note with `202401010945` as its name. If a note with the same name exists, the new note uses the next available timestamp.
 

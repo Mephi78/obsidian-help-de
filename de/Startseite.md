@@ -45,7 +45,7 @@ Lerne die Grundlagen - deine ersten Schritte mit Obsidian:
 
 Mit unzähligen Erweiterungen und Farbschemata kannst du Obsidian ganz deiner individuellen Denkweise anpassen.
 
-- [[Core plugins|Obsidian-Erweiterungen]]
+- [[Standarderweiterungen|Obsidian-Erweiterungen]]
 	- Entscheide selbst, welche integrierten Obsidian-Funktionen du nutzen möchtest.
 - [[Community plugins|Externe Erweiterungen]]
 	- Schalte zusätzliche Funktionen frei mit Erweiterungen, die von Obsidian-Anwendern entwickelt wurden.

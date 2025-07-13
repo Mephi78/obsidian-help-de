@@ -4,7 +4,7 @@ aliases:
 permalink: plugins/tags
 ---
 #TODO
-Tags view is a [[Core plugins|core plugin]] that lists all tags in your vault and the number of notes for each tag.
+Tags view is a [[Standarderweiterungen|core plugin]] that lists all tags in your vault and the number of notes for each tag.
 
 Click a tag to search for it using [[Search]].
 

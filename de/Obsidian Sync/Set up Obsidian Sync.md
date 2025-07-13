@@ -94,7 +94,7 @@ In this section, you have already created a remote vault, and uploaded data to i
 **Prerequisites**
 - An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/account#mode=signup).
 - An active Obsidian Sync subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account).
-- Sync enabled within the [[Core plugins]] settings. 
+- Sync enabled within the [[Standarderweiterungen]] settings. 
 - An active remote vault. If you have not yet made one, please create a [[Set up Obsidian Sync#Create a new remote vault|remote vault]] first.
 - **Recommended**: A [[Back up your Obsidian files|backup system]] in place for your Obsidian files on your most-used device. A syncing service is not a backup. 
 
