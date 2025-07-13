@@ -47,7 +47,7 @@ Mit unzähligen Erweiterungen und Farbschemata kannst du Obsidian ganz deiner in
 
 - [[Standarderweiterungen|Obsidian-Erweiterungen]]
 	- Entscheide selbst, welche integrierten Obsidian-Funktionen du nutzen möchtest.
-- [[Community plugins|Externe Erweiterungen]]
+- [[Externe Erweiterungen|Externe Erweiterungen]]
 	- Schalte zusätzliche Funktionen frei mit Erweiterungen, die von Obsidian-Anwendern entwickelt wurden.
 - [[Themes|Farbschemata]]
 	- Gestalte das Erscheinungsbild der Anwendung mit von Nutzern erstellten Designs.

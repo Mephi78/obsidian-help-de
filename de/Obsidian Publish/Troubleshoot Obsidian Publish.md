@@ -15,7 +15,7 @@ Be sure to review [[Media files]] and [[Publish limitations|Publish limitations]
 
 **I am receiving a hash error when trying to publish a note.**
 
-Are you using a [[Community plugins|community plugin]] that edits the file's modified time upon update? If so, this plugin may be conflicting with Publish. Please issue a bug report to the plugin developer to resolve the issue.
+Are you using a [[Externe Erweiterungen|community plugin]] that edits the file's modified time upon update? If so, this plugin may be conflicting with Publish. Please issue a bug report to the plugin developer to resolve the issue.
 
 **I am receiving an odd network error, and I have a very large Publish site.**
 

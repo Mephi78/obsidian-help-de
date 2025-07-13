@@ -13,7 +13,7 @@ Diese Seite listet Standarderweiterungen auf, die mit Obsidian vorinstalliert si
 Einige Kernfunktionen sind standardmäßig deaktiviert. Du kannst sie unter **Optionen → Obsidian-Erweiterungen** aktivieren.
 
 > [!tip] Externe Erweiterungen
-> Falls du das gesuchte Feature hier nicht findest, schau doch mal bei den [[Community plugins|Plugins, die unsere Community erstellt hat]] oder [erstelle deine eigene Erweiterung](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
+> Falls du das gesuchte Feature hier nicht findest, schau doch mal bei den [[Externe Erweiterungen|Plugins, die unsere Community erstellt hat]] oder [erstelle deine eigene Erweiterung](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
 
 ### Alle Standarderweiterungen
 

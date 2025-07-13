@@ -78,7 +78,7 @@ You can nest callouts in multiple levels.
 
 ### Customize callouts
 
-[[CSS snippets]] and [[Community plugins]] can define custom callouts, or even overwrite the default configuration.
+[[CSS snippets]] and [[Externe Erweiterungen]] can define custom callouts, or even overwrite the default configuration.
 
 To define a custom callout, create the following CSS block:
 

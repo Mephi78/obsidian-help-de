@@ -8,5 +8,5 @@ Importer is an official plugin made by the Obsidian team, with community contrib
 
 ## Install Importer
 
-1. Follow instructions in [[Community plugins#Install a community plugin]]
+1. Follow instructions in [[Externe Erweiterungen#Externe Erweiterung installieren]]
 2. Download and enable [Importer](obsidian://show-plugin?id=obsidian-importer) from the list
