@@ -15,7 +15,7 @@ Einige Kernfunktionen sind standardmäßig deaktiviert. Du kannst sie unter **Op
 > [!tip] Externe Erweiterungen
 > Falls du das gesuchte Feature hier nicht findest, schau doch mal bei den [[Community plugins|Plugins, die unsere Community erstellt hat]] oder [erstelle deine eigene Erweiterung](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
 
-### All core plugins
+### Alle Standarderweiterungen
 
 - [[Word count|Anzahl der Wörter]]
 	- Zeige die Anzahl der Wörter und Zeichen in der Statusleiste.
