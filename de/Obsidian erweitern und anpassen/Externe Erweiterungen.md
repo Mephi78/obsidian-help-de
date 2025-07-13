@@ -2,65 +2,64 @@
 aliases:
   - Community-Plugin
   - Community-Erweiterung
-description: Learn how to extend Obsidian with plugins built by the community.
+description: Erfahre, wie du Obsidian mit Community-Plugins erweitern kannst.
 mobile: false
 permalink: community-plugins
 ---
-#WIP/Mephi 
-Learn how to extend Obsidian with plugins built by the community. Use plugins to adapt Obsidian to fit your specific needs, such as support for additional file formats or integrating with a third-party service.
 
-> [!warning]
-> Community plugins run third-party code on your behalf that could potentially do harm. To learn more about what the Obsidian team does to prevent harmful plugins, refer to [[Plugin security]].
+Erfahre, wie du Obsidian erweitern kannst mit Plugins, die von unserer Community erstellt wurden. Verwende Erweiterungen, um Obsidian an deine speziellen Bedürfnisse anzupassen, wie bspw. die Unterstützung zusätzlicher Dateiformate oder die Integration von Drittanbieter-Diensten.
+
+> [!warning] Achtung
+> Externe Erweiterungen führen Drittanbieter-Code in deinem Namen aus, der potentiell Schaden verursachen kann. Um mehr darüber zu erfahren, was das Obsidian-Team unternimmt, um der Ausführung schädlicher Plugins vorzubeugen, siehe [[Plugin security]].
 
 ## Community-Plugins durchsuchen
 
-1. Open **Settings**.
-2. Select **Turn on community plugins**. For more information, refer to [[Plugin security#Restricted mode|Restricted Mode]].
-3. Select **Browse** to list all available community plugins.
+1. In den **Einstellungen** öffne **Optionen → Externe Erweiterungen**.
+2. Klicke **Community-Erweiterungen aktivieren**. Für weitere Informationen, siehe [[Plugin security#Restricted mode|Restricted Mode]].
+3. Wähle **Durchsuchen** für eine Auflistung aller verfügbaren Community-Erweiterungen.
 
-Use the text box to filter plugins based on their name, author, and description.
+Verwende das Suchfeld, um die Erweiterungen nach Name, Autor oder Beschreibung zu filtern.
 
-You can also browse available plugins in your browser, by heading to [obsidian.md/plugins](https://obsidian.md/plugins).
+Du kannst die verfügbaren Erweiterungen auch in deinem Browser durchsuchen, indem du [obsidian.md/plugins](https://obsidian.md/plugins) aufrufst.
 
 ## Externe Erweiterung installieren
 
-To install a community plugin, you must first turn off [[Plugin security#Restricted mode|Restricted Mode]].
+Um eine Community-Erweiterung zu installieren, musst du zunächst den [[Plugin security#Restricted mode|Eingeschränkten Modus]] deaktivieren.
 
-1. Open **Settings**.
-2. In the side menu, select **Community plugins**.
-3. Select **Browse** to explore available community plugins.
-4. Select the plugin you want to install.
-5. Select **Install**.
+1. In den **Einstellungen** öffne **Optionen → Externe Erweiterungen**.
+2. Wähle **Durchsuchen**, um die verfügbaren Plugins zu erkunden.
+3. Wähle die Erweiterung, die du installieren möchtest.
+4. Klicke **Installieren**.
 
-To use an installed plugin, you need to enable it.
+Um eine installierte Erweiterung zu verwenden, musst du sie aktivieren.
 
 ## Externe Erweiterung aktivieren
 
-Either select **Enable** directly after installing it, or enable it from the list of Community plugins under **Settings → Community plugins → Installed plugins**.
+Du kannst direkt nach der Installation auf **Aktivieren** klicken oder eine Erweiterung in der Liste unter **Optionen → Externe Erweiterungen → Installierte Erweiterungen** aktivieren, indem du den Schalter daneben betätigst.
 
 ## Erweiterungen aktualisieren
 
-For security purposes, community plugins don't update automatically. You can either update all plugins at once, or update individual plugins.
+Aus Sicherheitsgründen werden externe Erweiterungen nicht automatisch aktualisiert. Du kannst Erweiterungen entweder alle gleichzeitig aktualisieren oder einzeln.
 
-To update all your plugins:
+Um alle Erweiterungen gleichzeitig zu aktualisieren:
 
-1. Open **Settings**.
-2. Under **Community plugins → Current plugins**, select **Check for updates**.
-3. If updates are available, select **Update all**.
+1. Öffne die **Einstellungen**.
+2. Unter **Optionen → Externe Erweiterungen → Aktuelle Erweiterungen** klicke **Nach Aktualisierungen suchen**.
+3. Falls Aktualisierungen verfügbar sind, klicke **Alle aktualisieren**.
 
-To update an individual plugin:
+Um eine bestimmte Erweiterung zu aktualisieren:
 
-1. Open **Settings**.
-2. Under **Community plugins → Current plugins**, select **Check for updates**.
-3. Under **Installed plugins**, select **Update** next to the plugin you want to update.
+1. Öffne die **Einstellungen**.
+2. Unter **Optionen → Externe Erweiterungen → Aktuelle Erweiterungen** klicke **Nach Aktualisierungen suchen**.
+3. Unter **Installierte Erweiterungen** klicke **Aktualisieren** neben dem Plugin, das du aktualisieren möchtest.
 
 ## Externe Erweiterung deinstallieren
 
-1. Open **Settings**.
-2. In the side menu, select **Community plugins**.
-3. Under **Installed plugins**, select **Uninstall** ( ![[lucide-trash-2.svg#icon]] ).
-4. Select **Uninstall** again to confirm.
+1. Öffne die **Einstellungen**.
+2. Wähle **Optionen → Externe Erweiterungen**.
+3. Unter **Installierte Erweiterungen** klicke **Deinstallieren** ( ![[lucide-trash-2.svg#icon]] ) neben dem Plugin, das du entfernen möchtest.
+4. Klicke im Bestätigungsdialog noch einmal **Deinstallieren**.
 
 ## Erfahre mehr
 
-Ready to build your own community plugin? Learn how to [Build a plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
+Bist du bereit, deine eigene Community-Erweiterung zu erstellen? Erfahre, wie du selbst ein [Plugin entwickeln](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin) kannst.
