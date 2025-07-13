@@ -23,7 +23,7 @@ If you need to quickly underline an item in your notes, you can use `<u>Example<
 
 ### Span/Div
 
-Span and div tags can be used to apply custom classes from a [[CSS snippets|CSS snippet]], or custom defined styling, onto a selected area of text. For example, using `<span style="font-family: cursive">your text</span>` can allow you to quickly <span style="font-family: cursive">change your font</span>.
+Span and div tags can be used to apply custom classes from a [[CSS-Bausteine|CSS snippet]], or custom defined styling, onto a selected area of text. For example, using `<span style="font-family: cursive">your text</span>` can allow you to quickly <span style="font-family: cursive">change your font</span>.
 
 ## Strikethrough
 

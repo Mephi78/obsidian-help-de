@@ -129,7 +129,7 @@ Secondary devices (such as your phone) receive updates from the primary device.
 Certain settings can be hot reloaded, while others require a restart:
 
 - **Hot-reloadable**: Most Obsidian configurations, including hotkeys and properties, appearance settings, and configurations for already-enabled core plugins.
-- **Requires reload**: CSS changes (e.g., [[CSS snippets]], [[Themes]]), graph view configurations, and core plugin states (e.g., enabling/disabling Daily Notes).
+- **Requires reload**: CSS changes (e.g., [[CSS-Bausteine]], [[Themes]]), graph view configurations, and core plugin states (e.g., enabling/disabling Daily Notes).
 
 Community plugins typically do not support hot reloading and require a restart when new settings are applied.
 

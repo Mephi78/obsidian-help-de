@@ -18,7 +18,7 @@ Please review the [[Plugin security]] page in addition to this section.
 
 The Obsidian teams reviews all community plugins and themes submitted to the official directory, via our [releases repository](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). We do not review community items which have not been submitted to the official directory.
 
-We do not have a community store for [[CSS snippets]]. These files are typically obtained from within our [Obsidian Community](https://obsidian.md/community) or from public GitHub repositories.
+We do not have a community store for [[CSS-Bausteine]]. These files are typically obtained from within our [Obsidian Community](https://obsidian.md/community) or from public GitHub repositories.
 
 We require bundling of assets in CSS snippets and themes. However, we have made an exception for [Google Fonts](https://fonts.google.com/) to maintain performance on mobile devices, where the impact of bundling fonts is more noticeable.
 

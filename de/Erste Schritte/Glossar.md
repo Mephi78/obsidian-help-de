@@ -24,7 +24,7 @@ Ein **Befehl** ist eine Aktion, die ausgeführt werden kann, indem du sie in der
 
 `Aliasse: CSS-Schnipsel, Snippet`
 
-**CSS-Bausteine** ändern das Aussehen von Obsidian, so wie Farbschemata. Im Gegensatz zu [[#Farbschema|Farbschemata]] jedoch kannst du mehrere [[CSS snippets|CSS-Schnipsel]] gleichzeitig aktivieren.
+**CSS-Bausteine** ändern das Aussehen von Obsidian, so wie Farbschemata. Im Gegensatz zu [[#Farbschema|Farbschemata]] jedoch kannst du mehrere [[CSS-Bausteine|CSS-Schnipsel]] gleichzeitig aktivieren.
 
 ## Eigenschaft
 
