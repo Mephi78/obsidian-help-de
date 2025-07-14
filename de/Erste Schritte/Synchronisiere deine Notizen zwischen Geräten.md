@@ -232,4 +232,4 @@ Wenn Dienste wie OneDrive oder iCloud Dateien auslagern, (z.B. mit Funktionen wi
 
 **Wie verwalte ich unterschiedliche Einstellungen für meine Vaults?**
 
-Obsidian erlaubt dir, für jeden Vault-Ordner auf jedem Gerät das Verzeichnis für die Konfigurationsdateien festzulegen mit der [[Configuration folder|Konfigurationsordner-Einstellung]].
+Obsidian erlaubt dir, für jeden Vault-Ordner auf jedem Gerät das Verzeichnis für die Konfigurationsdateien festzulegen mit der [[Konfigurationsordner|Konfigurationsordner-Einstellung]].

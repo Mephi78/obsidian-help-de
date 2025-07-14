@@ -6,7 +6,7 @@ aliases:
 permalink: manage-vaults
 ---
 #TODO
-A **vault** is a folder on your file system which contains your notes, [[Attachments]], and the [[Configuration folder]] with Obsidian-specific settings. For more information on vaults, refer to [[How Obsidian stores data]].
+A **vault** is a folder on your file system which contains your notes, [[Attachments]], and the [[Konfigurationsordner]] with Obsidian-specific settings. For more information on vaults, refer to [[How Obsidian stores data]].
 
 You can manage your vaults using the **Vault switcher**. The *Vault profile* opens the first time you open Obsidian.
 
@@ -83,4 +83,4 @@ To use the same settings for another vault, use your preferred file manager (or 
 You may need to restart Obsidian to apply the changes.
 
 > [!note] Where do I find the `.obsidian` folder?
-> By default, most operating systems hide folders starting with a period (`.`). For more information about the `.obsidian` folder and how to access it, refer to [[How Obsidian stores data#Vault settings|vault settings]] and [[Configuration folder|config folders]].
+> By default, most operating systems hide folders starting with a period (`.`). For more information about the `.obsidian` folder and how to access it, refer to [[How Obsidian stores data#Vault settings|vault settings]] and [[Konfigurationsordner|config folders]].

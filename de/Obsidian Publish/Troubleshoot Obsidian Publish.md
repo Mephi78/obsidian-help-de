@@ -23,7 +23,7 @@ It is likely we need to examine your database. Please [[Hilfe und Kontakt#Obsidi
 
 ## CSS and themes
 
-**My CSS in my [[Configuration folder]] does not work on Publish. Why?**
+**My CSS in my [[Konfigurationsordner]] does not work on Publish. Why?**
 
 Publish does not read from the configuration folder. Instead, you'll need to create a `publish.css` file in the top-level directory of your publishing vault. You can learn more about this in [[Customize your site]].
 

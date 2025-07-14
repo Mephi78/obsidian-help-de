@@ -14,7 +14,7 @@ Erfahre, wie du das Erscheinungsbild von Obsidian in einzelnen Aspekten anpassen
 
 CSS (Cascading Style Sheets) ist eine Sprache, mit der man die Darstellung von HTML-Dokumenten beeinflussen kann. Mit Hilfe von CSS-Bausteinen kannst du Teile der Bedienoberfläche von Obsidian ändern, wie bspw. die Größe oder Farbe von Überschriften. Obsidian stellt einige [CSS-Variablen](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) zur Verfügung, über die sich Bedienelemente leicht deinen Bedürfnissen anpassen lassen.
 
-Obsidian sucht CSS-Bausteine im [[Configuration folder|Konfigurationsordner]] deines Vaults.
+Obsidian sucht CSS-Bausteine im [[Konfigurationsordner|Konfigurationsordner]] deines Vaults.
 
 ## Snippets hinzufügen
 
@@ -29,7 +29,7 @@ Um einen CSS-Baustein in Obsidian ![[lucide-monitor-check.svg#icon]] **Desktop**
 Um einen CSS-Baustein in Obsidian ![[obsidian-icon-smartphone.svg#icon]] **Mobile/Tablet** hinzuzufügen:
 
 1. Öffne einen Dateimanager und navigiere zu deinem Vault. Der Speicherort deines Vaults wird dir angezeigt, wenn du in der _Vault-Verwaltung_ auf den Vault tippst.
-2. Öffne den [[Configuration folder|Konfigurationsordner]] und erstelle einen Ordner `snippets`, falls dieser noch nicht existiert.
+2. Öffne den [[Konfigurationsordner|Konfigurationsordner]] und erstelle einen Ordner `snippets`, falls dieser noch nicht existiert.
 3. Kopiere deinen CSS-Baustein in diesen Ordner. %%Add your CSS snippet to this folder.%%
 4. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ) in Obsidian.
 5. Tippe auf **Darstellung** und scrolle bis ganz nach unten.

@@ -89,7 +89,7 @@ The snapshots in the [[File recovery]] plugin are not synced via Obsidian Sync, 
 
 ##### Hidden folders
 
-Folders beginning with a `.` are treated as hidden and excluded from sync. The only exception is the vault's [[Configuration folder|configuration folder]] (`.obsidian`), which does sync.
+Folders beginning with a `.` are treated as hidden and excluded from sync. The only exception is the vault's [[Konfigurationsordner|configuration folder]] (`.obsidian`), which does sync.
 
 Common examples of hidden folders that are not synced:
 - `.vscode`
@@ -137,7 +137,7 @@ Community plugins typically do not support hot reloading and require a restart w
 
 ## Settings profiles
 
-Obsidian Sync can sync multiple [[Configuration folder|configuration folders]] to the same remote vault, allowing you to create separate profiles (e.g., one for mobile, another for your laptop).
+Obsidian Sync can sync multiple [[Konfigurationsordner|configuration folders]] to the same remote vault, allowing you to create separate profiles (e.g., one for mobile, another for your laptop).
 
 ### Create a settings profile
 
