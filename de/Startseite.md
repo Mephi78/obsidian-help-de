@@ -49,7 +49,7 @@ Mit unzähligen Erweiterungen und Farbschemata kannst du Obsidian ganz deiner in
 	- Entscheide selbst, welche integrierten Obsidian-Funktionen du nutzen möchtest.
 - [[Externe Erweiterungen|Externe Erweiterungen]]
 	- Schalte zusätzliche Funktionen frei mit Erweiterungen, die von Obsidian-Anwendern entwickelt wurden.
-- [[Themes|Farbschemata]]
+- [[Farbschemata|Farbschemata]]
 	- Gestalte das Erscheinungsbild der Anwendung mit von Nutzern erstellten Designs.
 - [[CSS-Bausteine|CSS-Bausteine]]
 	- Ergänze die Benutzeroberfläche um kleine Anpassungen, zusätzlich zum gewählten Farbschema.

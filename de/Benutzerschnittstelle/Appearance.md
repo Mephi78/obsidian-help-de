@@ -10,7 +10,7 @@ Obsidian comes with two color schemes, light and dark. By default, the color sch
 
 ### Custom themes
 
-You can change the appearance of Obsidian by using [[Themes|custom themes]]. Browse hundreds of community-made themes by going to **Settings → Appearance**, then click **Manage** to view and install themes.
+You can change the appearance of Obsidian by using [[Farbschemata|custom themes]]. Browse hundreds of community-made themes by going to **Settings → Appearance**, then click **Manage** to view and install themes.
 
 You can also tweak themes using [[CSS-Bausteine]] and [build your own theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) .
 
