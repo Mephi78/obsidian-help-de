@@ -50,6 +50,8 @@ Grundsätzlich werden alle Inhalte des Vaults übersetzt, wie hier nicht abschli
 > [!WARNING] Achtung!
 > Wir bitten dich darum, Übersetzungsvorschläge für **Notiz- und Verzeichnisnamen** sowie **Bezeichnungen von Anhängen** im Issue oder PR zu notieren, aber diese nicht selbst zu ändern, da hiervon für gewöhnlich mehrere Notizen betroffen sind.
 
+Bitte orientiere dich bei der Übersetzung am [Wörterbuch für die deutsche Übersetzung](https://github.com/obsidianmd/obsidian-translations/blob/master/de.termbase.md) und an bereits übersetzten Inhalten.
+
 Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichnisse (oberste Ebene im Obsidian-Dateiexplorer) nach dem Veröffentlichen des Vaults als Webseite. Themen, die zuerst übersetzt werden sollten, sind hervorgehoben.
 
 | Englisch                  | Deutsch                           |
