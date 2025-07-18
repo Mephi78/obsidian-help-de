@@ -2,7 +2,7 @@
 permalink: plugins/search
 ---
 #TODO
-Search is a [[Core plugins|core plugin]] that helps you find data in your Obsidian vault by using search terms and operators to narrow down results.
+Search is a [[Standarderweiterungen|core plugin]] that helps you find data in your Obsidian vault by using search terms and operators to narrow down results.
 
 By default, you can find Search in the left sidebar ( ![[lucide-search.svg#icon]] ). You can also open Search by pressing `Ctrl+Shift+F` (or `Cmd+Shift+F` on macOS).
 

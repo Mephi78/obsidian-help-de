@@ -1,80 +1,79 @@
 ---
-permalink: resources
+permalink: ressourcen
 ---
-#TODO
-Find support resources, report security or community violations, and learn how to contribute to Obsidian.
 
-## Questions and advice
+Finde Unterstützung, melde Verstöße gegen die Sicherheit oder Community-Richtlinien und erfahre, wie du etwas zu Obsidian beitragen kannst.
 
-If you have a question about how to use Obsidian, or want to get to know other Obsidian users, you can join one of our community channels:
+## Fragen und Empfehlungen
 
-- [[Sandbox vault|Explore the Sandbox vault]]
-- [Join our Discord server](https://discord.gg/obsidianmd)
-- [Visit the forum](https://forum.obsidian.md/)
+Hast du Fragen zur Bedienung von Obsidian oder möchtest dich mit anderen Obsidian-Anwendern austauschen, schau gerne auf einem unserer Community-Kanäle vorbei:
 
-### Report bugs and request features
+- [Tritt unserem Discord Server bei](https://discord.gg/obsidianmd)
+- [Besuche unser Forum](https://forum.obsidian.md/)
 
-> [!important]
-> Before you request a new feature or report a bug, please look through the other posts to make sure someone else hasn't already submitted it.
+Einen guten Einstieg in die Verwendung von Obsidian bietet auch unser [[Sandbox Vault|Sandbox-Vault]].
 
-If you want to suggest a feature in Obsidian, head over to [Feature requests](https://forum.obsidian.md/c/feature-requests/8).
+### Fehler melden oder neue Funktionen anfragen
 
-If you want to report a bug in Obsidian, head over to [Bug reports](https://forum.obsidian.md/c/bug-reports/7). Bug reports are moved to the [Bug graveyard](https://forum.obsidian.md/c/bug-graveyard/12) once they're resolved.
+> [!important] Wichtig
+> Bevor du eine neue Funktion anfragst oder einen Fehler meldest, schau bitte durch die anderen Beiträge, um sicherzustellen, dass zu deinem Thema noch kein Beitrag vorhanden ist.
 
-### Collect debug information
+Möchtest du eine neue Funktion für Obsidian vorschlagen, nutze die Rubrik [Feature Requests](https://forum.obsidian.md/c/feature-requests/8).
 
-When you encounter a bug or need assistance from [[#Contact Obsidian support|Obsidian support]], providing debug information can be very helpful. Here's how to obtain it:
+Möchtest du einen Fehler in Obsidian melden, nutze die Rubrik [Bug Reports](https://forum.obsidian.md/c/bug-reports/7). Sobald ein Fehler behoben wurde, wird die zugehörige Fehlermeldung im [Bug Graveyard](https://forum.obsidian.md/c/bug-graveyard/12) archiviert.
 
-1. Open the [[Command palette]].
-2. Type **Show debug info**.
-3. Select the highlighted **Show debug info** option.
-4. Click **Copy to clipboard**.
-5. Paste the copied information into your bug report or Obsidian support email.
+### Debug-Informationen sammeln
 
-### Capture console logs
+Wenn du einen Fehler entdeckst oder Unterstützung vom [[#Obsidian Support kontaktieren|Obsidian Support]] benötigst, kann die Bereitstellung von Debug-Informationen sehr hilfreich sein. So geht's:
 
-When you need to report a bug related to an Obsidian plugin or when requested by [[#Contact Obsidian support|Obsidian support]] to provide log information, you may need to access the Obsidian console from within the Obsidian application. Here’s how to do it based on your operating system:
+1. Öffne die [[Command palette|Befehlspalette]].
+2. Tippe **Zeige Debug-Informationen**.
+3. Wähle die hervorgehobene Option **Zeige Debug-Informationen**.
+4. Klicke **In Zwischenablage kopieren**.
+5. Füge die kopierten Informationen in deinen [Fehlerbericht](https://forum.obsidian.md/c/bug-reports/7) oder deine E-Mail an den Obsidian Support ein.
+
+### Konsolenprotokolle auslesen
+
+Falls deine Fehlermeldung in Zusammenhang mit einer Erweiterung steht oder du vom [[#Obsidian Support kontaktieren|Obsidian Support]] darum gebeten wirst, Log-Informationen bereitzustellen, musst du möglicherweise innerhalb der Obsidian-Anwendung auf die Entwicklerkonsole zugreifen. So geht's:
 
 - **Windows**: `CTRL + SHIFT + i`  
 - **MacOS**: `CMD + OPTION + i`  
 - **Linux**: `CTRL + SHIFT + i`
 
-Once you've opened the developer console:
+Nachdem du auf diese Weise die Entwicklerkonsole geöffnet hast:
 
-1. Select on **console** in the top menu.
-2. Choose the **errors** side menu option. Any errors will be displayed as `# errors`.
-3. Select one of the red error messages.
-4. Choose the option to **Save as...** This will save all the errors in the console.
-5. Save the log file to your device.
-6. Attach the log file to your bug report or Obsidian support email.
+1. Wähle **Console** im obersten Menü.
+2. Wähle im Seitenmenü die Option **errors**. Fehler werden angezeigt als `# errors`.
+3. Öffne mit Rechtsklick auf eine der roten Fehlermeldungen das Kontextmenü.
+4. Wähle **Save as...**, um alle in der Konsole angezeigten Fehlermeldungen in eine Logdatei zu speichern.
+5. Speichere die Logdatei auf deinem Gerät.
+6. Lade die Logdatei als Anhang an deinem Fehlerbericht hoch oder hänge sie an deine E-Mail an den Obsidian Support.
 
 ![[help-support-console-menu.png#interface|600]]
 
-> [!warning] Mobile devices and tablets have limited access to their developer consoles. For these users, we recommend using the community plugin [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) to automatically generate the console log data in a markdown note.
+> [!warning] Mobile Geräte und Tablets haben nur eingeschränkten Zugriff auf die Entwicklerkonsole. Diesen Anwendern empfehlen wir die Community-Erweiterung [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza), um die Logdaten aus der Konsole automatisch in einer Markdown-Notiz zu generieren.
 
-### Contact Obsidian support
+### Obsidian Support kontaktieren
 
-Obsidian offers email support only for inquiries about [[Commercial license|commercial licenses]], your account, payment, and add-on services ([[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]]). If you need help with any of those topics, [email the Obsidian team](mailto:support@obsidian.md).
+Obsidian bietet E-Mail-Support nur für Anfragen zu kommerziellen Lizenzen, deinem Obsidian Konto, Zahlungen und kostenpflichtigen Zusatzdiensten ([[Introduction to Obsidian Sync|Obsidian Sync]] und [[Introduction to Obsidian Publish|Obsidian Publish]]). Wenn du Hilfe zu einem dieser Themen benötigst, sende eine [E-Mail an das Obsidian Team](mailto:support@obsidian.md).
 
-## Report a security issue
+## Sicherheitsprobleme melden
 
-If you've discovered a security issue in Obsidian, or if you suspect that a plugin is malicious, please [email the Obsidian team](mailto:support@obsidian.md).
+Wenn du ein Sicherheitsrisiko in Obsidian entdeckt hast oder vermutest, dass eine Erweiterung schadhaft sein könnte, sende bitte eine [E-Mail an das Obsidian Team](mailto:support@obsidian.md).
 
-## Report a Code of Conduct violation
+## Verstöße gegen den Verhaltenscodex melden
 
-Whether you're a victim or witness of a violation of our [[Community code of conduct]], you can report the incident to our moderator team
+Wenn du selbst Opfer oder Zeuge einer Verletzung unserer [[Community code of conduct|Community-Regeln]] geworden bist, kannst du den Vorfall an unser Moderatoren-Team über einen der folgenden Community-Kanäle melden:
 
-Report the incident on one of the following community channels:
+- [[Community code of conduct#Report on Discord|Meldung auf Discord]]
+- [[Community code of conduct#Report on the forum|Meldung im Forum]]
 
-- [[Community code of conduct#Report on Discord|Report on Discord]]
-- [[Community code of conduct#Report on the forum|Report on the forum]]
+## Mitmachen
 
-## Contributing to Obsidian
+Hast du Interesse, deine Fähigkeiten und etwas freie Zeit in Obsidian zu investieren? So kannst du dich einbringen:
 
-Interested in applying some skills and free time to Obsidian? Here is where we could really use your assistance:
-
-- Help your fellow Obsidian users out by answering questions on our [discord server](https://discord.gg/obsidianmd), our [forum](https://forum.obsidian.md/), or the [ObsidianMD](https://old.reddit.com/r/ObsidianMD/) reddit.
-- [[Developers]], we could really use your help on expanding our [Obsidian Developer Documentation](https://github.com/obsidianmd/obsidian-developer-docs). 
-- Do you know any written language besides English? Consider assisting with our [[Translations]] into other languages.
-- Is there something in these help docs that are out of date, or confusing? Grab the [[Style guide]] and submit an [issue and pull request](https://github.com/obsidianmd/obsidian-help/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
-- If able, you can [[Financial contributions|financially contribute]] by utilizing one of our paid addons. 
+- Unterstütze andere Obsidian-Anwender, indem du ihre Fragen auf unserem [Discord Server](https://discord.gg/obsidianmd), im [Forum](https://forum.obsidian.md/) oder dem [ObsidianMD reddit](https://old.reddit.com/r/ObsidianMD/) beantwortest.
+- Liebe [[Developers|Entwickler]] - wir brauchen wirklich eure Hilfe bei der Erweiterung der [Obsidian Entwicklerdokumentation](https://github.com/obsidianmd/obsidian-developer-docs).
+- Beherrschst du neben Englisch noch eine weitere Sprache? Dann unterstütze uns gerne bei der [[Translations|Übersetzung]] in andere Sprachen.
+- Hast du auf diesen Hilfeseiten veraltete Inhalte gefunden oder erscheint dir eine Erklärung verwirrend? Schnapp dir den [[Style guide]] und erstelle ein [Issue oder Pull Request](https://github.com/obsidianmd/obsidian-help/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
+- Wenn es dir möglich ist, kannst du auch einen [[Financial contributions|finanziellen Beitrag]] leisten, indem du einen unserer kostenpflichtigen Zusatzdienste nutzt. 

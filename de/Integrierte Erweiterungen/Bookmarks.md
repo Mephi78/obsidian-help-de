@@ -4,7 +4,7 @@ aliases:
 permalink: plugins/bookmarks
 ---
 #TODO
-Bookmarks is a [[Core plugins|core plugin]] that lets you quickly access items that you use often. A bookmark is a "shortcut" that immediately takes you the bookmarked item.
+Bookmarks is a [[Standarderweiterungen|core plugin]] that lets you quickly access items that you use often. A bookmark is a "shortcut" that immediately takes you the bookmarked item.
 
 You can add bookmarks to the following:
 

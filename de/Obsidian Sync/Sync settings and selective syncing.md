@@ -34,7 +34,7 @@ Displays a progress bar showing how much of your sync storage is used.
 > [!tip] It may take up to 30 minutes for the current usage to update due to server-side processing.
 
 **Contact support**  
-Provides instructions on how to [[Hilfe und Kontakt#Contact Obsidian support|contact Obsidian support]], including options to **Copy debug info** and **Email support**.
+Provides instructions on how to [[Hilfe und Kontakt#Obsidian Support kontaktieren|contact Obsidian support]], including options to **Copy debug info** and **Email support**.
 
 ---
 
@@ -89,7 +89,7 @@ The snapshots in the [[File recovery]] plugin are not synced via Obsidian Sync, 
 
 ##### Hidden folders
 
-Folders beginning with a `.` are treated as hidden and excluded from sync. The only exception is the vault's [[Configuration folder|configuration folder]] (`.obsidian`), which does sync.
+Folders beginning with a `.` are treated as hidden and excluded from sync. The only exception is the vault's [[Konfigurationsordner|configuration folder]] (`.obsidian`), which does sync.
 
 Common examples of hidden folders that are not synced:
 - `.vscode`
@@ -129,7 +129,7 @@ Secondary devices (such as your phone) receive updates from the primary device.
 Certain settings can be hot reloaded, while others require a restart:
 
 - **Hot-reloadable**: Most Obsidian configurations, including hotkeys and properties, appearance settings, and configurations for already-enabled core plugins.
-- **Requires reload**: CSS changes (e.g., [[CSS snippets]], [[Themes]]), graph view configurations, and core plugin states (e.g., enabling/disabling Daily Notes).
+- **Requires reload**: CSS changes (e.g., [[CSS-Bausteine]], [[Farbschemata]]), graph view configurations, and core plugin states (e.g., enabling/disabling Daily Notes).
 
 Community plugins typically do not support hot reloading and require a restart when new settings are applied.
 
@@ -137,7 +137,7 @@ Community plugins typically do not support hot reloading and require a restart w
 
 ## Settings profiles
 
-Obsidian Sync can sync multiple [[Configuration folder|configuration folders]] to the same remote vault, allowing you to create separate profiles (e.g., one for mobile, another for your laptop).
+Obsidian Sync can sync multiple [[Konfigurationsordner|configuration folders]] to the same remote vault, allowing you to create separate profiles (e.g., one for mobile, another for your laptop).
 
 ### Create a settings profile
 

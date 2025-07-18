@@ -2,7 +2,7 @@
 permalink: plugins/slides
 ---
 #TODO
-Slides is a [[Core plugins|core plugin]] that lets you create presentations from your notes. To start a presentation:
+Slides is a [[Standarderweiterungen|core plugin]] that lets you create presentations from your notes. To start a presentation:
 
 **File menu:**
 

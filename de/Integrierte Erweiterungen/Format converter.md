@@ -6,7 +6,7 @@ permalink: plugins/format-converter
 publish: true
 ---
 #TODO
-Format converter is a [[Core plugins|core plugin]] that lets you convert Markdown from other applications to Obsidian format. It also allows you to convert certain [[Properties]] to new required formats. 
+Format converter is a [[Standarderweiterungen|core plugin]] that lets you convert Markdown from other applications to Obsidian format. It also allows you to convert certain [[Properties]] to new required formats. 
 
 > [!warning]
 > Format converter converts your entire vault based on your settings. [[Back up your Obsidian files]] before you perform the conversion.
@@ -25,22 +25,22 @@ For more information, refer to [[Basic formatting syntax]].
 
 The Format converter can convert the following Roam Research syntax:
 
-- **Tags**: Converts `#tag` and `#[[tag]]` to `[[tag]]`
-- **Highlights**: Converts `^^highlight^^` to `==highlight==`
-- **TODO items**: Converts `{{[[TODO]]}}` to `[ ]`
+- **Tags**: Convertsï¿½`#tag`ï¿½andï¿½`#[[tag]]`ï¿½toï¿½`[[tag]]`
+- **Highlights**: Convertsï¿½`^^highlight^^`ï¿½toï¿½`==highlight==`
+- **TODO items**: Convertsï¿½`{{[[TODO]]}}`ï¿½toï¿½`[ ]`
 
 ### Bear
 
 The Format converter can convert the following Bear syntax:
 
-- **Highlights**: Converts `::highlight::` to `==highlight==`
+- **Highlights**: Convertsï¿½`::highlight::`ï¿½toï¿½`==highlight==`
 
 ### Zettelkasten
 
 The Format converter can convert the following Zettelkasten syntax:
 
-- **Full links**: Converts `[[UID]]` to `[[UID File Name]]`
-- **Pretty links**: Converts `[[UID]]` to `[[UID File Name|File Name]]`
+- **Full links**: Convertsï¿½`[[UID]]`ï¿½toï¿½`[[UID File Name]]`
+- **Pretty links**: Convertsï¿½`[[UID]]`ï¿½toï¿½`[[UID File Name|File Name]]`
 
 ### [[Properties]]
 

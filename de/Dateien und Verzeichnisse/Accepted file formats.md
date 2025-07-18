@@ -16,7 +16,7 @@ Obsidian supports the following file types:
 - **Video**: `.mkv`, `.mov`, `.mp4`, `.ogv`, `.webm`  
 - **PDF**: `.pdf`  
 
-You can extend Obsidian to support other file formats using [[Community plugins]].
+You can extend Obsidian to support other file formats using [[Externe Erweiterungen]].
 
 ### Embed files
 

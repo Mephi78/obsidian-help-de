@@ -18,7 +18,7 @@ Please review the [[Plugin security]] page in addition to this section.
 
 The Obsidian teams reviews all community plugins and themes submitted to the official directory, via our [releases repository](https://github.com/obsidianmd/obsidian-releases/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc). We do not review community items which have not been submitted to the official directory.
 
-We do not have a community store for [[CSS snippets]]. These files are typically obtained from within our [Obsidian Community](https://obsidian.md/community) or from public GitHub repositories.
+We do not have a community store for [[CSS-Bausteine]]. These files are typically obtained from within our [Obsidian Community](https://obsidian.md/community) or from public GitHub repositories.
 
 We require bundling of assets in CSS snippets and themes. However, we have made an exception for [Google Fonts](https://fonts.google.com/) to maintain performance on mobile devices, where the impact of bundling fonts is more noticeable.
 
@@ -69,7 +69,7 @@ Obsidian supports [[2-factor authentication]] (2FA) for Obsidian accounts, but i
 **Will you accept security assessments from our company?**
 We require a minimum quoted purchase order amount before considering completing a security assessment. These assessments are often time-consuming and may not be applicable to offline applications like Obsidian, as they are typically geared towards cloud-based services.
 
-However, you can waive this quoted purchase order amount by agreeing to pay a retainer fee. Please contact [[Hilfe und Kontakt#Contact Obsidian support|Obsidian support]] to inquire about this option.
+However, you can waive this quoted purchase order amount by agreeing to pay a retainer fee. Please contact [[Hilfe und Kontakt#Obsidian Support kontaktieren|Obsidian support]] to inquire about this option.
 
 **Do you have any recognized certifications related to Information Security or quality standards, such as ISO27001, NIST, COBIT, or other ISO or CSA certifications?**
 Not at this time. It may be something we explore in the future, but for now, our focus is on our [security audits](https://obsidian.md/security).

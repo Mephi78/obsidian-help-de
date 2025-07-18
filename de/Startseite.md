@@ -38,20 +38,20 @@ Lerne die Grundlagen - deine ersten Schritte mit Obsidian:
 2. [[Lege einen Vault an|Lege einen Vault an]]
 3. [[Erstelle deine erste Notiz|Erstelle deine erste Notiz]]
 4. [[Verlinke Notizen|Verlinke Notizen]]
-5. [[Import notes|Importiere Notizen]]
-6. [[Sync your notes across devices|Synchronisiere deine Notizen zwischen Geräten]]
+5. [[Importiere Notizen|Importiere Notizen]]
+6. [[Synchronisiere deine Notizen zwischen Geräten|Synchronisiere deine Notizen zwischen Geräten]]
 
 ## Obsidian erweitern
 
 Mit unzähligen Erweiterungen und Farbschemata kannst du Obsidian ganz deiner individuellen Denkweise anpassen.
 
-- [[Core plugins|Obsidian-Erweiterungen]]
+- [[Standarderweiterungen|Obsidian-Erweiterungen]]
 	- Entscheide selbst, welche integrierten Obsidian-Funktionen du nutzen möchtest.
-- [[Community plugins|Externe Erweiterungen]]
+- [[Externe Erweiterungen|Externe Erweiterungen]]
 	- Schalte zusätzliche Funktionen frei mit Erweiterungen, die von Obsidian-Anwendern entwickelt wurden.
-- [[Themes|Farbschemata]]
+- [[Farbschemata|Farbschemata]]
 	- Gestalte das Erscheinungsbild der Anwendung mit von Nutzern erstellten Designs.
-- [[CSS snippets|CSS-Bausteine]]
+- [[CSS-Bausteine|CSS-Bausteine]]
 	- Ergänze die Benutzeroberfläche um kleine Anpassungen, zusätzlich zum gewählten Farbschema.
 - [[Introduction to Obsidian Web Clipper|Web Clipper]]
 	- Markiere Texte und speichere Webseiten in Obsidian mit unserer Browser-Erweiterung.
@@ -69,4 +69,4 @@ Du bist herzlich eingeladen, mögliche Tippfehler auf dieser Seite zu berichtige
 
 Falls du Obsidian finanziell unterstützen möchtest, bietet sich der Erwerb einer [[Catalyst license|Catalyst Lizenz]] an. Damit erhältst du frühzeitigen Zugang zu Beta-Versionen. Als Organisation kannst du uns mit dem Erwerb einer [[Commercial license|Kommerziellen Lizenz]] unterstützen.
 
-Ein besonderer [[Credits|Dank]] geht an all jene wunderbaren Menschen, die Obsidian möglich machen.
+Ein besonderer [[Danksagung|Dank]] geht an all jene wunderbaren Menschen, die Obsidian möglich machen.

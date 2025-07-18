@@ -24,21 +24,21 @@ For security-related questions concerning these topics, please refer to [[Securi
 
 ### Configuration folders
 
-The [[Configuration folder]] is where an Obsidian [[Glossary#Vault|vault]] stores its application settings. By default, this folder is named `.obsidian`, but you have the flexibility to [[Configuration folder#Changing your configuration folder|change the configuration folder]] name according to your preference.
+The [[Konfigurationsordner]] is where an Obsidian [[Glossar#Vault|vault]] stores its application settings. By default, this folder is named `.obsidian`, but you have the flexibility to [[Konfigurationsordner#Changing your configuration folder|change the configuration folder]] name according to your preference.
 
 We recommend creating a standardized template of the configuration folder to be deployed across your team's devices.
 
 ### Plugins
 
-[[Core plugins]] are optional features created by the Obsidian team. These features are integrated in the core application codebase and can be turned on or off.
+[[Standarderweiterungen]] are optional features created by the Obsidian team. These features are integrated in the core application codebase and can be turned on or off.
 
-[[Community plugins]] are third-party features added to the Obsidian application, and can be installed via the community directory. Third-party plugins leverage the [Obsidian API](https://github.com/obsidianmd/obsidian-api). Plugins are located in the `.obsidian/plugins` folder within a vault, and can be installed manually at this location.
+[[Externe Erweiterungen]] are third-party features added to the Obsidian application, and can be installed via the community directory. Third-party plugins leverage the [Obsidian API](https://github.com/obsidianmd/obsidian-api). Plugins are located in the `.obsidian/plugins` folder within a vault, and can be installed manually at this location.
 
 ### Themes and snippets
 
-[[Themes]] visually alter the Obsidian interface. Like plugins, themes can be downloaded from our community directory. Themes are located in the `.obsidian/themes` folder within a vault.
+[[Farbschemata]] visually alter the Obsidian interface. Like plugins, themes can be downloaded from our community directory. Themes are located in the `.obsidian/themes` folder within a vault.
 
-[[CSS snippets|Snippets]] are small `.css` files that visually modify aspects of the Obsidian interface. In some cases, it can also add functional enhancements. Snippets are located in the `.obsidian/snippets` folder within a vault.
+[[CSS-Bausteine|Snippets]] are small `.css` files that visually modify aspects of the Obsidian interface. In some cases, it can also add functional enhancements. Snippets are located in the `.obsidian/snippets` folder within a vault.
 
 ## Frequently asked questions
 

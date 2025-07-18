@@ -13,7 +13,7 @@ permalink: properties
 publish: true
 ---
 #TODO
-Properties allow you to organize information about a note. Properties contain structured data such as text, links, dates, checkboxes, and numbers. Properties can also be used in combination with [[Community plugins]] that can do useful things with your structured data.
+Properties allow you to organize information about a note. Properties contain structured data such as text, links, dates, checkboxes, and numbers. Properties can also be used in combination with [[Externe Erweiterungen]] that can do useful things with your structured data.
 
 ## Add properties to a note
 
@@ -75,7 +75,7 @@ You can change how properties are displayed in your note by going to  **Settings
 
 ### CSS snippets
 
-You can use [[CSS snippets]] to change the appearance of specific notes.
+You can use [[CSS-Bausteine]] to change the appearance of specific notes.
 
 ### Not supported
 
@@ -242,7 +242,7 @@ Obsidian comes with a set of default properties:
 | ------------ | ---- | ------------------------------------------------------------ |
 | `tags`       | List | See [[Bearbeiten und Formatieren/Tags\|Tags]].                   |
 | `aliases`    | List | See [[Aliases]].                                             |
-| `cssclasses` | List | Allows you to style individual notes using [[CSS snippets]]. |
+| `cssclasses` | List | Allows you to style individual notes using [[CSS-Bausteine]]. |
 
 ## Properties for Obsidian Publish
 

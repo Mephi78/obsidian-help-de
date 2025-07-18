@@ -276,7 +276,7 @@ Both images and icons should be optimized.
 
 Before submitting your Pull Request, please check for any broken links in the documentation of the translation you are working on and correct them. Broken links can occur naturally over time, so verifying their accuracy helps maintain the quality of the documentation.
 
-You can check for broken links using [[Community plugins]] or tools available in your IDE.
+You can check for broken links using [[Externe Erweiterungen]] or tools available in your IDE.
 
 ### Descriptions
 

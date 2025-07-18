@@ -2,7 +2,7 @@
 permalink: plugins/quick-switcher
 ---
 #TODO
-Quick switcher is a [[Core plugins|core plugin]] that lets you search and open notes using only your keyboard.
+Quick switcher is a [[Standarderweiterungen|core plugin]] that lets you search and open notes using only your keyboard.
 
 ## Open Quick switcher
 

@@ -20,7 +20,7 @@ We offer full refunds within 7 days of purchase with no questions asked for the 
 > - [[Obsidian Credit]] is not refundable because credit can be transferred to another account.
 
 > [!tip] Talk to a human
-> If you have any trouble with a transaction, or you need a refund past 7 days after purchase due to exceptional circumstances, [[Hilfe und Kontakt#Contact Obsidian support|contact Obsidian support]].
+> If you have any trouble with a transaction, or you need a refund past 7 days after purchase due to exceptional circumstances, [[Hilfe und Kontakt#Obsidian Support kontaktieren|contact Obsidian support]].
 
 ## Request a refund
 
@@ -38,7 +38,7 @@ Refunding an Obsidian Sync or Obsidian Publish subscription results in the delet
 No, your data is retained in such cases for 30 days. If you do not resubscribe within that period, your remote vault or publish site data will be deleted. Your local data will remain unaffected.
 
 **If I qualify for a discount but have paid for my subscription in the past 7 days, what should I do?**
-Please contact [[Hilfe und Kontakt#Contact Obsidian support|Obsidian support]] so we can assess your options.
+Please contact [[Hilfe und Kontakt#Obsidian Support kontaktieren|Obsidian support]] so we can assess your options.
 ^discount-then-refund
 
 **I purchased my subscription a few weeks ago and now qualify for a discount. Can I get a partial refund?**
