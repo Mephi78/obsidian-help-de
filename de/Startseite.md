@@ -53,7 +53,7 @@ Mit unzähligen Erweiterungen und Farbschemata kannst du Obsidian ganz deiner in
 	- Gestalte das Erscheinungsbild der Anwendung mit von Nutzern erstellten Designs.
 - [[CSS-Bausteine|CSS-Bausteine]]
 	- Ergänze die Benutzeroberfläche um kleine Anpassungen, zusätzlich zum gewählten Farbschema.
-- [[Introduction to Obsidian Web Clipper|Web Clipper]]
+- [[Obsidian Web Clipper|Web Clipper]]
 	- Markiere Texte und speichere Webseiten in Obsidian mit unserer Browser-Erweiterung.
 
 ## Zusatzdienste

@@ -47,8 +47,9 @@ Wir danken diesen Plugin-Entwicklern für ihre Pionierarbeit an Funktionen, die 
 
 - pjeby für das Hotkey Helper Plugin
 - javalent für das Admonition Plugin
-- NothingIsLost für verschiedene CodeMirror 6-Verbesserungen
+- NothingIsLost für CodeMirror 6-Verbesserungen
 - mgmeyers für das Indentation Guides Plugin
+- blacksmithgu für Dataview
 
 ## Builds
 
@@ -58,6 +59,7 @@ Wir danken diesen Plugin-Entwicklern für ihre Pionierarbeit an Funktionen, die 
 ## Übersetzer
 
 - Andrea Brandi (Italian)
+- Anne-Katrin aka Mephi (German)
 - bongudth (Vietnamese)
 - canzi-teacher, 蚕子 (Simplified Chinese)
 - cor-bee, Ілля Пишняк (Ukrainian)
@@ -72,7 +74,6 @@ Wir danken diesen Plugin-Entwicklern für ihre Pionierarbeit an Funktionen, die 
 - lisachev, Сергей Лисачев (Russian)
 - mafsi, Patrick Danilevici (Romanian)
 - Manuel Arias Almada (Spanish)
-- Mephi (German)
 - Muhammad Mauli Mubassari (Indonesian)
 - Olivier Anthonioz (French) 
 - Ryooo，睿悠ryooo (Chinese Simplified)

@@ -26,7 +26,7 @@ Anwendungen kommen und gehen - deine Daten jedoch sollten überdauern. Obsidian 
 
 ## Weitere Formate
 
-Deine Notiz-App ist nicht dabei? Schicke uns eine Anfrage oder [mach einfach mit](https://github.com/obsidianmd/obsidian-importer) bei der Weiterentwicklung unsere [[Importer]]-Erweiterung.
+Deine Notiz-App ist nicht dabei? Schicke uns eine Anfrage oder [mach einfach mit](https://github.com/obsidianmd/obsidian-importer) bei der Weiterentwicklung unserer [[Importer]]-Erweiterung.
 
 Unsere Community hat weitere Anleitungen geteilt, die dir bei der Migration nach Obsidian helfen könnten:
 
