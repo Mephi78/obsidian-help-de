@@ -27,7 +27,7 @@ This is another paragraph.
 A blank line between lines of text creates separate paragraphs. This is the default behavior in Markdown.
 
 > [!tip] Multiple blank spaces
-> Multiple adjacent blank spaces within and between paragraphs collapse into a single space when displayed in [[Views and editing mode#Reading view|Reading view]] or on [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
+> Multiple adjacent blank spaces within and between paragraphs collapse into a single space when displayed in [[Views and editing mode#Reading view|Reading view]] or on [[Obsidian Publish/Einführung|Obsidian Publish]] sites.
 > 
 > ```md
 > Multiple          adjacent          spaces

@@ -24,7 +24,7 @@ With the **app storage** option, your data is stored in Obsidian’s private app
 
 This is a good option if you're not using any external sync tools and prefer tighter app-level sandboxing for your notes.
 
-With this option you can use [[Introduction to Obsidian Sync|Obsidian Sync]] and third-party syncing plugins available through [[Externe Erweiterungen]], but you cannot use tools like Syncthing that rely on shared storage.
+With this option you can use [[Obsidian Sync/Einführung|Obsidian Sync]] and third-party syncing plugins available through [[Externe Erweiterungen]], but you cannot use tools like Syncthing that rely on shared storage.
 
 > [!warning] Uninstalling Obsidian will delete your local notes if you are using app storage
 > If you use the **App storage** option your local vault data will be deleted if you uninstall the app. Your Obsidian vault data on other devices will not be deleted.

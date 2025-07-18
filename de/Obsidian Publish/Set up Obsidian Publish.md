@@ -4,7 +4,7 @@ mobile: true
 permalink: publish/setup
 ---
 #TODO
-In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish]] for your vault, create a site, and publish your notes to it.
+In this guide, you'll enable [[Obsidian Publish/Einführung|Obsidian Publish]] for your vault, create a site, and publish your notes to it.
 
 ## Prerequisites
 

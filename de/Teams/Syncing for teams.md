@@ -8,13 +8,13 @@ Obsidian is designed to work both online and offline and give you total control 
 
 ## Syncing tools and services
 
-Obsidian offers an official service called [[Introduction to Obsidian Sync|Obsidian Sync]] which provides end-to-end encrypted syncing for small teams up to 20 users.
+Obsidian offers an official service called [[Obsidian Sync/Einführung|Obsidian Sync]] which provides end-to-end encrypted syncing for small teams up to 20 users.
 
 Because Obsidian stores your data in plain text `.md` files, there are numerous options available to [[Synchronisiere deine Notizen zwischen Geräten|sync data across devices]] and control access to your team's data. This can include version control systems such as Git, network attached storage systems, and many services such as Dropbox, Google Drive, and more.
 
 ## Obsidian Sync for teams
 
-With [[Introduction to Obsidian Sync|Obsidian Sync]] you can collaborate on a shared vault with your team. 
+With [[Obsidian Sync/Einführung|Obsidian Sync]] you can collaborate on a shared vault with your team. 
 
 All collaborators **must have an active Sync subscription** to access a shared vault. Joining a shared vault does not count towards your [[Plans and storage limits#Plans|remote vault limit]]. Note that Obsidian Sync is not included with the [[Commercial license]] and must be purchased separately.
 

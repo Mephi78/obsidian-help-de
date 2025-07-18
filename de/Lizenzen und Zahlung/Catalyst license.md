@@ -3,7 +3,7 @@ aliases:
   - Licenses & Payment/Catalyst license
 permalink: catalyst
 ---
-#TODO
+#WIP/Mephi 
 The Catalyst license is a one-time purchase that gives you early access to beta versions and helps support continued development of Obsidian. You can support Obsidian by [purchasing a Catalyst license](https://obsidian.md/buy/catalyst). 
 
 Benefits include:

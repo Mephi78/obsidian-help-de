@@ -4,7 +4,7 @@ aliases:
   - Interpreter
 ---
 #TODO
-Interpreter is a [[Obsidian Web Clipper|Web Clipper]] feature that lets you interact with web pages using natural language. Interpreter helps you capture and modify data that you want to save to Obsidian. For example:
+Interpreter is a [[Obsidian Web Clipper/Einführung|Web Clipper]] feature that lets you interact with web pages using natural language. Interpreter helps you capture and modify data that you want to save to Obsidian. For example:
 
 - Extract specific text fragments.
 - Summarize or explain information.

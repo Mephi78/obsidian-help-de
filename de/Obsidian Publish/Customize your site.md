@@ -6,7 +6,7 @@ permalink: publish/customize
 publish: true
 ---
 #TODO
-This page explains how you can customize how your [[Introduction to Obsidian Publish|Obsidian Publish]] site looks and feels.
+This page explains how you can customize how your [[Obsidian Publish/Einführung|Obsidian Publish]] site looks and feels.
 
 ## Static assets
 

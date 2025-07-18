@@ -246,7 +246,7 @@ Obsidian comes with a set of default properties:
 
 ## Properties for Obsidian Publish
 
-The following properties can be used with [[Introduction to Obsidian Publish|Obsidian Publish]]:
+The following properties can be used with [[Obsidian Publish/Einführung|Obsidian Publish]]:
 
 | Property      | Description                                                                                                |
 | ------------- | ---------------------------------------------------------------------------------------------------------- |

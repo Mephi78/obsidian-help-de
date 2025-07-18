@@ -53,14 +53,14 @@ Mit unzähligen Erweiterungen und Farbschemata kannst du Obsidian ganz deiner in
 	- Gestalte das Erscheinungsbild der Anwendung mit von Nutzern erstellten Designs.
 - [[CSS-Bausteine|CSS-Bausteine]]
 	- Ergänze die Benutzeroberfläche um kleine Anpassungen, zusätzlich zum gewählten Farbschema.
-- [[Obsidian Web Clipper|Web Clipper]]
+- [[Obsidian Web Clipper/Einführung|Web Clipper]]
 	- Markiere Texte und speichere Webseiten in Obsidian mit unserer Browser-Erweiterung.
 
 ## Zusatzdienste
 
-- [[Introduction to Obsidian Sync|Obsidian Sync]]
+- [[Obsidian Sync/Einführung|Obsidian Sync]]
 	- Synchronisiere deine Notizen zwischen Geräten und Betriebssystemen zuverlässig und sicher.
-- [[Introduction to Obsidian Publish|Obsidian Publish]]
+- [[Obsidian Publish/Einführung|Obsidian Publish]]
 	- Veröffentliche deine Notizen als Wiki, Wissensdatenbank, Dokumentation oder digitaler Garten.
 
 ## Mitmachen

@@ -10,8 +10,8 @@ permalink: refunds
 #TODO
 We offer full refunds within 7 days of purchase with no questions asked for the following services:
 
-- [[Introduction to Obsidian Publish|Obsidian Publish]]
-- [[Introduction to Obsidian Sync|Obsidian Sync]]
+- [[Obsidian Publish/Einführung|Obsidian Publish]]
+- [[Obsidian Sync/Einführung|Obsidian Sync]]
 
 > [!Warning] Non-refundable purchases
 > Some purchases are **not** refundable:

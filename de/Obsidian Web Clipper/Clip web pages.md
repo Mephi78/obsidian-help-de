@@ -4,7 +4,7 @@ aliases:
   - Obsidian Web Clipper/Capture web pages
 ---
 #TODO
-Once you install the [[Obsidian Web Clipper|Web Clipper]] browser extension, you can access it in several ways, depending on your browser:
+Once you install the [[Obsidian Web Clipper/Einführung|Web Clipper]] browser extension, you can access it in several ways, depending on your browser:
 
 1. The Obsidian icon in your browser toolbar.
 2. Hotkeys, to activate the extension from your keyboard.

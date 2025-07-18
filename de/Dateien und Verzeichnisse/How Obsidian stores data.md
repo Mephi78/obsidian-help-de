@@ -11,7 +11,7 @@ Obsidian stores your notes as [[Basic formatting syntax|Markdown-formatted]] pla
 
 Because notes are plain text files, you can use other text editors and file managers to edit and manage notes. Obsidian automatically refreshes your vault to keep up with any external changes.
 
-You can create a vault anywhere your operating system allows. Obsidian syncs with [[Introduction to Obsidian Sync|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git, and many other third-party services.
+You can create a vault anywhere your operating system allows. Obsidian syncs with [[Obsidian Sync/Einführung|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git, and many other third-party services.
 
 You can open multiple folders as individual vaults, for example to separate notes for work and school.
 
@@ -43,7 +43,7 @@ Obsidian stores global settings in a system folder. The location of the system f
 
 ## IndexedDB
 
-IndexedDB is a low-level, client-side database that Obsidian uses for backend storage. It helps maintain the state of [[Introduction to Obsidian Sync|Obsidian Sync]] connections, and preserves the [[#Metadata cache]] when the application is closed. 
+IndexedDB is a low-level, client-side database that Obsidian uses for backend storage. It helps maintain the state of [[Obsidian Sync/Einführung|Obsidian Sync]] connections, and preserves the [[#Metadata cache]] when the application is closed. 
 
 > [!warning] If Apple's [Lockdown Mode](<https://support.apple.com/en-us/105120>) is enabled and Obsidian is not excluded, these database files will not save, requiring reindexing each time the app starts.
 
