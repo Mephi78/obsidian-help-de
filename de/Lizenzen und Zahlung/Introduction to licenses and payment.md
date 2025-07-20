@@ -15,7 +15,7 @@ Obsidian offers several services and licenses available for purchase.
 	- Purchase and Gift Obsidian services.
 - [[Commercial license]]
 	- Support Obsidian and become a featured organization.
-- [[Catalyst license]]
+- [[Catalyst Lizenz]]
 	- Support Obsidian and get early access versions.
 
  [[Education and non-profit discount|Discounts]] are available for Obsidian Sync and Publish for educational and non-profit organizations. See our [[Refund policy]] for more information.

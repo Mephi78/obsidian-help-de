@@ -1,9 +1,9 @@
 ---
 aliases:
-  - Licenses & Payment/Obsidian Credit
+  - Lizenzen & Zahlung/Obsidian Credit
   - Gifting
-  - Licenses & Payment/Gifting
-  - Licenses and Payment/Gifting
+  - Lizenzen & Zahlung/Gifting
+  - Lizenzen & Zahlung/Gifting
 permalink: credit
 ---
 #TODO

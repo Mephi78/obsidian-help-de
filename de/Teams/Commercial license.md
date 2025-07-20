@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Licenses & Payment/Commercial license
+  - Lizenzen & Zahlung/Commercial license
   - Commercial licenses
 permalink: teams/license
 ---

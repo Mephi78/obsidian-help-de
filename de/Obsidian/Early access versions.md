@@ -5,7 +5,7 @@ aliases:
 permalink: early-access
 ---
 #TODO
-Get early access to upcoming releases by enabling _early access versions_. Early access versions are only available to users with a [[Catalyst license]].
+Get early access to upcoming releases by enabling _early access versions_. Early access versions are only available to users with a [[Catalyst Lizenz]].
 
 > [!warning]
 > Early access versions are beta releases. They include new features but may be less stable. Don't enable early access versions if you prefer a more reliable experience.
@@ -30,7 +30,7 @@ To receive early access versions as soon as they're available, follow these step
 To find instructions on how to install early access versions on your mobile device, follow these steps:
 
 1. Join the [Obsidian Discord server](https://discord.gg/veuWUTm).
-2. [[Catalyst license#Get your Discord badge|Get your Discord badge]] to access insider channels.
+2. [[Catalyst Lizenz#Discord-Abzeichen erhalten|Get your Discord badge]] to access insider channels.
 3. Open Discord.
 4. In the `#insider-mobile-release` channel, open **Pinned Messages**.
    - On desktop, select the pushpin icon in the upper-right corner.

@@ -38,9 +38,9 @@ publish: true
 
 ## Wichtig
 
-Wenn du Obsidian Sync zusammen mit anderen Cloud-Speicher-Lösungen wie Dropbox, Google Drive oder OneDrive verwendest, [[Back up your Obsidian files|sichere bitte deine Obsidian-Dateien]], um Konflikten bei der Synchronisierung vorzubeugen. Wir empfehlen dringend eine [[Switch to Obsidian Sync|vollständige Migration auf Obsidian Sync]].
+Wenn du Obsidian Sync zusammen mit anderen Cloud-Speicher-Lösungen wie Dropbox, Google Drive oder OneDrive verwendest, [[Back up your Obsidian files|sichere bitte deine Obsidian-Dateien]], um dich für mögliche Konflikte bei der Synchronisierung abzusichern. Wir empfehlen jedoch grundsätzlich eine [[Switch to Obsidian Sync|vollständige Migration auf Obsidian Sync]].
 
-Siehe [[Frequently asked questions|FAQ]] für häufig gestellte Fragen und weitere Informationen über Obsidian Sync.
+Für häufig gestellte Fragen und weitere Informationen über Obsidian Sync, siehe [[Obsidian Sync/Frequently asked questions|FAQ]].
 
 > [!warning] Diese Funktion ist auf Apple-Geräten mit aktivierten [Lockdown-Modus](https://support.apple.com/en-us/105120) nicht verfügbar, es sei denn, Obsidian wird davon ausgenommen.
 

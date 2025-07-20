@@ -61,12 +61,12 @@ Mit unzähligen Erweiterungen und Farbschemata kannst du Obsidian ganz deiner in
 - [[Obsidian Sync/Einführung|Obsidian Sync]]
 	- Synchronisiere deine Notizen zwischen Geräten und Betriebssystemen zuverlässig und sicher.
 - [[Obsidian Publish/Einführung|Obsidian Publish]]
-	- Veröffentliche deine Notizen als Wiki, Wissensdatenbank, Dokumentation oder digitaler Garten.
+	- Veröffentliche deine Notizen als Dokumentation, Wiki, Wissensdatenbank oder digitaler Garten.
 
 ## Mitmachen
 
 Du bist herzlich eingeladen, mögliche Tippfehler auf dieser Seite zu berichtigen oder fehlende Informationen zu ergänzen. Korrekturen und Übersetzungen kannst du über unser [GitHub Repository](https://github.com/obsidianmd/obsidian-docs/) beitragen.
 
-Falls du Obsidian finanziell unterstützen möchtest, bietet sich der Erwerb einer [[Catalyst license|Catalyst Lizenz]] an. Damit erhältst du frühzeitigen Zugang zu Beta-Versionen. Als Organisation kannst du uns mit dem Erwerb einer [[Commercial license|Kommerziellen Lizenz]] unterstützen.
+Falls du Obsidian finanziell unterstützen möchtest, bietet sich der Erwerb einer [[Catalyst Lizenz|Catalyst Lizenz]] an. Damit erhältst du frühzeitigen Zugang zu Beta-Versionen. Als Organisation kannst du uns mit dem Erwerb einer [[Commercial license|Kommerziellen Lizenz]] unterstützen.
 
 Ein besonderer [[Danksagung|Dank]] geht an all jene wunderbaren Menschen, die Obsidian möglich machen.

@@ -1,7 +1,7 @@
 ---
 aliases:
   - Student and non-profit discount
-  - Licenses & Payment/Education and non-profit discount
+  - Lizenzen & Zahlung/Education and non-profit discount
   - Discounts
 cssclasses:
   - soft-embed
