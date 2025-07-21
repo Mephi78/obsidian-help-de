@@ -8,6 +8,6 @@ One of the best ways to support the team is through one or more of our paid prod
 
 - If you need to sync notes across your devices, consider a subscription for [[Obsidian Sync/Einführung|Obsidian Sync]].
 - If you want to publish your notes to the world, consider a subscription for [[Obsidian Publish/Einführung|Obsidian Publish]].
-- If you use Obsidian at work, consider supporting Obsidian by purchasing a [[Commercial license|Commercial license]].
+- If you use Obsidian at work, consider supporting Obsidian by purchasing a [[Kommerzielle Lizenz|Kommerzielle Lizenz]].
 
 We understand that you might not be interested in any of our other paid products right now, though we'd love to know how we can change that! If you still want to support Obsidian, consider getting a [[Catalyst Lizenz]].

@@ -16,7 +16,7 @@ We offer full refunds within 7 days of purchase with no questions asked for the 
 > [!Warning] Non-refundable purchases
 > Some purchases are **not** refundable:
 > 
-> - [[Catalyst Lizenz|Catalyst licenses]] and [[Commercial license|Commercial licenses]] are not refundable. They are intended to support Obsidian development and are not services.
+> - [[Catalyst Lizenz|Catalyst licenses]] and [[Kommerzielle Lizenz|Commercial licenses]] are not refundable. They are intended to support Obsidian development and are not services.
 > - [[Obsidian Credit]] is not refundable because credit can be transferred to another account.
 
 > [!tip] Talk to a human

@@ -16,7 +16,7 @@ Because Obsidian stores your data in plain text `.md` files, there are numerous 
 
 With [[Obsidian Sync/Einführung|Obsidian Sync]] you can collaborate on a shared vault with your team. 
 
-All collaborators **must have an active Sync subscription** to access a shared vault. Joining a shared vault does not count towards your [[Plans and storage limits#Plans|remote vault limit]]. Note that Obsidian Sync is not included with the [[Commercial license]] and must be purchased separately.
+All collaborators **must have an active Sync subscription** to access a shared vault. Joining a shared vault does not count towards your [[Plans and storage limits#Plans|remote vault limit]]. Note that Obsidian Sync is not included with the [[Kommerzielle Lizenz]] and must be purchased separately.
 
 If the remote vault is [[Obsidian Sync/Security and privacy#Encryption|end-to-end encrypted]], collaborators must enter the encryption password when they first access the shared remote vault.
 

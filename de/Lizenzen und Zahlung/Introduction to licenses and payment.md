@@ -13,7 +13,7 @@ Obsidian offers several services and licenses available for purchase.
 	- Publish notes to the web.
 - [[Obsidian Credit]]
 	- Purchase and Gift Obsidian services.
-- [[Commercial license]]
+- [[Kommerzielle Lizenz]]
 	- Support Obsidian and become a featured organization.
 - [[Catalyst Lizenz]]
 	- Support Obsidian and get early access versions.
