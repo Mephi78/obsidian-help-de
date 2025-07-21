@@ -146,6 +146,6 @@ embed OR search
 ````
 
 
-[[Introduction to Obsidian Publish|Obsidian Publish]] doesn't support embedded [[Publish limitations#Search|search results]]. To see a live rendered example, use the code block above within your vault.
+[[Obsidian Publish/Einführung|Obsidian Publish]] doesn't support embedded [[Publish limitations#Search|search results]]. To see a live rendered example, use the code block above within your vault.
 
 ![[search-query-rendered.png#]]

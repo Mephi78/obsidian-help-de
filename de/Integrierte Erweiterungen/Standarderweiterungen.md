@@ -61,13 +61,13 @@ Einige Kernfunktionen sind standardmäßig deaktiviert. Du kannst sie unter **Op
 	- Führe Befehle innerhalb des Editors aus, indem du einen Slash `/` eingibst.
 - [[Search|Suchen]]
 	- Finde Dateien in deinem Vault.
-- [[Introduction to Obsidian Sync|Sync]]
+- [[Obsidian Sync/Einführung|Sync]]
 	- Synchronisiere deine Notizen geräteübergreifend.
 - [[Tags view|Tag-Bereich]]
 	- Liste alle Tags in deinem Vault auf.
 - [[Daily notes|Tägliche Notizen]]
 	- Erstelle und öffne Notizen basierend auf dem aktuellen Datum.
-- [[Introduction to Obsidian Publish|Veröffentlichen]]
+- [[Obsidian Publish/Einführung|Veröffentlichen]]
 	- Veröffentliche deine Notizen als Webseite, Wiki oder Dokumentation.
 - [[Integrierte Erweiterungen/Templates|Vorlagen]]
 	- Füge vordefinierte Inhalte in deine Notizen ein.

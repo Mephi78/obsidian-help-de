@@ -11,7 +11,7 @@ publish: true
 #TODO
 ## Plans
 
-To sync your notes with [[Introduction to Obsidian Sync|Obsidian Sync]] you need a subscription plan. You can purchase a Sync plan by logging into [your account](https://obsidian.md/account/sync). See the [Sync landing page](https://obsidian.md/sync) for pricing.
+To sync your notes with [[Obsidian Sync/Einführung|Obsidian Sync]] you need a subscription plan. You can purchase a Sync plan by logging into [your account](https://obsidian.md/account/sync). See the [Sync landing page](https://obsidian.md/sync) for pricing.
 
 Below is a comparison between the Standard plan and Plus plan:
 
@@ -26,7 +26,7 @@ Below is a comparison between the Standard plan and Plus plan:
 
 ## Storage limits
 
-The amount of data you can store using [[Introduction to Obsidian Sync|Obsidian Sync]] depends on your subscription plan. On the Sync Plus plan you can purchase additional storage up to 100 GB via [your account dashboard](https://obsidian.md/account/sync). See [[Frequently asked questions]] for more details.
+The amount of data you can store using [[Obsidian Sync/Einführung|Obsidian Sync]] depends on your subscription plan. On the Sync Plus plan you can purchase additional storage up to 100 GB via [your account dashboard](https://obsidian.md/account/sync). See [[Frequently asked questions]] for more details.
 
 There is a single account-wide storage limit for all notes across your vaults. [[Version history]] and [[Attachments]] are also counted towards your account's storage limit.
 

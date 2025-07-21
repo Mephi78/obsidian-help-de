@@ -6,7 +6,7 @@ permalink: publish/analytics
 #TODO
 ## Prerequisites
 
-To use analytics on your [[Introduction to Obsidian Publish|Obsidian Publish]] site, you need a [[Custom domains|custom domain]].
+To use analytics on your [[Obsidian Publish/Einführung|Obsidian Publish]] site, you need a [[Custom domains|custom domain]].
 
 > [!important]
 > Before you enable analytics, make sure that your local laws and regulations allow you to track your visitors. Depending the tools you use, you may need to add a consent banner to your site.

@@ -10,7 +10,7 @@ permalink: sync/collaborate
 publish: true
 ---
 #TODO
-With [[Introduction to Obsidian Sync|Obsidian Sync]] you can collaborate on a shared vault with your team.
+With [[Obsidian Sync/Einführung|Obsidian Sync]] you can collaborate on a shared vault with your team.
 
 All collaborators must have an active Sync subscription to access a shared vault. Joining a shared vault does not count towards your [[Frequently asked questions#How many remote vaults can I have?|vault limit]].
 

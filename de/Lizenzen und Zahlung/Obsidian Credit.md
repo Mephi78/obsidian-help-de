@@ -1,9 +1,9 @@
 ---
 aliases:
-  - Licenses & Payment/Obsidian Credit
+  - Lizenzen & Zahlung/Obsidian Credit
   - Gifting
-  - Licenses & Payment/Gifting
-  - Licenses and Payment/Gifting
+  - Lizenzen & Zahlung/Gifting
+  - Lizenzen & Zahlung/Gifting
 permalink: credit
 ---
 #TODO
@@ -25,7 +25,7 @@ Obsidian Credit will be applied before any payment is due, including auto-renewa
 
 ## Gifting
 
-Although Obsidian is completely free to use, you can give the gift of Obsidian Credit to help someone get an add-on service like [[Introduction to Obsidian Sync|Obsidian Sync]] or a [[Commercial license|Commercial license]] for using Obsidian at work.
+Although Obsidian is completely free to use, you can give the gift of Obsidian Credit to help someone get an add-on service like [[Obsidian Sync/Einführung|Obsidian Sync]] or a [[Kommerzielle Lizenz|Kommerzielle Lizenz]] for using Obsidian at work.
 
 Please note that Obsidian Credit **cannot** be re-gifted once claimed. The original recipient will not be able to transfer or share it with others.
 

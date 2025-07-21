@@ -258,7 +258,7 @@ The second image lacks the outline anchor tag.
 
 ### Optimization
 
-Images slow the loading time of the page, and take valuable [[Introduction to Obsidian Publish|Publish]] storage space. Optimizing images allows a reduction in file size, but maintains the visual integrity of the image. 
+Images slow the loading time of the page, and take valuable [[Obsidian Publish/Einführung|Publish]] storage space. Optimizing images allows a reduction in file size, but maintains the visual integrity of the image. 
 
 Both images and icons should be optimized.
 
@@ -280,7 +280,7 @@ You can check for broken links using [[Externe Erweiterungen]] or tools availabl
 
 ### Descriptions
 
-This documentation is edited on GitHub and hosted online via [[Introduction to Obsidian Publish|Obsidian Publish]], which includes [[Social media link previews#Description|descriptions]] for social cards and other [[SEO]] elements.
+This documentation is edited on GitHub and hosted online via [[Obsidian Publish/Einführung|Obsidian Publish]], which includes [[Social media link previews#Description|descriptions]] for social cards and other [[SEO]] elements.
 
 If the page you are working on does not have a `description` [[Properties|property]], please add one. The description should be 150 characters or fewer and provide an objective summary of the page’s content.
 

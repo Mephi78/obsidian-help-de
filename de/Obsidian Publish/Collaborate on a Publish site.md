@@ -7,7 +7,7 @@ permalink: publish/collaborate
 publish: true
 ---
 #TODO
-Learn how to collaborate on your [[Introduction to Obsidian Publish|Obsidian Publish]] site with other Obsidian users. By adding your friends and colleagues as collaborators, they can publish changes to your site.
+Learn how to collaborate on your [[Obsidian Publish/Einführung|Obsidian Publish]] site with other Obsidian users. By adding your friends and colleagues as collaborators, they can publish changes to your site.
 
 Only the site owner needs an active subscription for Obsidian Publish. Collaborators only need an [Obsidian account](https://obsidian.md/account).
 
@@ -37,7 +37,7 @@ To update a local note with changes from the live site:
 1. In [[Ribbon]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**
 2. Right-click or long-press the change you want to sync, and then select **Use live version**. **This will overwrite the note in your local vault.**
 
-> [!tip] We recommend that you use another tool to sync changes between vaults, such as [[Introduction to Obsidian Sync|Obsidian Sync]] or [git](https://git-scm.com/).
+> [!tip] We recommend that you use another tool to sync changes between vaults, such as [[Obsidian Sync/Einführung|Obsidian Sync]] or [git](https://git-scm.com/).
 
 ## Permissions
 

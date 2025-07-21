@@ -7,15 +7,15 @@ permalink: payment
 #TODO
 Obsidian offers several services and licenses available for purchase.
 
-- [[Introduction to Obsidian Sync|Obsidian Sync]]
+- [[Obsidian Sync/Einführung|Obsidian Sync]]
 	- Sync notes across devices.
-- [[Introduction to Obsidian Publish|Obsidian Publish]]
+- [[Obsidian Publish/Einführung|Obsidian Publish]]
 	- Publish notes to the web.
 - [[Obsidian Credit]]
 	- Purchase and Gift Obsidian services.
-- [[Commercial license]]
+- [[Kommerzielle Lizenz]]
 	- Support Obsidian and become a featured organization.
-- [[Catalyst license]]
+- [[Catalyst Lizenz]]
 	- Support Obsidian and get early access versions.
 
  [[Education and non-profit discount|Discounts]] are available for Obsidian Sync and Publish for educational and non-profit organizations. See our [[Refund policy]] for more information.

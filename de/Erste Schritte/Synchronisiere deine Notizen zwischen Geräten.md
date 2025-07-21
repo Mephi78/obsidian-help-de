@@ -30,7 +30,7 @@ Hier sind einige Synchronisierungsmethoden, die sich für [Obsidian-Nutzer](http
 
 **Empfohlene Systeme**: `Windows`, `macOS`, `Linux`, `iOS`, `Android`
 
-Die einfachste und offiziell unterstützte Synchronisierungsmethode bietet unsere Lösung aus erster Hand: [[Introduction to Obsidian Sync|Obsidian Sync]].
+Die einfachste und offiziell unterstützte Synchronisierungsmethode bietet unsere Lösung aus erster Hand: [[Obsidian Sync/Einführung|Obsidian Sync]].
 
 Obsidian Sync ist Ende-zu-Ende-verschlüsselt für maximale Privatsphäre und bietet eine nahtlose Integration in Obsidian.
 
@@ -117,7 +117,7 @@ iCloud kann verwendet werden, um Vaults zwischen iOS und macOS zu synchronisiere
 
 > [!Tip] Erfolgsrezepte:
 > - Setze deine Vault-Dateien auf **Offline verfügbar**, um Synchronisierungsprobleme mit Google Drive aufgrund von Dateiauslagerungen zu vermeiden.
-> - Für iOS empfehlen wir, eine alternative Synchronierungsmethode zu nutzen, wie [[Introduction to Obsidian Sync|Obsidian Sync]], [[#iCloud]] oder das **Remotely Save** Plugin.
+> - Für iOS empfehlen wir, eine alternative Synchronierungsmethode zu nutzen, wie [[Obsidian Sync/Einführung|Obsidian Sync]], [[#iCloud]] oder das **Remotely Save** Plugin.
 
 ## Syncthing
 
@@ -170,7 +170,7 @@ Syncthing ermöglicht die dezentralisierte Synchronisierung von Dateien ohne Clo
 ## iPhone und iPad
 
 **Empfohlene Methoden**:
-- [[Introduction to Obsidian Sync|Obsidian Sync]]
+- [[Obsidian Sync/Einführung|Obsidian Sync]]
 - [[#iCloud]]
 
 > [!Important] Vermeide die gleichzeitige Verwendung unterschiedlicher Synchronisierungsdienste **für denselben Vault** (bspw. die gleichzeitige Nutzung von Obsidian Sync und iCloud), da dies zu Datenkonflikten und Beschädigung deiner Dateien führen kann.
@@ -213,7 +213,7 @@ Jede Synchronisierungsmethode hat ihre Vor- und Nachteile, was Kosten, Privatsph
 
 |                                                  | Ende-zu-Ende<br>Verschlüsselung | Versions-<br>Historie |
 | ------------------------------------------------ | ------------------------ | ------------------ |
-| [[Introduction to Obsidian Sync\|Obsidian Sync]] | ✅                        | ✅                  |
+| [[Obsidian Sync/Einführung\|Obsidian Sync]] | ✅                        | ✅                  |
 | iCloud                                           | Optional                 | ❌                  |
 | OneDrive                                         | ❌                        | ❌                  |
 | Google Drive                                     | ❌                        | ❌                  |
