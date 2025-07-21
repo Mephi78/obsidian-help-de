@@ -10,7 +10,7 @@ Our [Security](https://obsidian.md/security) page compiles information about how
 
 Obsidian is designed to function as an offline and standalone application. Obsidian also supports custom plugins and themes. Additionally, we provide both official and unofficial support for various file syncing services.
 
-If you do not intend to use community plugins or themes, or [[Introduction to Obsidian Sync|Obsidian Sync]] or [[Introduction to Obsidian Publish|Obsidian Publish]], your standard procedures for securing applications will apply. However, if you plan to use any of these features, we recommend thoroughly evaluating their suitability for your workplace.
+If you do not intend to use community plugins or themes, or [[Obsidian Sync/Einführung|Obsidian Sync]] or [[Obsidian Publish/Einführung|Obsidian Publish]], your standard procedures for securing applications will apply. However, if you plan to use any of these features, we recommend thoroughly evaluating their suitability for your workplace.
 
 ## Community plugins and themes
 
@@ -59,10 +59,10 @@ Obsidian makes network requests to both `github.com` and `raw.githubuserconte
 ### Account security
 
 **Does Obsidian support Single Sign-On (SSO)?**
-Obsidian does not support SSO. In most use cases, Obsidian does not require an account or sign-on in your workplace, unless you are using [[Introduction to Obsidian Publish|Obsidian Publish]] or [[Introduction to Obsidian Sync|Obsidian Sync]].
+Obsidian does not support SSO. In most use cases, Obsidian does not require an account or sign-on in your workplace, unless you are using [[Obsidian Publish/Einführung|Obsidian Publish]] or [[Obsidian Sync/Einführung|Obsidian Sync]].
 
 **Does Obsidian support Multi-Factor Authentication (MFA)?**
-Obsidian supports [[2-factor authentication]] (2FA) for Obsidian accounts, but it does not support 2FA for opening and using the base application. Users of [[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]] who have 2FA enabled will be required to confirm their 2FA key when they first log into the application.
+Obsidian supports [[2-factor authentication]] (2FA) for Obsidian accounts, but it does not support 2FA for opening and using the base application. Users of [[Obsidian Sync/Einführung|Obsidian Sync]] and [[Obsidian Publish/Einführung|Obsidian Publish]] who have 2FA enabled will be required to confirm their 2FA key when they first log into the application.
 
 ### Assessments and certifications
 

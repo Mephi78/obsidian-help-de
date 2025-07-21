@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Licenses & Payment/Refund policy
+  - Lizenzen & Zahlung/Refund policy
   - Cancel my subscription
   - Cancel subscription
 cssclasses:
@@ -10,13 +10,13 @@ permalink: refunds
 #TODO
 We offer full refunds within 7 days of purchase with no questions asked for the following services:
 
-- [[Introduction to Obsidian Publish|Obsidian Publish]]
-- [[Introduction to Obsidian Sync|Obsidian Sync]]
+- [[Obsidian Publish/Einführung|Obsidian Publish]]
+- [[Obsidian Sync/Einführung|Obsidian Sync]]
 
 > [!Warning] Non-refundable purchases
 > Some purchases are **not** refundable:
 > 
-> - [[Catalyst license|Catalyst licenses]] and [[Commercial license|Commercial licenses]] are not refundable. They are intended to support Obsidian development and are not services.
+> - [[Catalyst Lizenz|Catalyst licenses]] and [[Kommerzielle Lizenz|Commercial licenses]] are not refundable. They are intended to support Obsidian development and are not services.
 > - [[Obsidian Credit]] is not refundable because credit can be transferred to another account.
 
 > [!tip] Talk to a human

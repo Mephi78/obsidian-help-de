@@ -8,7 +8,7 @@ permalink: sync/migrate
 publish: true
 ---
 #TODO
-When you create a [[Local and remote vaults|remote vault]] through [[Introduction to Obsidian Sync|Obsidian Sync]] your data is encrypted and stored on one of Obsidian's specific regional Sync servers.
+When you create a [[Local and remote vaults|remote vault]] through [[Obsidian Sync/Einführung|Obsidian Sync]] your data is encrypted and stored on one of Obsidian's specific regional Sync servers.
 
 This guide explains how to move your Sync vault to a different regional server.
 

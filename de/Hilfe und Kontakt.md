@@ -55,7 +55,7 @@ Nachdem du auf diese Weise die Entwicklerkonsole geöffnet hast:
 
 ### Obsidian Support kontaktieren
 
-Obsidian bietet E-Mail-Support nur für Anfragen zu kommerziellen Lizenzen, deinem Obsidian Konto, Zahlungen und kostenpflichtigen Zusatzdiensten ([[Introduction to Obsidian Sync|Obsidian Sync]] und [[Introduction to Obsidian Publish|Obsidian Publish]]). Wenn du Hilfe zu einem dieser Themen benötigst, sende eine [E-Mail an das Obsidian Team](mailto:support@obsidian.md).
+Obsidian bietet E-Mail-Support nur für Anfragen zu kommerziellen Lizenzen, deinem Obsidian Konto, Zahlungen und kostenpflichtigen Zusatzdiensten ([[Obsidian Sync/Einführung|Obsidian Sync]] und [[Obsidian Publish/Einführung|Obsidian Publish]]). Wenn du Hilfe zu einem dieser Themen benötigst, sende eine [E-Mail an das Obsidian Team](mailto:support@obsidian.md).
 
 ## Sicherheitsprobleme melden
 

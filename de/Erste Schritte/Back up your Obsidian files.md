@@ -14,7 +14,7 @@ By default, Obsidian stores your notes **locally** on your device, not in the 
 
 ## Syncing is not a backup
 
-Services like [[Introduction to Obsidian Sync|Obsidian Sync]], iCloud, OneDrive, and Dropbox help you sync your notes across different devices. While they may offer features like [[Version history|note restoration]], **they are not designed for backups**. Syncing keeps your notes updated, but it doesn’t protect against data loss.
+Services like [[Obsidian Sync/Einführung|Obsidian Sync]], iCloud, OneDrive, and Dropbox help you sync your notes across different devices. While they may offer features like [[Version history|note restoration]], **they are not designed for backups**. Syncing keeps your notes updated, but it doesn’t protect against data loss.
 
 - **Sync:** Syncing ensures your files are the same on all devices. When you change a file on one device, it updates on all synced devices. Syncing services do not have a "primary" device.
 - **Backup:** A backup saves a copy of your data in a different location to help recover it in case of data loss or corruption. Backups are not meant for real-time updates or collaboration.

@@ -9,7 +9,7 @@ mobile: true
 publish: true
 ---
 #TODO
-[[Introduction to Obsidian Sync|Obsidian Sync]] regularly checks for updates to your [[Sync settings and selective syncing|synced files]], keeping a record of any changes. These are stored as new entries in the [[#Version history]]. This information can be accessed in a few ways:
+[[Obsidian Sync/Einführung|Obsidian Sync]] regularly checks for updates to your [[Sync settings and selective syncing|synced files]], keeping a record of any changes. These are stored as new entries in the [[#Version history]]. This information can be accessed in a few ways:
 
 - [[#Sync history]]
 - [[#Version history]]
@@ -30,7 +30,7 @@ In the sidebar, you can select an item to open its file in your active window. T
 
 ### Show Sync history
 
-When you enable the [[Introduction to Obsidian Sync|Sync]] core plugin, Sync history is automatically enabled but does not appear in the sidebar by default. You will need to manually add it using a command or a hotkey.
+When you enable the [[Obsidian Sync/Einführung|Sync]] core plugin, Sync history is automatically enabled but does not appear in the sidebar by default. You will need to manually add it using a command or a hotkey.
 
 #### Enable via Command palette
 

@@ -12,7 +12,7 @@ permalink: sync/vault-types
 publish: true
 ---
 #TODO
-If you want to use your notes on different devices, one of the options you have is to [[Synchronisiere deine Notizen zwischen Geräten]]. Obsidian offers one such service, [[Introduction to Obsidian Sync|Obsidian Sync]], that works differently than other syncing services, like [[Synchronisiere deine Notizen zwischen Geräten#iCloud|iCloud]] and [[Synchronisiere deine Notizen zwischen Geräten#OneDrive|OneDrive]].
+If you want to use your notes on different devices, one of the options you have is to [[Synchronisiere deine Notizen zwischen Geräten]]. Obsidian offers one such service, [[Obsidian Sync/Einführung|Obsidian Sync]], that works differently than other syncing services, like [[Synchronisiere deine Notizen zwischen Geräten#iCloud|iCloud]] and [[Synchronisiere deine Notizen zwischen Geräten#OneDrive|OneDrive]].
 
 Here are some key terms:
 
@@ -60,7 +60,7 @@ If the cloud service has background syncing, then some of these processes may be
 
 ## Obsidian Sync
 
-Obsidian Sync allows you to create a remote vault that serves as centralized storage through its [[Introduction to Obsidian Sync|Obsidian Sync]] service. This allows you to choose almost any folder on any of your devices to store your files - whether on an external hard drive, in `C:\`, or in App storage on Android.
+Obsidian Sync allows you to create a remote vault that serves as centralized storage through its [[Obsidian Sync/Einführung|Obsidian Sync]] service. This allows you to choose almost any folder on any of your devices to store your files - whether on an external hard drive, in `C:\`, or in App storage on Android.
 
 However, we do have a list of recommended locations for your local vault if you also use [[#File-based sync services]] on the same device - mainly, anywhere that is not in a [[Switch to Obsidian Sync#Move your vault out of your third-party syncing service or cloud storage|third-party syncing service]].
 

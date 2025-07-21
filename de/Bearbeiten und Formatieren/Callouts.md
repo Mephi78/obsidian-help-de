@@ -23,7 +23,7 @@ To create a callout, add `[!info]` to the first line of a blockquote, where `inf
 > It supports **Markdown**, [[Internal links|Wikilinks]] and [[Embed files|embeds]]!
 > ![[Engelbart.jpg]]
 
-Callouts are also supported natively on [[Introduction to Obsidian Publish|Obsidian Publish]].
+Callouts are also supported natively on [[Obsidian Publish/Einführung|Obsidian Publish]].
 
 > [!note]
 > If you're also using the Admonitions plugin, you should update it to at least version 8.0.0 to avoid problems with the new callout feature.
