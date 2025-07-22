@@ -3,13 +3,13 @@ Erste Schritte
 - Lege einen Vault an
 - Erstelle deine erste Notiz
 - Verlinke Notizen
-- Sandkasten-Vault
+- Sandbox-Vault
 
 - Importiere Notizen
 - Synchronisiere deine Notizen zwischen Geräten
-- X Backup
-- X Update
-- X Mobile
+- Erstelle eine Sicherheitskopie deines Vaults
+- Aktualisiere Obsidian
+- Obsidian Mobile
 - Glossar
 
 Notizen Importieren
