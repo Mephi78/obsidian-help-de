@@ -11,7 +11,7 @@ Hast du Fragen zur Bedienung von Obsidian oder möchtest dich mit anderen Obsidi
 - [Tritt unserem Discord Server bei](https://discord.gg/obsidianmd)
 - [Besuche unser Forum](https://forum.obsidian.md/)
 
-Einen guten Einstieg in die Verwendung von Obsidian bietet auch unser [[Sandbox Vault|Sandbox-Vault]].
+Einen guten Einstieg in die Verwendung von Obsidian bietet auch unser [[Sandbox-Vault|Sandbox-Vault]].
 
 ### Fehler melden oder neue Funktionen anfragen
 

@@ -38,7 +38,7 @@ Um einen CSS-Baustein in Obsidian ![[obsidian-icon-smartphone.svg#icon]] **Mobil
 
 Weiterhin kannst du
 
-- Änderungen an den Darstellungseinstellungen [[Synchronisiere deine Notizen zwischen Geräten|synchronisieren]].
+- Änderungen an den Darstellungseinstellungen [[Synchronisiere Notizen zwischen Geräten|synchronisieren]].
 - Eine externe Erweiterung verwenden, um CSS-Schnipsel direkt in Obsidian zu erstellen.
 
 Ist ein CSS-Baustein aktiviert, wird Obsidian Änderungen daran automatisch erkennen und anwenden, sobald du die CSS-Datei speicherst.

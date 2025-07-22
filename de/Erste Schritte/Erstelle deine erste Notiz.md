@@ -34,4 +34,4 @@ Erfahre mehr darüber, wie du deine Notizen mit Markdown formatieren kannst unte
 
 Erfahre, wie du [[Verlinke Notizen| Notizen verlinkst]], um deine Gedanken und Ideen zu vernetzen.
 
-Vielleicht möchtest du auch mit dem [[Sandbox vault|Sandkasten Vault]] weitere Anwendungsfunktionen entdecken.
+Vielleicht möchtest du auch mit dem [[Sandbox-Vault]] weitere Anwendungsfunktionen entdecken.
