@@ -71,11 +71,11 @@ Siehe [[#Tastenkürzel]].
 
 ## Link
 
-Ein **Link** referenziert eine Datei, Notiz oder [[Internal links#Link to a heading in a note|Überschrift]] in einer Notiz. Ein [[Internal links|interner Link]] zeigt auf eine [[#Notiz]] oder [[#Anhang|Datei]] innerhalb des aktuellen Vaults. Ein [[Basic formatting syntax#External links|externer Link]] referenziert ein Ziel außerhalb des Vaults, für gewöhnlich eine Webseite.
+Ein **Link** referenziert eine Datei, Notiz oder [[Internal links#Link to a heading in a note|Überschrift]] in einer Notiz. Ein [[Internal links|interner Link]] zeigt auf eine [[#Notiz]] oder [[#Anhang|Datei]] innerhalb des aktuellen Vaults. Ein [[Formatierungsgrundlagen#Externe Links|externer Link]] referenziert ein Ziel außerhalb des Vaults, für gewöhnlich eine Webseite.
 
 ## Markdown
 
-**Markdown** ist eine Auszeichnungssprache zum Formatieren von Text. Das gleichnamige Dateiformat ist das primäre Format für Obsidian-Notizen (`.md` Dateien). Siehe auch [[Basic formatting syntax]].
+**Markdown** ist eine Auszeichnungssprache zum Formatieren von Text. Das gleichnamige Dateiformat ist das primäre Format für Obsidian-Notizen (`.md` Dateien). Siehe auch [[Formatierungsgrundlagen]].
 
 ## Notiz
 

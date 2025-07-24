@@ -1,7 +1,7 @@
 ---
 aliases:
   - Using Obsidian URI
-  - Advanced topics/Using obsidian URI
+  - Fortgeschrittene Themen/Using obsidian URI
   - Concepts/Obsidian URI
 ---
 #TODO

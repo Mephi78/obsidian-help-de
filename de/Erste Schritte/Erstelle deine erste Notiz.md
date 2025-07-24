@@ -18,7 +18,7 @@ Um eine neue Notiz zu erstellen:
 
 ## Formatiere Text
 
-Obsidian unterstützt [[Basic formatting syntax|Markdown]] Syntax, um einen Text fett, kursiv, als Link oder als Überschrift zu formatieren.
+Obsidian unterstützt [[Formatierungsgrundlagen|Markdown]] Syntax, um einen Text fett, kursiv, als Link oder als Überschrift zu formatieren.
 
 1. Kopiere den folgenden Text und füge ihn in deine Notiz ein:
 
@@ -28,7 +28,7 @@ Obsidian unterstützt [[Basic formatting syntax|Markdown]] Syntax, um einen Text
 
 2. Markiere eine Textauswahl in deiner Notiz und drücke `Ctrl+B` (oder `Cmd+B` unter macOS), um den Text fett zu formatieren.
 
-Erfahre mehr darüber, wie du deine Notizen mit Markdown formatieren kannst unter [[Basic formatting syntax|Formatierungsgrundlagen]].
+Erfahre mehr darüber, wie du deine Notizen mit Markdown formatieren kannst unter [[Formatierungsgrundlagen|Formatierungsgrundlagen]].
 
 ## Erfahre mehr
 

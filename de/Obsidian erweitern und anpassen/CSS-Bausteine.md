@@ -52,7 +52,7 @@ Obsidian bietet verschiedene Möglichkeiten, dir die Erstellung von CSS-Baustein
 Die Anwendung verfügt über eine Vielzahl von [CSS-Variablen](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables), mit denen sich Elemente der Bedienoberfläche leicht anpassen lassen und vordefinierte [[Properties#Property types|Eigenschaften]], um das Aussehen von einer oder mehreren Notizen zu ändern.
 
 > [!example] Variablen
-> Erstelle eine Datei mit dem Namen `headers.css` und dem folgenden Inhalt, um die Farben der sechs [[Basic formatting syntax#Headings|Überschriftenebenen]] in einen Regenbogen zu verwandeln:
+> Erstelle eine Datei mit dem Namen `headers.css` und dem folgenden Inhalt, um die Farben der sechs [[Formatierungsgrundlagen#Überschriften|Überschriftenebenen]] in einen Regenbogen zu verwandeln:
 >
 > ```css
 > body {

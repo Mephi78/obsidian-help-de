@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Advanced topics/Deleting files
+  - Fortgeschrittene Themen/Deleting files
   - Gewusst wie/Rename notes
 permalink: manage-notes
 ---

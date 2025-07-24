@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Advanced topics/HTML sanitization
+  - Fortgeschrittene Themen/HTML sanitization
   - Editing and formatting/Using HTML
 ---
 #TODO
@@ -15,7 +15,7 @@ That said, since Markdown syntax does not support all forms of styling, using sa
 
 ### Comments
 
-[[Basic formatting syntax#Comments|Markdown comments]] are the preferred way of adding hidden comments within your notes. However some methods of converting Markdown notes, such as [Pandoc](https://pandoc.org), have limited support of Markdown comments. In those instances, you can use a `<!-- HTML Comment -->` instead!
+[[Formatierungsgrundlagen#Kommentare|Markdown comments]] are the preferred way of adding hidden comments within your notes. However some methods of converting Markdown notes, such as [Pandoc](https://pandoc.org), have limited support of Markdown comments. In those instances, you can use a `<!-- HTML Comment -->` instead!
 
 ### Underline
 

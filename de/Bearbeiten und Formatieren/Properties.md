@@ -1,7 +1,7 @@
 ---
 aliases:
   - front matter
-  - Advanced topics/YAML front matter
+  - Fortgeschrittene Themen/YAML front matter
   - metadata
   - property
   - frontmatter

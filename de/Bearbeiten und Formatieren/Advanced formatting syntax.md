@@ -46,7 +46,7 @@ Marie | Curie
 
 ### Format content within a table
 
-You can use [[Basic formatting syntax]] to style content within a table.
+You can use [[Formatierungsgrundlagen]] to style content within a table.
 
 | First column       | Second column                           |
 | ------------------ | --------------------------------------- |
@@ -54,7 +54,7 @@ You can use [[Basic formatting syntax]] to style content within a table.
 | [[Embed files]]    | ![[Engelbart.jpg\|100]]                 |
 
 > [!note] Vertical bars in tables
-> If you want to use [[Aliases]], or to [[Basic formatting syntax#External images|resize an image]] in your table, you need to add a `\` before the vertical bar.
+> If you want to use [[Aliases]], or to [[Formatierungsgrundlagen#Externe Bilder|resize an image]] in your table, you need to add a `\` before the vertical bar.
 >
 > ```md
 > First column | Second column
@@ -64,7 +64,7 @@ You can use [[Basic formatting syntax]] to style content within a table.
 >
 > First column | Second column
 > -- | --
-> [[Basic formatting syntax\|Markdown syntax]] | ![[Engelbart.jpg\|200]]
+> [[Formatierungsgrundlagen\|Markdown syntax]] | ![[Engelbart.jpg\|200]]
 
 Align text in columns by adding colons (`:`) to the header row. You can also align content in _Live Preview_ via the context menu.
 
@@ -85,7 +85,7 @@ You can add diagrams and charts to your notes, using [Mermaid](https://mermaid-j
 > [!tip]
 > You can also try Mermaid's [Live Editor](https://mermaid-js.github.io/mermaid-live-editor) to help you build diagrams before you include them in your notes.
 
-To add a Mermaid diagram, create a `mermaid` [[Basic formatting syntax#Code blocks|code block]].
+To add a Mermaid diagram, create a `mermaid` [[Formatierungsgrundlagen#Quelltext-Blöcke|code block]].
 
 ````md
 ```mermaid
