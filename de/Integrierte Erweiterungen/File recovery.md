@@ -12,7 +12,7 @@ To avoid taking up [[#Storage and performance|too much space]], Obsidian keeps s
 
 > [!note] By default, snapshots are saved a minimum of 5 minutes from each other, and kept for 7 days. You can configure both intervals under **Settings → Core plugins → File recovery**.
 
-Snapshots are kept in the [[How Obsidian stores data#Global settings|Global settings]], outside of the vault, to account for vault-related data loss. This means that snapshots are stored with the absolute path to the note. If you've moved your vault recently, you may need to move it back to the location where it was when the snapshot was taken.
+Snapshots are kept in the [[Datenspeicherung#Globale Einstellungen|Global settings]], outside of the vault, to account for vault-related data loss. This means that snapshots are stored with the absolute path to the note. If you've moved your vault recently, you may need to move it back to the location where it was when the snapshot was taken.
 
 > [!tip] If you are using [[Obsidian Sync/Einführung|Obsidian Sync]] or [[Synchronisiere Notizen zwischen Geräten|other syncing services]], File recovery snapshots will not sync between devices. Snapshots are device-specific and remain local to each device.
 

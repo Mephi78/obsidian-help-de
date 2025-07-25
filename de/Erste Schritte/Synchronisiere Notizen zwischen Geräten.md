@@ -3,7 +3,7 @@ aliases:
   - Gewusst wie/Geräteübergreifende Synchronisation
 cssclasses:
   - soft-embed
-description: Wie man Obsidian Notizen zwischen Geräten und Plattformen synchronisiert.
+description: Erfahre, wie man Obsidian-Notizen zwischen Geräten und Plattformen synchronisiert.
 mobile: true
 permalink: notizen-synchronisieren
 publish: true

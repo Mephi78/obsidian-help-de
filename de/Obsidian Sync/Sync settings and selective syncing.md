@@ -85,7 +85,7 @@ To remove a folder from the exclusion list, select the ![[lucide-x.svg#icon]] bu
 
 ##### File recovery snapshots
 
-The snapshots in the [[File recovery]] plugin are not synced via Obsidian Sync, as snapshots are kept in the [[How Obsidian stores data#Global settings|Global settings]].
+The snapshots in the [[File recovery]] plugin are not synced via Obsidian Sync, as snapshots are kept in the [[Datenspeicherung#Globale Einstellungen|Global settings]].
 
 ##### Hidden folders
 

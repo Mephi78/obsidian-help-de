@@ -114,7 +114,7 @@ Um eine Überschrift zu erzeugen, kannst du bis  zu sechs Hash-Symbole (`#`) vor
 
 ## Betonungen
 
-Du kannst Text auch mit Hilfe von  [[Editing shortcuts|Bearbeitungs-Shortcuts]] formatieren.
+Du kannst Text auch mit Hilfe von  [[Editing shortcuts|Editor-Shortcuts]] formatieren.
 
 | Stil                          | Syntax                   | Beispiel                                        | Ausgabe                                       |
 | ----------------------------- | ------------------------ | ----------------------------------------------- | --------------------------------------------- |

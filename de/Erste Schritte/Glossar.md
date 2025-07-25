@@ -147,7 +147,7 @@ Siehe [[#Farbschema]].
 
 `Aliasse: lokaler Vault, lokale Daten, Notizbuch`
 
-Ein **Vault** ist ein Ordner in deinem Dateisystem, der deine [[#Notiz|Notizen]] enthält sowie einen Ordner `.obsidian`, in welchem Obsidian anwendungsspezifische Einstellungen speichert. Siehe auch [[How Obsidian stores data]].
+Ein **Vault** ist ein Ordner in deinem Dateisystem, der deine [[#Notiz|Notizen]] enthält sowie einen Ordner `.obsidian`, in welchem Obsidian anwendungsspezifische Einstellungen speichert. Siehe auch [[Datenspeicherung]].
 
 ### Remote-Vault
 
