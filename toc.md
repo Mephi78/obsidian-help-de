@@ -43,36 +43,68 @@
 - HTML verwenden
 
 ### Notizen und Dateien verlinken
-- 
+- Interne Links
+- Aliasse
+- Eingebettete Dateien
 
 ### Dateien und Verzeichnisse
-- 
+- Unterstützte Dateiformate
+- Konfigurationsordner
+- Datenspeicherung
+- Notizen verwalten
+- Vaults verwalten
+- Symlinks und Verknüpfungen
 
 
 ### Integrierte Erweiterungen
-- 
+- *DEFERRED*
 
 ### Obsidian Publish
+- Einführung
 - 
 
 ### Obsidian Sync
+- Einführung
 - 
 
 ### Obsidian Web Clipper
+- Einführung
 - 
 
 ### Obsidian erweitern und anpassen
-- 
+- Externe Erweiterungen
+- Farbschemata
+- CSS-Bausteine
+- Plugin-Sicherheit
+- Obsidian URI
 
 ### Mitmachen
-- 
+- Entwickler
+- Finanzielle Unterstützung
+- Style Guide
+- Übersetzungen
 
 ### Lizenzen und Zahlung
-- 
+- Einführung
+- Catalyst Lizenz
+- Ermäßigungen
+- Gutschriften
+- Rückerstattungen
+- Umsatzsteuer
 
 ### Teams
-- 
+- Obsidian für Teams
+- Kommerzielle Lizenz
+- Teamweite Bereitstellung
+- Synchronisierung für Teams
+- Sicherheitsbetrachtungen
 
 ### Obsidian
+- Einführung
 
-- 
+- 2-Faktor-Authentifizierung
+- Android
+- Community-Regeln
+- Danksagung
+- Insider-Builds
+- Offizielle Webseite
