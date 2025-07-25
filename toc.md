@@ -28,7 +28,19 @@
 - Workspace
 
 ### Bearbeiten und Formatieren
--
+- Formatierungsgrundlagen
+- Erweiterte Formatierungssyntax
+- Obsidian Flavored Markdown
+- Tags
+- Anhänge
+- Callouts
+- Reduzieren
+- Mehrere Cursor
+- Metadaten
+- Ansichten und Modi
+- Editor-Shortcuts
+- Webseiten einbetten
+- HTML verwenden
 
 ### Notizen und Dateien verlinken
 - 
