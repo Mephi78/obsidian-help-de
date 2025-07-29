@@ -9,7 +9,7 @@ Erfahre, wie du das _Look & Feel_ von Obsidian an deine individuellen Bedürfnis
 
 ## Farbschema installieren
 
-1. Öffne die **Einstellungen**.
+1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
 2. Unter **Darstellung → Farbschemata** klicke **Verwalten**.
 3. Wähle ein Design aus, das du verwenden möchtest und klicke **Installieren und anwenden**.
 
@@ -21,20 +21,20 @@ Farbschemata werden nicht automatisch aktualisiert. Du kannst ein bestimmtes Far
 
 Um alle Farbschemata zu aktualisieren:
 
-1. Öffne die **Einstellungen**.
+1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
 2. Unter **Darstellung → Aktuelle Farbschemata...** klicke **Nach Aktualisierungen suchen**.
 3. Wenn Aktualisierungen verfügbar sind, klicke **Alle aktualisieren**.
 
 Um ein bestimmtes Farbschema zu aktualisieren:
 
-1. Öffne die **Einstellungen**.
+1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
 2. Unter **Darstellung → Aktuelle Farbschemata...** klicke **Nach Aktualisierungen suchen**.
 3. Wenn Aktualisierungen verfügbar sind, klicke **Aktualisierungen anzeigen**.
 4. Wähle das Farbschema, welches du aktualisieren möchtest und klicke **Aktualisieren**.
 
 ## Farbschema deinstallieren
 
-1. Öffne die **Einstellungen**.
+1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
 2. Unter **Darstellung → Farbschemata** klicke **Verwalten**.
 3. Aktiviere **Nur installierte anzeigen**.
 4. Wähle das Design, welches du deinstallieren möchtest und klicke **Deinstallieren**.

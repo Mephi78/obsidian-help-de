@@ -51,4 +51,4 @@ IndexedDB ist eine client-seitige Low-Level-Datenbank, die Obsidian als Backend-
 
 Um die Performanz der Anwendung zu erhöhen, speichert Obsidian lokale Metadaten zu den Dateien in deinem Vault im sogenannten **Metadaten-Cache**. Diese Metadaten werden für viele Funktionen benötigt, von der Gliederungsansicht bis zur Graph-Ansicht.
 
-Obsidian synchronisiert diesen Cache automatisch mit den Dateien in deinem Vault. Dennoch kann es vorkommen, dass Metadaten und Dateien nicht mehr zueinander passen. Sollte dies der Fall sein, kannst du in den Einstellungen einen Neuaufbau des Metadaten-Cache initiieren unter **Dateien & Links → Vault-Cache zurücksetzen**.
+Obsidian synchronisiert diesen Cache automatisch mit den Dateien in deinem Vault. Dennoch kann es vorkommen, dass Metadaten und Dateien nicht mehr zueinander passen. Sollte dies der Fall sein, kannst du in den Einstellungen ( ![[lucide-settings.svg#icon]] ) einen Neuaufbau des Metadaten-Cache initiieren unter **Dateien & Links → Vault-Cache zurücksetzen**.

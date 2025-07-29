@@ -81,7 +81,7 @@ Die Anwendung verfügt über eine Vielzahl von [CSS-Variablen](https://docs.obsi
 >  - no-inline
 > ```
 > 
-> Für jede Notiz, die in der Frontmatter-Eigenschaft `cssclasses` den Wert `no-inline` enthält, wird der Seitentitel ausgeblendet. Aktiviere in den Einstellungen **Darstellung → Zeige Titel in Notiz**, um die Wirkung zu sehen, andernfalls ist diese Einstellung ohnehin bereits für den gesamten Vault wirksam.
+> Für jede Notiz, die in der Frontmatter-Eigenschaft `cssclasses` den Wert `no-inline` enthält, wird der Seitentitel ausgeblendet. Aktiviere in den Einstellungen ( ![[lucide-settings.svg#icon]] ) **Darstellung → Zeige Titel in Notiz**, um die Wirkung zu sehen, andernfalls ist diese Einstellung ohnehin bereits für den gesamten Vault wirksam.
 
 Wir empfehlen, deinen CSS-Baustein vor der Aktivierung zu validieren, z.B. mit dem [CSS Validation Service](https://jigsaw.w3.org/css-validator/), da ungültiges CSS nicht zuverlässig funktionieren wird.
 

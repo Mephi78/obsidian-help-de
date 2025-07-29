@@ -58,7 +58,7 @@ Obsidian verfügt über eine Einstellung für **Strenge Zeilenumbrüche**, wodur
 
 Um diese Einstellung zu aktivieren:
 
-1. Öffne die **Einstellungen**.
+1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
 2. Unter **Editor → Anzeige** aktiviere **Strenge Zeilenumbrüche**.
 
 Wenn **Strenge Zeilenumbrüche** aktiviert ist, reagiert Obsidian auf Zeilenumbrüche je nach Art der Zeilentrennung unterschiedlich, und zwar wie folgt:
