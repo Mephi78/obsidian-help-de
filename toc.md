@@ -36,7 +36,7 @@
 - Callouts
 - Reduzieren
 - Mehrere Cursor
-- Metadaten
+- Eigenschaften
 - Ansichten und Modi
 - Editor-Shortcuts
 - Webseiten einbetten
