@@ -22,8 +22,8 @@ You can extend Obsidian to support other file formats using [[Externe Erweiterun
 
 Many file types — including images, audio, video, and PDFs — can be embedded directly into your notes.
 
-- On **Desktop**, drag and drop a supported file into a note to embed it automatically.  
-- On **Mobile**, use the attachment options to insert or link a file.
+- On ![[lucide-monitor-check.svg#icon]] **Desktop**, drag and drop a supported file into a note to embed it automatically.  
+- On ![[obsidian-icon-smartphone.svg#icon]] **Mobile**, use the attachment options to insert or link a file.
 
 See [[Embed files]] for more embedding options and syntax.
 

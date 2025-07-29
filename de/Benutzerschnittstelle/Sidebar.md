@@ -4,13 +4,13 @@ aliases:
 permalink: sidebar
 ---
 #TODO
-Obsidian has two sidebars, left and right. On desktop and larger tablets, the left sidebar includes the [[Ribbon]]. On mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
+Obsidian has two sidebars, left and right. On ![[lucide-monitor-check.svg#icon]] desktop and larger tablets, the left sidebar includes the [[Ribbon]]. On ![[obsidian-icon-smartphone.svg#icon]] mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
 
 ## Open hidden sidebars
 
-On desktop and larger tablets: open a collapsed sidebar by clicking the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ) or right expand ( ![[obsidian-icon-side-bar-right.svg#icon]] ).
+On ![[lucide-monitor-check.svg#icon]] desktop and larger tablets: open a collapsed sidebar by clicking the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ) or right expand ( ![[obsidian-icon-side-bar-right.svg#icon]] ).
 
-On mobile and smaller tablets: swipe left or right, click the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ), or long-press the note menu ( ![[lucide-ellipsis-vertical.svg#icon]] ).
+On ![[obsidian-icon-smartphone.svg#icon]] mobile and smaller tablets: swipe left or right, click the left expand ( ![[obsidian-icon-side-bar-left.svg#icon]] ), or long-press the note menu ( ![[lucide-ellipsis-vertical.svg#icon]] ).
 
 ## Tabs
 

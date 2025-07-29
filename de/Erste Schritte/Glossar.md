@@ -107,7 +107,7 @@ Siehe [[#Werkzeugleiste]].
 
 Ein Bereich, der unterstützende [[#Ansicht|Ansichten]] enthält, die als [[#Registerkarte|Tabs]] organisiert sind. Eine **Seitenleiste** kann in mehrere [[#Tab-Gruppe|Tab-Gruppen]] unterteilt werden.
 
-Obsidian *Desktop* hat je eine Seitenleiste rechts und links des [[#Hauptbereich|Hauptbereiches]]. Beide können zum Einen über entsprechende Symbole in der linken bzw. rechten oberen Ecke aufgerufen werden. Auf dem Touchscreen können Seitenleisten auch durch Wischen nach rechts bzw. links aufgerufen werden. Halte auf dem Touchscreen das Icon in der rechten oberen Ecke länger gedrückt, um die rechte Seitenleiste aufzurufen.
+Obsidian ![[lucide-monitor-check.svg#icon]] *Desktop* hat je eine Seitenleiste rechts und links des [[#Hauptbereich|Hauptbereiches]]. Beide können zum Einen über entsprechende Symbole in der linken bzw. rechten oberen Ecke aufgerufen werden. Auf dem Touchscreen können Seitenleisten auch durch Wischen nach rechts bzw. links aufgerufen werden. Halte auf Obsidian ![[obsidian-icon-smartphone.svg#icon]] *Mobile* das Icon in der rechten oberen Ecke länger gedrückt, um die rechte Seitenleiste aufzurufen.
 
 ## Snippet
 
@@ -115,7 +115,7 @@ Siehe [[#CSS-Baustein]].
 
 ## Statusleiste
 
-Die **Statusleiste** zeigt Statistiken und Status über deinen Vault. In der *Desktop Version* findest du sie am rechten unteren Rand der Anwendung. In der *Mobile Version* nimmt sie den gesamten unteren Rand der App ein.
+Die **Statusleiste** zeigt Statistiken und Status über deinen Vault. In der ![[lucide-monitor-check.svg#icon]] *Desktop Version* findest du sie am rechten unteren Rand der Anwendung. In der ![[obsidian-icon-smartphone.svg#icon]] *Mobile Version* nimmt sie den gesamten unteren Rand der App ein.
 
 ## Tab
 
@@ -159,4 +159,4 @@ Ein **Remote Vault** ist eine Kopie deines lokalen Vaults, die mit [[Obsidian Sy
 
 `Aliasse: Ribbon`
 
-Die **Werkzeugleiste** dient als Container für oft genutzte Aktionen. In der *Desktop Version* wird sie als vertikale Menüleiste am linken Rand dargestellt. In der *Mobile Version* findest du sie als Menü-Schaltfläche ( ![[lucide-menu.svg#icon]] ) rechts unten in der [[#Statusleiste]].
+Die **Werkzeugleiste** dient als Container für oft genutzte Aktionen. In der ![[lucide-monitor-check.svg#icon]] *Desktop Version* wird sie als vertikale Menüleiste am linken Rand dargestellt. In der ![[obsidian-icon-smartphone.svg#icon]] *Mobile Version* findest du sie als Menü-Schaltfläche ( ![[lucide-menu.svg#icon]] ) rechts unten in der [[#Statusleiste]].

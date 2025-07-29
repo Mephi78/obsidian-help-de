@@ -78,7 +78,7 @@ If you are beginning syncing after connecting to a remote vault, you will see a 
 If you are beginning syncing after adjusting Obsidian Sync's settings and restarting the application, you will see a **Resume** button within Sync's settings. Select this button to begin syncing.
 
 > [!done] Syncing status
-> When Obsidian Sync completes, a green circle with a checkmark ( ![[obsidian-icon-sync-synced.svg#icon]] ) appears in the bottom-right corner (desktop) or in the right sidebar (mobile). The Sync log will also display "Fully Synced" as one its most recent message.
+> When Obsidian Sync completes, a green circle with a checkmark ( ![[obsidian-icon-sync-synced.svg#icon]] ) appears in the bottom-right corner ( ![[lucide-monitor-check.svg#icon]] desktop) or in the right sidebar ( ![[obsidian-icon-smartphone.svg#icon]] mobile). The Sync log will also display "Fully Synced" as one its most recent message.
 >
 > For more details on sync statuses, refer to [[Status icon and messages]].
 ^obsidian-sync-status
@@ -104,8 +104,8 @@ If you have freshly installed Obsidian, when you open the program you will be pr
 
 1. Open Obsidian (assuming this is your first time opening it)
 2. Select one of the options depending upon your installation:
-	1. **Desktop**: In the section that says Open vault from Obsidian Sync, choose **Setup**
-	2. **Mobile/Tablet**: **Setup Obsidian Sync**
+	1. **Desktop** ![[lucide-monitor-check.svg#icon]]: In the section that says Open vault from Obsidian Sync, choose **Setup**
+	2. **Mobile/Tablet** ![[obsidian-icon-smartphone.svg#icon]]: **Setup Obsidian Sync**
 3. Login with your Obsidian User account
 	1. If [[2-factor authentication|2FA]] is set up, enter your 2FA code.
 4. You will be asked to choose which remote vault you want to sync to this device. Select **Connect**.
