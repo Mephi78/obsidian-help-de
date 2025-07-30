@@ -6,7 +6,7 @@ permalink: plugins/format-converter
 publish: true
 ---
 #TODO
-Format converter is a [[Standarderweiterungen|core plugin]] that lets you convert Markdown from other applications to Obsidian format. It also allows you to convert certain [[Properties]] to new required formats. 
+Format converter is a [[Standarderweiterungen|core plugin]] that lets you convert Markdown from other applications to Obsidian format. It also allows you to convert certain [[Eigenschaften]] to new required formats. 
 
 > [!warning]
 > Format converter converts your entire vault based on your settings. [[Back up your Obsidian files]] before you perform the conversion.
@@ -42,9 +42,9 @@ The Format converter can convert the following Zettelkasten syntax:
 - **Full links**: Converts�`[[UID]]`�to�`[[UID File Name]]`
 - **Pretty links**: Converts�`[[UID]]`�to�`[[UID File Name|File Name]]`
 
-### [[Properties]]
+### [[Eigenschaften]]
 
-As of Obsidian `1.9.3`, the Format converter can convert [[Properties#Deprecated properties|deprecated property]] formats to the current format:
+As of Obsidian `1.9.3`, the Format converter can convert [[Eigenschaften#Veraltete Eigenschaften|deprecated property]] formats to the current format:
 
 **Aliases**
 

@@ -19,7 +19,7 @@ Into this:
 https://publish.obsidian.md/username/about
 ```
 
-To create a permalink for a note, add the `permalink` property to your [[Properties]].
+To create a permalink for a note, add the `permalink` property to your [[Eigenschaften]].
 
 ```yaml
 ---

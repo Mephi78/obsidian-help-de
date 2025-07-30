@@ -69,7 +69,7 @@ Some operators even allow you to add a nested search term within parentheses, fo
 
 ## Search properties
 
-You can use data stored in [[Properties]] in your search terms.
+You can use data stored in [[Eigenschaften]] in your search terms.
 
 Use brackets around a property name `[property]` to return files with that property:
 

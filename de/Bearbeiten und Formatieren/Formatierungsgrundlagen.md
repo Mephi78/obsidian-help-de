@@ -48,8 +48,8 @@ Eine Leerzeile im Text erzeugt standardmäßig einen Absatz in Markdown.
 
 Standardmäßig wird Obsidian bei einmaligem Drücken der Eingabetaste einen Zeilenumbruch erzeugen, der jedoch gemäß Markdown-Vorschrift als *Fortsetzung* desselben Absatzes interpretiert wird in der gerenderten Ausgabe. Um *innerhalb* eines Absatzes einen Zeilenumbruch zu erzwingen, ohne einen neuen Absatz zu erzeugen, hast du zwei Möglichkeiten:
 
-- Füge am Ende der Zeile **zwei Leerzeichen** hinzu, bevor du `Enter` drückst oder
-- Verwende das Tastenkürzel `Umschalt + Enter`, um direkt eine Zeilenumbruch einzufügen.
+- Füge am Ende der Zeile **zwei Leerzeichen** hinzu, bevor du die `Eingabetaste` drückst oder
+- Verwende das Tastenkürzel `Umschalt + Eingabetaste`, um direkt eine Zeilenumbruch einzufügen.
 
 > [!question]- Warum erzeugt das mehrmalige Drücken der Eingabetaste nicht mehrere Zeilenumbrüche in der Leseansicht?
 > Markdown ignoriert einzelne Zeilenumbrüche und mehrere aufeinanderfolgende Zeilenumbrüche werden zusammengefasst und führen so zu nur einem neuen Absatz. Diese sogenannte Soft-Wrap-Regel stellt das Standardverhalten von Markdown dar, welches sicherstellt, dass Absätze natürlich fließen, ohne unerwartete Umbrüche.
@@ -257,8 +257,8 @@ Für eine geordnete Liste beginne jede Zeile mit einer Zahl gefolgt von einem Pu
 > 2) Zweiter Listeneintrag
 > 3) Dritter Listeneintrag
 
-%% Stand 2025-07-24: Wird ohne Zeilenumbruch gerendert; Shift+Enter erzeugt eine neue Zeile mit zwei Leerzeichen, der Cursor bleibt in dieser Zeile stehen. %%
-%%Verwende `Umschalt + Enter`, um einen [[#Zeilenumbrüche|Zeilenumbruch]] innerhalb der Liste zu erzeugen, ohne die Nummerierung zu unterbrechen.
+%% Stand 2025-07-24: Wird ohne Zeilenumbruch gerendert; `Umschalt + Eingabetaste` erzeugt eine neue Zeile mit zwei Leerzeichen, der Cursor bleibt in dieser Zeile stehen. %%
+%%Verwende `Umschalt + Eingabetaste`, um einen [[#Zeilenumbrüche|Zeilenumbruch]] innerhalb der Liste zu erzeugen, ohne die Nummerierung zu unterbrechen.
 
 ```md
 1. First list item

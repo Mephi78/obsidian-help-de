@@ -53,7 +53,7 @@ Before publishing, review the updated selection to ensure it doesn’t include a
 
 ## Automatically select data to publish
 
-Set `publish: true` in the [[Properties]] of a note to automatically include it for publishing as either a new or changed note.
+Set `publish: true` in the [[Eigenschaften]] of a note to automatically include it for publishing as either a new or changed note.
 
 You can also automatically select notes and linked images in specific folders by adding them as **Included** folders:
 
@@ -66,7 +66,7 @@ You can also automatically select notes and linked images in specific folders by
 
 ### Ignore data
 
-To ignore a note in Obsidian Publish, set `publish: false` in the [[Properties]] of the note. The note no longer appears in the list of notes to publish.
+To ignore a note in Obsidian Publish, set `publish: false` in the [[Eigenschaften]] of the note. The note no longer appears in the list of notes to publish.
 
 You can also auto-ignore notes and images in specific folders by adding them as **Excluded** folders:
 

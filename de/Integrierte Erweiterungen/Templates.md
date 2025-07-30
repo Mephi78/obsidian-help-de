@@ -45,4 +45,4 @@ You can change the default date and time formats under **Settings → Templates 
 
 ## Template properties
 
-![[Properties#^templates-properties]]
+![[Eigenschaften#^templates-properties]]

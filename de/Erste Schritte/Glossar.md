@@ -55,7 +55,7 @@ Ein **Farbschema** ändert das Aussehen deiner Obsidian-Anwendung mittels [CSS](
 
 ## Frontmatter
 
-**Frontmatter** ist eine Möglichkeit, [[#Eigenschaft|Eigenschaften]] für deine Notizen zu definieren, indem du sie als [YAML](https://yaml.org/) oder [JSON](https://www.json.org/) am Anfang deiner [[#Notiz]] einfügst. Siehe auch [[Properties#Eigenschaftsformat|Eigenschaftsformat]].
+**Frontmatter** ist eine Möglichkeit, [[#Eigenschaft|Eigenschaften]] für deine Notizen zu definieren, indem du sie als [YAML](https://yaml.org/) oder [JSON](https://www.json.org/) am Anfang deiner [[#Notiz]] einfügst. Siehe auch [[Eigenschaften#Eigenschaftsformat|Eigenschaftsformat]].
 
 ## Graph
 

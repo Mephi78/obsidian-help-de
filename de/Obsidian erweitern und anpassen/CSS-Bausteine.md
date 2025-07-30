@@ -49,7 +49,7 @@ Ist ein CSS-Baustein aktiviert, wird Obsidian Änderungen daran automatisch erke
 
 Obsidian bietet verschiedene Möglichkeiten, dir die Erstellung von CSS-Bausteinen zu erleichtern.
 
-Die Anwendung verfügt über eine Vielzahl von [CSS-Variablen](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables), mit denen sich Elemente der Bedienoberfläche leicht anpassen lassen und vordefinierte [[Properties#Property types|Eigenschaften]], um das Aussehen von einer oder mehreren Notizen zu ändern.
+Die Anwendung verfügt über eine Vielzahl von [CSS-Variablen](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables), mit denen sich Elemente der Bedienoberfläche leicht anpassen lassen und vordefinierte [[Eigenschaften#Eigenschaftstypen|Eigenschaften]], um das Aussehen von einer oder mehreren Notizen zu ändern.
 
 > [!example] Variablen
 > Erstelle eine Datei mit dem Namen `headers.css` und dem folgenden Inhalt, um die Farben der sechs [[Formatierungsgrundlagen#Überschriften|Überschriftenebenen]] in einen Regenbogen zu verwandeln:
@@ -66,7 +66,7 @@ Die Anwendung verfügt über eine Vielzahl von [CSS-Variablen](https://docs.obsi
 > ```
 
 > [!example] CSS-Klassen
-> Weise der vordefinierten [[Properties|Eigenschaft]] `cssclasses` den Namen einer CSS-Klasse (oder eine Liste von CSS-Klassen) zu, um einer oder mehreren Notizen ein anderes Aussehen zu verleihen.
+> Weise der vordefinierten [[Eigenschaften|Eigenschaft]] `cssclasses` den Namen einer CSS-Klasse (oder eine Liste von CSS-Klassen) zu, um einer oder mehreren Notizen ein anderes Aussehen zu verleihen.
 > 
 > **CSS-Baustein**:
 > ```css

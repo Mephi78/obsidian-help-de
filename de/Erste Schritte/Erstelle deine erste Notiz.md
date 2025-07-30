@@ -10,8 +10,8 @@ Obsidian speichert Notizen als einfache Textdateien. Das bedeutet, deine Daten s
 
 Um eine neue Notiz zu erstellen:
 
-1. Drücke die Tastenkombination `Ctrl+N` (oder `Cmd+N` unter macOS).
-2. Tippe "Obsidian" als Titel deiner Notiz und drücke `Enter`.
+1. Drücke die Tastenkombination `Strg+N` (oder `Cmd+N` unter macOS).
+2. Tippe "Obsidian" als Titel deiner Notiz und drücke die `Eingabetaste`.
 3. Kopiere den folgenden Text und füge ihn in deine Notiz ein:
 
    > Obsidian ist die private und flexible Notiz-App, die sich an deine Denkweise anpasst.
@@ -26,7 +26,7 @@ Obsidian unterstützt [[Formatierungsgrundlagen|Markdown]] Syntax, um einen Text
 
    Das Hash Symbol (`#`) verwandelt eine Zeile in eine Überschrift.
 
-2. Markiere eine Textauswahl in deiner Notiz und drücke `Ctrl+B` (oder `Cmd+B` unter macOS), um den Text fett zu formatieren.
+2. Markiere eine Textauswahl in deiner Notiz und drücke `Strg+B` (oder `Cmd+B` unter macOS), um den Text fett zu formatieren.
 
 Erfahre mehr darüber, wie du deine Notizen mit Markdown formatieren kannst unter [[Formatierungsgrundlagen|Formatierungsgrundlagen]].
 

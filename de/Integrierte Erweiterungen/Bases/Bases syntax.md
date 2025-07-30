@@ -175,7 +175,7 @@ There are three kinds of properties used in bases:
 
 ### Note properties
 
-[[Properties|Note properties]] are only available for Markdown files, and are stored in the YAML frontmatter of each note. These properties can be accessed using the format `note.author` or simply `author` as a shorthand.
+[[Eigenschaften|Note properties]] are only available for Markdown files, and are stored in the YAML frontmatter of each note. These properties can be accessed using the format `note.author` or simply `author` as a shorthand.
 
 ### File properties
 
@@ -283,7 +283,7 @@ Strings, numbers, and booleans are "primitive" values which do not require a fun
 
 ### Dates and durations
 
-Dates represent a specific date, or a date and time depending on the function used to create them, or that type that has been assigned to the [[Properties|property]].
+Dates represent a specific date, or a date and time depending on the function used to create them, or that type that has been assigned to the [[Eigenschaften|property]].
 
 - To construct a date, use the `date` function, for example `date("2025-01-01 12:00:00")`
 - To modify a date, add or remove a duration, for example `now() + "1 hour"` or `today() + "7d"`
@@ -299,7 +299,7 @@ Dates represent a specific date, or a date and time depending on the function us
 
 ### Files and links
 
-[[Verlinke Notizen|Wikilinks]] in [[Properties|frontmatter properties]] are automatically recognized as Link objects. Links will render as a clickable link in the [[Views|view]].
+[[Verlinke Notizen|Wikilinks]] in [[Eigenschaften|frontmatter properties]] are automatically recognized as Link objects. Links will render as a clickable link in the [[Views|view]].
 
 - To construct a link, use the global `link` [[Functions|function]], for example `link("filename")` or `link("https://obsidian.md")`.
 - You can create a link from any string, for example, `link(file.ctime.date().toString())`.

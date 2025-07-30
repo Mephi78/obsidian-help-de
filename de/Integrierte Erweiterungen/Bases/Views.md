@@ -12,7 +12,7 @@ Currently, bases can be displayed as a **table** or **cards**. In the future mor
 
 Current layout options:
 
-- **Table layout** displays each file as a row in a table. Columns are populated from the [[Properties]] in your notes.
+- **Table layout** displays each file as a row in a table. Columns are populated from the [[Eigenschaften]] in your notes.
 - **Cards layout** displays each file as a card in a grid. The view settings allow you to optionally configure an image property, which can be an image URL or [[Attachments|attachment]] link.
 
 Each layout type provides its own configuration options and actions. To see a view's configuration options:
@@ -29,7 +29,7 @@ Table does not have any specific view configuration.
 
 #### Image property
 
-Cards support an optional cover image, which is [[Properties|property]] that's displayed as an image at the top of the card. The property can be any of the following:
+Cards support an optional cover image, which is [[Eigenschaften|property]] that's displayed as an image at the top of the card. The property can be any of the following:
 
 - A link to a local attachment `"[[link/to/attachment.jpg]]"`
 - An external link (URL)
@@ -61,7 +61,7 @@ Filters can be applied to all views in a base, or just a single view by choosing
 
 Filters have three components:
 
-1. **Property** — lets you choose a [[Properties|property]] in your vault, including [[Bases syntax#Implicit properties|implicit properties]]
+1. **Property** — lets you choose a [[Eigenschaften|property]] in your vault, including [[Bases syntax#Implicit properties|implicit properties]]
 2. **Operator** — lets you choose how to compare the conditions. The list of available operators depends on the property type (text, date, number, etc) 
 3. **Value** — lets you choose the value you are comparing to. Values can include math and [[Functions|functions]].
 

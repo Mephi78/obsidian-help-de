@@ -22,7 +22,7 @@ Es gibt verschiedene Wege, den Sandbox-Vault zu öffnen. In jedem Fall wird er i
 1. Aktiviere die Standarderweiterung **Befehlspalette**.
 2. Öffne die **Befehlspalette** über die Werkzeugleiste.
 3. Suche nach **Sandbox-Vault öffnen**.
-4. Drücke **Enter** oder wähle den markierten Eintrag, um den Sandbox-Vault zu öffnen.
+4. Drücke die **Eingabetaste** oder wähle den markierten Eintrag, um den Sandbox-Vault zu öffnen.
 ## Sandbox-Vault schließen
 
 Um den Sandbox-Vault zu beenden, schließe einfach das **Sandbox-Vault**-Anwendungsfenster.

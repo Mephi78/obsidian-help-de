@@ -22,7 +22,7 @@ Navigiere im Graphen:
 - Vergrößere oder verkleinere die Ansicht mit dem Scrollrad deiner Maus oder mit den Tasten `+` und `-` auf der Tastatur.
 - Bewege den Graphen durch Ziehen und Ablegen oder mit den Pfeiltasten deiner Tastatur.
 
-Du kannst dabei `Shift` gedrückt halten, um die Navigation zu beschleunigen.
+Du kannst dabei `Umschalt` gedrückt halten, um die Navigation zu beschleunigen.
 
 ## Einstellungen
 

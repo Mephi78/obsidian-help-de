@@ -282,7 +282,7 @@ You can check for broken links using [[Externe Erweiterungen]] or tools availabl
 
 This documentation is edited on GitHub and hosted online via [[Obsidian Publish/Einführung|Obsidian Publish]], which includes [[Social media link previews#Description|descriptions]] for social cards and other [[SEO]] elements.
 
-If the page you are working on does not have a `description` [[Properties|property]], please add one. The description should be 150 characters or fewer and provide an objective summary of the page’s content.
+If the page you are working on does not have a `description` [[Eigenschaften|property]], please add one. The description should be 150 characters or fewer and provide an objective summary of the page’s content.
 
 **Good**: Learn to create templates that capture and organize web page metadata automatically with Web Clipper.
 **Could be tweaked**: Learn how to create templates that automatically capture and organize metadata from web pages with Web Clipper.
