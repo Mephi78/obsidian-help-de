@@ -40,6 +40,8 @@ Falls deine Fehlermeldung in Zusammenhang mit einer Erweiterung steht oder du vo
 - **MacOS**: `CMD + OPTION + i`  
 - **Linux**: `Strg + Umschalt + i`
 
+> [!note] Wenn du den Fensterstil **Obsidian** verwendest, kannst du auch über das Titelmenü auf die Obsidian-Konsole zugreifen.
+
 Nachdem du auf diese Weise die Entwicklerkonsole geöffnet hast:
 
 1. Wähle **Console** im obersten Menü.

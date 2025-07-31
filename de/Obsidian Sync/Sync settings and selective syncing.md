@@ -87,14 +87,15 @@ To remove a folder from the exclusion list, select the ![[lucide-x.svg#icon]] bu
 
 The snapshots in the [[File recovery]] plugin are not synced via Obsidian Sync, as snapshots are kept in the [[Datenspeicherung#Globale Einstellungen|Global settings]].
 
-##### Hidden folders
+##### Hidden files and folders
 
-Folders beginning with a `.` are treated as hidden and excluded from sync. The only exception is the vault's [[Konfigurationsordner|configuration folder]] (`.obsidian`), which does sync.
+Files and folders beginning with a `.` are treated as hidden and excluded from sync. The only exception is the vault's [[Konfigurationsordner|configuration folder]] (`.obsidian`), which does sync.
 
-Common examples of hidden folders that are not synced:
+Common examples of hidden files and folders that are not synced:
 - `.vscode`
 - `.git`
 - `.idea`
+- `.gitignore`
 
 ##### Sync settings
 

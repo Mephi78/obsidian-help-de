@@ -1,11 +1,11 @@
 ---
+aliases:
+  - Integrierte Plugins
+  - Standarderweiterungen
 cssclasses:
   - list-cards
   - list-cards-mobile-full
 permalink: plugins
-aliases:
-  - Integrierte Plugins
-  - Standarderweiterungen
 ---
 
 Diese Seite listet Standarderweiterungen auf, die mit Obsidian vorinstalliert sind. Diese integrierten Erweiterungen werden offiziell vom Obsidian-Team entwickelt und unterstützt.
@@ -41,8 +41,7 @@ Einige Kernfunktionen sind standardmäßig deaktiviert. Du kannst sie unter **Op
 	- Zeige die Gliederung der aktiven Notiz.
 - [[Graph-Ansicht]]
 	- Visualisiere Zusammenhänge zwischen den Notizen in deinem Vault.
-- [[Importer]]
-	- Konvertiere Dateien aus zahlreichen Anwendungen und Formaten ins Obsidian Format.
+
 - [[Format converter|Importprogramm für Markdown Format]]
 	- Konvertiere Markdown aus anderen Anwendungen in das Obsidian Format.
 - [[Bookmarks|Lesezeichen]]
@@ -77,3 +76,10 @@ Einige Kernfunktionen sind standardmäßig deaktiviert. Du kannst sie unter **Op
 	- Speichere und wechsle zwischen Workspace-Layouts.
 - [[Random note|Zufällige Notiz]]
 	- Öffne eine zufällige Notiz aus deinem Vault.
+
+### Weitere Plugins
+
+Das Obsidian-Team pflegt auch Plugins, die über den Community-Plugin-Store verfügbar sind:
+
+- [[Importer]]
+	- Konvertiere Dateien aus zahlreichen Anwendungen und Formaten nach Obsidian.
