@@ -14,7 +14,7 @@ Erfahre, wie du Obsidian erweitern kannst mit Plugins, die von unserer Community
 
 ## Community-Plugins durchsuchen
 
-1. In den **Einstellungen** öffne **Optionen → Externe Erweiterungen**.
+1. In den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) öffne **Optionen → Externe Erweiterungen**.
 2. Klicke **Community-Erweiterungen aktivieren**. Für weitere Informationen, siehe [[Plugin security#Restricted mode|Restricted Mode]].
 3. Wähle **Durchsuchen** für eine Auflistung aller verfügbaren Community-Erweiterungen.
 
@@ -26,7 +26,7 @@ Du kannst die verfügbaren Erweiterungen auch in deinem Browser durchsuchen, ind
 
 Um eine Community-Erweiterung zu installieren, musst du zunächst den [[Plugin security#Restricted mode|Eingeschränkten Modus]] deaktivieren.
 
-1. In den **Einstellungen** öffne **Optionen → Externe Erweiterungen**.
+1. In den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) öffne **Optionen → Externe Erweiterungen**.
 2. Wähle **Durchsuchen**, um die verfügbaren Plugins zu erkunden.
 3. Wähle die Erweiterung, die du installieren möchtest.
 4. Klicke **Installieren**.
@@ -43,19 +43,19 @@ Aus Sicherheitsgründen werden externe Erweiterungen nicht automatisch aktualisi
 
 Um alle Erweiterungen gleichzeitig zu aktualisieren:
 
-1. Öffne die **Einstellungen**.
+1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
 2. Unter **Optionen → Externe Erweiterungen → Aktuelle Erweiterungen** klicke **Nach Aktualisierungen suchen**.
 3. Falls Aktualisierungen verfügbar sind, klicke **Alle aktualisieren**.
 
 Um eine bestimmte Erweiterung zu aktualisieren:
 
-1. Öffne die **Einstellungen**.
+1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
 2. Unter **Optionen → Externe Erweiterungen → Aktuelle Erweiterungen** klicke **Nach Aktualisierungen suchen**.
 3. Unter **Installierte Erweiterungen** klicke **Aktualisieren** neben dem Plugin, das du aktualisieren möchtest.
 
 ## Externe Erweiterung deinstallieren
 
-1. Öffne die **Einstellungen**.
+1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
 2. Wähle **Optionen → Externe Erweiterungen**.
 3. Unter **Installierte Erweiterungen** klicke **Deinstallieren** ( ![[lucide-trash-2.svg#icon]] ) neben dem Plugin, das du entfernen möchtest.
 4. Klicke im Bestätigungsdialog noch einmal **Deinstallieren**.

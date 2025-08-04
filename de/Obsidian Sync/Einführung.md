@@ -42,7 +42,7 @@ Wenn du Obsidian Sync zusammen mit anderen Cloud-Speicher-Lösungen wie Dropbox,
 
 Für häufig gestellte Fragen und weitere Informationen über Obsidian Sync, siehe [[Obsidian Sync/Frequently asked questions|FAQ]].
 
-> [!warning] Diese Funktion ist auf Apple-Geräten mit aktivierten [Lockdown-Modus](https://support.apple.com/en-us/105120) nicht verfügbar, es sei denn, Obsidian wird davon ausgenommen.
+> [!warning] Diese Funktion ist auf Apple-Geräten mit aktivierten [Lockdown-Modus](https://support.apple.com/de-de/105120) nicht verfügbar, es sei denn, Obsidian wird davon ausgenommen.
 
 Beobachtest du unerwartete Unterbrechungen beim Synchronisieren? Prüfe hier den [Serverstatus](https://status.obsidian.md).
  

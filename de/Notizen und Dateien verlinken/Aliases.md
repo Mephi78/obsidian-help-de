@@ -18,7 +18,7 @@ If you're only trying to change how a link looks in one place, see how to [[Inte
 
 ## Add an alias to a note
 
-To add an alias for a note, add `aliases` property in the note [[Properties]]. Aliases should always be formatted as a list in YAML.
+To add an alias for a note, add `aliases` property in the note [[Eigenschaften]]. Aliases should always be formatted as a list in YAML.
 
 ```md
 ---

@@ -38,7 +38,7 @@ Um einen CSS-Baustein in Obsidian ![[obsidian-icon-smartphone.svg#icon]] **Mobil
 
 Weiterhin kannst du
 
-- Änderungen an den Darstellungseinstellungen [[Synchronisiere deine Notizen zwischen Geräten|synchronisieren]].
+- Änderungen an den Darstellungseinstellungen [[Synchronisiere Notizen zwischen Geräten|synchronisieren]].
 - Eine externe Erweiterung verwenden, um CSS-Schnipsel direkt in Obsidian zu erstellen.
 
 Ist ein CSS-Baustein aktiviert, wird Obsidian Änderungen daran automatisch erkennen und anwenden, sobald du die CSS-Datei speicherst.
@@ -49,10 +49,10 @@ Ist ein CSS-Baustein aktiviert, wird Obsidian Änderungen daran automatisch erke
 
 Obsidian bietet verschiedene Möglichkeiten, dir die Erstellung von CSS-Bausteinen zu erleichtern.
 
-Die Anwendung verfügt über eine Vielzahl von [CSS-Variablen](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables), mit denen sich Elemente der Bedienoberfläche leicht anpassen lassen und vordefinierte [[Properties#Property types|Eigenschaften]], um das Aussehen von einer oder mehreren Notizen zu ändern.
+Die Anwendung verfügt über eine Vielzahl von [CSS-Variablen](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables), mit denen sich Elemente der Bedienoberfläche leicht anpassen lassen und vordefinierte [[Eigenschaften#Eigenschaftstypen|Eigenschaften]], um das Aussehen von einer oder mehreren Notizen zu ändern.
 
 > [!example] Variablen
-> Erstelle eine Datei mit dem Namen `headers.css` und dem folgenden Inhalt, um die Farben der sechs [[Basic formatting syntax#Headings|Überschriftenebenen]] in einen Regenbogen zu verwandeln:
+> Erstelle eine Datei mit dem Namen `headers.css` und dem folgenden Inhalt, um die Farben der sechs [[Formatierungsgrundlagen#Überschriften|Überschriftenebenen]] in einen Regenbogen zu verwandeln:
 >
 > ```css
 > body {
@@ -66,7 +66,7 @@ Die Anwendung verfügt über eine Vielzahl von [CSS-Variablen](https://docs.obsi
 > ```
 
 > [!example] CSS-Klassen
-> Weise der vordefinierten [[Properties|Eigenschaft]] `cssclasses` den Namen einer CSS-Klasse (oder eine Liste von CSS-Klassen) zu, um einer oder mehreren Notizen ein anderes Aussehen zu verleihen.
+> Weise der vordefinierten [[Eigenschaften|Eigenschaft]] `cssclasses` den Namen einer CSS-Klasse (oder eine Liste von CSS-Klassen) zu, um einer oder mehreren Notizen ein anderes Aussehen zu verleihen.
 > 
 > **CSS-Baustein**:
 > ```css
@@ -81,7 +81,7 @@ Die Anwendung verfügt über eine Vielzahl von [CSS-Variablen](https://docs.obsi
 >  - no-inline
 > ```
 > 
-> Für jede Notiz, die in der Frontmatter-Eigenschaft `cssclasses` den Wert `no-inline` enthält, wird der Seitentitel ausgeblendet. Aktiviere in den Einstellungen **Darstellung → Zeige Titel in Notiz**, um die Wirkung zu sehen, andernfalls ist diese Einstellung ohnehin bereits für den gesamten Vault wirksam.
+> Für jede Notiz, die in der Frontmatter-Eigenschaft `cssclasses` den Wert `no-inline` enthält, wird der Seitentitel ausgeblendet. Aktiviere in den Einstellungen ( ![[lucide-settings.svg#icon]] ) **Darstellung → Zeige Titel in Notiz**, um die Wirkung zu sehen, andernfalls ist diese Einstellung ohnehin bereits für den gesamten Vault wirksam.
 
 Wir empfehlen, deinen CSS-Baustein vor der Aktivierung zu validieren, z.B. mit dem [CSS Validation Service](https://jigsaw.w3.org/css-validator/), da ungültiges CSS nicht zuverlässig funktionieren wird.
 

@@ -26,7 +26,7 @@ Consider using [[Permalinks]] to define permanent URLs on your site.
 
 ### Metadata
 
-Page metadata can be customized using [[Properties#Properties for Obsidian Publish|Properties]], which can be useful for [[Social media link previews|social sharing cards]].
+Page metadata can be customized using [[Eigenschaften#Eigenschaften für Obsidian Publish|Properties]], which can be useful for [[Social media link previews|social sharing cards]].
 
 | Property      | Description                                                                                                       |
 | ------------- | ----------------------------------------------------------------------------------------------------------------- |

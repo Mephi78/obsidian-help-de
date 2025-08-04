@@ -6,9 +6,9 @@ permalink: ribbon
 #TODO
 The ribbon functions as a space for common commands within Obsidian. 
 
-On desktop, it's located in the left sidebar and remains visible even when the left sidebar is closed. 
+On ![[lucide-monitor-check.svg#icon]] desktop, it's located in the left sidebar and remains visible even when the left sidebar is closed. 
 
-On mobile, you can access the ribbon by tapping the **Menu option** ( ![[lucide-menu.svg#icon]] ) at the bottom right corner of the app when you're not editing a note.
+On ![[obsidian-icon-smartphone.svg#icon]] mobile, you can access the ribbon by tapping the **Menu option** ( ![[lucide-menu.svg#icon]] ) at the bottom right corner of the app when you're not editing a note.
 
 ## Actions
 
@@ -18,7 +18,7 @@ Each action is represented by an icon in the ribbon. Hovering over these icons w
 2. Access **help** ( ![[lucide-help-circle.svg#icon]] ).
 3. Open **settings** ( ![[lucide-settings.svg#icon]] ).
 
-In the mobile version, the ribbon can serve as a quick access action, which can be configured by following the instructions in the [[#Mobile|mobile section]] on customizing the ribbon.
+In the ![[obsidian-icon-smartphone.svg#icon]] mobile version, the ribbon can serve as a quick access action, which can be configured by following the instructions in the [[#Mobile|mobile section]] on customizing the ribbon.
 
 ## Customizing the ribbon
 
@@ -26,14 +26,14 @@ Your customized ribbon layout is remembered across sessions and synchronizes wit
 
 ### Desktop
 
-On the desktop version, you can customize the ribbon as follows:
+On the ![[lucide-monitor-check.svg#icon]] desktop version, you can customize the ribbon as follows:
 
 - Rearrange the order of ribbon actions by simply dragging and dropping the icons.
 - To hide specific actions, right-click on an empty space within the ribbon and uncheck the actions you want to hide.
 
 ### Mobile
 
-In the mobile version of Obsidian, you can perform quick access actions, rearrange items, and customize the visibility status of the ribbon menu. To access these customizations, follow these steps:
+In the ![[obsidian-icon-smartphone.svg#icon]] mobile version of Obsidian, you can perform quick access actions, rearrange items, and customize the visibility status of the ribbon menu. To access these customizations, follow these steps:
 
 1. Open Obsidian's **settings** ( ![[lucide-cog.svg#icon]] ).
 2. Navigate to the **appearance** section.

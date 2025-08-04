@@ -14,7 +14,7 @@ Obsidian Sync provides several elements to indicate sync status, mainly the [[#S
 
 ## Sync status icon
 
-The Sync status icon is located in the [[Status bar]] on the desktop version and in the [[Sidebar#Open hidden sidebars|right sidebar]] on mobile and tablet. The icon reflects various sync states:
+The Sync status icon is located in the [[Status bar]] on the ![[lucide-monitor-check.svg#icon]] desktop version and in the [[Sidebar#Open hidden sidebars|right sidebar]] on ![[obsidian-icon-smartphone.svg#icon]] mobile and tablet. The icon reflects various sync states:
 
 - ![[obsidian-icon-sync-synced.svg#icon]] **Synced**: Obsidian Sync has fully synced your files. This icon is typically green.
 - ![[obsidian-icon-sync-syncing.svg#icon]] **Syncing**: Obsidian is currently updating the remote vault. This icon is usually purple.
@@ -78,7 +78,7 @@ The changes on the remote vault are older than the version on your local device,
 These are messages detailing an error in syncing a file.
 
 **Out of memory**  
-This issue typically occurs on mobile devices when there isn't enough storage space or memory available to download a file. It's most common with large files, such as videos.
+This issue typically occurs on ![[obsidian-icon-smartphone.svg#icon]] mobile devices when there isn't enough storage space or memory available to download a file. It's most common with large files, such as videos.
 
 ### Skipped messages
 

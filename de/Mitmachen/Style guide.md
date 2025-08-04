@@ -23,7 +23,7 @@ For our English documentation, it is recommended to use [Global English](https:/
 ### Terms
 
 - Prefer "keyboard shortcut" over "hotkey". Use Hotkey when referring to the specific feature.
-- Prefer "the Obsidian app" on mobile, and "the Obsidian application" on desktop.
+- Prefer "the Obsidian app" on ![[obsidian-icon-smartphone.svg#icon]] mobile, and "the Obsidian application" on ![[lucide-monitor-check.svg#icon]] desktop.
 - Prefer "sync" or "syncing" over "synchronise" or "synchronising".
 - Prefer "search term" over "search query".
 - Prefer "heading" over "header" when referring to a text that introduces a section.
@@ -282,14 +282,14 @@ You can check for broken links using [[Externe Erweiterungen]] or tools availabl
 
 This documentation is edited on GitHub and hosted online via [[Obsidian Publish/Einführung|Obsidian Publish]], which includes [[Social media link previews#Description|descriptions]] for social cards and other [[SEO]] elements.
 
-If the page you are working on does not have a `description` [[Properties|property]], please add one. The description should be 150 characters or fewer and provide an objective summary of the page’s content.
+If the page you are working on does not have a `description` [[Eigenschaften|property]], please add one. The description should be 150 characters or fewer and provide an objective summary of the page’s content.
 
 **Good**: Learn to create templates that capture and organize web page metadata automatically with Web Clipper.
 **Could be tweaked**: Learn how to create templates that automatically capture and organize metadata from web pages with Web Clipper.
 
 ### Directions
 
-When writing or rewriting [[#Instructions]] on how to perform an action within the app, be sure to include steps for both the mobile and desktop versions.
+When writing or rewriting [[#Instructions]] on how to perform an action within the app, be sure to include steps for both the ![[obsidian-icon-smartphone.svg#icon]] mobile and ![[lucide-monitor-check.svg#icon]] desktop versions.
 
 If you do not have access to a mobile or desktop device, please mention this when submitting your Pull Request.
 

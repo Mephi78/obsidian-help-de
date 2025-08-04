@@ -25,6 +25,6 @@ Wenn du bereits einen Ordner hast, den du als Vault nutzen möchtest:
 2. Wähle im Dateibrowser den Ordner, den du als Vault nutzen möchtest.
 3. Klicke **Öffnen**.
 
-Möchtest du mehr darüber erfahren, wie Vaults funktionieren, lerne, [[How Obsidian stores data|wie Obsidian Daten speichert]].
+Möchtest du mehr darüber erfahren, wie Vaults funktionieren, lerne, [[Datenspeicherung|wie Obsidian Daten speichert]].
 
 Du hast nun deinen ersten Vault angelegt und bist bereit, [[Erstelle deine erste Notiz|deine erste Notiz zu erstellen]].

@@ -1,7 +1,7 @@
 ---
 aliases:
   - Using Obsidian URI
-  - Advanced topics/Using obsidian URI
+  - Fortgeschrittene Themen/Using obsidian URI
   - Concepts/Obsidian URI
 ---
 #TODO
@@ -133,7 +133,7 @@ Some endpoints will accept the x-callback-url parameters `x-success` and `x-erro
 
 - `name` the name of the file, without the file extension.
 - `url` the `obsidian://` URI for this file.
-- `file` (desktop only) the `file://` URL for this file.
+- `file` (![[lucide-monitor-check.svg#icon]] desktop only) the `file://` URL for this file.
 
 For example, if Obsidian receives
 `obsidian://.....x-success=myapp://x-callback-url`, the response would be `myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`

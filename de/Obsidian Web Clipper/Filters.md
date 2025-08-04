@@ -109,7 +109,7 @@ Converts a value to uppercase, e.g. `"hello world"|upper` returns `"HELLO WORLD"
 
 ## Text formatting
 
-Apply [[Basic formatting syntax]] and [[Advanced formatting syntax]] to text.
+Apply [[Formatierungsgrundlagen]] and [[Advanced formatting syntax]] to text.
 
 ### `blockquote` 
 

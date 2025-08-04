@@ -65,7 +65,7 @@ To sync community plugins, manually enable **Active community plugin list** and 
 
 1. Open **Settings → Sync**.
 2. Under **Selective sync**, enable the file types you want to sync.
-3. Restart the application to apply the new settings. On mobile or tablet, this may require a force-quit.
+3. Restart the application to apply the new settings. On ![[obsidian-icon-smartphone.svg#icon]] mobile or tablet, this may require a force-quit.
 
 Note that your [[Plans and storage limits|Sync plan]] defines the maximum file size you can sync. The Standard plan allows syncing files up to 5MB, while the Plus plan supports files up to 200MB.
 
@@ -85,16 +85,17 @@ To remove a folder from the exclusion list, select the ![[lucide-x.svg#icon]] bu
 
 ##### File recovery snapshots
 
-The snapshots in the [[File recovery]] plugin are not synced via Obsidian Sync, as snapshots are kept in the [[How Obsidian stores data#Global settings|Global settings]].
+The snapshots in the [[File recovery]] plugin are not synced via Obsidian Sync, as snapshots are kept in the [[Datenspeicherung#Globale Einstellungen|Global settings]].
 
-##### Hidden folders
+##### Hidden files and folders
 
-Folders beginning with a `.` are treated as hidden and excluded from sync. The only exception is the vault's [[Konfigurationsordner|configuration folder]] (`.obsidian`), which does sync.
+Files and folders beginning with a `.` are treated as hidden and excluded from sync. The only exception is the vault's [[Konfigurationsordner|configuration folder]] (`.obsidian`), which does sync.
 
-Common examples of hidden folders that are not synced:
+Common examples of hidden files and folders that are not synced:
 - `.vscode`
 - `.git`
 - `.idea`
+- `.gitignore`
 
 ##### Sync settings
 
@@ -112,7 +113,7 @@ The primary device acts as the source of truth. Changes made here are synced acr
 
 1. Go to **Settings → Sync**.
 2. Activate the desired settings under **Vault configuration sync**.
-3. Reload or restart Obsidian. On mobile or tablet, a force-quit may be required.
+3. Reload or restart Obsidian. On ![[obsidian-icon-smartphone.svg#icon]] mobile or tablet, a force-quit may be required.
 4. Allow time for the settings to sync with your remote vault.
 
 ### Secondary device(s)
@@ -122,7 +123,7 @@ Secondary devices (such as your phone) receive updates from the primary device.
 1. Go to **Settings → Sync**.
 2. Enable the necessary settings under **Vault configuration sync**.
 3. Wait for changes to download from the remote vault.
-4. Reload or restart the app to apply the synced settings. On mobile or tablet, a force-quit may be required.
+4. Reload or restart the app to apply the synced settings. On ![[obsidian-icon-smartphone.svg#icon]] mobile or tablet, a force-quit may be required.
 
 ### Reloading of settings
 

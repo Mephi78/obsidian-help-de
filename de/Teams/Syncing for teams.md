@@ -10,7 +10,7 @@ Obsidian is designed to work both online and offline and give you total control 
 
 Obsidian offers an official service called [[Obsidian Sync/Einführung|Obsidian Sync]] which provides end-to-end encrypted syncing for small teams up to 20 users.
 
-Because Obsidian stores your data in plain text `.md` files, there are numerous options available to [[Synchronisiere deine Notizen zwischen Geräten|sync data across devices]] and control access to your team's data. This can include version control systems such as Git, network attached storage systems, and many services such as Dropbox, Google Drive, and more.
+Because Obsidian stores your data in plain text `.md` files, there are numerous options available to [[Synchronisiere Notizen zwischen Geräten|sync data across devices]] and control access to your team's data. This can include version control systems such as Git, network attached storage systems, and many services such as Dropbox, Google Drive, and more.
 
 ## Obsidian Sync for teams
 

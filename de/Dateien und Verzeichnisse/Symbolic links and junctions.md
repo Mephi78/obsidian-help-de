@@ -2,7 +2,7 @@
 permalink: symlinks
 ---
 #TODO
-You can use [symbolic links](https://en.wikipedia.org/wiki/Symbolic_link) (symlinks) and [junctions](https://learn.microsoft.com/en-us/windows/win32/fileio/hard-links-and-junctions#junctions) in your vault to store files outside the vault and [[How Obsidian stores data#Global settings|system folder]].
+You can use [symbolic links](https://en.wikipedia.org/wiki/Symbolic_link) (symlinks) and [junctions](https://learn.microsoft.com/en-us/windows/win32/fileio/hard-links-and-junctions#junctions) in your vault to store files outside the vault and [[Datenspeicherung#Globale Einstellungen|system folder]].
 
 > [!danger] Use at your own risk
 > We strongly advise against using symbolic links. By using symbolic links and junctions in your vault, you risk losing or corrupting your data, or crashing Obsidian. Make sure you perform regular back-ups of your vault and settings.
