@@ -23,7 +23,7 @@ Um eine neue Notiz zu erstellen:
 Obsidian ist die private und flexible Notiz-App, die sich an deine Denkweise anpasst.
 ```
 
-![[Manage notes#^blockquote-system-limitation]]
+![[Notizen verwalten#^blockquote-system-limitation]]
 
 ## Formatiere Text
 
