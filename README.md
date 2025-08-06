@@ -142,6 +142,17 @@ Wurden mit der Aktualisierung Dateien im Verzeichnis `/en` geändert, werden ihr
 > SORT file.name ASC
 > ```
 
+> [!TIP]- Wenig Zeit? Übersetze einen kurzen Text.
+> ```dataview
+> TABLE WITHOUT ID
+> file.link AS Seite
+> FROM #TODO
+> FLATTEN round((0.95 * file.size - length(string(file.frontmatter)))/5) AS approxwordcount
+> SORT approxwordcount ASC
+> LIMIT 10
+> ```
+
+
 > [!QUESTION]- Aktualisierung erforderlich: **`$= dv.span( dv.pages("#UPDATE").length )`** von `$= dv.span( dv.pages().length-1 )`
 > **Falls der englische Master Aktualisierungen enthält seit der Übersetzung, werden davon betroffene Notizen mit `#UPDATE` getagged und damit wieder zur Bearbeitung markiert.**
 > 
