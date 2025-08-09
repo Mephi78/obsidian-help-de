@@ -77,6 +77,10 @@ Ein **Link** referenziert eine Datei, Notiz oder [[Internal links#Link to a head
 
 **Markdown** ist eine Auszeichnungssprache zum Formatieren von Text. Das gleichnamige Dateiformat ist das primäre Format für Obsidian-Notizen (`.md` Dateien). Siehe auch [[Formatierungsgrundlagen]].
 
+## Mehrfach-Cursor
+
+**Mehrfach-Cursor** ermöglichen die [[Mehrfach-Cursor|gleichzeitige Bearbeitung]] mehrerer Textstellen.
+
 ## Notiz
 
 Eine **Notiz** ist eine [[#Markdown]]-Datei in einem [[#Vault]].

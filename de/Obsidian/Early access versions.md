@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Concepts/Insider builds
+  - Konzepte/Insider builds
   - Insider builds
 permalink: early-access
 ---
