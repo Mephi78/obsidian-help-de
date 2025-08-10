@@ -1,31 +1,31 @@
 ---
 permalink: mobile
 ---
-#TODO
-The mobile app aims to provide a familiar user experience for those already using the desktop app.
+#WIP/Mephi
+Obsidian Mobile möchte Anwendern, die bereits die Desktop-Anwendung verwenden, eine vertraute Benutzererfahrung bieten.
 
-That being said, there are a few features unique to the mobile app. In this guide, you’ll learn about them to get the most use out of the mobile app.
+Allerdings gibt es einige Funktionen, die nur in der Mobile App verfügbar sind. In diesem Leitfaden erfährst du mehr darüber, wie du die Mobile App optimal nutzen kannst.
 
-## Mobile toolbar
+## Mobile-Werkzeugleiste
 
-Mobile toolbar is a customization toolbar for editing notes.
+Die Werkzeugleiste in der Mobile App ist eine anpassbare Symbolleiste für die Bearbeitung von Notizen.
 
-When editing a note, you will notice a row of icons at the bottom of the app. The default arrangement of actions provides quick access to commonly used functionalities. You can customize them as well.
+Im Bearbeitungsmodus siehst du am unteren Rand der App eine Reihe von Symbolen. Die Standard-Anordnung der Symbole ermöglicht einen schnellen Zugriff auf häufig verwendete Funktionen. Du kannst diese auch anpassen.
 
-> [!tip] Scroll the toolbar
-> If you have lots of actions on the toolbar, you can swipe left and right on the toolbar to reveal more actions.
+> [!tip] Scrollen in der Werkzeugleiste
+> Wenn du sehr viele Aktionen in der Werkzeugleiste hast, kannst du nach links oder rechts wischen, um weitere Aktionen anzuzeigen.
 
-### Customize mobile toolbar
+### Werkzeugleiste anpassen
 
-In the mobile toolbar, tap **Configure mobile toolbar** ( ![[lucide-wrench.svg#icon]] )  to open the interface to customize it.
+Tippe in der Mobile-Werkzeugleiste auf **Optionen für die Werkzeugleiste verwalten** ( ![[lucide-wrench.svg#icon]] ), um die Werkzeugleiste zu konfigurieren.
 
-Alternatively, you can do it in Settings.
+Alternativ kannst du dies über die Einstellungen erreichen.
 
-1. Open Settings.
-2. Choose **Mobile**.
-3. Under **Manage toolbar options**, add, remove, or reorder the available options.
+1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ) .
+2. Wähle **Mobile-Werkzeugleiste**.
+3. Unter **Optionen für die Werkzeugleiste verwalten** kannst du verfügbare Aktionen hinzufügen, entfernen oder umsortieren.
 
-### Add command to mobile toolbar
+### Befehl zur Werkzeugleiste hinzufügen
 
 By default, the options that are available to be added to the toolbar are editing options like "Add internal link" or "Add tag".
 
