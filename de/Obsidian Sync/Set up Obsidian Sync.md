@@ -25,7 +25,7 @@ In this section, you'll create a new [[Local and remote vaults|remote vault]] an
 
 - An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/auth?returnto=%2Faccount%2Fsync#signup).
 - An active Obsidian Sync [[Plans and storage limits|subscription]]. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account/sync).
-- **Recommended**: A [[Back up your Obsidian files|backup system]] in place for your Obsidian files. A syncing service is not a backup. 
+- **Recommended**: A [[Sichere deine Obsidian-Dateien|backup system]] in place for your Obsidian files. A syncing service is not a backup. 
 
 ### Log in with your Obsidian account
 
@@ -96,7 +96,7 @@ In this section, you have already created a remote vault, and uploaded data to i
 - An active Obsidian Sync subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account).
 - Sync enabled within the [[Standarderweiterungen]] settings. 
 - An active remote vault. If you have not yet made one, please create a [[Set up Obsidian Sync#Create a new remote vault|remote vault]] first.
-- **Recommended**: A [[Back up your Obsidian files|backup system]] in place for your Obsidian files on your most-used device. A syncing service is not a backup. 
+- **Recommended**: A [[Sichere deine Obsidian-Dateien|backup system]] in place for your Obsidian files on your most-used device. A syncing service is not a backup. 
 
 ### Sync your vault from the vault switcher
 
