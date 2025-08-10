@@ -23,5 +23,5 @@ In the Obsidian mobile app the workspace includes:
 - [[Tabs]]
 - [[Obsidian Mobile|Editor toolbar]] which appears above the keyboard when editing
 - [[Sidebar|Sidebars]] can be opened using left and right swipe gestures
-- [[Obsidian Mobile#Navigation bar|Navigation bar]] at the bottom of the screen
+- [[Obsidian Mobile#Navigationsleiste|Navigation bar]] at the bottom of the screen
 	- [[Ribbon|Ribbon menu]] contains customizable actions

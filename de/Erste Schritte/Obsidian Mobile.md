@@ -1,7 +1,7 @@
 ---
 permalink: mobile
 ---
-#WIP/Mephi
+
 Obsidian Mobile möchte Anwendern, die bereits die Desktop-Anwendung verwenden, eine vertraute Benutzererfahrung bieten.
 
 Allerdings gibt es einige Funktionen, die nur in der Mobile App verfügbar sind. In diesem Leitfaden erfährst du mehr darüber, wie du die Mobile App optimal nutzen kannst.
@@ -21,64 +21,64 @@ Tippe in der Mobile-Werkzeugleiste auf **Optionen für die Werkzeugleiste verwal
 
 Alternativ kannst du dies über die Einstellungen erreichen.
 
-1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ) .
+1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
 2. Wähle **Mobile-Werkzeugleiste**.
 3. Unter **Optionen für die Werkzeugleiste verwalten** kannst du verfügbare Aktionen hinzufügen, entfernen oder umsortieren.
 
 ### Befehl zur Werkzeugleiste hinzufügen
 
-By default, the options that are available to be added to the toolbar are editing options like "Add internal link" or "Add tag".
+Befehle, die standardmäßig zum Hinzufügen zur Auswahl stehen, sind Editierbefehle wie "Formatierung löschen" oder "Callout einfügen".
 
-In addition to that, you can add global commands like "Change theme".
+Zusätzlich kannst du globale Befehle hinzufügen, wie bspw. "Farbschema wechseln".
 
-1. Find **Manage toolbar options** under **Settings** → **Mobile**.
-2. Scroll to the very bottom, find **Add global command**.
-3. Type the name of the command you wish to add.
-4. Select the command you’ll like to add.
-5. The new command gets added to the end of the toolbar.
+1. Öffne die **Einstellungen** → **Mobile-Werkzeugleiste**.
+2. Scrolle bis ganz nach unten zum Abschnitt **Globalen Befehl hinzufügen**.
+3. Beginne den Befehl einzutippen, den du hinzufügen möchtest.
+4. Wähle den gewünschten Befehl aus, sobald er in der Auswahlliste erscheint.
+5. Der neue Befehl wird nun am Ende der Werkzeugleiste hinzugefügt.
 
-## Quick Action
+## Schnell-Aktion
 
-On the mobile app, you can define one action that gets invoked by pulling down from the top of the app, similar to how you would pull to refresh on social media apps.
+In der Mobile App kannst du eine Schnell-Aktion festlegen, die ausgelöst wird, wenn du im Hauptfenster eine Wischgeste von oben nach unten ausführst.
 
-Quick Action defaults to open [[Command palette]].
+Standardmäßig wird über die Schnell-Aktion die [[Command palette|Befehlspalette]] geöffnet.
 
-### Customize Quick Action
+### Schnell-Aktion anpassen
 
-1. Open Settings.
-2. Under **Options**, choose **Toolbar**.
-3. Under **Configure mobile Quick Action**, tap **Configure**.
-4. Type the name of the command.
-5. Select the command you’d like to set.
-6. Close the setting page.
+1. Öffne die **Einstellungen** → **Mobile-Werkzeugleiste**.
+2. Tippe unter **Schnell-Aktion für Mobile konfigurieren** auf **Konfigurieren**.
+3. Beginne den Befehl einzutippen, den du zuweisen möchtest.
+4. Wähle den gewünschten Befehl aus, sobald er in der Auswahlliste erscheint.
+5. Schließe die Einstellungen.
 
-Now, when you pull down from the top, the new Quick Action will be invoked.
+Wenn du nun von oben nach unten wischst, wird die Schnell-Aktion ausgelöst.
 
-## Navigation bar
+## Navigationsleiste
 
-The navigation bar on mobile helps you navigate the app. The navigation bar shows up when you’re not editing the app.
+Die Navigationsleiste hilft dir, in der Mobile App durch deine Notizen zu navigieren. Sie erscheint am unteren Rand, wenn du nicht editierst.
 
-With the **Toggle keyboard** toolbar option, you can close the mobile toolbar and switch to the navigation bar instead.
+Wenn du im Editiermodus die Tastatur ausblendest, wird auch die Mobile-Werkzeugleiste geschlossen und stattdessen die Navigationsleiste angezeigt.
 
-### Go back or forward
+### Vorwärts und zurück navigieren
 
-On the navigation bar, the first two options helps you go back ( ![[lucide-chevron-left.svg#icon]] ) or forward ( ![[lucide-chevron-right.svg#icon]] ). If one of the options is not available, the icon is greyed out.
+Über die ersten beiden Symbole in der Navigationsleiste kannst du zurück ( ![[lucide-chevron-left.svg#icon]] ) oder vorwärts ( ![[lucide-chevron-right.svg#icon]] ) navigieren. Falls eine Richtung nicht verfügbar ist, erscheint das entsprechende Symbol ausgegraut.
 
-### Create or find note
+### Notizen erstellen oder finden
 
-The middle plus in circle icon lets you create a new note or switch to an existing note. This is equivalent to opening [[Quick switcher]].
+Mit dem eingekreisten Pluszeichen in der Mitte ( ![[lucide-plus-circle.svg#icon]] ) kannst du eine vorhandene Notiz öffnen oder eine neue erstellen, ähnlich wie über die [[Quick switcher|Schnellauswahl]].
 
-### Tab management
+### Tab-Verwaltung
 
-The second icon to the right shows you how many tabs are currently open. The icon looks like a number in a box. For example, the icon below indicates there are two tabs open.
+Das zweite Symbol von rechts, eine Ziffer in einem Kästchen, zeigt dir, wie viele Tabs du derzeit geöffnet hast. Das Symbol unten würde bspw. bedeuten, dass zwei Tabs geöffnet sind.
 
 <span class="mobile-navbar-tabs-action">2</span>
-When you tap it, you’ll be able to switch to any open tab. You can also open a new tab.
 
-### Ribbon actions
+Wenn du es antippst, kannst du zwischen den Tabs wechseln oder einen neuen Tab öffnen.
 
-The mobile app has no [[Ribbon]]. Instead, the ribbon actions will be available when you tap **Open menu** ( ![[lucide-menu.svg#icon]] ), the last option on the navigation bar.
+### Weitere Werkzeuge
 
-### Right sidebar
+Die Mobile App hat kein [[Ribbon|Seitenleisten-Menü]] wie in der Desktop-Version. Die Funktionen des Seitenleisten-Menüs erreichst du stattdessen über das **Hamburger-Menü** ( ![[lucide-menu.svg#icon]] ), das letzte Symbol in der Navigationsleiste.
 
-The right sidebar can be accessed by swiping left either while editing the active note or in the Reading view by holding the triple-dot icon in the upper-right corner.
+### Rechte Seitenleiste
+
+Die rechte Seitenleiste öffnet sich - im Editier- wie auch im Lesemodus - wenn du nach links wischst oder das Drei-Punkte-Menü-Symbol ( ![[lucide-ellipsis-vertical.svg#icon]] ) oben rechts länger gedrückt hältst.

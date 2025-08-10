@@ -76,6 +76,6 @@ Hast du Interesse, deine Fähigkeiten und etwas freie Zeit in Obsidian zu invest
 
 - Unterstütze andere Obsidian-Anwender, indem du ihre Fragen auf unserem [Discord Server](https://discord.gg/obsidianmd), im [Forum](https://forum.obsidian.md/) oder dem [ObsidianMD reddit](https://old.reddit.com/r/ObsidianMD/) beantwortest.
 - Liebe [[Developers|Entwickler]] - wir brauchen wirklich eure Hilfe bei der Erweiterung der [Obsidian Entwicklerdokumentation](https://github.com/obsidianmd/obsidian-developer-docs).
-- Beherrschst du neben Englisch noch eine weitere Sprache? Dann unterstütze uns gerne bei der [[Übersetzen|Übersetzung]] in andere Sprachen.
+- Beherrschst du neben Englisch noch eine weitere Sprache? Dann unterstütze uns gerne bei der [[Übersetzer|Übersetzung]] in andere Sprachen.
 - Hast du auf diesen Hilfeseiten veraltete Inhalte gefunden oder erscheint dir eine Erklärung verwirrend? Schnapp dir den [[Style guide]] und erstelle ein [Issue oder Pull Request](https://github.com/obsidianmd/obsidian-help/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 - Wenn es dir möglich ist, kannst du auch einen [[Financial contributions|finanziellen Beitrag]] leisten, indem du einen unserer kostenpflichtigen Zusatzdienste nutzt. 
