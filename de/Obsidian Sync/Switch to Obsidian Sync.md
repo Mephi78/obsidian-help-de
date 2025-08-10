@@ -13,7 +13,7 @@ publish: true
 Learn how to transition from your current syncing solution to Obsidian Sync.
 
 > [!warning] Avoid using multiple solutions to sync the same files
-> We [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|do not recommend]] using Obsidian Sync alongside cloud storage services (e.g. iCloud, Dropbox, OneDrive, Google Drive) as this can cause conflicts. However, cloud storage services may play a role in your [[Sichere deine Obsidian-Dateien|backup]] strategy.
+> We [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|do not recommend]] using Obsidian Sync alongside cloud storage services (e.g. iCloud, Dropbox, OneDrive, Google Drive) as this can cause conflicts. However, cloud storage services may play a role in your [[Sichere deinen Vault|backup]] strategy.
 
 ## Move your vault out of your third-party syncing service or cloud storage
 
@@ -57,7 +57,7 @@ To move an existing iCloud vault to your device, follow these steps:
 
 > [!note] If you already have the data on another device and have set up Obsidian Sync, it's recommended to [[Set up Obsidian Sync#Sync a remote vault on another device|set up a new local vault from Sync]] instead.
 
-- [[Sichere deine Obsidian-Dateien|Back up]] your vault.
+- [[Sichere deinen Vault|Back up]] your vault.
 - Create a new vault on your device, ensuring **Save in iCloud Drive** is disabled.
 - Force quit the Obsidian app on all devices to pause Sync.
 - Open the **Files** app on your iOS/iPadOS device.

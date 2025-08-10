@@ -14,7 +14,7 @@ This guide explains how to move your Sync vault to a different regional server.
 
 > [!danger] Migrations are destructive
 > 
-> **Always [[Sichere deine Obsidian-Dateien|backup]] your vault before proceeding with a migration.**
+> **Always [[Sichere deinen Vault|backup]] your vault before proceeding with a migration.**
 > 
 > When you migrate a remote vault to a different region your data will be replaced. This means:
 > 
@@ -23,7 +23,7 @@ This guide explains how to move your Sync vault to a different regional server.
 
 ## Change Sync region
 
-To change your remote vault's region, you will need to perform the following steps in order. Please make a [[Sichere deine Obsidian-Dateien|backup]] of your data first.
+To change your remote vault's region, you will need to perform the following steps in order. Please make a [[Sichere deinen Vault|backup]] of your data first.
 
 ![[Set up Obsidian Sync#Disconnect from a remote vault]]
 

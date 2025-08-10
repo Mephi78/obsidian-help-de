@@ -13,7 +13,7 @@ Obsidian speichert Notizen lokal auf deinem Gerät, so dass du jederzeit Zugriff
 
 Dieser Leitfaden erklärt gängige Synchronisierungsmethoden und gibt Tipps, wie du Datenverlust vermeiden und einen reibungslosen Ablauf sicherstellen kannst.
 
-Wir empfehlen auch, unseren [[Sichere deine Obsidian-Dateien|Backup-Leitfaden]] zu lesen, um deine Daten zu sichern.
+Wir empfehlen auch, unseren [[Sichere deinen Vault|Backup-Leitfaden]] zu lesen, um deine Daten zu sichern.
 
 ## Synchronisierungsmethoden
 

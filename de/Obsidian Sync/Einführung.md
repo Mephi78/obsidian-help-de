@@ -31,14 +31,14 @@ publish: true
 	- Wie Obsidian deine Daten schützt.
 - [[Collaborate on a shared vault|Zusammenarbeit]]
 	- Einem geteilten Vault Team-Mitglieder zuweisen.
-- [[Sichere deine Obsidian-Dateien|Obsidian-Dateien sichern]]
+- [[Sichere deinen Vault|Obsidian-Dateien sichern]]
 	- Sicherheitskopien deines Vaults mit Drittanbieter-Werkzeugen anlegen.
 - [[Troubleshoot Obsidian Sync|Fehlerbehebung]]
 	- Bekannte Synchronisierungsprobleme und Lösungen.
 
 ## Wichtig
 
-Wenn du Obsidian Sync zusammen mit anderen Cloud-Speicher-Lösungen wie Dropbox, Google Drive oder OneDrive verwendest, [[Sichere deine Obsidian-Dateien|sichere bitte deine Obsidian-Dateien]], um dich für mögliche Konflikte bei der Synchronisierung abzusichern. Wir empfehlen jedoch grundsätzlich eine [[Switch to Obsidian Sync|vollständige Migration auf Obsidian Sync]].
+Wenn du Obsidian Sync zusammen mit anderen Cloud-Speicher-Lösungen wie Dropbox, Google Drive oder OneDrive verwendest, [[Sichere deinen Vault|sichere bitte deine Obsidian-Dateien]], um dich für mögliche Konflikte bei der Synchronisierung abzusichern. Wir empfehlen jedoch grundsätzlich eine [[Switch to Obsidian Sync|vollständige Migration auf Obsidian Sync]].
 
 Für häufig gestellte Fragen und weitere Informationen über Obsidian Sync, siehe [[Obsidian Sync/Frequently asked questions|FAQ]].
 
