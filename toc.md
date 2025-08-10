@@ -35,7 +35,7 @@
 - Anhänge
 - Callouts
 - Reduzieren
-- Mehrere Cursor
+- Mehrfach-Cursor
 - Eigenschaften
 - Ansichten und Modi
 - Editor-Shortcuts
@@ -81,8 +81,8 @@
 ### Mitmachen
 - Entwickler
 - Finanzielle Unterstützung
-- Style Guide
-- Übersetzungen
+- Styleguide
+- Übersetzer
 
 ### Lizenzen und Zahlung
 - Einführung
