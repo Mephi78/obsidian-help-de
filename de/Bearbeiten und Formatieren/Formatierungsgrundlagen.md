@@ -7,7 +7,7 @@ permalink: syntax
 publish: true
 ---
 
-Erfahre, wie du deine Notizen einfach formatieren kannst mit [Markdown](https://daringfireball.net/projects/markdown/). Für fortgeschrittene Formatierungstechniken, siehe [[Advanced formatting syntax|Erweiterte Formatierungssyntax]].
+Erfahre, wie du deine Notizen einfach formatieren kannst mit [Markdown](https://daringfireball.net/projects/markdown/). Für fortgeschrittene Formatierungstechniken, siehe [[Erweiterte Formatierungssyntax|Erweiterte Formatierungssyntax]].
 
 ## Absätze
 
@@ -486,6 +486,6 @@ Bei der Arbeit mit nummerierten Texten möchtest du möglicherweise die Listenfo
 
 ## Erfahre mehr
 
-Weitere Informationen zu fortgeschrittenen Formatierungstechniken, z.B. für Tabellen, Diagramme und mathematische Ausdrücke, findest du unter [[Advanced formatting syntax|Erweiterte Formatierungssyntax]].
+Weitere Informationen zu fortgeschrittenen Formatierungstechniken, z.B. für Tabellen, Diagramme und mathematische Ausdrücke, findest du unter [[Erweiterte Formatierungssyntax|Erweiterte Formatierungssyntax]].
 
 Um mehr darüber zu erfahren, wie Markdown-Parsing in Obsidian funktioniert, lies weiter unter [[Obsidian Flavored Markdown]].
