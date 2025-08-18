@@ -29,7 +29,7 @@
 
 ### Bearbeiten und Formatieren
 - Formatierungsgrundlagen
-- Erweiterte Formatierungssyntax
+- Erweiterte Formatierung
 - Obsidian Flavored Markdown
 - Tags
 - Anhänge
@@ -38,7 +38,7 @@
 - Mehrfach-Cursor
 - Eigenschaften
 - Ansichten und Modi
-- Editor-Shortcuts
+- Tastenkürzel zum Bearbeiten
 - Webseiten einbetten
 - HTML verwenden
 
