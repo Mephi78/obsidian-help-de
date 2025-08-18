@@ -22,4 +22,4 @@ Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdo
 | `- [ ]`         | [[Formatierungsgrundlagen#Aufgabenlisten\|Incomplete task]]               |
 | `- [x]`         | [[Formatierungsgrundlagen#Aufgabenlisten\|Completed task]]                |
 | `> [!note]`     | [[Callouts]]                                                          |
-| (see link)      | [[Advanced formatting syntax#Tables\|Tables]]                         |
+| (see link)      | [[Erweiterte Formatierungssyntax#Tabellen\|Tables]]                         |

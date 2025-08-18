@@ -11,7 +11,7 @@ Obsidian speichert deine Notizen als [[Formatierungsgrundlagen|Markdown-formatie
 
 Da Notizen einfache Textdateien sind, kannst du sie mit einem beliebigen anderen Texteditor oder Dateimanager bearbeiten und verwalten. Obsidian aktualisiert deinen Vault automatisch, auch bei externen Änderungen.
 
-Du kannst einen Vault überall dort erstellen, wo es dein Betriebssystem erlaubt. Obsidian synchronisiert sich mit [[Obsidian Sync/Einführung|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git und vielen anderen Drittanbieterdiensten.
+Du kannst einen Vault überall dort erstellen, wo es dein Betriebssystem erlaubt. Obsidian synchronisiert sich mit [[Obsidian Sync/Einführung|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git und vielen anderen Drittanbieter-Diensten.
 
 Du kannst mehrere Ordner als einzelne Vaults öffnen, z.B. um Notizen für die Arbeit und für die Schule zu trennen.
 
@@ -20,7 +20,7 @@ Du kannst mehrere Ordner als einzelne Vaults öffnen, z.B. um Notizen für die A
 
 ## Vault-Einstellungen
 
-Obsidian erstellt einen [[Konfigurationsordner|Konfigurationsordner]] `.obsidian` im Wurzelverzeichnis des Vaults, in welchem die spezifischen Einstellungen für diesen Vault gespeichert werden, z.B. [[Hotkeys|Tastenkürzel]], [[Farbschemata|Farbschemata]] und [[Externe Erweiterungen|Plugins]].
+Obsidian erstellt einen [[Konfigurationsordner|Konfigurationsordner]] `.obsidian` im Wurzelverzeichnis des Vaults, in welchem die spezifischen Einstellungen für diesen Vault gespeichert werden, z.B. [[Tastenkürzel|Tastenkürzel]], [[Themen|Themen]] und [[Externe Erweiterungen|Plugins]].
 
 Standardmäßig werden bei den meisten Betriebssystemen Ordner, die mit einem Punkt (`.`) beginnen, als versteckte Verzeichnisse ausgeblendet. Du kannst in deinem Dateimanager versteckte Dateien einblenden.
 

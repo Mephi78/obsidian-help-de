@@ -4,7 +4,7 @@ aliases:
 permalink: editing-shortcuts
 ---
 #TODO
-Learn how to use keyboard shortcuts to navigate and edit text in your notes. You can also define [[Hotkeys|custom hotkeys]].
+Learn how to use keyboard shortcuts to navigate and edit text in your notes. You can also define [[Tastenkürzel|custom hotkeys]].
 
 ## Windows and Linux shortcuts
 

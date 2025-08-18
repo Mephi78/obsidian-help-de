@@ -2,7 +2,7 @@
 aliases:
   - Using Obsidian URI
   - Fortgeschrittene Themen/Using obsidian URI
-  - Concepts/Obsidian URI
+  - Konzepte/Obsidian URI
 ---
 #TODO
 Obsidian URI is a custom URI protocol supported by Obsidian that lets you trigger various actions, such as opening a note or creating a note. Obsidian URI enables automation and cross-app workflows.
@@ -66,7 +66,7 @@ The `new` action, creates a new note in the vault, optionally with some content.
 
 - `obsidian://new?vault=my%20vault&name=my%20note`
   This opens the vault `my vault`, and creates a new note called `my note`.
-- `obsidian://new?vault=my%20vault&path=path%2Fto%2Fmy%20note`
+- `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   This opens the vault `my vault`, and creates a new note at `path/to/my note`.
 
 ### Parameters

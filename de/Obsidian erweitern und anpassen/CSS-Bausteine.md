@@ -2,7 +2,7 @@
 aliases:
   - CSS-Schnipsel
   - Snippets
-description: Erfahre, wie du das Aussehen von Obsidian ändern kannst, ohne ein Farbschema zu erstellen.
+description: Erfahre, wie du das Aussehen von Obsidian ändern kannst, ohne ein Thema zu erstellen.
 mobile: true
 permalink: snippets
 publish: true
@@ -43,7 +43,7 @@ Weiterhin kannst du
 
 Ist ein CSS-Baustein aktiviert, wird Obsidian Änderungen daran automatisch erkennen und anwenden, sobald du die CSS-Datei speicherst.
 
-> [!TIP] Du musst Obsidian nicht neu starten, damit die Änderungen wirksam werden. Möglicherweise musst du die Anwendung jedoch über die [[Command palette|Befehlspalette]] neu laden ohne zu speichern, um die Änderungen im aktuellen Farbschema bzw. der aktuellen Notiz zu sehen.
+> [!TIP] Du musst Obsidian nicht neu starten, damit die Änderungen wirksam werden. Möglicherweise musst du die Anwendung jedoch über die [[Command palette|Befehlspalette]] neu laden ohne zu speichern, um die Änderungen im aktuellen Thema bzw. der aktuellen Notiz zu sehen.
 
 ## CSS für Obsidian schreiben
 

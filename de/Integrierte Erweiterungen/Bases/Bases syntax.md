@@ -185,16 +185,19 @@ For example, a filter `file.ext == "md"` will be true for all Markdown files and
 
 | Property      | Type   | Description                                                   |
 | ------------- | ------ | ------------------------------------------------------------- |
+| `file.backlinks`  | List   | List of backlink files. Note: This property is performance heavy. When possible, reverse the lookup and use `file.links`. Does not automatically refresh results when the vault is changed. |
 | `file.ctime`  | Date   | Created time                                                  |
 | `file.embeds` | List   | List of all embeds in the note                                |
 | `file.ext`    | String | File extension                                                |
 | `file.file`   | File   | File object, only usable in specific functions                |
 | `file.folder` | String | Path of the file folder                                       |
+| `file.links`  | List   | List of all internal links in the note, including frontmatter |
 | `file.mtime`  | Date   | Modified time                                                 |
 | `file.name`   | String | File name                                                     |
 | `file.path`   | String | Path of the file                                              |
+| `file.properties`   | Object | All properties on the file. Note: Does not automatically refresh results when the vault is changed. |
 | `file.size`   | Number | File size                                                     |
-| `file.links`  | List   | List of all internal links in the note, including frontmatter |
+| `file.tags`   | List   | List of all tags in the file content and frontmatter          |
 
 ### Access properties of the current file
 

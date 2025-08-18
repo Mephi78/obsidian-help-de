@@ -109,7 +109,7 @@ Converts a value to uppercase, e.g. `"hello world"|upper` returns `"HELLO WORLD"
 
 ## Text formatting
 
-Apply [[Formatierungsgrundlagen]] and [[Advanced formatting syntax]] to text.
+Apply [[Formatierungsgrundlagen]] and [[Erweiterte Formatierungssyntax]] to text.
 
 ### `blockquote` 
 
@@ -164,7 +164,7 @@ Converts an array to a Markdown list.
 
 ### `table`
 
-Converts an array or array of objects into a [[Advanced formatting syntax#Tables|Markdown table]]:
+Converts an array or array of objects into a [[Erweiterte Formatierungssyntax#Tabellen|Markdown table]]:
 
 - For an array of objects, it uses the object keys as headers.
 - For an array of arrays, it creates a table with each nested array as a row.
