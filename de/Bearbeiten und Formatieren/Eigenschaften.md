@@ -20,7 +20,7 @@ Mit Eigenschaften kannst du Informationen über eine Notiz organisieren. Sie ent
 Es gibt verschiedene Wege, einer Notiz eine Eigenschaft hinzuzufügen:
 
 - Verwende den [[Command palette|Befehl]] **Dateieigenschaften hinzufügen**.
-- Verwende das [[Hotkeys|Tastenkürzel]] **`Strg/Cmd + ;`** (oder auf der deutschen Tastatur **`Strg + ü`**).
+- Verwende das [[Tastenkürzel|Tastenkürzel]] **`Strg/Cmd + ;`** (oder auf der deutschen Tastatur **`Strg + Ü`**).
 - Wähle **Dateieigenschaften hinzufügen** über das Drei-Punkte-Menü ( ![[lucide-ellipsis-vertical.svg#icon]] ) **Weitere Optionen** rechts oben in deiner Notiz.
 - Tippe `---` am Anfang deiner Notiz.
 
@@ -92,7 +92,7 @@ Einige Funktionen werden derzeit von Obsidian nicht unterstützt:
 | -------------------------------- | -------------- |
 | Neue Dateieigenschaft hinzufügen | `Strg/Cmd + ;` |
 
-> [!TIP] Auf der deutschen Tastatur kannst du `Strg + ü` verwenden oder dem Befehl einfach ein neues [[Hotkeys#Setting hotkeys|Tastenkürzel zuweisen]].
+> [!TIP] Auf der deutschen Tastatur kannst du `Strg + Ü` verwenden oder dem Befehl einfach ein neues [[Tastenkürzel#Tastenkürzel zuweisen|Tastenkürzel zuweisen]].
 
 ### Zwischen Eigenschaften wechseln
 
@@ -212,7 +212,7 @@ Die Datumsauswahl verwendet das Standard-Datumsformat deines Betriebssystems. Du
 > 
 > ![[Windows-OS-DateTime-DE.png#interface]] 
 
-> [!info]- Mac OS
+> [!info]- macOS
 > **Systemeinstellungen → Sprache & Region → Datumsformat**
 > 
 > ![[Mac-OS-DateTime.png|450]]

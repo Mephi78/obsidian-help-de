@@ -24,7 +24,7 @@ Ein **Befehl** ist eine Aktion, die ausgeführt werden kann, indem du sie in der
 
 `Aliasse: CSS-Schnipsel, Snippet`
 
-**CSS-Bausteine** ändern das Aussehen von Obsidian, so wie Farbschemata. Im Gegensatz zu [[#Farbschema|Farbschemata]] jedoch kannst du mehrere [[CSS-Bausteine|CSS-Schnipsel]] gleichzeitig aktivieren.
+**CSS-Bausteine** ändern das Aussehen von Obsidian, so wie Themen. Im Gegensatz zu [[#Thema|Themen]] jedoch kannst du mehrere [[CSS-Bausteine|CSS-Schnipsel]] gleichzeitig aktivieren.
 
 ## Eigenschaft
 
@@ -49,9 +49,9 @@ Du kannst auch [eigene Erweiterungen erstellen](https://docs.obsidian.md/Plugins
 
 ## Farbschema
 
-`Aliasse: Design, Theme`
+`Aliasse: Farbmodus`
 
-Ein **Farbschema** ändert das Aussehen deiner Obsidian-Anwendung mittels [CSS](https://developer.mozilla.org/de/docs/Web/CSS). Du kannst Teile eines Farbschemas überschreiben mit Hilfe von [[#CSS-Baustein|CSS-Schnipseln]].
+Obsidian stellt zwei **Farbschemata** zur Verfügung, den hellen und den dunklen Modus.
 
 ## Frontmatter
 
@@ -64,10 +64,6 @@ Ein **Graph** ist eine bildhafte Darstellung der Beziehungen zwischen den Notize
 ## Hauptbereich
 
 Der **Hauptbereich** ist der zentrale Fensterbereich in Obsidian, in dem du in erster Linie deine [[#Notiz|Notizen]] bearbeitest.
-
-## Hotkey
-
-Siehe [[#Tastenkürzel]].
 
 ## Link
 
@@ -113,6 +109,10 @@ Ein Bereich, der unterstützende [[#Ansicht|Ansichten]] enthält, die als [[#Reg
 
 Obsidian ![[lucide-monitor-check.svg#icon]] *Desktop* hat je eine Seitenleiste rechts und links des [[#Hauptbereich|Hauptbereiches]]. Beide können zum Einen über entsprechende Symbole in der linken bzw. rechten oberen Ecke aufgerufen werden. Auf dem Touchscreen können Seitenleisten auch durch Wischen nach rechts bzw. links aufgerufen werden. Halte auf Obsidian ![[obsidian-icon-smartphone.svg#icon]] *Mobile* das Icon in der rechten oberen Ecke länger gedrückt, um die rechte Seitenleiste aufzurufen.
 
+## Shortcut
+
+Siehe [[#Tastenkürzel]].
+
 ## Snippet
 
 Siehe [[#CSS-Baustein]].
@@ -139,13 +139,15 @@ Ein **Tag** ist ein Wort, dem ein Hash (`#`) vorangestellt ist, z.B. `#buch`. Mi
 
 ## Tastenkürzel
 
-`Aliasse: Hotkey, Shortcut, Tastenkombination`
+`Aliasse: Shortcut, Tastenkombination`
 
-Ein **Tastenkürzel** ist eine Tastenkombination für einen [[#Befehl]]. Siehe auch [[Hotkeys|Tastenkürzel]].
+Ein **Tastenkürzel** ist eine Tastenkombination für einen [[#Befehl]]. Siehe auch [[Tastenkürzel|Tastenkürzel]].
 
-## Theme
+## Thema
 
-Siehe [[#Farbschema]].
+`Aliasse: Design, Theme`
+
+Ein **Thema** ändert das Aussehen deiner Obsidian-Anwendung mittels [CSS](https://developer.mozilla.org/de/docs/Web/CSS). Du kannst Teile eines Themas überschreiben mit Hilfe von [[#CSS-Baustein|CSS-Schnipseln]]. Siehe auch [[#Farbschema]].
 
 ## Vault
 

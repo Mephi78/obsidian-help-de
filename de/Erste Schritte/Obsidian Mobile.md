@@ -29,7 +29,7 @@ Alternativ kannst du dies über die Einstellungen erreichen.
 
 Befehle, die standardmäßig zum Hinzufügen zur Auswahl stehen, sind Editierbefehle wie "Formatierung löschen" oder "Callout einfügen".
 
-Zusätzlich kannst du globale Befehle hinzufügen, wie bspw. "Farbschema wechseln".
+Zusätzlich kannst du globale Befehle hinzufügen, wie bspw. "Thema wechseln".
 
 1. Öffne die **Einstellungen** → **Mobile-Werkzeugleiste**.
 2. Scrolle bis ganz nach unten zum Abschnitt **Globalen Befehl hinzufügen**.

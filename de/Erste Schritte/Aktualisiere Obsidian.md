@@ -39,7 +39,7 @@ Um Obsidian zu aktualisieren, wenn ein Installer-Update notwendig ist:
 
 Deine Installer-Aktualisierung ist nun abgeschlossen und du kannst Obsidian wieder öffnen.
 
-> [!Question]- Der Ersteller eines Plugins oder Farbschemas bittet darum, meinen Installer zu aktualisieren, aber das Obsidian-Team hat dies nicht getan. Warum?
+> [!Question]- Der Ersteller eines Plugins oder Themas bittet darum, meinen Installer zu aktualisieren, aber das Obsidian-Team hat dies nicht getan. Warum?
 > Das ist häufig der Fall, wenn wir interne Bibliotheksaktualisierungen im Installer vornehmen, die keine Aktualisierung der Mindestversion der Anwendung erfordern, was jeden zu einer Aktualisierung zwingen würde. 
 > 
 > Angenommen du verwendest ein Plugin für PDF-Anmerkungen und wir aktualisieren die `pdf.js` Bibliothek innerhalb Obsidian. Der Plugin-Entwickler würde die Vorteile der aktualisierten Bibliothek nutzen wollen.

@@ -8,7 +8,7 @@ permalink: notizen-verwalten
 publish: true
 ---
 
-Dateien und Verzeichnisse lassen sich auf verschiedene Arten verwalten, indem du [[Hotkeys|Tastenkürzel]], [[Command palette|Befehle]] oder den [[File explorer|Dateiexplorer]] verwendest.
+Dateien und Verzeichnisse lassen sich auf verschiedene Arten verwalten, indem du [[Tastenkürzel|Tastenkürzel]], [[Command palette|Befehle]] oder den [[File explorer|Dateiexplorer]] verwendest.
 
 ## Neue Notiz erstellen
 

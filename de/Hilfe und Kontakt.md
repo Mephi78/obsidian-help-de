@@ -37,7 +37,7 @@ Wenn du einen Fehler entdeckst oder Unterstützung vom [[#Obsidian Support konta
 Falls deine Fehlermeldung in Zusammenhang mit einer Erweiterung steht oder du vom [[#Obsidian Support kontaktieren|Obsidian Support]] darum gebeten wirst, Log-Informationen bereitzustellen, musst du möglicherweise innerhalb der Obsidian-Anwendung auf die Entwicklerkonsole zugreifen. So geht's:
 
 - **Windows**: `Strg + Umschalt + i`  
-- **MacOS**: `CMD + OPTION + i`  
+- **macOS**: `CMD + OPTION + i`  
 - **Linux**: `Strg + Umschalt + i`
 
 > [!note] Wenn du den Fensterstil **Obsidian** verwendest, kannst du auch über das Titelmenü auf die Obsidian-Konsole zugreifen.

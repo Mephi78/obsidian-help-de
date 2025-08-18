@@ -43,16 +43,16 @@ Lerne die Grundlagen - deine ersten Schritte mit Obsidian:
 
 ## Obsidian erweitern
 
-Mit unzähligen Erweiterungen und Farbschemata kannst du Obsidian ganz deiner individuellen Denkweise anpassen.
+Mit unzähligen Erweiterungen und Themen kannst du Obsidian ganz deiner individuellen Denkweise anpassen.
 
 - [[Standarderweiterungen|Obsidian-Erweiterungen]]
 	- Entscheide selbst, welche integrierten Obsidian-Funktionen du nutzen möchtest.
 - [[Externe Erweiterungen|Externe Erweiterungen]]
 	- Schalte zusätzliche Funktionen frei mit Erweiterungen, die von Obsidian-Anwendern entwickelt wurden.
-- [[Farbschemata|Farbschemata]]
+- [[Themen|Themen]]
 	- Gestalte das Erscheinungsbild der Anwendung mit von Nutzern erstellten Designs.
 - [[CSS-Bausteine|CSS-Bausteine]]
-	- Ergänze die Benutzeroberfläche um kleine Anpassungen, zusätzlich zum gewählten Farbschema.
+	- Ergänze die Bedienoberfläche um kleine Anpassungen, zusätzlich zum gewählten Thema.
 - [[Obsidian Web Clipper/Einführung|Web Clipper]]
 	- Markiere Texte und speichere Webseiten in Obsidian mit unserer Browser-Erweiterung.
 
