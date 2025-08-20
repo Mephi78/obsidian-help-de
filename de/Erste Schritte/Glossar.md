@@ -10,7 +10,7 @@ Ein **Alias** ist ein alternativer Titel für eine [[#Notiz]]. Nutze die [[#Eige
 
 ## Anhang
 
-Ein **Anhang** ist eine Datei in einem [[Accepted file formats|akzeptierten Format]], die außerhalb des [[#Vault|Vaults]] erstellt und diesem anschließend hinzugefügt wurde.
+Ein **Anhang** ist eine Datei in einem [[Accepted file formats|unterstützten Format]], die außerhalb des [[#Vault|Vaults]] erstellt und diesem anschließend hinzugefügt wurde.
 
 ## Ansicht
 
@@ -87,7 +87,7 @@ Siehe [[#Erweiterung]].
 
 ## Pop-out Fenster
 
-Standardmäßig öffnet Obsidian alle [[#Notiz|Notizen]] eines Vaults im selben Anwendungsfenster. Ein **Pop-out Fenster** lässt dich Notizen desselben Vaults in einem separaten Fenster öffnen, um diese bspw. auf einem zweiten Bildschirm anzuzeigen. Siehe auch [[Pop-out windows]].
+Standardmäßig öffnet Obsidian alle [[#Notiz|Notizen]] eines Vaults im selben Anwendungsfenster. Ein **Pop-out Fenster** lässt dich Notizen desselben Vaults in einem separaten Fenster öffnen, um diese bspw. auf einem zweiten Bildschirm anzuzeigen. Siehe auch [[Pop-out Fenster]].
 
 ## Property
 

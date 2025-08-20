@@ -1,6 +1,6 @@
 ---
 aliases:
-  - User interface/Workspace/Workspace
+  - Benutzerschnittstelle/Workspace/Workspace
 permalink: workspace
 ---
 #TODO
@@ -13,7 +13,7 @@ In the Obsidian desktop app the workspace includes:
 - [[Sidebar|Sidebars]] which can be collapsed on the left and right side
     - [[Sidebar#Tab groups|Sidebar tab groups]] which can be split vertically
         - [[Sidebar#Tabs|Sidebar tabs]]
-- [[Ribbon]] running vertically on the left side of the app
+- [[Werkzeugleiste]] running vertically on the left side of the app
 - [[Status bar]] in the bottom right corner
 
 ## Mobile
@@ -24,4 +24,4 @@ In the Obsidian mobile app the workspace includes:
 - [[Obsidian Mobile|Editor toolbar]] which appears above the keyboard when editing
 - [[Sidebar|Sidebars]] can be opened using left and right swipe gestures
 - [[Obsidian Mobile#Navigationsleiste|Navigation bar]] at the bottom of the screen
-	- [[Ribbon|Ribbon menu]] contains customizable actions
+	- [[Werkzeugleiste|Ribbon menu]] contains customizable actions

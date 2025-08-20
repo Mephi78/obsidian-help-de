@@ -1,10 +1,10 @@
 ---
 aliases:
-  - User interface/Workspace/Sidebar
+  - Benutzerschnittstelle/Workspace/Sidebar
 permalink: sidebar
 ---
 #TODO
-Obsidian has two sidebars, left and right. On ![[lucide-monitor-check.svg#icon]] desktop and larger tablets, the left sidebar includes the [[Ribbon]]. On ![[obsidian-icon-smartphone.svg#icon]] mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
+Obsidian has two sidebars, left and right. On ![[lucide-monitor-check.svg#icon]] desktop and larger tablets, the left sidebar includes the [[Werkzeugleiste]]. On ![[obsidian-icon-smartphone.svg#icon]] mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
 
 ## Open hidden sidebars
 

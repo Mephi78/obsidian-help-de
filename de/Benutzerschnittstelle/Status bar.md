@@ -1,6 +1,6 @@
 ---
 aliases:
-  - User interface/Workspace/Status bar
+  - Benutzerschnittstelle/Workspace/Status bar
 permalink: status-bar
 ---
 #TODO
