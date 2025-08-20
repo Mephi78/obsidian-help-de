@@ -33,26 +33,33 @@ In der ![[lucide-monitor-check.svg#icon]] Desktop Version kannst du die Werkzeug
 
 ### Mobile
 
-In der ![[obsidian-icon-smartphone.svg#icon]] Mobile Version kannst du über die Werkzeugleisten-Konfiguration Aktionen hinzufügen, entfernen oder neu anordnen und eine Schnell-Aktion zuweisen.
+In der ![[obsidian-icon-smartphone.svg#icon]] Mobile Version kannst du über die Werkzeugleiste Schnellzugriffsaktionen ausführen. Du kannst Aktionen in der Werkzeugleiste ein- oder ausblenden und sie neu anordnen.
 
-Erfahre mehr über die Mobile-Werkzeugleiste unter [[Obsidian Mobile#Mobile-Werkzeugleiste|Obsidian Mobile]].
+#### Schnellzugriff
 
-#### Schnell-Aktion
+Standardmäßig ist die Schnellzugriffsaktion **Werkzeugleiste öffnen**, so dass ein kurzes Tippen auf das Menü-Symbol ( ![[lucide-menu.svg#icon]] ) ganz rechts in der Navigationsleiste die Werkzeugleiste öffnet.
 
-In den Einstellungen für die Mobile-Werkzeugleiste kannst du eine Schnell-Aktion festlegen. Diese wird ausgelöst, wenn du eine Wischgeste von oben nach unten ausführst. Standardmäßig ist als Schnell-Aktion **Befehlspalette öffnen** eingestellt.
+Wenn du eine andere Aktion für den Schnellzugriff zuweist, ändert sich das Symbol je nach zugewiesener Aktion und du kannst:
+
+- durch _kurzes Tippen_ die zugewiesene Schnellzugriffsaktion auslösen
+- durch _langes Halten_ die Werkzeugleiste öffnen
+
+Um eine Schnellzugriffsaktion zuzuweisen:
 
 1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
-2. Tippe **Mobile-Werkzeugleiste**.
-3. Unter **Schnell-Aktion für Mobile konfigurieren** tippe **Konfigurieren**.
-4. Wähle einen Befehl aus der Liste.
+2. Tippe **Darstellung**.
+3. Scrolle nach unten und tippe unter **Werkzeugleiste** auf **Verwalten**.
+4. Unter **Schnellzugriff auf Werkzeugleisten-Befehl** wähle eine Aktion.
+
+> [!NOTE] Die Verfügbarkeit von Aktionen für den Schnellzugriff hängt von deinen Obsidian-Einstellungen und den aktivierten Erweiterungen ab.
 
 #### Anordnung und Sichtbarkeit
 
 1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
-2. Tippe **Mobile-Werkzeugleiste**.
-	- Ordne Aktionen unter **Optionen für die Werkzeugleiste verwalten** neu an durch Halten und Ziehen der Schaltfläche ( ![[lucide-menu.svg#icon]] ) rechts neben einer Aktion.
-	- Blende Aktionen aus unter **Optionen für die Werkzeugleiste verwalten** durch Tippen auf das rote Minus-Symbol ( ![[lucide-minus-circle.svg#icon]] ).
-	- Blende Aktionen ein unter **Mehr Optionen für die Werkzeugleiste** durch Tippen auf das grüne Plus-Symbol ( ![[lucide-plus-circle.svg#icon]] ).
-	- Füge weitere Befehle hinzu unter **Globalen Befehl hinzufügen**.
+2. Tippe **Darstellung**.
+3. Scrolle nach unten und tippe unter **Werkzeugleiste** auf **Verwalten**.
+	- Ordne Aktionen neu an durch Halten und Ziehen der Schaltfläche ( ![[lucide-menu.svg#icon]] ) rechts neben einer Aktion.
+	- Blende Aktionen aus durch Tippen auf das rote Minus-Symbol ( ![[lucide-minus-circle.svg#icon]] ).
+	- Blende Aktionen ein durch Tippen auf das grüne Plus-Symbol ( ![[lucide-plus-circle.svg#icon]] ).
 
  ![[ribbon-rearrange-visibility.jpeg#interface|450]]
