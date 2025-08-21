@@ -3,11 +3,11 @@ permalink: bases/views
 ---
 Views allow you to organize the information in a [[Introduction to Bases|Base]] in multiple different ways. A base can contain several views, and each view can have a unique configuration to display, sort, and filter files.
 
-For example, you may want to create a base called "Books" that has separate views for "Reading list" and "Recently finished".
+For example, you may want to create a base called "Books" that has separate views for "Reading list" and "Recently finished". The first view in your list of views will load by default. You can drag views by their icon to change their order.
 
 ## Layout
 
-Currently, bases can be displayed as a **table** or **cards**. In the future more layout types will be added. See [[Bases roadmap]].
+Currently, bases can be displayed as a **table** or **cards**. In the future more layout types will be added. See [roadmap](https://obsidian.md/roadmap/).
 
 Current layout options:
 
