@@ -77,7 +77,7 @@ Wenn du es antippst, kannst du zwischen den Tabs wechseln oder einen neuen Tab �
 
 ### Weitere Werkzeuge
 
-Die Mobile App hat kein [[Ribbon|Seitenleisten-Men체]] wie in der Desktop-Version. Die Funktionen des Seitenleisten-Men체s erreichst du stattdessen 체ber das **Hamburger-Men체** ( ![[lucide-menu.svg#icon]] ), das letzte Symbol in der Navigationsleiste.
+In der Mobile App befindet sich die [[Werkzeugleiste|Werkzeugleiste]] nicht, wie in der Desktop-Version, in der linken Seitenleiste. Stattdessen erreichst du sie 체ber das **Hamburger-Men체** ( ![[lucide-menu.svg#icon]] ), das letzte Symbol unten in der Navigationsleiste.
 
 ### Rechte Seitenleiste
 

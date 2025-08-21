@@ -14,7 +14,7 @@ Erfahre, wie du Obsidian erweitern kannst mit Plugins, die von unserer Community
 
 ## Community-Plugins durchsuchen
 
-1. In den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) öffne **Optionen → Externe Erweiterungen**.
+1. In den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) öffne **Externe Erweiterungen**.
 2. Klicke **Community-Erweiterungen aktivieren**. Für weitere Informationen, siehe [[Plugin security#Restricted mode|Restricted Mode]].
 3. Wähle **Durchsuchen** für eine Auflistung aller verfügbaren Community-Erweiterungen.
 
@@ -26,7 +26,7 @@ Du kannst die verfügbaren Erweiterungen auch in deinem Browser durchsuchen, ind
 
 Um eine Community-Erweiterung zu installieren, musst du zunächst den [[Plugin security#Restricted mode|Eingeschränkten Modus]] deaktivieren.
 
-1. In den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) öffne **Optionen → Externe Erweiterungen**.
+1. In den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) öffne **Externe Erweiterungen**.
 2. Wähle **Durchsuchen**, um die verfügbaren Plugins zu erkunden.
 3. Wähle die Erweiterung, die du installieren möchtest.
 4. Klicke **Installieren**.
@@ -35,7 +35,11 @@ Um eine installierte Erweiterung zu verwenden, musst du sie aktivieren.
 
 ## Externe Erweiterung aktivieren
 
-Du kannst direkt nach der Installation auf **Aktivieren** klicken oder eine Erweiterung in der Liste unter **Optionen → Externe Erweiterungen → Installierte Erweiterungen** aktivieren, indem du den Schalter daneben betätigst.
+Du kannst direkt nach der Installation auf **Aktivieren** klicken oder eine Erweiterung in den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) unter **Externe Erweiterungen → Installierte Erweiterungen** aktivieren, indem du den Schalter daneben betätigst.
+
+## Externe Erweiterung deaktivieren
+
+Manchmal ist es notwendig, eine Erweiterung zeitweise zu deaktivieren. Öffne dazu die **Einstellungen** ( ![[lucide-settings.svg#icon]] ) und betätige unter **Externe Erweiterungen → Installierte Erweiterungen** den Schalter daneben der ensprechenden Erweiterung.
 
 ## Erweiterungen aktualisieren
 
@@ -44,19 +48,19 @@ Aus Sicherheitsgründen werden externe Erweiterungen nicht automatisch aktualisi
 Um alle Erweiterungen gleichzeitig zu aktualisieren:
 
 1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
-2. Unter **Optionen → Externe Erweiterungen → Aktuelle Erweiterungen** klicke **Nach Aktualisierungen suchen**.
+2. Unter **Externe Erweiterungen → Aktuelle Erweiterungen** klicke **Nach Aktualisierungen suchen**.
 3. Falls Aktualisierungen verfügbar sind, klicke **Alle aktualisieren**.
 
 Um eine bestimmte Erweiterung zu aktualisieren:
 
 1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
-2. Unter **Optionen → Externe Erweiterungen → Aktuelle Erweiterungen** klicke **Nach Aktualisierungen suchen**.
+2. Unter **Externe Erweiterungen → Aktuelle Erweiterungen** klicke **Nach Aktualisierungen suchen**.
 3. Unter **Installierte Erweiterungen** klicke **Aktualisieren** neben dem Plugin, das du aktualisieren möchtest.
 
 ## Externe Erweiterung deinstallieren
 
 1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
-2. Wähle **Optionen → Externe Erweiterungen**.
+2. Wähle **Externe Erweiterungen**.
 3. Unter **Installierte Erweiterungen** klicke **Deinstallieren** ( ![[lucide-trash-2.svg#icon]] ) neben dem Plugin, das du entfernen möchtest.
 4. Klicke im Bestätigungsdialog noch einmal **Deinstallieren**.
 

@@ -10,7 +10,7 @@ Ein **Alias** ist ein alternativer Titel für eine [[#Notiz]]. Nutze die [[#Eige
 
 ## Anhang
 
-Ein **Anhang** ist eine Datei in einem [[Accepted file formats|akzeptierten Format]], die außerhalb des [[#Vault|Vaults]] erstellt und diesem anschließend hinzugefügt wurde.
+Ein **Anhang** ist eine Datei in einem [[Accepted file formats|unterstützten Format]], die außerhalb des [[#Vault|Vaults]] erstellt und diesem anschließend hinzugefügt wurde.
 
 ## Ansicht
 
@@ -87,7 +87,7 @@ Siehe [[#Erweiterung]].
 
 ## Pop-out Fenster
 
-Standardmäßig öffnet Obsidian alle [[#Notiz|Notizen]] eines Vaults im selben Anwendungsfenster. Ein **Pop-out Fenster** lässt dich Notizen desselben Vaults in einem separaten Fenster öffnen, um diese bspw. auf einem zweiten Bildschirm anzuzeigen. Siehe auch [[Pop-out windows]].
+Standardmäßig öffnet Obsidian alle [[#Notiz|Notizen]] eines Vaults im selben Anwendungsfenster. Ein **Pop-out Fenster** lässt dich Notizen desselben Vaults in einem separaten Fenster öffnen, um diese bspw. auf einem zweiten Bildschirm anzuzeigen. Siehe auch [[Pop-out Fenster]].
 
 ## Property
 
@@ -97,7 +97,7 @@ Siehe [[#Eigenschaft]].
 
 `Aliasse: Tab`
 
-Eine **Registerkarte** enthält eine [[#Ansicht]]. Registerkarten können innerhalb des [[#Hauptbereich|Hauptbereiches]] und in den [[#Seitenleiste|Seitenleisten]] angeordnet werden. Siehe auch [[Tabs]].
+Eine **Registerkarte** enthält eine [[#Ansicht]]. Registerkarten können innerhalb des [[#Hauptbereich|Hauptbereiches]] und in den [[#Seitenleiste|Seitenleisten]] angeordnet werden. Siehe auch [[Registerkarten]].
 
 ## Ribbon
 
@@ -129,7 +129,7 @@ Siehe [[#Registerkarte]].
 
 `Aliasse: Registerkartengruppe, Tab Stack, Tab-Stapel`
 
-Eine **Tab-Gruppe** ist eine Sammlung von [[#Registerkarte|Registerkarten]] im [[#Hauptbereich]]. Tabs in einer Gruppe können gestapelt werden.
+Eine **Tab-Gruppe** ist eine Sammlung von [[#Registerkarte|Registerkarten]] im [[#Hauptbereich]] oder in den [[#Seitenleiste|Seitenleisten]]. Tabs in einer Gruppe können gestapelt werden.
 
 ## Tag
 
@@ -166,3 +166,7 @@ Ein **Remote Vault** ist eine Kopie deines lokalen Vaults, die mit [[Obsidian Sy
 `Aliasse: Ribbon`
 
 Die **Werkzeugleiste** dient als Container für oft genutzte Aktionen. In der ![[lucide-monitor-check.svg#icon]] *Desktop Version* wird sie als vertikale Menüleiste am linken Rand dargestellt. In der ![[obsidian-icon-smartphone.svg#icon]] *Mobile Version* findest du sie als Menü-Schaltfläche ( ![[lucide-menu.svg#icon]] ) rechts unten in der [[#Statusleiste]].
+
+## Workspace
+
+Der **Workspace** umfasst im Allgemeinen die geöffneten Dateien und ihre Anordnung in [[#Tab-Gruppe|Registerkarten]], Elemente und deren Anordnung innerhalb der [[#Seitenleiste|Seitenleisten]] sowie die spezifische Konfiguration der [[#Werkzeugleiste]].

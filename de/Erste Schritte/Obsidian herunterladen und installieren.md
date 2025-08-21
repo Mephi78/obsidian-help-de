@@ -32,7 +32,7 @@ Unter Linux hast du verschiedene Möglichkeiten zur Installation von Obsidian. F
 
    ```bash
    chmod u+x Obsidian-<version>.AppImage
-   ./Obsidian-<version>.AppImage
+   ./Obsidian-<version>.AppImage --no-sandbox
    ```
 Hinweis: Auf Chromebooks muss das `libnss3-dev` Paket installiert werden, andernfalls dürftest du die Fehlermeldung `error while loading shared libraries: libnss3.so: cannot open shared object file: No such file or directory` erhalten.
 

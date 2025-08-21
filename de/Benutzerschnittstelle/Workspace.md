@@ -1,27 +1,27 @@
 ---
 aliases:
-  - User interface/Workspace/Workspace
+  - Benutzerschnittstelle/Workspace
 permalink: workspace
 ---
-#TODO
+
 ## Desktop
 
-In the Obsidian desktop app the workspace includes:
+In der ![[lucide-monitor-check.svg#icon]] Desktop Version umfasst ein Workspace:
 
-- [[Tabs#Organize your tabs and windows|Tab groups]], in the central content area which can be split vertically or horizontally
-	- [[Tabs]]
-- [[Sidebar|Sidebars]] which can be collapsed on the left and right side
-    - [[Sidebar#Tab groups|Sidebar tab groups]] which can be split vertically
-        - [[Sidebar#Tabs|Sidebar tabs]]
-- [[Ribbon]] running vertically on the left side of the app
-- [[Status bar]] in the bottom right corner
+- [[Registerkarten#Tabs und Fenster verwalten|Registerkarten-Gruppen]] im Hauptbereich, die vertikal oder horizontal geteilt werden können
+	- [[Registerkarten|Registerkarten]]
+- [[Seitenleisten|Seitenleisten]] zu beiden Seiten, die aus- oder eingeblendet werden können
+    - [[Seitenleisten#Tab-Gruppen|Seitenleisten-Tab-Gruppen]] die vertikal geteilt werden können
+        - [[Seitenleisten#Tabs|Seitenleisten-Tabs]]
+- eine vertikale [[Werkzeugleiste]] am linken Rand des Anwendungsfensters
+- eine [[Statusleiste]] in der rechten unteren Ecke
 
 ## Mobile
 
-In the Obsidian mobile app the workspace includes:
+In der ![[obsidian-icon-smartphone.svg#icon]] Mobile Version umfasst ein Workspace:
 
-- [[Tabs]]
-- [[Obsidian Mobile|Editor toolbar]] which appears above the keyboard when editing
-- [[Sidebar|Sidebars]] can be opened using left and right swipe gestures
-- [[Obsidian Mobile#Navigationsleiste|Navigation bar]] at the bottom of the screen
-	- [[Ribbon|Ribbon menu]] contains customizable actions
+- [[Registerkarten|Registerkarten]]
+- die [[Obsidian Mobile#Mobile-Werkzeugleiste|Mobile-Werkzeugleiste]], die im Bearbeitungsmodus oberhalb der Tastatur erscheint
+- [[Seitenleisten|Seitenleisten]], die durch Wischen nach rechts oder links geöffnet werden können
+- die [[Obsidian Mobile#Navigationsleiste|Navigationsleiste]] am unteren Rand
+	- die [[Werkzeugleiste|Werkzeugleiste]] mit Schnellzugriffsaktionen

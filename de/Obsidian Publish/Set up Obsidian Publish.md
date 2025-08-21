@@ -44,7 +44,7 @@ The **Publish changes** window will appear in a new pop-up.
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
+1. Open the [[Werkzeugleiste]] ( ![[lucide-menu.svg#icon]] ).
 2. Open the **Command palette** ( ![[lucide-terminal.svg#icon]] ).
 3. Type "Publish".
 4. Select the **Publish: Publish changes...** option.
@@ -62,18 +62,18 @@ The **Publish changes** menu will appear as a slide-up.
 
 #### Open via ribbon
 
-You can also access Obsidian Publish via the [[Ribbon]].
+You can also access Obsidian Publish via the [[Werkzeugleiste]].
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the left [[Sidebar]] ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
+1. Open the left [[Seitenleisten]] ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
 2. Select the **Publish changes** ( ![[lucide-send.svg#icon]] ) icon.
 
 The **Publish changes** window will appear in a new pop-up.
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
+1. Open the [[Werkzeugleiste]] ( ![[lucide-menu.svg#icon]] ).
 2. Select the **Publish changes** ( ![[lucide-send.svg#icon]] ) icon.
 
 The **Publish changes** menu will appear as a slide-up.

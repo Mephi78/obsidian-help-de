@@ -42,16 +42,16 @@ When you enable the [[Obsidian Sync/Einführung|Sync]] core plugin, Sync history
 2. Type "Sync".
 3. Select the "Sync: Show Sync history" option.
 
-Sync history will then appear in the [[Sidebar|right sidebar]].
+Sync history will then appear in the [[Seitenleisten|right sidebar]].
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ( ![[lucide-menu.svg#icon]] ).
+1. Open the [[Werkzeugleiste]] ( ![[lucide-menu.svg#icon]] ).
 2. Open the **Command palette**. ( ![[lucide-terminal.svg#icon]] )
 3. Type "Sync".
 4. Select the "Sync: Show Sync history" option.
 
-Sync history will then appear as a dropdown option in the [[Sidebar|right sidebar]].
+Sync history will then appear as a dropdown option in the [[Seitenleisten|right sidebar]].
 
 #### Enable via Hotkey
 

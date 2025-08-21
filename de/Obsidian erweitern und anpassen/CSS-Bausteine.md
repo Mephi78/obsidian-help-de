@@ -8,9 +8,9 @@ permalink: snippets
 publish: true
 ---
 
-Erfahre, wie du das Erscheinungsbild von Obsidian in einzelnen Aspekten anpassen kannst, ohne gleich ein ganzes [Theme entwickeln](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) zu müssen.
+Erfahre, wie du das Erscheinungsbild von Obsidian in einzelnen Aspekten anpassen kannst, ohne gleich ein ganzes [Thema entwickeln](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) zu müssen.
 
-> [!TIP] Wenn du eine Anleitung für den Einsatz von CSS mit [[Obsidian Publish/Einführung|Obsidian Publish]] suchst, solltest du den Abschnitt über die [[Customize your site|Individualisierung deiner Webseite]] lesen.
+> [!TIP] Erfahre mehr über den Einsatz von CSS in Verbindung mit [[Obsidian Publish/Einführung|Obsidian Publish]] im Abschnitt über die [[Customize your site|Personalisierung deiner Webseite]].
 
 CSS (Cascading Style Sheets) ist eine Sprache, mit der man die Darstellung von HTML-Dokumenten beeinflussen kann. Mit Hilfe von CSS-Bausteinen kannst du Teile der Bedienoberfläche von Obsidian ändern, wie bspw. die Größe oder Farbe von Überschriften. Obsidian stellt einige [CSS-Variablen](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) zur Verfügung, über die sich Bedienelemente leicht deinen Bedürfnissen anpassen lassen.
 
@@ -34,7 +34,7 @@ Um einen CSS-Baustein in Obsidian ![[obsidian-icon-smartphone.svg#icon]] **Mobil
 4. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ) in Obsidian.
 5. Tippe auf **Darstellung** und scrolle bis ganz nach unten.
 6. Im Abschnitt **CSS-Bausteine** tippe auf **Bausteine neu laden** ( ![[lucide-refresh-cw.svg#icon]] ), damit dein Snippet in der Liste erscheint.
-7. Tippe den Schalter neben deinem CSS-Baustein, um ihn zu aktivieren.
+7. Aktiviere den CSS-Baustein über den Schalter daneben.
 
 Weiterhin kannst du
 
@@ -43,7 +43,7 @@ Weiterhin kannst du
 
 Ist ein CSS-Baustein aktiviert, wird Obsidian Änderungen daran automatisch erkennen und anwenden, sobald du die CSS-Datei speicherst.
 
-> [!TIP] Du musst Obsidian nicht neu starten, damit die Änderungen wirksam werden. Möglicherweise musst du die Anwendung jedoch über die [[Command palette|Befehlspalette]] neu laden ohne zu speichern, um die Änderungen im aktuellen Thema bzw. der aktuellen Notiz zu sehen.
+> [!TIP] Du musst Obsidian nicht neu starten, damit die Änderungen wirksam werden. Möglicherweise musst du jedoch über die [[Command palette|Befehlspalette]] die **Anwendung neu laden ohne zu speichern**, um Änderungen im aktuellen Thema bzw. der aktuellen Notiz zu sehen.
 
 ## CSS für Obsidian schreiben
 
@@ -70,18 +70,18 @@ Die Anwendung verfügt über eine Vielzahl von [CSS-Variablen](https://docs.obsi
 > 
 > **CSS-Baustein**:
 > ```css
-> .no-inline .inline-title {
->    display: none;
-> }
+> .red-border img {
+> 	border-color: #ff0000;
+> }
 > ```
 > 
 > **YAML/Properties**:
 > ```yaml
 > cssclasses:
->  - no-inline
+>  - red-border
 > ```
 > 
-> Für jede Notiz, die in der Frontmatter-Eigenschaft `cssclasses` den Wert `no-inline` enthält, wird der Seitentitel ausgeblendet. Aktiviere in den Einstellungen ( ![[lucide-settings.svg#icon]] ) **Darstellung → Zeige Titel in Notiz**, um die Wirkung zu sehen, andernfalls ist diese Einstellung ohnehin bereits für den gesamten Vault wirksam.
+> In jeder Notiz, die in der [[Eigenschaften|Eigenschaft]] `cssclasses` den Wert `red-border` enthält, werden Bilder mit einem roten Rahmen dargestellt.
 
 Wir empfehlen, deinen CSS-Baustein vor der Aktivierung zu validieren, z.B. mit dem [CSS Validation Service](https://jigsaw.w3.org/css-validator/), da ungültiges CSS nicht zuverlässig funktionieren wird.
 

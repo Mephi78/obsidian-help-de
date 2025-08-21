@@ -4,7 +4,7 @@ permalink: plugins/graph
 
 Die Graph-Ansicht ist eine [[Standarderweiterungen|Standard-Erweiterung]], die Beziehungen zwischen den Notizen in deinem Vault sichtbar macht.
 
-Um die Graph-Ansicht zu öffnen, klicke **Graph-Ansicht öffnen** ( ![[lucide-git-fork.svg#icon]] ) im [[Ribbon|Seitenleisten-Menü]].
+Um die Graph-Ansicht zu öffnen, klicke **Graph-Ansicht öffnen** ( ![[lucide-git-fork.svg#icon]] ) in der [[Werkzeugleiste|Werkzeugleiste]].
 
 - Die Knoten oder Kreise repräsentieren deine Notizen.
 - Kanten repräsentieren [[Internal links|interne Verlinkungen]] zwischen zwei Knoten bzw. Notizen.

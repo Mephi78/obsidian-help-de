@@ -10,7 +10,7 @@ permalink: plugins
 
 Diese Seite listet Standarderweiterungen auf, die mit Obsidian vorinstalliert sind. Diese integrierten Erweiterungen werden offiziell vom Obsidian-Team entwickelt und unterstützt.
 
-Einige Kernfunktionen sind standardmäßig deaktiviert. Du kannst sie unter **Optionen → Obsidian-Erweiterungen** aktivieren.
+Einige Kernfunktionen sind standardmäßig deaktiviert. Du kannst sie in den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) unter **Obsidian-Erweiterungen** aktivieren.
 
 > [!tip] Externe Erweiterungen
 > Falls du das gesuchte Feature hier nicht findest, schau doch mal bei den [[Externe Erweiterungen|Plugins, die unsere Community erstellt hat]] oder [erstelle deine eigene Erweiterung](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).

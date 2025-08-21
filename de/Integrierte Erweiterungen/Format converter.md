@@ -13,7 +13,7 @@ Format converter is a [[Standarderweiterungen|core plugin]] that lets you conver
 
 To convert all notes in your vault:
 
-1. In [[Command palette]], select **Open format converter**. This can also be found in the [[Ribbon]] with the  **Open format converter** ( ![[lucide-binary.svg#icon]] ) icon.
+1. In [[Command palette]], select **Open format converter**. This can also be found in the [[Werkzeugleiste]] with the  **Open format converter** ( ![[lucide-binary.svg#icon]] ) icon.
 2. Enable the formats you want to convert.
 3. Click **Start conversion**.
 
