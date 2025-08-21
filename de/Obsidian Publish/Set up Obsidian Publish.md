@@ -66,7 +66,7 @@ You can also access Obsidian Publish via the [[Werkzeugleiste]].
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the left [[Sidebar]] ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
+1. Open the left [[Seitenleisten]] ( ![[obsidian-icon-side-bar-left.svg#icon]] ).
 2. Select the **Publish changes** ( ![[lucide-send.svg#icon]] ) icon.
 
 The **Publish changes** window will appear in a new pop-up.

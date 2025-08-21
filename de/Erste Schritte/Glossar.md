@@ -97,7 +97,7 @@ Siehe [[#Eigenschaft]].
 
 `Aliasse: Tab`
 
-Eine **Registerkarte** enthält eine [[#Ansicht]]. Registerkarten können innerhalb des [[#Hauptbereich|Hauptbereiches]] und in den [[#Seitenleiste|Seitenleisten]] angeordnet werden. Siehe auch [[Tabs]].
+Eine **Registerkarte** enthält eine [[#Ansicht]]. Registerkarten können innerhalb des [[#Hauptbereich|Hauptbereiches]] und in den [[#Seitenleiste|Seitenleisten]] angeordnet werden. Siehe auch [[Registerkarten]].
 
 ## Ribbon
 

@@ -7,7 +7,7 @@ Die Drag & Drop Funktion in Obsidian bietet dir zahlreiche Möglichkeiten, Eleme
 
 ### Registerkarten ziehen
 
-Mit der Drag & Drop Funktion kannst du im [[Glossar#Hauptbereich|Hauptbereich]] und in den [[Sidebar|Seitenleisten]] deine [[Tabs#Arrange tabs|Registerkarten anordnen]] oder in Tabgruppen aufteilen.
+Mit der Drag & Drop Funktion kannst du im [[Glossar#Hauptbereich|Hauptbereich]] und in den [[Seitenleisten|Seitenleisten]] deine [[Registerkarten#Tabs anordnen|Registerkarten anordnen]] oder in Tabgruppen aufteilen.
 
 ### Dateien ziehen
 

@@ -14,7 +14,7 @@ Obsidian Sync provides several elements to indicate sync status, mainly the [[#S
 
 ## Sync status icon
 
-The Sync status icon is located in the [[Statusleiste]] on the ![[lucide-monitor-check.svg#icon]] desktop version and in the [[Sidebar#Open hidden sidebars|right sidebar]] on ![[obsidian-icon-smartphone.svg#icon]] mobile and tablet. The icon reflects various sync states:
+The Sync status icon is located in the [[Statusleiste]] on the ![[lucide-monitor-check.svg#icon]] desktop version and in the [[Seitenleisten#Seitenleisten ein- oder ausblenden|right sidebar]] on ![[obsidian-icon-smartphone.svg#icon]] mobile and tablet. The icon reflects various sync states:
 
 - ![[obsidian-icon-sync-synced.svg#icon]] **Synced**: Obsidian Sync has fully synced your files. This icon is typically green.
 - ![[obsidian-icon-sync-syncing.svg#icon]] **Syncing**: Obsidian is currently updating the remote vault. This icon is usually purple.

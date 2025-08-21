@@ -4,7 +4,7 @@ aliases:
 permalink: statusleiste
 ---
 
-Die Statusleiste befindet sich in der rechten unteren Ecke des Anwendungsfensters. Sie zeigt hilfreiche Kurzinformationen über den aktuellen Vault bzw. die aktive Notiz, wie die Anzahl der Wörter oder den Modus des aktiven Fensterbereichs.
+Die Statusleiste befindet sich in der rechten unteren Ecke des Anwendungsfensters. Sie zeigt hilfreiche Kurzinformationen über den aktuellen Vault bzw. die aktive Notiz, wie die Anzahl der Wörter oder den Modus der aktiven Registerkarte.
 
 Elemente in der Statusleiste können durch [[Standarderweiterungen|Integrierte Plugins]] oder [[Externe Erweiterungen]] hinzugefügt werden. Manche Elemente sind interaktiv, andere nur informativ.
 
