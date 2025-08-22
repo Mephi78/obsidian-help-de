@@ -56,10 +56,10 @@ Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichni
 
 | Englisch                  | Deutsch                           |
 |---------------------------|-----------------------------------|
-| Getting started           | ==Erste Schritte==                |
+| Getting started           | ✅Erste Schritte                 |
 | Import notes              | Notizen Importieren               |
-| User interface            | ==Benutzerschnittstelle==         |
-| Editing and formatting    | ==Bearbeiten und Formatieren==    |
+| User interface            | ✅Benutzerschnittstelle          |
+| Editing and formatting    | 🚧Bearbeiten und Formatieren     |
 | Linking notes and files   | ==Notizen und Dateien verlinken== |
 | Files and folders         | Dateien und Verzeichnisse         |
 | Plugins                   | ==Integrierte Erweiterungen==     |
