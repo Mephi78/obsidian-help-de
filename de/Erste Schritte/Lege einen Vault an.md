@@ -12,7 +12,7 @@ Wenn du Obsidian das erste Mal öffnest, wirst du aufgefordert, einen neuen Vaul
 
 Um einen neuen, leeren Vault zu erstellen:
 
-1. Klicke rechts von **Einen neuen Vault erstellen** auf **Erstellen**.
+1. Klicke rechts neben **Einen neuen Vault erstellen** auf **Erstellen**.
 2. Gib unter **Name des Vaults** den Namen deines neuen Vaults ein.
 3. Klicke **Wählen**, um den **Speicherort** deines neuen Vaults auszuwählen.
 4. Klicke **Erstellen**.
@@ -21,10 +21,10 @@ Um einen neuen, leeren Vault zu erstellen:
 
 Wenn du bereits einen Ordner hast, den du als Vault nutzen möchtest:
 
-1. Klicke rechts von **Ordner als Vault öffnen** auf **Öffnen**.
-2. Wähle im Dateibrowser den Ordner, den du als Vault nutzen möchtest.
+1. Klicke rechts neben **Ordner als Vault öffnen** auf **Öffnen**.
+2. Wähle im Dateibrowser den Ordner, den du als Vault verwenden möchtest.
 3. Klicke **Öffnen**.
 
-Möchtest du mehr darüber erfahren, wie Vaults funktionieren, lerne, [[Datenspeicherung|wie Obsidian Daten speichert]].
+Möchtest du die Funktionsweise von Vaults besser verstehen, erfahre mehr darüber, [[Datenspeicherung|wie Obsidian Daten speichert]].
 
 Du hast nun deinen ersten Vault angelegt und bist bereit, [[Erstelle deine erste Notiz|deine erste Notiz zu erstellen]].

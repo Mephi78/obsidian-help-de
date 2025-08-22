@@ -20,7 +20,7 @@ Du kannst mehrere Ordner als einzelne Vaults öffnen, z.B. um Notizen für die A
 
 ## Vault-Einstellungen
 
-Obsidian erstellt einen [[Konfigurationsordner|Konfigurationsordner]] `.obsidian` im Wurzelverzeichnis des Vaults, in welchem die spezifischen Einstellungen für diesen Vault gespeichert werden, z.B. [[Tastenkürzel|Tastenkürzel]], [[Themen|Themen]] und [[Externe Erweiterungen|Plugins]].
+Obsidian erstellt einen [[Konfigurationsordner|Konfigurationsordner]] `.obsidian` im Stammverzeichnis des Vaults, in welchem die spezifischen Einstellungen für diesen Vault gespeichert werden, z.B. [[Tastenkürzel|Tastenkürzel]], [[Themen|Themen]] und [[Externe Erweiterungen|Plugins]].
 
 Standardmäßig werden bei den meisten Betriebssystemen Ordner, die mit einem Punkt (`.`) beginnen, als versteckte Verzeichnisse ausgeblendet. Du kannst in deinem Dateimanager versteckte Dateien einblenden.
 

@@ -5,9 +5,9 @@ aliases:
 permalink: konfigurationsordner
 ---
 
-Der Konfigurationsordner enthält alle Einstellungsdateien für deinen [[Manage vaults|Obsidian-Vault]].
+Der Konfigurationsordner enthält alle Einstellungsdateien für deinen [[Vaults verwalten|Obsidian-Vault]].
 
-Standardmäßig speichert Obsidian alle Einstellungen in einem Ordner namens `.obsidian` im Wurzelverzeichnis deines Vaults. Wenn du einen Synchronisierungsdienst verwendest oder unterschiedliche Profile im selben Vault testen magst, möchtest du den Speicherort für die Einstellungsdateien möglicherweise ändern.
+Standardmäßig speichert Obsidian alle Einstellungen in einem Ordner namens `.obsidian` im Stammverzeichnis deines Vaults. Wenn du einen Synchronisierungsdienst verwendest oder unterschiedliche Profile im selben Vault testen magst, möchtest du den Speicherort für die Einstellungsdateien möglicherweise ändern.
 
 ## Konfigurationsordner ändern
 

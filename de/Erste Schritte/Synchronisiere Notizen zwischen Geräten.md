@@ -61,7 +61,7 @@ iCloud kann verwendet werden, um Vaults zwischen iOS und macOS zu synchronisiere
         3. Aktiviere **In iCloud speichern**.
         4. Tippe **Erstellen**.
 - **Öffne den Vault auf einem anderen Apple Gerät**: 
-    - Auf einem anderen macOS oder iOS Gerät starte **Obsidian**, öffne die [[Manage vaults|Vault-Verwaltung]] und wähle **Ordner als Vault öffnen**. Navigiere zu **iCloud Drive → Obsidian**.
+    - Auf einem anderen macOS oder iOS Gerät starte **Obsidian**, öffne die [[Vaults verwalten|Vault-Verwaltung]] und wähle **Ordner als Vault öffnen**. Navigiere zu **iCloud Drive → Obsidian**.
 
 > [!Tip] Erfolgsrezepte:
 > - Unter **macOS 14 (Sonoma) und älter**: Deaktiviere **Speicher optimieren** in den iCloud Einstellungen, um zu verhindern, dass Dateien ausgelagert werden. Diese Einstellung wirkt sich auf deinen gesamten iCloud Speicher aus, nicht nur auf Obsidian
@@ -86,7 +86,7 @@ iCloud kann verwendet werden, um Vaults zwischen iOS und macOS zu synchronisiere
      2. Erstelle einen neuen Ordner (z.B. "Obsidian Vault").
      3. Starte **Obsidian**, klicke **Einen neuen Vault erstellen** und wähle den OneDrive Ordner aus.
 1. **Öffne den Vault auf einem anderen Gerät**:
-	- Auf einem anderen Gerät starte **Obsidian**, öffne die [[Manage vaults|Vault-Verwaltung]] und wähle **Ordner als Vault öffnen**. Navigiere zu **OneDrive → Dokumente**.
+	- Auf einem anderen Gerät starte **Obsidian**, öffne die [[Vaults verwalten|Vault-Verwaltung]] und wähle **Ordner als Vault öffnen**. Navigiere zu **OneDrive → Dokumente**.
 
 > [!Note] OneDrive funktioniert möglicherweise nicht gut für die Synchronisierung mit Android. Wir empfehlen die Nutzung anderer Apps, wie [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync&hl=de) oder [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite&hl=de).
 
@@ -113,7 +113,7 @@ iCloud kann verwendet werden, um Vaults zwischen iOS und macOS zu synchronisiere
         2. Erstelle einen neuen Ordner (z.B. "Obsidian Vault").
         3. Starte **Obsidian**, klicke **Einen neuen Vault erstellen** und wähle den Google Drive Ordner aus.
 3. **Öffne den Vault auf einem anderen Gerät**:
-	- Auf einem anderen Gerät starte **Obsidian**, öffne die [[Manage vaults|Vault-Verwaltung]] und wähle **Ordner als Vault öffnen**. Navigiere zu deinem Google Drive Ordner.
+	- Auf einem anderen Gerät starte **Obsidian**, öffne die [[Vaults verwalten|Vault-Verwaltung]] und wähle **Ordner als Vault öffnen**. Navigiere zu deinem Google Drive Ordner.
 
 > [!Tip] Erfolgsrezepte:
 > - Setze deine Vault-Dateien auf **Offline verfügbar**, um Synchronisierungsprobleme mit Google Drive aufgrund von Dateiauslagerungen zu vermeiden.
@@ -135,7 +135,7 @@ Syncthing ermöglicht die dezentralisierte Synchronisierung von Dateien ohne Clo
      2. Stelle sicher, dass auf allen Geräten derselbe Ordner ausgewählt ist.
      3. Konfiguriere die Verzeichnissynchronisation (z.B. **Send & Receive** für die bidirektionale Synchronisierung).
 1. **Öffne den Vault auf einem anderen Gerät**:
-	- Sobald der Ordner geräteübergreifend synchronisiert ist, starte **Obsidian** auf einem anderen Gerät, öffne die [[Manage vaults|Vault-Verwaltung]] und wähle **Ordner als Vault öffnen**.
+	- Sobald der Ordner geräteübergreifend synchronisiert ist, starte **Obsidian** auf einem anderen Gerät, öffne die [[Vaults verwalten|Vault-Verwaltung]] und wähle **Ordner als Vault öffnen**.
 
 > [!Note] Syncthing funktioniert am besten, wenn mindestens ein Gerät immer eingeschaltet ist, um eine kontinuierliche Synchronisation zu gewährleisten.
 

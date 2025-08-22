@@ -100,7 +100,7 @@ In this section, you have already created a remote vault, and uploaded data to i
 
 ### Sync your vault from the vault switcher
 
-If you have freshly installed Obsidian, when you open the program you will be presented with the [[Manage vaults|Vault switcher]]. To create a new local vault from the contents of a remote vault, you will want to perform the following steps.
+If you have freshly installed Obsidian, when you open the program you will be presented with the [[Vaults verwalten|Vault switcher]]. To create a new local vault from the contents of a remote vault, you will want to perform the following steps.
 
 1. Open Obsidian (assuming this is your first time opening it)
 2. Select one of the options depending upon your installation:
