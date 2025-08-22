@@ -53,7 +53,7 @@
 - Datenspeicherung
 - Notizen verwalten
 - Vaults verwalten
-- Verknüpfungen
+- Symbolische Verknüpfungen
 
 
 ### Integrierte Erweiterungen
