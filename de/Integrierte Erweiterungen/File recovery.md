@@ -45,5 +45,5 @@ File recovery snapshots typically use minimal disk space, as they only store cha
 
 - **Apple Lockdown mode**: This feature is unavailable on Apple devices with [Lockdown mode](https://support.apple.com/en-us/105120) enabled unless Obsidian is exempted.
 - **File types**: Only `.md` and `.canvas` files can be restored using File recovery.
-- **Vault location**: If you move your vault to a different location without using the [[Manage vaults#Move vault to a different folder|vault switcher]], existing snapshots may not be accessible.
+- **Vault location**: If you move your vault to a different location without using the [[Vaults verwalten#Vault in einen anderen Ordner verschieben|vault switcher]], existing snapshots may not be accessible.
 

@@ -10,7 +10,7 @@ Ein **Alias** ist ein alternativer Titel für eine [[#Notiz]]. Nutze die [[#Eige
 
 ## Anhang
 
-Ein **Anhang** ist eine Datei in einem [[Accepted file formats|unterstützten Format]], die außerhalb des [[#Vault|Vaults]] erstellt und diesem anschließend hinzugefügt wurde.
+Ein **Anhang** ist eine Datei in einem [[Dateiformate|unterstützten Format]], die außerhalb des [[#Vault|Vaults]] erstellt und diesem anschließend hinzugefügt wurde.
 
 ## Ansicht
 

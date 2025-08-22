@@ -41,7 +41,7 @@ To avoid conflicts with syncing services, we recommend storing your Obsidian vau
 
 ## Move your vault using Obsidian on desktop
 
-![[Manage vaults#Move vault to a different folder]]
+![[Vaults verwalten#Vault in einen anderen Ordner verschieben]]
 
 ## Move your vault on mobile
 
