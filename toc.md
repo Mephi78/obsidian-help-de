@@ -48,12 +48,12 @@
 - Eingebettete Dateien
 
 ### Dateien und Verzeichnisse
-- Unterstützte Dateiformate
+- Dateiformate
 - Konfigurationsordner
 - Datenspeicherung
 - Notizen verwalten
 - Vaults verwalten
-- Symlinks und Verknüpfungen
+- Verknüpfungen
 
 
 ### Integrierte Erweiterungen
