@@ -34,7 +34,7 @@
 - Tags
 - Anhänge
 - Callouts
-- Reduzieren
+- Seiteninhalte reduzieren
 - Mehrfach-Cursor
 - Eigenschaften
 - Ansichten und Modi
@@ -45,7 +45,7 @@
 ### Notizen und Dateien verlinken
 - Interne Links
 - Aliasse
-- Eingebettete Dateien
+- Dateien einbetten
 
 ### Dateien und Verzeichnisse
 - Dateiformate
@@ -61,15 +61,15 @@
 
 ### Obsidian Publish
 - Einführung
-- 
+- *DEFERRED*
 
 ### Obsidian Sync
 - Einführung
-- 
+- *DEFERRED*
 
 ### Obsidian Web Clipper
 - Einführung
-- 
+- *DEFERRED*
 
 ### Obsidian erweitern und anpassen
 - Externe Erweiterungen
