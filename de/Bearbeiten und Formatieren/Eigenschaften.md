@@ -38,7 +38,7 @@ Obsidian unterstützt die folgenden Eigenschaftstypen:
 
 - **[[#^text-list|Text]]**
 - **[[#^text-list|Liste]]**
-- **[[#^numbers|Zahl]]**
+- **[[#Zahlen|Zahl]]**
 - **[[#^checkbox|Checkbox]]**
 - **[[#^date-time|Datum]]**
 - **[[#^date-time|Datum & Uhrzeit]]**
@@ -164,7 +164,9 @@ schauspieler: # eine Listen-Eigenschaft
 ---
 ```
 
-In **Text**- und **Listen**-Eigenschaften müssen interne Links in Anführungszeichen eingeschlossen werden. Obsidian fügt diese automatisch hinzu, wenn du Links manuell zu einer Notiz hinzufügst. Aber denke daran, die Anführungsstriche in Vorlagen eigenständig hinzuzufügen.
+### Links
+
+In **Text**- und **Listen**-Eigenschaften müssen [[Internal links|interne Links]] in Anführungszeichen eingeschlossen werden. Obsidian fügt diese automatisch hinzu, wenn du Links manuell zu einer Notiz hinzufügst. Aber denke daran, die Anführungsstriche in Vorlagen eigenständig hinzuzufügen.
 
 ```yaml
 ---
@@ -174,6 +176,8 @@ linkliste:
   - "[[Link2]]"
 ---
 ```
+
+### Zahlen
 
 Eigenschaften vom Typ **Zahl** müssen immer Zahlenwerte enthalten, keine Ausdrücke mit Operatoren. Es werden Ganzzahl- und Dezimalzahlwerte unterstützt.
 ^numbers
@@ -185,6 +189,8 @@ menge: 3.14
 ---
 ```
 
+### Checkboxen
+
 Eigenschaften vom Typ **Checkbox** enthalten den Wert `true` oder `false`. Ein leerer Wert wird als `false` interpretiert. In der Live-Vorschau wird die Eigenschaft als Kontrollkästchen repräsentiert.
 ^checkbox
 
@@ -194,6 +200,8 @@ favorit: true
 gelesen: false
 besitz: # wird als false interpretiert
 ```
+
+### Datumsangaben
 
 Eigenschaften vom Typ **Datum** oder **Datum & Uhrzeit** werden im folgenden Format gespeichert: 
 ^date-time
@@ -246,9 +254,9 @@ Obsidian stellt eine Reihe von Standardeigenschaften bereit:
 | `aliases`    | Liste | Siehe [[Aliases]].                                                      |
 | `cssclasses` | Liste | Ermöglicht die Gestaltung einzelner Notizen mit [[CSS-Bausteine\|CSS]]. |
 
-## Eigenschaften für Obsidian Publish
+### Eigenschaften für Obsidian Publish
 
-Folgende Eigenschaften können mit [[Obsidian Publish/Einführung|Obsidian Publish]] verwendet werden:
+Folgende Standard-Eigenschaften können mit [[Obsidian Publish/Einführung|Obsidian Publish]] verwendet werden:
 
 | Eigenschaft   | Beschreibung                                                                                                              |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -258,7 +266,7 @@ Folgende Eigenschaften können mit [[Obsidian Publish/Einführung|Obsidian Publi
 | `image`       | Siehe [[Social media link previews#Image\|Bild]].                                                                         |
 | `cover`       | Siehe [[Social media link previews#Image\|Bild]].                                                                         |
 
-## Veraltete Eigenschaften
+### Veraltete Eigenschaften
 
 Diese Eigenschaften wurden mit Obsidian 1.4 als veraltet markiert und sollten durch ihre modernen Entsprechungen ersetzt werden. Ihre Unterstützung als [[#Standardeigenschaften]] wird mit Obsidian 1.9 eingestellt.
 

@@ -83,7 +83,7 @@ If you are beginning syncing after adjusting Obsidian Sync's settings and restar
 > For more details on sync statuses, refer to [[Status icon and messages]].
 ^obsidian-sync-status
 
-To connect other devices to your newly created and synced remote vault, keep reading!
+To connect other devices to your newly created and synced remote vault, move onto [[Set up Obsidian Sync#Sync a remote vault on another device|Sync a remote vault on another device]].
 
 To learn more about settings and files, move onto [[Sync settings and selective syncing]].
 
@@ -172,7 +172,7 @@ If you're unsure where your current vault's region is, check out [[Obsidian Sync
 
 ![[sync-regional-sync-servers.png#interface|300]]
 
-After selecting a location, your data center **cannot** be moved to a different server without re-uploading your data. To change regions, follow the [[Migrate a Sync vault|follow vault migration guide]].
+After selecting a location, your data center **cannot** be moved to a different server without re-uploading your data. To change regions, follow the [[Sync regions|follow vault Sync regions guide]].
 
 ![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
 
