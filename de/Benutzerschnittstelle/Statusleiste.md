@@ -12,4 +12,4 @@ Beispielsweise fügt die Erweiterung [[Word count|Anzahl der Wörter]] die Wört
 
 ![[status-bar-desktop-DE.png#interface]]
 
-Die obige Abbildung einer Statusleiste aus der Desktop-Version enthält Informationen über [[Backlinks|Rückverweise]] und [[Eigenschaften]], den [[Views and editing mode#Reading view|Ansichtsmodus]] sowie Wörter- und Zeichenanzahl in der aktiven Notiz.
+Die obige Abbildung einer Statusleiste aus der Desktop-Version enthält Informationen über [[Backlinks|Rückverweise]] und [[Eigenschaften]], den [[Ansichten und Modi#Leseansicht|Ansichtsmodus]] sowie Wörter- und Zeichenanzahl in der aktiven Notiz.

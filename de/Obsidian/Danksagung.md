@@ -1,6 +1,6 @@
 ---
 aliases: Credits
-permalink: credits
+permalink: danke
 ---
 
 Die Namen sind nicht nach Beitragsumfang, sondern alphabetisch geordnet (zumindest bemühen wir uns!).

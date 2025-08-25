@@ -7,7 +7,7 @@ permalink: syntax
 publish: true
 ---
 
-Erfahre, wie du deine Notizen einfach formatieren kannst mit [Markdown](https://daringfireball.net/projects/markdown/). Für fortgeschrittene Formatierungstechniken, siehe [[Erweiterte Formatierungssyntax|Erweiterte Formatierungssyntax]].
+Erfahre, wie du deine Notizen einfach formatieren kannst mit [Markdown](https://daringfireball.net/projects/markdown/). Für fortgeschrittene Formatierungstechniken, siehe [[Erweiterte Formatierung|Erweiterte Formatierung]].
 
 ## Absätze
 
@@ -26,7 +26,7 @@ Das ist ein weiterer Absatz.
 Eine Leerzeile im Text erzeugt standardmäßig einen Absatz in Markdown.
 
 > [!tip] Mehrere Leerzeichen
-> Mehrere aufeinanderfolgende Leerzeichen innerhalb oder zwischen Absätzen werden in der [[Views and editing mode#Reading view|Leseansicht]] oder der [[Obsidian Publish/Einführung|veröffentlichten Webseite]] zu einem einzigen Leerzeichen zusammengefasst. Dasselbe gilt für mehrere Leerzeilen.
+> Mehrere aufeinanderfolgende Leerzeichen innerhalb oder zwischen Absätzen werden in der [[Ansichten und Modi#Leseansicht|Leseansicht]] oder der [[Obsidian Publish/Einführung|veröffentlichten Webseite]] zu einem einzigen Leerzeichen zusammengefasst. Dasselbe gilt für mehrere Leerzeilen.
 > 
 > ```md
 > Mehrere          aufeinanderfolgende          Leerzeichen
@@ -114,7 +114,7 @@ Um eine Überschrift zu erzeugen, kannst du bis  zu sechs Hash-Symbole (`#`) vor
 
 ## Betonungen
 
-Du kannst Text auch mit Hilfe von  [[Editing shortcuts|Editor-Shortcuts]] formatieren.
+Du kannst Text auch mit Hilfe von  [[Tastenkürzel zum Bearbeiten|Editor-Shortcuts]] formatieren.
 
 | Stil                          | Syntax                   | Beispiel                                        | Ausgabe                                       |
 | ----------------------------- | ------------------------ | ----------------------------------------------- | --------------------------------------------- |
@@ -417,7 +417,7 @@ function fancyAlert(arg) {
 Obsidian verwendet Prism für die Syntaxhervorhebung. Für mehr Informationen siehe [Unterstützte Sprachen](https://prismjs.com/#supported-languages).
 
 > [!note] Hinweis
-> PrismJS wird in der [[Views and editing mode#Source mode|Quellcode-Ansicht]] und der [[Views and editing mode#Live Preview|Live-Vorschau]] nicht unterstützt. Dort werden Quelltext-Blöcke unter Umständen anders dargestellt.
+> PrismJS wird in der [[Ansichten und Modi#Quellcode-Ansicht|Quellcode-Ansicht]] und der [[Ansichten und Modi#Live-Vorschau|Live-Vorschau]] nicht unterstützt. Dort werden Quelltext-Blöcke unter Umständen anders dargestellt.
 
 ## Fußnoten
 
@@ -486,6 +486,6 @@ Bei der Arbeit mit nummerierten Texten möchtest du möglicherweise die Listenfo
 
 ## Erfahre mehr
 
-Weitere Informationen zu fortgeschrittenen Formatierungstechniken, z.B. für Tabellen, Diagramme und mathematische Ausdrücke, findest du unter [[Erweiterte Formatierungssyntax|Erweiterte Formatierungssyntax]].
+Weitere Informationen zu fortgeschrittenen Formatierungstechniken, z.B. für Tabellen, Diagramme und mathematische Ausdrücke, findest du unter [[Erweiterte Formatierung|Erweiterte Formatierung]].
 
 Um mehr darüber zu erfahren, wie Markdown-Parsing in Obsidian funktioniert, lies weiter unter [[Obsidian Flavored Markdown]].

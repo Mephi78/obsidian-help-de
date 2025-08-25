@@ -6,7 +6,7 @@ aliases:
 permalink: vaults-verwalten
 ---
 
-Ein **Vault** ist ein Ordner in deinem Dateisystem, der deine Notizen, [[Attachments|Anhänge]] und den [[Konfigurationsordner]] mit Obsidian-spezifischen Einstellungen enthält. Erfahre mehr über Vaults im Abschnitt [[Datenspeicherung]].
+Ein **Vault** ist ein Ordner in deinem Dateisystem, der deine Notizen, [[Anhänge|Anhänge]] und den [[Konfigurationsordner]] mit Obsidian-spezifischen Einstellungen enthält. Erfahre mehr über Vaults im Abschnitt [[Datenspeicherung]].
 
 Du kannst deine Vaults über die **Vault-Verwaltung** organisieren. Der Dialog für die Vault-Verwaltung öffnet sich, wenn du Obsidian zum ersten Mal startest.
 

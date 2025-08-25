@@ -1,15 +1,15 @@
 ---
 aliases:
-  - front matter
-  - Fortgeschrittene Themen/YAML front matter
-  - metadata
-  - property
-  - frontmatter
+  - Frontmatter
+  - Fortgeschrittene Themen/YAML Frontmatter
+  - Metadaten
+  - Eigenschaft
+  - YAML
 cssclasses:
   - soft-embed
 description: Mit Eigenschaften kannst du Informationen über eine Notiz organisieren. Eigenschaften enthalten strukturierte Daten, wie Text, Links, Datumsangaben, Checkboxen oder Zahlenwerte.
 mobile: false
-permalink: properties
+permalink: eigenschaften
 publish: true
 ---
 
@@ -81,7 +81,7 @@ Du kannst mit der Eigenschaft `cssclasses` [[CSS-Bausteine]] verwenden, um die D
 
 Einige Funktionen werden derzeit von Obsidian nicht unterstützt:
 
-- **Verschachtelung**: Um verschachtelte Eigenschaften anzuzeigen, empfehlen wir die Verwendung der [[Views and editing mode#Source mode|Quellcode-Ansicht]].
+- **Verschachtelung**: Um verschachtelte Eigenschaften anzuzeigen, empfehlen wir die Verwendung der [[Ansichten und Modi#Quellcode-Ansicht|Quellcode-Ansicht]].
 - **Stapelverarbeitung**: Zur Massenbearbeitung von Eigenschaften außerhalb der [[Properties view|Eigenschaften-Ansicht]] empfehlen wir die Verwendung von Werkzeugen wie VSCode, Batch-Scripten oder externen Erweiterungen.
 - **Markdown in Eigenschaften**: Dies ist eine absichtliche Einschränkung, da Eigenschaften für kleine, atomare Informationen gedacht sind, die sowohl für den Menschen als auch maschinenlesbar sind.
 ## Tastenkürzel

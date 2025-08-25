@@ -1,7 +1,7 @@
 ---
 aliases:
   - Sprache hinzufügen
-permalink: übersetzungen
+permalink: uebersetzer
 ---
 
 Wenn du eine weitere Sprache beherrschst - vorzugsweise als Muttersprache - kannst du helfen, die Bedienoberfläche oder Dokumentation für Obsidian zu übersetzen.

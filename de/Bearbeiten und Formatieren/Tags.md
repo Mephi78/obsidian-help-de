@@ -1,60 +1,59 @@
 ---
 aliases:
-  - Gewusst wie/Working with tags
+  - Gewusst wie/Arbeiten mit Tags
 permalink: tags
 ---
-#TODO
-Tags are keywords or topics that help you quickly find the notes you want.
 
-## Add a tag to a note
+Tags sind Stichwörter oder Themen, mit denen du Notizen schneller finden kannst.
 
-To create a tag, enter a hash symbol (`#`) in the editor, followed by a keyword. For example, `#meeting`.
+## Notiz mit einem Tag versehen
 
-You can also add tags using the `tags` [[Eigenschaften|property]]. Tags in YAML should always be formatted as a list:
+Um einen Tag zu erstellen, gib im Bearbeitungsmodus an einer beliebigen Stelle in deiner Notiz ein Hash-Symbol (`#`) ein, gefolgt von einem Stichwort (z.B. `#wichtig`).
+
+Du kannst Tags auch über die vordefinierte [[Eigenschaften|Eigenschaft]] `tags` hinzufügen. Achte hierbei darauf, das Hash-Symbol wegzulassen. Tags im YAML-Block sollten immer als Liste formatiert sein:
 
 ```yaml
 ---
 tags:
-  - recipe
-  - cooking
+  - wichtig
+  - termin
 ---
 ```
 
-## Find notes using tags
+## Notizen über Tags finden
 
-To find notes using the [[Search]] plugin, use the `tag` [[Search#Search operators|search operator]] in your search term, for example `tag:#meeting`.
+Um Notizen über die [[Search|Suchfunktion]] zu finden, kannst du den [[Search#Search operators|Suchoperator]] `tag` in deiner Suchanfrage verwenden (z.B. `tag:wichtig`).
 
-You can also search for tags by clicking on them in your notes.
+Du kannst auch alle Notizen mit einem bestimmten Tag finden, indem du auf diesen Tag klickst in einer deiner Notizen.
 
-To find notes using the [[Tags view|Tags view]] plugin, select **Tags: Show tags** in the [[Command palette]], and then select the tag you want to search for.
+Um Notizen anhand der [[Tags view|Tag-Übersicht]] zu finden, wähle **Tags: Tag-Übersicht anzeigen** aus der [[Command palette|Befehlspalette]]. Klicke anschließend in der Tag-Übersicht auf den Tag, nach dem du suchen möchtest.
 
-## Nested tags
+## Verschachtelte Tags
 
-Nested tags define tag hierarchies that make it easier to find and filter related tags.
+Verschachtelte Tags definieren Tag-Hierarchien, die eine Suche oder das Filtern nach verwandten Tags vereinfachen.
 
-Create nested tags by using forward slashes (`/`) in the tag name, for example  `#inbox/to-read` and `#inbox/processing`.
+Erstelle verschachtelte Tags, indem du Tag-Ebenen mit einem Schrägstrich (`/`) voneinander trennst, bspw. `#posteingang/ungelesen` und `#posteingang/in_bearbeitung`.
 
-Both the [[Search]] and [[Tags view|Tags view]] plugins support nested tags.
+Sowohl die [[Search|Suchfunktion]], als auch die [[Tags view|Tag-Übersicht]] unterstützen verschachtelte Tags.
 
-## Tag format
+## Regeln für Tag-Namen
 
-You can use any of the following characters in your tags:
+Folgende Zeichen kannst du in Tag-Namen verwenden:
 
-- Alphabetical letters
-- Numbers
-- Underscore (`_`)
-- Hyphen (`-`)
-- Forward slash (`/`) for [[#Nested tags]]
+- Buchstaben
+- Zahlen
+- Unterstrich (`_`)
+- Bindestrich (`-`)
+- Schrägstrich (`/`) für [[#Verschachtelte Tags]]
 
-Tags must contain at least one non-numerical character. For example, #1984 isn't a valid tag, but #y1984 is.
+Tag-Namen müssen mindestens ein nicht numerisches Zeichen enthalten. #1984 ist bspw. kein gültiger Tag, #j1984 hingegen schon.
 
-Tags are case-insensitive. For example, #tag and #TAG will be treated as identical.
+Die Groß-/Kleinschreibung spielt bei Tags keine Rolle. Beispielsweise werden #tag und #TAG als identisch angesehen.
 
-> [!note] 
-> Tags will display with the casing they are first created with in the [[Tags view]]. 
-> For example, creating #Tag and then #TAG will display #Tag for both. 
+> [!note] Hinweis
+> Tags werden in der [[Tags view|Tag-Übersicht]] mit der Schreibweise angezeigt, die du verwendet hast bei der ersten Erstellung eines Tags. Wurde z.B. zuerst #Tag und danach noch #TAG verwendet, werden beide Vorkommen als #Tag angezeigt.
 
-Tags can't contain blank spaces. To separate two or more words, you can instead use the following formats:
+Tag-Namen können keine Leerzeichen enthalten. Um Tags aus mehreren Wörtern besser lesbar zu gestalten, kannst du stattdessen eines der folgenden Formate verwenden:
 
 - #camelCase
 - #PascalCase

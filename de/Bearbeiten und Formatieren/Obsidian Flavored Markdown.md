@@ -1,25 +1,25 @@
 ---
-permalink: obsidian-flavored-markdown
+permalink: obsidian-markdown
 ---
-#TODO
-Obsidian strives for maximum capability without breaking any existing formats. As a result, we use a combination of flavors of [[Formatierungsgrundlagen|Markdown]].
 
-Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](https://github.github.com/gfm/), and [LaTeX](https://www.latex-project.org/). Obsidian does not support using Markdown formatting or blank lines inside of HTML tags.
+Obsidian strebt nach größtmöglicher Leistungsfähigkeit, ohne mit bestehenden Formaten zu brechen. Daher verwenden wir eine Kombination aus verschiedenen [[Formatierungsgrundlagen|Markdown]]-Varianten.
 
-### Supported Markdown extensions
+Obsidian unterstützt [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](https://github.github.com/gfm/) und [LaTeX](https://www.latex-project.org/). Obsidian unterstützt keine Markdown-Formatierung oder Leerzeilen innerhalb von HTML-Tags.
 
-| Syntax          | Description                                                           |
-| --------------- | --------------------------------------------------------------------- |
-| `[[Link]]`      | [[Internal links]]                                                    |
-| `![[Link]]`     | [[Embed files]]                                                       |
-| `![[Link#^id]]` | [[Internal links#Link to a block in a note\|Block references]]        |
-| `^id`           | [[Internal links#Link to a block in a note\|Defining a block]]        |
-| `[^id]`         | [[Formatierungsgrundlagen#Fußnoten\|Footnotes]]                      |
-| `%%Text%%`      | [[Formatierungsgrundlagen#Kommentare\|Comments]]                        |
-| `~~Text~~`      | [[Formatierungsgrundlagen#Betonungen\|Strikethroughs]] |
-| `==Text==`      | [[Formatierungsgrundlagen#Betonungen\|Highlights]]     |
-| `` ``` ``       | [[Formatierungsgrundlagen#Quelltext-Blöcke\|Code blocks]]                  |
-| `- [ ]`         | [[Formatierungsgrundlagen#Aufgabenlisten\|Incomplete task]]               |
-| `- [x]`         | [[Formatierungsgrundlagen#Aufgabenlisten\|Completed task]]                |
-| `> [!note]`     | [[Callouts]]                                                          |
-| (see link)      | [[Erweiterte Formatierungssyntax#Tabellen\|Tables]]                         |
+### Unterstützte Markdown-Erweiterungen
+
+| Syntax                                                   | Beschreibung                                                   |
+| -------------------------------------------------------- | -------------------------------------------------------------- |
+| `[[Link]]`                                               | [[Internal links\|Interner Link]]                              |
+| `![[Link]]`                                              | [[Embed files\|Eingebettete Datei]]                            |
+| `![[Link#^id]]`                                          | [[Internal links#Link to a block in a note\|Block-Referenz]]   |
+| `^id`                                                    | [[Internal links#Link to a block in a note\|Block-Definition]] |
+| `[^id]`                                                  | [[Formatierungsgrundlagen#Fußnoten\|Fußnote]]                  |
+| `%%Text%%`                                               | [[Formatierungsgrundlagen#Kommentare\|Kommentar]]              |
+| `~~Text~~`                                               | [[Formatierungsgrundlagen#Betonungen\|Streichung]]             |
+| `==Text==`                                               | [[Formatierungsgrundlagen#Betonungen\|Hervorhebung]]           |
+| `` ``` ``                                                | [[Formatierungsgrundlagen#Quelltext-Blöcke\|Quelltext-Block]]  |
+| `- [ ]`                                                  | [[Formatierungsgrundlagen#Aufgabenlisten\|Offene Aufgabe]]     |
+| `- [x]`                                                  | [[Formatierungsgrundlagen#Aufgabenlisten\|Erledigte Aufgabe]]  |
+| `> [!note]`                                              | [[Callouts\|Callout]]                                          |
+| \| Spalte1  \| Spalte2  \|<br>\|----------\|----------\| | [[Erweiterte Formatierung#Tabellen\|Tabelle]]                  |

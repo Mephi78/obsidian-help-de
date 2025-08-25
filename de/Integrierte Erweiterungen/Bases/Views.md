@@ -13,7 +13,7 @@ Currently, bases can be displayed as a **table** or **cards**. In the future mor
 Current layout options:
 
 - **Table layout** displays each file as a row in a table. Columns are populated from the [[Eigenschaften]] in your notes.
-- **Cards layout** displays each file as a card in a grid. The view settings allow you to optionally configure an image property, which can be an image URL or [[Attachments|attachment]] link.
+- **Cards layout** displays each file as a card in a grid. The view settings allow you to optionally configure an image property, which can be an image URL or [[Anhänge|attachment]] link.
 
 Each layout type provides its own configuration options and actions. To see a view's configuration options:
 

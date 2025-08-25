@@ -1,121 +1,120 @@
 ---
 aliases:
-  - Gewusst wie/Use callouts
-description: This page details how to use callouts to include additional content without breaking the flow of your notes.
+  - Gewusst wie/Callouts verwenden
+  - Infokasten
+description: Erfahre, wie du mit Hilfe von Callouts Zusatzinformationen in deine Notizen einfügen kannst, ohne den Lesefluss zu unterbrechen.
 mobile: true
 permalink: callouts
 publish: true
 ---
-#TODO
-Use callouts to include additional content without breaking the flow of your notes.
 
-To create a callout, add `[!info]` to the first line of a blockquote, where `info` is the _type identifier_. The type identifier determines how the callout looks and feels. To see all available types, refer to [[#Supported types]]. Callouts are also supported natively on [[Obsidian Publish/Einführung|Obsidian Publish]].
+Verwende _Callouts_, um deine Notizen mit Randinformationen zu versehen, ohne den Lesefluss zu unterbrechen oder um Informationen besonders hervorzuheben.
+
+Um bspw.  einen Infokasten zu erstellen, beginne einen [[Formatierungsgrundlagen#Zitate|Zitatblock]] mit `[!info]`, wobei `info` den _Callout-Typ_ bezeichnet. Der Callout-Typ bestimmt den Stil des Kastens. Eine Übersicht der verfügbaren Typen findest du unter [[#Unterstützte Typen]]. Auch [[Obsidian Publish/Einführung|Obsidian Publish]] verfügt über eine native Unterstützung von Callouts.
 
 ```markdown
-> [!info] Here's a callout title
-> Here's a callout block.
-> It supports **Markdown**, [[Internal link|Wikilinks]], and [[Embed files|embeds]]!
+> [!info] Das ist der Callout-Titel
+> Und das ein Callout-Block.
+> Du kannst **Markdown**, [[Internal link|Wikilinks]] und [[Embed files|Einbettungen]] verwenden!
 > ![[Engelbart.jpg]]
 ```
 
-> [!info] Here's a callout title
-> Here's a callout block.
-> It supports **Markdown**, [[Internal links|Wikilinks]] and [[Embed files|embeds]]!
+> [!info] Das ist der Callout-Titel
+> Und das ein Callout-Block.
+> Du kannst **Markdown**, [[Internal links|Wikilinks]] und [[Embed files|Einbettungen]] verwenden!
 > ![[Engelbart.jpg]]
 
-You can insert a default `![note]` callout using the `Insert callout` [[Command palette|command]]. The cursor automatically positions in the callout name field, letting you delete the default name and type a new one before editing the content.
+Du kannst deiner Notiz im Bearbeitungsmodus ein Standard-Callout vom Typ `![note]` hinzufügen über den [[Command palette|Befehl]] **Callout einfügen**. Der Cursor positioniert sich automatisch im Feld für den Callout-Typ, so dass du diesen ändern kannst, bevor du den Inhalt des Callouts bearbeitest.
 
-To wrap existing content in a callout, select the text (including lists, code blocks, etc.) and run the `Insert callout` command. The selected content will be automatically enclosed in the callout.
+Wenn du bereits bestehenden Inhalt in ein Callout umwandeln möchtest, markiere den Text (einschließlich Listen, Quelltext-Blöcke etc.) und wähle den Befehl **Callout einfügen**. Der ausgewählte Inhalt wird automatisch als Callout formatiert. Außer über die Befehlspalette ist diese Funktion auch über das Kontextmenü (Rechtsklick auf den ausgewählten Inhalt → **Einfügen → Callout**) verfügbar.
 
-In [[Views and editing mode#Live Preview|Live Preview]], you can also right-click the callout name to change the callout type.
+In der [[Ansichten und Modi#Live-Vorschau|Live-Vorschau]] kannst du mit Rechtsklick auf das gerenderte Callout den Callout-Typ ändern. Die Auswahl **Ohne** entfernt die Callout-Formatierung komplett.
 
-> [!note] Do you use the Admonitions plugin?
-> If you're also using the Admonitions plugin, you should update it to at least version **8.0.0** to avoid problems with the new callout feature.
+### Titel anpassen
 
-### Change the title
-
-By default, the title of the callout is its type identifier in title case. You can change it by adding text after the type identifier:
+Standardmäßig entspricht der Titel eines Callouts dem Callout-Typ in Groß-/Kleinschreibung. Du kannst den Titel ändern, indem du einen eigenen Text hinter der Typ-Bezeichnung hinzufügst:
 
 ```markdown
-> [!tip] Callouts can have custom titles
-> Like this one.
+> [!tip] Mein eigener Callout-Titel
+> Hübsch, oder?
 ```
 
-> [!tip] Callouts can have custom titles
-> Like this one.
+> [!tip] Mein eigener Callout-Titel
+> Hübsch, oder?
 
-You can even omit the body to create title-only callouts:
+Du kannst den Textteil auch weglassen, um ein nur ein reines Titel-Callout zu erstellen::
 
 ```markdown
-> [!tip] Title-only callout
+> [!tip] Reines Titel-Callout
 ```
 
-> [!tip] Title-only callout
+> [!tip] Reines Titel-Callout
 
-### Foldable callouts
+### Callouts einklappen
 
-You can make a callout foldable by adding a plus (+) or a minus (-) directly after the type identifier.
+Erstelle einklappbare Callouts mit einem Plus (`+`) oder Minus (`-`) direkt hinter dem Bezeichner.
 
-A plus sign expands the callout by default, and a minus sign collapses it instead.
+Ein Plus sorgt dafür, dass das Callout standardmäßig ausgeklappt ist, ein Minus hingegen klappt es ein.
 
 ```markdown
-> [!faq]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
+> [!faq]- Kann man Callouts einklappen?
+> Ja! Wenn du ein Callout einklappst, wird der Textteil versteckt.
 ```
 
-> [!faq]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden when collapsed.
+> [!faq]- Kann man Callouts einklappen?
+> Ja! Wenn du ein Callout einklappst, wird der Textteil versteckt.
 
-### Nested callouts
+### Verschachtelte Callouts
 
-You can nest callouts in multiple levels.
+Du kannst Callouts über mehrere Ebenen verschachteln.
 
 ```markdown
-> [!question] Can callouts be nested?
-> > [!todo] Yes!, they can.
-> > > [!example]  You can even use multiple layers of nesting.
+> [!question] Lassen sich Callouts verschachteln?
+> > [!todo] Ja, na klar!
+> > > [!example]  Du kannst sogar mehrere Verschachtelungsebenen verwenden.
 ```
 
-> [!question] Can callouts be nested?
-> > [!todo] Yes!, they can.
-> > > [!example]  You can even use multiple layers of nesting.
+> [!question] Lassen sich Callouts verschachteln?
+> > [!todo] Ja, na klar!
+> > > [!example]  Du kannst sogar mehrere Verschachtelungsebenen verwenden.
 
-### Customize callouts
+### Benutzerdefinierte Callouts
 
-[[CSS-Bausteine]] and [[Externe Erweiterungen]] can define custom callouts, or even overwrite the default configuration.
+[[CSS-Bausteine]] und [[Externe Erweiterungen]] ermöglichen die Erstellung von eigenen Callout-Typen. Du kannst damit auch das Aussehen der [[#Unterstützte Typen|Standard-Typen]] ändern.
 
-To define a custom callout, create the following CSS block:
+Um deinen eigenen Callout-Typ zu definieren, erstelle den folgenden CSS-Block:
 
 ```css
-.callout[data-callout="custom-question-type"] {
+.callout[data-callout="mein-callout"] {
     --callout-color: 0, 0, 0;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
-The value of the `data-callout` attribute is the type identifier you want to use, for example `[!custom-question-type]`.
+Mit dem Wert des Attributes `data-callout` bestimmst du den Typ-Bezeichner, den du verwenden möchtest, z.B. `[!mein-callout]`.
 
-- `--callout-color` defines the background color using numbers (0–255) for red, green, and blue.
-- `--callout-icon` can be an icon ID from [lucide.dev](https://lucide.dev), or an SVG element. 
+- `--callout-color` legt die Hintergrundfarbe fest, hier im Beispiel in RGB-Notation (Zahlen von 0 bis 255 jeweils für Rot, Grün und Blau).
+- `--callout-icon` kann die Symbol-ID eines [lucide.dev](https://lucide.dev)-Icons sein oder ein SVG-Element. 
 
-> [!warning] Note about lucide icon versions
-> Obsidian updates Lucide icons periodically. The current version included is shown below; use these or earlier icons in custom callouts.
+> [!warning] Hinweis zu Lucide-Icons
+> Obsidian aktualisiert Lucide-Icons regelmäßig. Die in der aktuellen Obsidian-Version verfügbare Version der Lucide-Symbole siehst du unten. Du kannst Symbole aus dieser oder früheren Versionen für benutzerdefinierte Callouts verwenden.
+> 
 > ![[Danksagung#^lucide]]
 
-> [!tip] SVG icons
-> Instead of using a Lucide icon, you can also use a SVG element as the callout icon.
+> [!tip] SVG-Symbole
+> Anstelle von Lucide-Symbolen kannst du auch SVG-Elemente als Callout-Icon verwenden.
 >
 > ```css
-> --callout-icon: '<svg>...custom svg...</svg>';
+> --callout-icon: '<svg>...mein eigenes svg...</svg>';
 > ```
 
-### Supported types
+### Unterstützte Typen
 
-You can use several callout types and aliases. Each type comes with a different background color and icon.
+Du kannst unterschiedliche Callout-Typen und Aliasse verwenden. Jeder Typ hat seine eigene Hintergrundfarbe und ein spezifisches Icon.
 
-To use these default styles, replace `info` in the examples with any of these types, such as `[!tip]` or `[!warning]`. Callout types can also be changed by right-clicking a callout.
+Um diese Standard-Typen zu verwenden, ersetze den Typ-Bezeichner in den obigen Beispielen mit einem beliebigen der hier aufgelisteten Typen, wie bspw. `[!tip]` oder `[!warning]`. Du kannst den Callout-Typ in der Live-Vorschau auch ändern mit Rechtsklick auf das Callout.
 
-Unless you [[#Customize callouts]], any unsupported type defaults to the `note` type. The type identifier is case-insensitive.
+Sofern du keine [[#Benutzerdefinierte Callouts|benutzerdefinierten Callouts]] verwendest, wird jeder nicht unterstützte Typ standardmäßig als `note`-Typ angezeigt. Die Groß-/Kleinschreibung spielt beim Typ-Bezeichner keine Rolle.
 
 > [!note]
 > ```md
@@ -131,7 +130,7 @@ Unless you [[#Customize callouts]], any unsupported type defaults to the `note` 
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `summary`, `tldr`
+Alias: `summary`, `tldr`
 
 ---
 
@@ -157,7 +156,7 @@ Aliases: `summary`, `tldr`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `hint`, `important`
+Alias: `hint`, `important`
 
 ---
 
@@ -167,7 +166,7 @@ Aliases: `hint`, `important`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `check`, `done`
+Alias: `check`, `done`
 
 ---
 
@@ -177,7 +176,7 @@ Aliases: `check`, `done`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `help`, `faq`
+Alias: `help`, `faq`
 
 ---
 
@@ -187,7 +186,7 @@ Aliases: `help`, `faq`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `caution`, `attention`
+Alias: `caution`, `attention`
 
 ---
 
@@ -197,7 +196,7 @@ Aliases: `caution`, `attention`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `fail`, `missing`
+Alias: `fail`, `missing`
 
 ---
 
