@@ -81,4 +81,4 @@ In der Mobile App befindet sich die [[Werkzeugleiste|Werkzeugleiste]] nicht, wie
 
 ### Rechte Seitenleiste
 
-Die rechte Seitenleiste öffnet sich - im Editier- wie auch im Lesemodus - wenn du nach links wischst oder das Drei-Punkte-Menü-Symbol ( ![[lucide-ellipsis-vertical.svg#icon]] ) oben rechts länger gedrückt hältst.
+Die rechte Seitenleiste öffnet sich - im Bearbeitungsmodus wie auch in der Leseansicht - wenn du nach links wischst oder das Drei-Punkte-Menü-Symbol ( ![[lucide-ellipsis-vertical.svg#icon]] ) oben rechts länger gedrückt hältst.

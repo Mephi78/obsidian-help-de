@@ -186,7 +186,7 @@ Include icons and images when they make it easier to explain things that are har
 
 - Images should be in either `.png` or `.svg` format.
 - If an image looks too big in the note, make it smaller outside of Obsidian, or adjust its dimensions as explained in [[Embed files#Embed an image in a note|embedding an image in a note]].
-- In rare cases, you may want to place especially large or complex images in a [[Callouts#Foldable callouts|folded callout]]. 
+- In rare cases, you may want to place especially large or complex images in a [[Callouts#Callouts einklappen|folded callout]]. 
 - For pop-up windows or modals, the image should show the entire Obsidian application window.
  ![[Style-guide-modal-example.png#interface]]
 

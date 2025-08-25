@@ -66,7 +66,7 @@ In addition to the [[#Sync history]], Obsidian also maintains a version history 
 
 The retention period for your version history depends on your [[Plans and storage limits|Obsidian Sync plan]]. On the Standard plan, notes are retained for 1 month, while on the Plus plan, they are kept for 12 months. After this period, older versions of your notes are deleted. 
 
-For [[Attachments|attachments]], older versions are stored for <u>two weeks</u>.
+For [[Anhänge|attachments]], older versions are stored for <u>two weeks</u>.
 
 ![[Collaborate on a shared vault#^version-history-image]]
 

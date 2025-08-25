@@ -8,7 +8,7 @@ Obsidians Werkzeugleiste ermöglicht den Schnellzugriff auf häufig benötigte F
 
 Auf dem ![[lucide-monitor-check.svg#icon]] Desktop befindet sich die Werkzeugleiste in der linken Seitenleiste und bleibt auch sichtbar, wenn die Seitenleiste ausgeblendet wird.
 
-Auf ![[obsidian-icon-smartphone.svg#icon]] Mobilgeräten kannst du die Werkzeugleiste im Lesemodus durch Tippen auf die **Menüoption** ( ![[lucide-menu.svg#icon]] ) rechts unten öffnen.
+Auf ![[obsidian-icon-smartphone.svg#icon]] Mobilgeräten kannst du die Werkzeugleiste in der Leseansicht durch Tippen auf die **Menüoption** ( ![[lucide-menu.svg#icon]] ) rechts unten öffnen.
 
 ## Aktionen
 

@@ -9,7 +9,7 @@ permalink: shortcuts
 
 Obsidian erlaubt die Einrichtung von benutzerdefinierten Tastenkürzeln, auch als Tastenkombination oder Shortcut bekannt.
 
-Standardmäßig sind die am häufigsten verwendeten [[Command palette|Befehle]] mit Tastenkürzeln vorbelegt. Wenn du einen Befehl oft verwendest, kannst du selbst einen Shortcut dafür erstellen. Siehe auch [[Editing shortcuts|Tastenkürzel zum Bearbeiten]].
+Standardmäßig sind die am häufigsten verwendeten [[Command palette|Befehle]] mit Tastenkürzeln vorbelegt. Wenn du einen Befehl oft verwendest, kannst du selbst einen Shortcut dafür erstellen. Siehe auch [[Tastenkürzel zum Bearbeiten|Tastenkürzel zum Bearbeiten]].
 
 ### Tastenkürzel anzeigen
 
