@@ -59,9 +59,9 @@ Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichni
 | Getting started           | ✅Erste Schritte                 |
 | Import notes              | Notizen Importieren               |
 | User interface            | ✅Benutzerschnittstelle          |
-| Editing and formatting    | 🚧Bearbeiten und Formatieren     |
-| Linking notes and files   | ==Notizen und Dateien verlinken== |
-| Files and folders         | ✅Dateien und Verzeichnisse       |
+| Editing and formatting    | ✅Bearbeiten und Formatieren     |
+| Linking notes and files   | 🚧Notizen und Dateien verlinken  |
+| Files and folders         | ✅Dateien und Verzeichnisse      |
 | Plugins                   | ==Integrierte Erweiterungen==     |
 | Obsidian Publish          | ==Obsidian Publish==              |
 | Obsidian Sync             | ==Obsidian Sync==                 |
