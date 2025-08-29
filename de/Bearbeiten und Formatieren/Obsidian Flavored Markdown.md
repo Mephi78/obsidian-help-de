@@ -10,10 +10,10 @@ Obsidian unterstützt [CommonMark](https://commonmark.org/), [GitHub Flavored Ma
 
 | Syntax                                                   | Beschreibung                                                   |
 | -------------------------------------------------------- | -------------------------------------------------------------- |
-| `[[Link]]`                                               | [[Internal links\|Interner Link]]                              |
-| `![[Link]]`                                              | [[Embed files\|Eingebettete Datei]]                            |
-| `![[Link#^id]]`                                          | [[Internal links#Link to a block in a note\|Block-Referenz]]   |
-| `^id`                                                    | [[Internal links#Link to a block in a note\|Block-Definition]] |
+| `[[Link]]`                                               | [[Interne Links\|Interner Link]]                              |
+| `![[Link]]`                                              | [[Dateien einbetten\|Eingebettete Datei]]                            |
+| `![[Link#^id]]`                                          | [[Interne Links#Block in einer Notiz verlinken\|Block-Referenz]]   |
+| `^id`                                                    | [[Interne Links#Block in einer Notiz verlinken\|Block-Definition]] |
 | `[^id]`                                                  | [[Formatierungsgrundlagen#Fußnoten\|Fußnote]]                  |
 | `%%Text%%`                                               | [[Formatierungsgrundlagen#Kommentare\|Kommentar]]              |
 | `~~Text~~`                                               | [[Formatierungsgrundlagen#Betonungen\|Streichung]]             |

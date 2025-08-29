@@ -7,7 +7,7 @@ permalink: datenspeicherung
 publish: true
 ---
 
-Obsidian speichert deine Notizen als [[Formatierungsgrundlagen|Markdown-formatierte]] Textdateien in einem _Vault_. Ein Vault ist ein Ordner in deinem lokalen Dateisystem, der Unterordner und Dateien enthält.
+Obsidian speichert deine Notizen als [[Formatierungsgrundlagen|Markdown-formatierte]] Textdateien in einem *Vault*. Ein Vault ist ein Ordner in deinem lokalen Dateisystem, der Unterordner und Dateien enthält.
 
 Da Notizen einfache Textdateien sind, kannst du sie mit einem beliebigen anderen Texteditor oder Dateimanager bearbeiten und verwalten. Obsidian aktualisiert deinen Vault automatisch, auch bei externen Änderungen.
 
@@ -16,7 +16,7 @@ Du kannst einen Vault überall dort erstellen, wo es dein Betriebssystem erlaubt
 Du kannst mehrere Ordner als einzelne Vaults öffnen, z.B. um Notizen für die Arbeit und für die Schule zu trennen.
 
 > [!warning] Verschachtelte Vaults
-> [[Internal links|Interne Links]] beziehen sich immer lokal auf einen Vault. Deshalb ist es nicht ratsam, einen Vault innerhalb eines Vaults zu erstellen, da interne Links dann möglicherweise nicht korrekt aktualisiert werden.
+> [[Interne Links|Interne Links]] beziehen sich immer lokal auf einen Vault. Deshalb ist es nicht ratsam, einen Vault innerhalb eines Vaults zu erstellen, da interne Links dann möglicherweise nicht korrekt aktualisiert werden.
 
 ## Vault-Einstellungen
 

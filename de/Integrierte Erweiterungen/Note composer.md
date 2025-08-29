@@ -58,7 +58,7 @@ To extract text into a new note:
 4. Select the note you want to extract into.
 
 > [!tip]
-> By default, Note composer replaces the extracted text with a link to the destination note. Under settings, you can also change to instead [[Embed files|embed]] the destination note, or to leave nothing behind.
+> By default, Note composer replaces the extracted text with a link to the destination note. Under settings, you can also change to instead [[Dateien einbetten|embed]] the destination note, or to leave nothing behind.
 
 ## Template file
 

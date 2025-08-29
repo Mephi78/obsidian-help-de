@@ -42,7 +42,7 @@ Imagine you want to move a note from one folder to another:
 
 After you move the note, Obsidian automatically updates all links within the vault. However, if you publish the change to your Publish site, any links to `/Guides/Making+friends` will result in a 404.
 
-To redirect readers from `/Guides/Making+friends` to `/Tutorials/How+to+make+friends`, you need to add an [[Aliases|alias]] in `How to make friends.md`, the note you want to redirect to.
+To redirect readers from `/Guides/Making+friends` to `/Tutorials/How+to+make+friends`, you need to add an [[Aliasse|alias]] in `How to make friends.md`, the note you want to redirect to.
 
 ```md
 ---

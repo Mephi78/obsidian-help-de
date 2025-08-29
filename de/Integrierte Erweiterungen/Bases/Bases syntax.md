@@ -4,9 +4,6 @@ aliases:
   - Bases file format
 ---
 #TODO
-> [!Warning] Work in progress
-> Bases are still in [[Early access versions|beta]] and the syntax is continuing to evolve with feedback we receive during the early access phase. Expect the syntax to change.
-
 When you [[Create a base|create a base]] in Obsidian, it is saved as a `.base` file. Bases are typically edited using the app interface, but the syntax can also be edited manually, and embedded in a code block.
 
 The [[Introduction to Bases|Bases]] syntax defines [[Views]], filters, and formulas. Bases must be valid YAML conforming to the schema defined below.

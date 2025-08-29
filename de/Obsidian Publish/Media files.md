@@ -20,7 +20,7 @@ When uploading images directly to Publish, it's best to use `.svg`, `.webp`, and
 
 ![[Style guide#Optimization]]
 
-If you're using an external service to host an image, we still recommend sizing the image as needed according to our [[Embed files#Embed an image in a note|embedding instructions]].
+If you're using an external service to host an image, we still recommend sizing the image as needed according to our [[Dateien einbetten#Bilder einbetten|embedding instructions]].
 
 ## PDFs
 

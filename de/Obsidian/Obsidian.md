@@ -8,7 +8,7 @@ Obsidian is both a Markdown editor and a knowledge base app.
 
 Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing a densely networked knowledge base.
 
-How do we start creating a network, you ask? Let's first start making some [[Internal links]]!
+How do we start creating a network, you ask? Let's first start making some [[Interne Links]]!
 
 ## How we're different
 
@@ -20,11 +20,11 @@ Sync is only a utility to facilitate working on multiple devices, the data will 
 
 When the file system replaces the cloud, you get flexible options to work with your files: you can back them up with Dropbox, use Git to do versioning, or encrypt your disk for security. Whatever works on your file system will work on your Obsidian knowledge base.
 
-### Links are first-class citizens
+### Links sind das A und O
 
 Links and connections are crucial to discovering the relations between what we know.
 
-Obsidian greatly values this, and encourages it with [[Internal links]] and [[Graph-Ansicht]], among other things.
+Obsidian greatly values this, and encourages it with [[Interne Links]] and [[Graph-Ansicht]], among other things.
 
 As John Locke puts it...
 

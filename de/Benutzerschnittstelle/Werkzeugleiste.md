@@ -41,8 +41,8 @@ Standardmäßig ist die Schnellzugriffsaktion **Werkzeugleiste öffnen**, so das
 
 Wenn du eine andere Aktion für den Schnellzugriff zuweist, ändert sich das Symbol je nach zugewiesener Aktion und du kannst:
 
-- durch _kurzes Tippen_ die zugewiesene Schnellzugriffsaktion auslösen
-- durch _langes Halten_ die Werkzeugleiste öffnen
+- durch *kurzes Tippen* die zugewiesene Schnellzugriffsaktion auslösen
+- durch *langes Halten* die Werkzeugleiste öffnen
 
 Um eine Schnellzugriffsaktion zuzuweisen:
 

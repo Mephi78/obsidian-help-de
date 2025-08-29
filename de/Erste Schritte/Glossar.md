@@ -6,7 +6,7 @@ Dieses Glossar enthält in Obsidian gebräuchliche Begriffe.
 
 ## Alias
 
-Ein **Alias** ist ein alternativer Titel für eine [[#Notiz]]. Nutze die [[#Eigenschaft]] `aliases`,  wenn du eine Notiz in deinem Vault mit unterschiedlichen Begriffen [[Aliases|referenzieren]] möchtest. Obsidian listet diese dann bspw. automatisch in der [[Search|Suchansicht]] auf.
+Ein **Alias** ist ein alternativer Titel für eine [[#Notiz]]. Nutze die [[#Eigenschaft]] `aliases`,  wenn du eine Notiz in deinem Vault mit unterschiedlichen Begriffen [[Aliasse|referenzieren]] möchtest. Obsidian listet diese dann bspw. automatisch in der [[Search|Suchansicht]] auf.
 
 ## Anhang
 
@@ -34,7 +34,7 @@ Eine **Eigenschaft** definiert zusätzliche Informationen, sogenannte Metadaten,
 
 ## Einbetten
 
-**Einbetten** bedeutet, eine Referenz zu externem Inhalt mit dem Inhalt selbst zu ersetzen, z.B. ein Bild in eine Notiz einzubinden. Siehe auch [[Embed files]].
+**Einbetten** bedeutet, eine Referenz zu externem Inhalt mit dem Inhalt selbst zu ersetzen, z.B. ein Bild in eine Notiz einzubinden. Siehe auch [[Dateien einbetten]].
 
 ## Erweiterung
 
@@ -67,7 +67,7 @@ Der **Hauptbereich** ist der zentrale Fensterbereich in Obsidian, in dem du in e
 
 ## Link
 
-Ein **Link** referenziert eine Datei, Notiz oder [[Internal links#Link to a heading in a note|Überschrift]] in einer Notiz. Ein [[Internal links|interner Link]] zeigt auf eine [[#Notiz]] oder [[#Anhang|Datei]] innerhalb des aktuellen Vaults. Ein [[Formatierungsgrundlagen#Externe Links|externer Link]] referenziert ein Ziel außerhalb des Vaults, für gewöhnlich eine Webseite.
+Ein **Link** referenziert eine Datei, Notiz oder [[Interne Links#Sprungmarken erstellen|Überschrift]] in einer Notiz. Ein [[Interne Links|interner Link]] zeigt auf eine [[#Notiz]] oder [[#Anhang|Datei]] innerhalb des aktuellen Vaults. Ein [[Formatierungsgrundlagen#Externe Links|externer Link]] referenziert ein Ziel außerhalb des Vaults, für gewöhnlich eine Webseite.
 
 ## Markdown
 

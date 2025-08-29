@@ -144,7 +144,7 @@ Erfahre unter [[#Escape-Zeichen]], wie du die Anzeige der speziellen Formatierun
 
 ## Interne Links
 
-Obsidian unterstützt zwei Formate für [[Internal links|Interne Links]] zwischen Notizen:
+Obsidian unterstützt zwei Formate für [[Interne Links|Interne Links]] zwischen Notizen:
 
 - Wiki-Links: `[[Grundgesetze der Bewegung]]`
 - Markdown: `[Grundgesetze der Bewegung](Grundgesetze%20der%20Bewegung.md)`
@@ -202,7 +202,7 @@ Wenn du nur die Breite angibst, wird das Bild entsprechend seinem ursprüngliche
 ```
 
 > [!TIP] Tipp
-> Du kannst auch Bilder aus deinem lokalen Vault anzeigen, siehe [[Embed files#Embed an image in a note|Bild in eine Notiz einbetten]].
+> Du kannst auch Bilder aus deinem lokalen Vault anzeigen, siehe [[Dateien einbetten#Bilder einbetten|Bild in eine Notiz einbetten]].
 
 ## Zitate
 

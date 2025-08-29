@@ -8,20 +8,20 @@ permalink: callouts
 publish: true
 ---
 
-Verwende _Callouts_, um deine Notizen mit Randinformationen zu versehen, ohne den Lesefluss zu unterbrechen oder um Informationen besonders hervorzuheben.
+Verwende *Callouts*, um deine Notizen mit Randinformationen zu versehen, ohne den Lesefluss zu unterbrechen oder um Informationen besonders hervorzuheben.
 
-Um bspw.  einen Infokasten zu erstellen, beginne einen [[Formatierungsgrundlagen#Zitate|Zitatblock]] mit `[!info]`, wobei `info` den _Callout-Typ_ bezeichnet. Der Callout-Typ bestimmt den Stil des Kastens. Eine Übersicht der verfügbaren Typen findest du unter [[#Unterstützte Typen]]. Auch [[Obsidian Publish/Einführung|Obsidian Publish]] verfügt über eine native Unterstützung von Callouts.
+Um bspw.  einen Infokasten zu erstellen, beginne einen [[Formatierungsgrundlagen#Zitate|Zitatblock]] mit `[!info]`, wobei `info` den *Callout-Typ* bezeichnet. Der Callout-Typ bestimmt den Stil des Kastens. Eine Übersicht der verfügbaren Typen findest du unter [[#Unterstützte Typen]]. Auch [[Obsidian Publish/Einführung|Obsidian Publish]] verfügt über eine native Unterstützung von Callouts.
 
 ```markdown
 > [!info] Das ist der Callout-Titel
 > Und das ein Callout-Block.
-> Du kannst **Markdown**, [[Internal link|Wikilinks]] und [[Embed files|Einbettungen]] verwenden!
+> Du kannst **Markdown**, [[Internal link|Wiki-Links]] und [[Embed files|Einbettungen]] verwenden!
 > ![[Engelbart.jpg]]
 ```
 
 > [!info] Das ist der Callout-Titel
 > Und das ein Callout-Block.
-> Du kannst **Markdown**, [[Internal links|Wikilinks]] und [[Embed files|Einbettungen]] verwenden!
+> Du kannst **Markdown**, [[Interne Links|Wiki-Links]] und [[Dateien einbetten|Einbettungen]] verwenden!
 > ![[Engelbart.jpg]]
 
 Du kannst deiner Notiz im Bearbeitungsmodus ein Standard-Callout vom Typ `![note]` hinzufügen über den [[Command palette|Befehl]] **Callout einfügen**. Der Cursor positioniert sich automatisch im Feld für den Callout-Typ, so dass du diesen ändern kannst, bevor du den Inhalt des Callouts bearbeitest.

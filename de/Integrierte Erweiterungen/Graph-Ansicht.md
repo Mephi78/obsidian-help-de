@@ -7,7 +7,7 @@ Die Graph-Ansicht ist eine [[Standarderweiterungen|Standard-Erweiterung]], die B
 Um die Graph-Ansicht zu öffnen, klicke **Graph-Ansicht öffnen** ( ![[lucide-git-fork.svg#icon]] ) in der [[Werkzeugleiste|Werkzeugleiste]].
 
 - Die Knoten oder Kreise repräsentieren deine Notizen.
-- Kanten repräsentieren [[Internal links|interne Verlinkungen]] zwischen zwei Knoten bzw. Notizen.
+- Kanten repräsentieren [[Interne Links|interne Verlinkungen]] zwischen zwei Knoten bzw. Notizen.
 
 Je mehr Referenzen auf eine Notiz zeigen, desto größer wird der Knoten dargestellt, der diese Notiz repräsentiert.
 

@@ -18,11 +18,15 @@ permalink: bases/create-base
 1. In the File explorer, right-click the folder you want to create the base in.
 2. Select **New base**.
 
+**Ribbon:**
+
+- In the vertical ribbon menu, select **Create new base** to create a base in the same folder as the active file.
+
 ## Embed a base
 
 ### Embed a base file
 
-You can embed base files in [[Embed files|any other file]] using the `![[File.base]]` syntax. To specify the default view use `![[File.base#View]]`.
+You can embed base files in [[Dateien einbetten|any other file]] using the `![[File.base]]` syntax. To specify the default view use `![[File.base#View]]`.
 
 ### Embed a base as a code block
 

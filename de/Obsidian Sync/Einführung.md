@@ -33,6 +33,8 @@ publish: true
 	- Einem geteilten Vault Team-Mitglieder zuweisen.
 - [[Sichere deinen Vault|Obsidian-Dateien sichern]]
 	- Sicherheitskopien deines Vaults mit Drittanbieter-Werkzeugen anlegen.
+- [[Sync regions|Sync-Regionen]]
+	- Verschiebe deinen Sync-Vault auf einen anderen regionalen Server.
 - [[Troubleshoot Obsidian Sync|Fehlerbehebung]]
 	- Bekannte Synchronisierungsprobleme und Lösungen.
 
