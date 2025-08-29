@@ -2,7 +2,7 @@
 permalink: seiteninhalte-reduzieren
 ---
 
-Erfahre, wie du einen besseren Überblick über sehr umfangreiche Notizen gewinnen kannst, indem du Teile der Notiz ausblendest. Die _Reduzieren_-Funktion ist nützlich, wenn du Gliederungen für deine Notizen erstellst und dich auf den Teil konzentrieren möchtest, an dem du gerade arbeitest.
+Erfahre, wie du einen besseren Überblick über sehr umfangreiche Notizen gewinnen kannst, indem du Teile der Notiz ausblendest. Die *Reduzieren*-Funktion ist nützlich, wenn du Gliederungen für deine Notizen erstellst und dich auf den Teil konzentrieren möchtest, an dem du gerade arbeitest.
 
 Du kannst Überschriften und eingerückte Listen reduzieren, indem du den Mauszeiger über den entsprechenden Abschnitt bewegst und dann auf das Pfeil-Symbol links daneben klickst. Reduzierte Abschnitte bleiben durch einen Pfeil gekennzeichnet, auch wenn du die Maus nicht darüber bewegst.
 

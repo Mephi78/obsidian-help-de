@@ -24,7 +24,7 @@ Viele Dateiformate — darunter Bilder, Audiodateien, Videos und PDFs — kannst
 - Auf dem ![[lucide-monitor-check.svg#icon]] **Desktop** ziehe per Drag & Drop eine unterstützte Datei in eine Notiz, um sie automatisch einzubetten.
 - Über die ![[obsidian-icon-smartphone.svg#icon]] **Mobile**-Werkzeugleiste stehen dir die Funktionen **Einbettung hinzufügen** und **Anhang hinzufügen** zur Verfügung, um Dateien einzubinden.
 
-Erfahre mehr über die Syntax und weitere Optionen unter [[Embed files|Dateien einbetten]].
+Erfahre mehr über die Syntax und weitere Optionen unter [[Dateien einbetten|Dateien einbetten]].
 
 > [!NOTE] Hinweis
 > Die Unterstützung von Audio-, Video- und anderen Dateien hängt von den auf deinem Gerät verfügbaren Codecs ab.

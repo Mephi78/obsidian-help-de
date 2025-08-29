@@ -11,7 +11,7 @@ aliases:
 permalink: bearbeiten-und-lesen
 ---
 
-Obsidian bietet dir verschiedene _Ansichten_ und _Modi_ in denen du deine Notizen lesen oder bearbeiten kannst.
+Obsidian bietet dir verschiedene *Ansichten* und *Modi* in denen du deine Notizen lesen oder bearbeiten kannst.
 
 - **Ansicht**: Schalte zwischen Lesen und Bearbeiten um.
 - **Modus**: Entscheide, wie Markdown dargestellt werden soll während der Bearbeitung.

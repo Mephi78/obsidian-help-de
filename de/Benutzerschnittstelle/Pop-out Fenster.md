@@ -5,7 +5,7 @@ permalink: pop-out-fenster
 
 > [!compatibility] Diese Funktion ist nur in der Desktop-Anwendung verfügbar.
 
-Obsidian Desktop ermöglicht das Öffnen von separaten Fenstern, sogenannte _Pop-out_ Fenster. Jedes Pop-out Fenster ist mit dem entsprechenden Vault verknüpft. Wenn du den Vault schließt, werden auch alle dazugehörigen Pop-out Fenster geschlossen.
+Obsidian Desktop ermöglicht das Öffnen von separaten Fenstern, sogenannte *Pop-out* Fenster. Jedes Pop-out Fenster ist mit dem entsprechenden Vault verknüpft. Wenn du den Vault schließt, werden auch alle dazugehörigen Pop-out Fenster geschlossen.
 
 Dateien können nur zwischen Fenstern verschoben werden, die zum selben Vault gehören.
 

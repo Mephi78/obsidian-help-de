@@ -28,7 +28,7 @@ Um einen CSS-Baustein in Obsidian ![[lucide-monitor-check.svg#icon]] **Desktop**
 
 Um einen CSS-Baustein in Obsidian ![[obsidian-icon-smartphone.svg#icon]] **Mobile/Tablet** hinzuzufügen:
 
-1. Öffne einen Dateimanager und navigiere zu deinem Vault. Der Speicherort deines Vaults wird dir angezeigt, wenn du in der _Vault-Verwaltung_ auf den Vault tippst.
+1. Öffne einen Dateimanager und navigiere zu deinem Vault. Der Speicherort deines Vaults wird dir angezeigt, wenn du in der *Vault-Verwaltung* auf den Vault tippst.
 2. Öffne den [[Konfigurationsordner|Konfigurationsordner]] und erstelle einen Ordner `snippets`, falls dieser noch nicht existiert.
 3. Kopiere deinen CSS-Baustein in diesen Ordner. %%Add your CSS snippet to this folder.%%
 4. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ) in Obsidian.

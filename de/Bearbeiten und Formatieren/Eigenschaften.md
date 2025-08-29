@@ -49,7 +49,7 @@ Sobald einem Eigenschaftsnamen ein Eigenschaftstyp zugewiesen wurde, verwenden a
 
 ### Links
 
-Eigenschaften vom Typ **Text** und **Liste** kannst du als Werte URLs und [[Internal links|interne Links]] zuweisen mittels `[[Link]]` Syntax.
+Eigenschaften vom Typ **Text** und **Liste** kannst du als Werte URLs und [[Interne Links|interne Links]] zuweisen mittels `[[Link]]` Syntax.
 
 ### Nach Eigenschaften suchen
 
@@ -166,7 +166,7 @@ schauspieler: # eine Listen-Eigenschaft
 
 ### Links
 
-In **Text**- und **Listen**-Eigenschaften müssen [[Internal links|interne Links]] in Anführungszeichen eingeschlossen werden. Obsidian fügt diese automatisch hinzu, wenn du Links manuell zu einer Notiz hinzufügst. Aber denke daran, die Anführungsstriche in Vorlagen eigenständig hinzuzufügen.
+In **Text**- und **Listen**-Eigenschaften müssen [[Interne Links|interne Links]] in Anführungszeichen eingeschlossen werden. Obsidian fügt diese automatisch hinzu, wenn du Links manuell zu einer Notiz hinzufügst. Aber denke daran, die Anführungsstriche in Vorlagen eigenständig hinzuzufügen.
 
 ```yaml
 ---
@@ -251,7 +251,7 @@ Obsidian stellt eine Reihe von Standardeigenschaften bereit:
 | Eigenschaft  | Typ   | Beschreibung                                                            |
 | ------------ | ----- | ----------------------------------------------------------------------- |
 | `tags`       | Liste | Siehe [[Bearbeiten und Formatieren/Tags\|Tags]].                        |
-| `aliases`    | Liste | Siehe [[Aliases]].                                                      |
+| `aliases`    | Liste | Siehe [[Aliasse]].                                                      |
 | `cssclasses` | Liste | Ermöglicht die Gestaltung einzelner Notizen mit [[CSS-Bausteine\|CSS]]. |
 
 ### Eigenschaften für Obsidian Publish

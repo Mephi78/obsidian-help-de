@@ -13,7 +13,7 @@ Audio recorder is a [[Standarderweiterungen|core plugin]] that lets you record a
 2. In the ribbon, click **Start/stop recording** ( ![[lucide-mic.svg#icon]] ) to start recording. The recording starts as soon as the icon changes color.
 3. Click the icon again to stop the recording and add it to your note.
 
-Obsidian saves the recorded audio file to your vault and [[Embed files|embeds]] it at the end of the active note.
+Obsidian saves the recorded audio file to your vault and [[Dateien einbetten|embeds]] it at the end of the active note.
 
 > [!note]
 > Audio recordings remain in your vault even after you remove them from your note. If you want to remove the recording from your computer, you can use the [[File explorer]] to delete the file.

@@ -28,14 +28,14 @@ Hier sind alle Tasten, die du drücken kannst, um Links auf verschiedene Weise z
 
 | Aktion              | macOS                                       | Windows/Linux                                  |
 | ------------------- | ------------------------------------------- | ---------------------------------------------- |
-| **Navigieren**      | _Ohne_                                      | _Ohne_                                         |
+| **Navigieren**      | *Ohne*                                      | *Ohne*                                         |
 | **Neuer Tab**       | `⌘` (+ `Umschalt` in der Quellcode-Ansicht) | `Ctrl` (+ `Umschalt` in der Quellcode-Ansicht) |
 | **Neue Tab-Gruppe** | `⌘` `⌥`                                     | `Strg` `Alt`                                   |
 | **Neues Fenster**   | `⌘` `⌥` `Umschalt`                          | `Strg` `Alt` `Umschalt`                        |
 
 ## Tabs und Fenster verwalten
 
-Jede Registerkarte gehört zu einer _Tab-Gruppe_. Per Drag & Drop kannst du Tabs innerhalb einer Tab-Gruppe neu anordnen, in eine andere Tab-Gruppe verschieben oder eine neue Tab-Gruppe erstellen. Auf dem ![[lucide-monitor-check.svg#icon]] Desktop kannst du Registerkarten aus dem Fenster heraus ziehen, um sie in einem [[Pop-out Fenster|separaten Fenster]] zu öffnen.
+Jede Registerkarte gehört zu einer *Tab-Gruppe*. Per Drag & Drop kannst du Tabs innerhalb einer Tab-Gruppe neu anordnen, in eine andere Tab-Gruppe verschieben oder eine neue Tab-Gruppe erstellen. Auf dem ![[lucide-monitor-check.svg#icon]] Desktop kannst du Registerkarten aus dem Fenster heraus ziehen, um sie in einem [[Pop-out Fenster|separaten Fenster]] zu öffnen.
 
 Tabs in den Seitenleisten werden nur als Symbol dargestellt. Fahre mit der Maus darüber, um einen Tooltip mit dem Tab-Titel anzuzeigen.
 
@@ -43,7 +43,7 @@ Tabs in den Seitenleisten werden nur als Symbol dargestellt. Fahre mit der Maus 
 
 Um die Reihenfolge von Registerkarten in einer Gruppe zu ändern, verschiebe sie per Drag & Drop innerhalb der Gruppe.
 
-Wenn du einen Tab ziehst, werden _Ablagebereiche_ hervorgehoben, auf die du den Tab verschieben kannst. Manche Registerkarten lassen sich nur in einer der Seitenleisten ablegen.
+Wenn du einen Tab ziehst, werden *Ablagebereiche* hervorgehoben, auf die du den Tab verschieben kannst. Manche Registerkarten lassen sich nur in einer der Seitenleisten ablegen.
 
 ### Tab-Gruppen aufteilen
 
@@ -102,7 +102,7 @@ Die gestapelten Tabs wurden inspiriert von [Andy Matuschaks Sliding Notes](https
 
 ## Verlinkte Ansichten
 
-_Verlinkte Ansichten_ sind Registerkarten, die mit anderen in Verbindung stehen. Wenn sich der Inhalt einer referenzierten Registerkarte ändert, ändert sich auch die verlinkte Ansicht.
+*Verlinkte Ansichten* sind Registerkarten, die mit anderen in Verbindung stehen. Wenn sich der Inhalt einer referenzierten Registerkarte ändert, ändert sich auch die verlinkte Ansicht.
 
 Beispiele verlinkter Ansichten für Notizen:
 

@@ -5,7 +5,7 @@ aliases:
 permalink: themen
 ---
 
-Erfahre, wie du das _Look & Feel_ von Obsidian an deine individuellen Bedürfnisse anpassen kannst mit Designs, die von unserer Community erstellt wurden.
+Erfahre, wie du das *Look & Feel* von Obsidian an deine individuellen Bedürfnisse anpassen kannst mit Designs, die von unserer Community erstellt wurden.
 
 ## Thema installieren
 

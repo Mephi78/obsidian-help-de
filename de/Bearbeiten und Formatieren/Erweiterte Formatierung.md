@@ -24,7 +24,7 @@ Du kannst Tabellen erstellen, indem du senkrechte Striche (`|`) zur Darstellung 
 
 Die senkrechten Striche an den Seiten der Tabelle sind optional, erhöhen aber die Lesbarkeit.
 
-> [!tip] In der _Live-Vorschau_ kannst du mit Rechtsklick in die Tabelle ein Kontextmenü öffnen, über das sich Zeilen und Spalten hinzufügen oder löschen lassen. Zudem stellt das Kontextmenü Sortierfunktionen zur Verfügung.
+> [!tip] In der *Live-Vorschau* kannst du mit Rechtsklick in die Tabelle ein Kontextmenü öffnen, über das sich Zeilen und Spalten hinzufügen oder löschen lassen. Zudem stellt das Kontextmenü Sortierfunktionen zur Verfügung.
 
 Du kannst eine Tabelle einfügen über den Befehl **Tabelle einfügen** aus der [[Command palette|Befehlspalette]] oder per Rechtsklick und Auswahl von **Einfügen** → **Tabelle**. Auf diese Weise erhältst du eine einfache, bearbeitbare Tabelle:
 
@@ -50,11 +50,11 @@ Du kannst die [[Formatierungsgrundlagen|einfachen Formatierungstechniken]] verwe
 
 | Erste Spalte       | Zweite Spalte                                         |
 | ------------------ | ----------------------------------------------------- |
-| [[Internal links]] | Verlinkung einer Datei _innerhalb_ deines **Vaults**. |
-| [[Embed files]]    | ![[Engelbart.jpg\|100]]                               |
+| [[Interne Links]] | Verlinkung einer Datei *innerhalb* deines **Vaults**. |
+| [[Dateien einbetten]]    | ![[Engelbart.jpg\|100]]                               |
  
 > [!note] Vertikale Striche innerhalb einer Tabelle
-> Wenn du bspw. [[Aliases|Aliasse]] verwenden oder [[Formatierungsgrundlagen#Externe Bilder|Bildgrößen anpassen]] möchtest innerhalb einer Tabelle, musst du vor den vertikalen Strich jeweils einen Backslash (`\`) setzen, damit dieser nicht als Spaltentrenner interpretiert wird.
+> Wenn du bspw. [[Aliasse|Aliasse]] verwenden oder [[Formatierungsgrundlagen#Externe Bilder|Bildgrößen anpassen]] möchtest innerhalb einer Tabelle, musst du vor den vertikalen Strich jeweils einen Backslash (`\`) setzen, damit dieser nicht als Spaltentrenner interpretiert wird.
 >
 > ```md
 > Erste Spalte | Zweite Spalte
@@ -66,7 +66,7 @@ Du kannst die [[Formatierungsgrundlagen|einfachen Formatierungstechniken]] verwe
 > -- | --
 > [[Formatierungsgrundlagen\|Markdown Syntax]] | ![[Engelbart.jpg\|200]]
 
-Text in Spalten lässt sich mit Hilfe der Doppelpunkt-Syntax (`:`) in der Kopfzeile ausrichten. In der _Live-Vorschau_ kannst du Tabelleninhalte auch über das Kontextmenü ausrichten.
+Text in Spalten lässt sich mit Hilfe der Doppelpunkt-Syntax (`:`) in der Kopfzeile ausrichten. In der *Live-Vorschau* kannst du Tabelleninhalte auch über das Kontextmenü ausrichten.
 
 ```md
 Linksbündig | Zentriert | Rechtsbündig
@@ -121,7 +121,7 @@ Biologie --> Chemie
 
 ### Dateien in Diagrammen verlinken
 
-Du kannst [[Internal links|Interne Links]] in Diagramme einbinden, indem du den jeweiligen Knoten die [Klasse](https://mermaid.js.org/syntax/flowchart.html#classes) `internal-link` zuweist.
+Du kannst [[Interne Links|Interne Links]] in Diagramme einbinden, indem du den jeweiligen Knoten die [Klasse](https://mermaid.js.org/syntax/flowchart.html#classes) `internal-link` zuweist.
 
 ````md
 ```mermaid
