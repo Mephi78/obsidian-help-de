@@ -176,6 +176,3 @@ Wenn du bspw. häufig auf die `[[Grundgesetze der Bewegung]]` als `[[Newtonsche 
 
 Um die Vorschau für eine Datei zu sehen, bewege den Mauszeiger über einen internen Link. Im Bearbeitungsmodus musst du zusätzlich `Strg` (oder `Cmd` unter macOS) gedrückt halten, während du über den Link fährst. Eine Vorschau des Dateiinhaltes erscheint neben dem Mauszeiger.
 
-%% EN PR:
-To preview a linked file, hover over an internal link. While in editing mode, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link. A preview of the file content appears next to the cursor.
-%%

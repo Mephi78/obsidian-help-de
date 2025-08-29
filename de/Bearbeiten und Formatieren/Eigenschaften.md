@@ -38,7 +38,7 @@ Obsidian unterstützt die folgenden Eigenschaftstypen:
 
 - **[[#^text-list|Text]]**
 - **[[#^text-list|Liste]]**
-- **[[#Zahlen|Zahl]]**
+- **[[#^numbers|Zahl]]**
 - **[[#^checkbox|Checkbox]]**
 - **[[#^date-time|Datum]]**
 - **[[#^date-time|Datum & Uhrzeit]]**
