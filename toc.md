@@ -57,7 +57,37 @@
 
 
 ### Integrierte Erweiterungen
-- *DEFERRED*
+- Bases
+  - Einführung
+  - *DEFERRED*
+
+- Übersicht
+- Anzahl der Wörter
+- Audio-Rekorder
+- Ausgehende Links
+- Befehlspalette
+- Canvas
+- Dateiexplorer
+- Datenwiederherstellung
+- Eigenschaften-Ansicht
+- Eindeutige Notiz
+- Gliederung
+- Graph-Ansicht
+- Importprogramm für Markdown-Format
+- Lesezeichen
+- Notizen-Werkbank
+- Präsentation
+- Rückverweise
+- Schnellauswahl
+- Seitenvorschau
+- Slash-Befehle
+- Suche
+- Tag-Ansicht
+- Tägliche Notiz
+- Vorlagen
+- Web-Viewer
+- Workspaces
+- Zufällige Notiz
 
 ### Obsidian Publish
 - Einführung
