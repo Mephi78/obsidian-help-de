@@ -6,7 +6,7 @@ permalink: plugins/properties
 publish: true
 ---
 #TODO
-Properties view is a [[Standarderweiterungen|core plugin]] that adds two sidebar views that you can use to manage [[Eigenschaften]]:
+Properties view is a [[Übersicht|core plugin]] that adds two sidebar views that you can use to manage [[Eigenschaften]]:
 
 - **File properties** shows a view of the properties for the active note.
 - **All properties** shows a list of all the properties in your vault and their type.

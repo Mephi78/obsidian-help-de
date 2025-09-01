@@ -180,7 +180,7 @@ Include icons and images when they make it easier to explain things that are har
 
 - The image should make the text it accompanies easier to understand.
 
- **Example**: Once enabled, the [[Word count]] plugin will create a new entry on your bottom statusbar.
+ **Example**: Once enabled, the [[Anzahl der Wörter]] plugin will create a new entry on your bottom statusbar.
  
 ![[Style-guide-zoomed-example.png#interface|300]]
 

@@ -45,7 +45,7 @@ Lerne die Grundlagen - deine ersten Schritte mit Obsidian:
 
 Mit unzähligen Erweiterungen und Themen kannst du Obsidian ganz deiner individuellen Denkweise anpassen.
 
-- [[Standarderweiterungen|Obsidian-Erweiterungen]]
+- [[Übersicht|Obsidian-Erweiterungen]]
 	- Entscheide selbst, welche integrierten Obsidian-Funktionen du nutzen möchtest.
 - [[Externe Erweiterungen|Externe Erweiterungen]]
 	- Schalte zusätzliche Funktionen frei mit Erweiterungen, die von Obsidian-Anwendern entwickelt wurden.

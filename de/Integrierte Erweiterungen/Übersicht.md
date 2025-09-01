@@ -8,62 +8,61 @@ cssclasses:
 permalink: plugins
 ---
 
-Diese Seite listet Standarderweiterungen auf, die mit Obsidian vorinstalliert sind. Diese integrierten Erweiterungen werden offiziell vom Obsidian-Team entwickelt und unterstützt.
+Erfahre, welche Zusatzfunktionen mit Obsidian vorinstalliert sind. Diese integrierten Erweiterungen werden offiziell vom Obsidian-Team entwickelt und unterstützt.
 
-Einige Kernfunktionen sind standardmäßig deaktiviert. Du kannst sie in den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) unter **Obsidian-Erweiterungen** aktivieren.
+Einige dieser Funktionen sind standardmäßig deaktiviert. Du kannst sie in den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) unter **Obsidian-Erweiterungen** einzeln aktivieren.
 
 > [!tip] Externe Erweiterungen
-> Falls du das gesuchte Feature hier nicht findest, schau doch mal bei den [[Externe Erweiterungen|Plugins, die unsere Community erstellt hat]] oder [erstelle deine eigene Erweiterung](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
+> Falls du die gesuchte Zusatzfunktion hier nicht findest, schau doch mal bei den [[Externe Erweiterungen|Plugins, die unsere Community erstellt hat]] oder [erstelle deine eigene Erweiterung](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
 
 ### Alle Standarderweiterungen
 
-- [[Word count|Anzahl der Wörter]]
-	- Zeige die Anzahl der Wörter und Zeichen in der Statusleiste.
-- [[Audio recorder|Audio-Rekorder]]
+- [[Anzahl der Wörter|Anzahl der Wörter]]
+	- Zeigt die Anzahl der Wörter und Zeichen in der Statusleiste.
+- [[Audio-Rekorder|Audio-Rekorder]]
 	- Erstelle und speichere Audioaufnahmen direkt in einer Notiz.
-- [[Outgoing links|Ausgehende Links]]
-	- Zeige von der aktiven Notiz ausgehende Links sowie Verweise auf nicht erstellte Inhalte.
+- [[Ausgehende Links|Ausgehende Links]]
+	- Zeigt von der aktiven Notiz ausgehende Links sowie Verweise auf nicht erstellte Inhalte.
 - [[Introduction to Bases|Bases]]
-	- Verwandle eine Sammlung von Notizen in eine leistungsstarke Datenbank.
+	- Erstelle datenbankähnliche Sichten, um deine Dateien anhand ihrer Eigenschaften zu sortieren und filtern.
 - [[Command palette|Befehlspalette]]
 	- Schnelle Eingabe von Befehlen über die Tastatur.
 - [[Canvas]]
 	- Organisiere Ideen und Notizen visuell auf einer unendlichen Leinwand.
 - [[File explorer|Dateiexplorer]]
-	- Durchsuche Dateien und Ordner in deinem Vault.
+	- Erkunde Dateien und Ordner in deinem Vault.
 - [[File recovery|Datenwiederherstellung]]
-	- Wiederherstellung deiner Notizen aus regelmäßigen Sicherheitskopien.
+	- Stelle Notizen aus regelmäßigen Sicherheitskopien wieder her.
 - [[Properties view|Eigenschaften-Ansicht]]
-	- Liste aller Eigenschaften (Metadaten) im gesamten Vault und für die aktive Notiz.
+	- Zeigt alle Eigenschaften (Metadaten) im gesamten Vault oder für die aktive Notiz.
 - [[Unique note creator|Eindeutige Notiz erstellen]]
 	- Erstelle eindeutige Notizen mit Zeitstempel im Titel.
 - [[Outline|Gliederung]]
-	- Zeige die Gliederung der aktiven Notiz.
+	- Zeigt ein Inhaltsverzeichnis der aktiven Notiz.
 - [[Graph-Ansicht]]
 	- Visualisiere Zusammenhänge zwischen den Notizen in deinem Vault.
-
 - [[Format converter|Importprogramm für Markdown Format]]
 	- Konvertiere Markdown aus anderen Anwendungen in das Obsidian Format.
 - [[Bookmarks|Lesezeichen]]
-	- Speichere Lesezeichen auf häufig verwendete Notizen, Überschriften, Suchvorgänge und mehr.
+	- Setze Lesezeichen für häufig verwendete Notizen, Überschriften, Suchvorgänge und mehr.
 - [[Note composer|Notizen-Werkbank]]
 	- Verbinden, Aufteilen und Umgestalten von Notizen.
 - [[Slides|Präsentation]]
 	- Erstelle eine Präsentation aus deinen Notizen.
 - [[Backlinks|Rückverweise]]
-	- Zeige alle auf die aktive Notiz bezogenen Verweise und nicht verlinkten Erwähnungen.
+	- Zeigt alle auf die aktive Notiz bezogenen Verweise und nicht verlinkten Erwähnungen.
 - [[Quick switcher|Schnellauswahl]]
 	- Suche, erstelle und öffne Notizen mittels Tastenkombination.
 - [[Page preview|Seitenvorschau]]
-	- Zeige die Vorschau einer Notiz während der Mauszeiger über einem internen Link schwebt.
+	- Zeigt die Vorschau einer Notiz, wenn du den Mauszeiger über einen internen Link bewegst.
 - [[Slash commands|Slash-Befehle]]
-	- Führe Befehle innerhalb des Editors aus, indem du einen Slash `/` eingibst.
+	- Führe Befehle im Bearbeitungsmodus aus, indem du einen Slash `/` eingibst.
 - [[Search|Suchen]]
 	- Finde Dateien in deinem Vault.
 - [[Obsidian Sync/Einführung|Sync]]
 	- Synchronisiere deine Notizen geräteübergreifend.
-- [[Tags view|Tag-Bereich]]
-	- Liste alle Tags in deinem Vault auf.
+- [[Tags view|Tag-Ansicht]]
+	- Listet alle Tags in deinem Vault auf.
 - [[Daily notes|Tägliche Notizen]]
 	- Erstelle und öffne Notizen basierend auf dem aktuellen Datum.
 - [[Obsidian Publish/Einführung|Veröffentlichen]]
