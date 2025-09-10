@@ -11,7 +11,7 @@ Mit der Drag & Drop Funktion kannst du im [[Glossar#Hauptbereich|Hauptbereich]] 
 
 ### Dateien ziehen
 
-- Du kannst eine oder mehrere Dateien aus dem [[File explorer|Dateiexplorer]] ziehen.
+- Du kannst eine oder mehrere Dateien aus dem [[Dateiexplorer|Dateiexplorer]] ziehen.
 - Du kannst Dateien aus der Ergebnisliste der [[Search|Suche]] ziehen.
 - Du kannst Dateien aus den [[Backlinks|Rückverweisen]] oder nicht verlinkten Erwähnungen ziehen.
 - Du kannst Links aus einer Notiz in der Leseansicht (und damit die verlinkte Datei) ziehen.
@@ -21,9 +21,9 @@ Mit der Drag & Drop Funktion kannst du im [[Glossar#Hauptbereich|Hauptbereich]] 
 ### Zielorte zum Ablegen
 
 - Du kannst eine Datei auf eine Tableiste ziehen, um sie dort zu öffnen. Halte `Alt` (oder `Umschalt` auf macOS) gedrückt, um das Ablegen zu erleichtern.
-- Du kannst eine Datei oder einen Ordner im [[File explorer|Dateiexplorer]] auf einem Ordner ablegen, um das Element in diesen Ordner zu verschieben.
+- Du kannst eine Datei oder einen Ordner im [[Dateiexplorer|Dateiexplorer]] auf einem Ordner ablegen, um das Element in diesen Ordner zu verschieben.
 - Du kannst eine Datei in einem Editor ablegen, um einen Link zu dieser Datei zu erzeugen. Der erzeugte Link folgt deinen Link-Einstellungen bzgl. des Formats und der Verwendung von Wiki-Links.
-- Du kannst eine Datei auf dem[[Bookmarks|Lesezeichen]]-Tab ablegen, um ein Lesezeichen zu erstellen.
+- Du kannst eine Datei auf dem[[Lesezeichen|Lesezeichen]]-Tab ablegen, um ein Lesezeichen zu erstellen.
 
 ### Externe Inhalte nach Obsidian ziehen
 

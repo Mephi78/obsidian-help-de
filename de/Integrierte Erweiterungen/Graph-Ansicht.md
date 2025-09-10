@@ -47,7 +47,7 @@ Erstelle unterscheidbare Gruppen von Notizen, indem du ihnen Farben zuweist.
 Um eine neue Gruppe zu erstellen:
 
 1. Klicke **Neue Gruppe**.
-2. Im Suchfeld tippe einen Suchbegriff für die Notizen ein, die du gruppieren möchtest.
+2. Gib im Suchfeld einen Suchbegriff für die Notizen ein, die du gruppieren möchtest.
 3. Klicke auf den farbigen Kreis daneben, um der neuen Gruppe eine Farbe zuzuweisen.
 
 Erfahre später mehr darüber, wie du [[Search|fortgeschrittene Suchfilter erstellen]] kannst.

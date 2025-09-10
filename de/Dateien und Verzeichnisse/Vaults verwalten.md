@@ -10,7 +10,7 @@ Ein **Vault** ist ein Ordner in deinem Dateisystem, der deine Notizen, [[Anhäng
 
 Du kannst deine Vaults über die **Vault-Verwaltung** organisieren. Der Dialog für die Vault-Verwaltung öffnet sich, wenn du Obsidian zum ersten Mal startest.
 
-Aus einem geöffneten Vault heraus kannst du zwischen Vaults wechseln, indem du unten in der [[Seitenleisten|linken Seitenleiste]] auf dein ![[lucide-chevrons-up-down.svg#icon]] **Vault-Profil** klickst und den Vault auswählst, den du öffnen möchtest. Wähle **Vaults verwalten...**, falls der gewünschte Vault nicht in der Liste erscheint. Alternativ kannst du über die [[Command palette|Befehlspalette]] den Befehl **Einen anderen Vault öffnen** auswählen.
+Aus einem geöffneten Vault heraus kannst du zwischen Vaults wechseln, indem du unten in der [[Seitenleisten|linken Seitenleiste]] auf dein ![[lucide-chevrons-up-down.svg#icon]] **Vault-Profil** klickst und den Vault auswählst, den du öffnen möchtest. Wähle **Vaults verwalten...**, falls der gewünschte Vault nicht in der Liste erscheint. Alternativ kannst du über die [[Befehlspalette|Befehlspalette]] den Befehl **Einen anderen Vault öffnen** auswählen.
 
 ## Neuen Vault erstellen
 

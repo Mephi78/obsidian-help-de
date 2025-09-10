@@ -32,7 +32,7 @@ You can access Publish through the following options: the command palette, a hot
 
 #### Open via Command palette
 
-> [!info] This option requires the [[Command palette]] core plugin to be enabled.
+> [!info] This option requires the [[Befehlspalette]] core plugin to be enabled.
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 

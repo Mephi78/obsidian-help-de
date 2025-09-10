@@ -10,7 +10,7 @@ Slides is a [[Übersicht|core plugin]] that lets you create presentations from y
 
 **Command palette:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
+1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Befehlspalette]].
 2. Search for the **Start presentation** command.
 3. Press `Enter` with the command selected to start a presentation using the active note.
 

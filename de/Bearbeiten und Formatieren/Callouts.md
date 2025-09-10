@@ -24,7 +24,7 @@ Um bspw.  einen Infokasten zu erstellen, beginne einen [[Formatierungsgrundlagen
 > Du kannst **Markdown**, [[Interne Links|Wiki-Links]] und [[Dateien einbetten|Einbettungen]] verwenden!
 > ![[Engelbart.jpg]]
 
-Du kannst deiner Notiz im Bearbeitungsmodus ein Standard-Callout vom Typ `![note]` hinzufügen über den [[Command palette|Befehl]] **Callout einfügen**. Der Cursor positioniert sich automatisch im Feld für den Callout-Typ, so dass du diesen ändern kannst, bevor du den Inhalt des Callouts bearbeitest.
+Du kannst deiner Notiz im Bearbeitungsmodus ein Standard-Callout vom Typ `![note]` hinzufügen über den [[Befehlspalette|Befehl]] **Callout einfügen**. Der Cursor positioniert sich automatisch im Feld für den Callout-Typ, so dass du diesen ändern kannst, bevor du den Inhalt des Callouts bearbeitest.
 
 Wenn du bereits bestehenden Inhalt in ein Callout umwandeln möchtest, markiere den Text (einschließlich Listen, Quelltext-Blöcke etc.) und wähle den Befehl **Callout einfügen**. Der ausgewählte Inhalt wird automatisch als Callout formatiert. Außer über die Befehlspalette ist diese Funktion auch über das Kontextmenü (Rechtsklick auf den ausgewählten Inhalt → **Einfügen → Callout**) verfügbar.
 

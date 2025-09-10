@@ -25,25 +25,25 @@ Einige dieser Funktionen sind standardmäßig deaktiviert. Du kannst sie in den 
 	- Zeigt von der aktiven Notiz ausgehende Links sowie Verweise auf nicht erstellte Inhalte.
 - [[Introduction to Bases|Bases]]
 	- Erstelle datenbankähnliche Sichten, um deine Dateien anhand ihrer Eigenschaften zu sortieren und filtern.
-- [[Command palette|Befehlspalette]]
+- [[Befehlspalette|Befehlspalette]]
 	- Schnelle Eingabe von Befehlen über die Tastatur.
 - [[Canvas]]
 	- Organisiere Ideen und Notizen visuell auf einer unendlichen Leinwand.
-- [[File explorer|Dateiexplorer]]
+- [[Dateiexplorer|Dateiexplorer]]
 	- Erkunde Dateien und Ordner in deinem Vault.
-- [[File recovery|Datenwiederherstellung]]
+- [[Datenwiederherstellung|Datenwiederherstellung]]
 	- Stelle Notizen aus regelmäßigen Sicherheitskopien wieder her.
-- [[Properties view|Eigenschaften-Ansicht]]
+- [[Eigenschaften-Ansicht|Eigenschaften-Ansicht]]
 	- Zeigt alle Eigenschaften (Metadaten) im gesamten Vault oder für die aktive Notiz.
-- [[Unique note creator|Eindeutige Notiz erstellen]]
+- [[Eindeutige Notiz|Eindeutige Notiz erstellen]]
 	- Erstelle eindeutige Notizen mit Zeitstempel im Titel.
-- [[Outline|Gliederung]]
+- [[Gliederung|Gliederung]]
 	- Zeigt ein Inhaltsverzeichnis der aktiven Notiz.
 - [[Graph-Ansicht]]
 	- Visualisiere Zusammenhänge zwischen den Notizen in deinem Vault.
-- [[Format converter|Importprogramm für Markdown Format]]
+- [[Importprogramm für Markdown Format|Importprogramm für Markdown Format]]
 	- Konvertiere Markdown aus anderen Anwendungen in das Obsidian Format.
-- [[Bookmarks|Lesezeichen]]
+- [[Lesezeichen|Lesezeichen]]
 	- Setze Lesezeichen für häufig verwendete Notizen, Überschriften, Suchvorgänge und mehr.
 - [[Note composer|Notizen-Werkbank]]
 	- Verbinden, Aufteilen und Umgestalten von Notizen.

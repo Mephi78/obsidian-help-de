@@ -14,11 +14,11 @@ Zunächst wirst du zwei Notizen erstellen und diese mit Hilfe der \[\[Doppelklam
 
    > Die Grundgesetze der Bewegung, auch bekannt als Newtonsche Axiome, wurden von Isaac Newton formuliert und stellen drei Grundprinzipien dar, die das Verhalten von Objekten in Bewegung beschreiben.
 
-2. Erstelle eine weitere Notiz mit dem Titel "Gesetz der Trägheit" und tippe folgenden Text:
+2. Erstelle eine weitere Notiz mit dem Titel "Gesetz der Trägheit" und gib folgenden Text ein:
 
    > Das Gesetz der Trägheit ist eines der 
 
-3. Am Ende dieser Zeile tippe zwei öffnende eckige Klammern (`[`) ein.
+3. Am Ende dieser Zeile gib zwei öffnende eckige Klammern (`[`) ein.
 4. Tippe "Grund", um die erste Notiz zu finden, die du zuvor erstellt hast.
 5. Drücke die `Eingabetaste`, um einen Link zu der hervorgehobenen Notiz zu erstellen.
 

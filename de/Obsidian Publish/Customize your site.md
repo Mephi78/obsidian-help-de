@@ -71,11 +71,11 @@ Browse the available UI features under the **Reading experience** and **Componen
 
 ### Customize navigation
 
-Within Obsidian Publish, you have the ability to customize the navigation order and display of files and folders within the Publish [[File explorer]]. Navigation items are listed in published order by default. Notes not published will not appear within this pane.
+Within Obsidian Publish, you have the ability to customize the navigation order and display of files and folders within the Publish [[Dateiexplorer]]. Navigation items are listed in published order by default. Notes not published will not appear within this pane.
 
 #### Accessing Customize navigation options
 
-1. In [[Werkzeugleiste]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**
+1. In [[Werkzeugleiste]], select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Befehlspalette]] and type **Publish: Publish changes...**
 2. In the **Publish changes** dialog, select **Change site options** ( ![[lucide-cog.svg#icon]] ).
 3. Under **Components settings**, next to **Customize navigation**, select the **manage** button. 
 

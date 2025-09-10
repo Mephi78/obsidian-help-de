@@ -18,7 +18,7 @@ Eine **Ansicht** zeigt Informationen, z.B. die [[Search|Suchansicht]].
 
 ## Befehl
 
-Ein **Befehl** ist eine Aktion, die ausgeführt werden kann, indem du sie in der [[Command palette|Befehlspalette]] auswählst oder ihr ein [[#Tastenkürzel]] zuweist.
+Ein **Befehl** ist eine Aktion, die ausgeführt werden kann, indem du sie in der [[Befehlspalette|Befehlspalette]] auswählst oder ihr ein [[#Tastenkürzel]] zuweist.
 
 ## CSS-Baustein
 

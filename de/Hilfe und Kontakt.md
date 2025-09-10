@@ -26,8 +26,8 @@ Möchtest du einen Fehler in Obsidian melden, nutze die Rubrik [Bug Reports](htt
 
 Wenn du einen Fehler entdeckst oder Unterstützung vom [[#Obsidian Support kontaktieren|Obsidian Support]] benötigst, kann die Bereitstellung von Debug-Informationen sehr hilfreich sein. So geht's:
 
-1. Öffne die [[Command palette|Befehlspalette]].
-2. Tippe **Zeige Debug-Informationen**.
+1. Öffne die [[Befehlspalette|Befehlspalette]].
+2. Gib **Zeige Debug-Informationen** ein.
 3. Wähle die hervorgehobene Option **Zeige Debug-Informationen**.
 4. Klicke **In Zwischenablage kopieren**.
 5. Füge die kopierten Informationen in deinen [Fehlerbericht](https://forum.obsidian.md/c/bug-reports/7) oder deine E-Mail an den Obsidian Support ein.
@@ -37,7 +37,7 @@ Wenn du einen Fehler entdeckst oder Unterstützung vom [[#Obsidian Support konta
 Falls deine Fehlermeldung in Zusammenhang mit einer Erweiterung steht oder du vom [[#Obsidian Support kontaktieren|Obsidian Support]] darum gebeten wirst, Log-Informationen bereitzustellen, musst du möglicherweise innerhalb der Obsidian-Anwendung auf die Entwicklerkonsole zugreifen. So geht's:
 
 - **Windows**: `Strg + Umschalt + i`  
-- **macOS**: `CMD + OPTION + i`  
+- **macOS**: `Cmd + Alt + i`  
 - **Linux**: `Strg + Umschalt + i`
 
 > [!note] Wenn du den Fensterstil **Obsidian** verwendest, kannst du auch über das Titelmenü auf die Obsidian-Konsole zugreifen.

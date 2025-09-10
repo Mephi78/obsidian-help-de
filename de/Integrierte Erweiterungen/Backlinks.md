@@ -38,7 +38,7 @@ It provides the following options:
 To view the backlinks for the active note, click the **Backlinks** ( ![[obsidian-icon-links-coming-in.svg#icon]] ) tab in the right sidebar.
 
 > [!note]
-> If you can't see the Backlinks tab, you can make it visible by opening the [[Command palette]] and running the **Backlinks: Show backlinks** command.
+> If you can't see the Backlinks tab, you can make it visible by opening the [[Befehlspalette]] and running the **Backlinks: Show backlinks** command.
 
 ## See backlinks of a specific note
 
@@ -46,7 +46,7 @@ The backlinks tab lists backlinks for the active note and updates when you switc
 
 To open a linked backlinks tab:
 
-1. Open the [[Command palette]].
+1. Open the [[Befehlspalette]].
 2. Select **Backlinks: Open backlinks for the current note**.
 
 A separate tab opens next to your active note. The tab shows a link icon to let you know it's linked to a note.
@@ -57,7 +57,7 @@ Instead of showing the backlinks in a separate tab, you can show the backlinks a
 
 To show backlinks in a note:
 
-1. Open the [[Command palette]].
+1. Open the [[Befehlspalette]].
 2. Select **Backlinks: Toggle backlinks in document**.
 
 Or, enable **Backlink in document** under the Backlinks plugin options to automatically toggle backlinks when you open a new note.

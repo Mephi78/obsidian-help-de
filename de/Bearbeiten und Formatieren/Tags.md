@@ -26,7 +26,7 @@ Um Notizen über die [[Search|Suchfunktion]] zu finden, kannst du den [[Search#S
 
 Du kannst auch alle Notizen mit einem bestimmten Tag finden, indem du auf diesen Tag klickst in einer deiner Notizen.
 
-Um Notizen anhand der [[Tags view|Tag-Übersicht]] zu finden, wähle **Tags: Tag-Übersicht anzeigen** aus der [[Command palette|Befehlspalette]]. Klicke anschließend in der Tag-Übersicht auf den Tag, nach dem du suchen möchtest.
+Um Notizen anhand der [[Tags view|Tag-Übersicht]] zu finden, wähle **Tags: Tag-Übersicht anzeigen** aus der [[Befehlspalette|Befehlspalette]]. Klicke anschließend in der Tag-Übersicht auf den Tag, nach dem du suchen möchtest.
 
 ## Verschachtelte Tags
 

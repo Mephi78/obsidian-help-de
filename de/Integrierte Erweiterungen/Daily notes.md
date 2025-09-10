@@ -7,7 +7,7 @@ Daily notes is a [[Übersicht|core plugin]] that opens a note based on today's d
 To open today's daily note, either:
 
 - Click **Open today's daily note** ( ![[lucide-calendar.svg#icon]] ) in the [[Werkzeugleiste|ribbon]].
-- Run **Open today's daily note** from the [[Command palette]].
+- Run **Open today's daily note** from the [[Befehlspalette]].
 - [[Tastenkürzel#Tastenkürzel zuweisen|Use a hotkey]] for the **Open today's daily note** command.
 
 By default, Obsidian creates a new empty note named after today's date in the YYYY-MM-DD format.

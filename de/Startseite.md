@@ -41,6 +41,7 @@ Lerne die Grundlagen - deine ersten Schritte mit Obsidian:
 5. [[Importiere Notizen|Importiere Notizen]]
 6. [[Synchronisiere Notizen zwischen Geräten|Synchronisiere Notizen zwischen Geräten]]
 
+
 ## Obsidian erweitern
 
 Mit unzähligen Erweiterungen und Themen kannst du Obsidian ganz deiner individuellen Denkweise anpassen.
@@ -55,6 +56,7 @@ Mit unzähligen Erweiterungen und Themen kannst du Obsidian ganz deiner individu
 	- Ergänze die Bedienoberfläche um kleine Anpassungen, zusätzlich zum gewählten Thema.
 - [[Obsidian Web Clipper/Einführung|Web Clipper]]
 	- Markiere Texte und speichere Webseiten in Obsidian mit unserer Browser-Erweiterung.
+
 
 ## Zusatzdienste
 

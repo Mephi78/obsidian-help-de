@@ -26,7 +26,7 @@ Die senkrechten Striche an den Seiten der Tabelle sind optional, erhöhen aber d
 
 > [!tip] In der *Live-Vorschau* kannst du mit Rechtsklick in die Tabelle ein Kontextmenü öffnen, über das sich Zeilen und Spalten hinzufügen oder löschen lassen. Zudem stellt das Kontextmenü Sortierfunktionen zur Verfügung.
 
-Du kannst eine Tabelle einfügen über den Befehl **Tabelle einfügen** aus der [[Command palette|Befehlspalette]] oder per Rechtsklick und Auswahl von **Einfügen** → **Tabelle**. Auf diese Weise erhältst du eine einfache, bearbeitbare Tabelle:
+Du kannst eine Tabelle einfügen über den Befehl **Tabelle einfügen** aus der [[Befehlspalette|Befehlspalette]] oder per Rechtsklick und Auswahl von **Einfügen** → **Tabelle**. Auf diese Weise erhältst du eine einfache, bearbeitbare Tabelle:
 
 ```md
 |     |     |

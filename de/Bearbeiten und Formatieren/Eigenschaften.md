@@ -19,10 +19,10 @@ Mit Eigenschaften kannst du Informationen über eine Notiz organisieren. Sie ent
 
 Es gibt verschiedene Wege, einer Notiz eine Eigenschaft hinzuzufügen:
 
-- Verwende den [[Command palette|Befehl]] **Dateieigenschaften hinzufügen**.
+- Verwende den [[Befehlspalette|Befehl]] **Dateieigenschaften hinzufügen**.
 - Verwende das [[Tastenkürzel|Tastenkürzel]] **`Strg/Cmd + ;`** (oder auf der deutschen Tastatur **`Strg + Ü`**).
 - Wähle **Dateieigenschaften hinzufügen** über das Drei-Punkte-Menü ( ![[lucide-ellipsis-vertical.svg#icon]] ) **Weitere Optionen** rechts oben in deiner Notiz.
-- Tippe `---` am Anfang deiner Notiz.
+- Gib `---` am Anfang deiner Notiz ein.
 
 Sobald du eine Eigenschaft hinzufügst, erscheint am Anfang der Notiz eine Zeile mit dem *Eigenschaftsnamen* und dem *Eigenschaftswert*.
 
@@ -32,7 +32,7 @@ Sobald du einen Eigenschaftsnamen vergeben hast, kannst du diesem einen Wert zuw
 
 ### Eigenschaftstypen
 
-Zusätzlich zum Namen und Wert haben Eigenschaften auch einen *Typ*. Der Eigenschaftstyp bestimmt, welche Art von Werten darin gespeichert werden können und wie Obsidian diese verarbeitet. Um den Typ einer Eigenschaft zu ändern, klicke das Typ-Symbol neben dem Eigenschaftsnamen und wähle eine andere Option. Du kannst Eigenschaftstypen auch verwalten über die Standarderweiterung [[Properties view|Eigenschaften-Ansicht]].
+Zusätzlich zum Namen und Wert haben Eigenschaften auch einen *Typ*. Der Eigenschaftstyp bestimmt, welche Art von Werten darin gespeichert werden können und wie Obsidian diese verarbeitet. Um den Typ einer Eigenschaft zu ändern, klicke das Typ-Symbol neben dem Eigenschaftsnamen und wähle eine andere Option. Du kannst Eigenschaftstypen auch verwalten über die Standarderweiterung [[Eigenschaften-Ansicht|Eigenschaften-Ansicht]].
 
 Obsidian unterstützt die folgenden Eigenschaftstypen:
 
@@ -63,14 +63,14 @@ Wenn du in die aktive Notiz eine Vorlage einfügst, werden alle Eigenschaften au
 
 ### Eigenschaften umbenennen
 
-Du kannst eine Eigenschaft umbenennen mit Rechtsklick auf die Eigenschaft in der [[Properties view|Ansicht "Alle Eigenschaften"]].
+Du kannst eine Eigenschaft umbenennen mit Rechtsklick auf die Eigenschaft in der [[Eigenschaften-Ansicht|Ansicht "Alle Eigenschaften"]].
 
 ### Anzeige-Modi
 
 Du kannst wählen, wie Dateieigenschaften in deiner Notiz angezeigt werden sollen. Öffne dazu die **Einstellungen** ( ![[lucide-settings.svg#icon]] ) und wähle unter **Editor → Eigenschaften im Dokument** eine der folgenden Optionen:
 
 - **sichtbar** (Standard) — zeigt Eigenschaften am Anfang der Notiz, sofern welche vorhanden sind.
-- **nicht sichtbar** — blendet die Eigenschaften in der Notiz aus, in der [[Properties view|Eigenschaften-Ansicht]] bleiben sie dennoch sichtbar.
+- **nicht sichtbar** — blendet die Eigenschaften in der Notiz aus, in der [[Eigenschaften-Ansicht|Eigenschaften-Ansicht]] bleiben sie dennoch sichtbar.
 - **Quelle** — zeigt Eigenschaften in der Live-Vorschau im YAML-Format an.
 
 ### CSS-Bausteine
@@ -82,7 +82,7 @@ Du kannst mit der Eigenschaft `cssclasses` [[CSS-Bausteine]] verwenden, um die D
 Einige Funktionen werden derzeit von Obsidian nicht unterstützt:
 
 - **Verschachtelung**: Um verschachtelte Eigenschaften anzuzeigen, empfehlen wir die Verwendung der [[Ansichten und Modi#Quellcode-Ansicht|Quellcode-Ansicht]].
-- **Stapelverarbeitung**: Zur Massenbearbeitung von Eigenschaften außerhalb der [[Properties view|Eigenschaften-Ansicht]] empfehlen wir die Verwendung von Werkzeugen wie VSCode, Batch-Scripten oder externen Erweiterungen.
+- **Stapelverarbeitung**: Zur Massenbearbeitung von Eigenschaften außerhalb der [[Eigenschaften-Ansicht|Eigenschaften-Ansicht]] empfehlen wir die Verwendung von Werkzeugen wie VSCode, Batch-Scripten oder externen Erweiterungen.
 - **Markdown in Eigenschaften**: Dies ist eine absichtliche Einschränkung, da Eigenschaften für kleine, atomare Informationen gedacht sind, die sowohl für den Menschen als auch maschinenlesbar sind.
 ## Tastenkürzel
 
@@ -276,5 +276,5 @@ Diese Eigenschaften wurden mit Obsidian 1.4 als veraltet markiert und sollten du
 | `alias`     | Veralteter Alias für `aliases`.    |
 | `cssclass`  | Veralteter Alias für `cssclasses`. |
 
-> [!tip] Wenn du alle deine Dateien auf das Format der neuen [[#Standardeigenschaften]] umstellen musst, kannst du den [[Format converter]] für die Stapelverarbeitung verwenden.
+> [!tip] Wenn du alle deine Dateien auf das Format der neuen [[#Standardeigenschaften]] umstellen musst, kannst du den [[Importprogramm für Markdown Format]] für die Stapelverarbeitung verwenden.
 

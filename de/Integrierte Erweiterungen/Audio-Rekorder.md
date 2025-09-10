@@ -16,4 +16,4 @@ Mit der [[Übersicht|Standarderweiterung]]  *Audio-Rekorder* kannst du Tonaufnah
 Obsidian speichert die erstellte Audiodatei in deinem Vault und [[Dateien einbetten|fügt sie am Ende der aktiven Notiz ein]].
 
 > [!note] Hinweis
-> Audioaufnahmen verbleiben in deinem Vault, auch wenn du sie aus der Notiz entfernst. Über den [[File explorer|Dateiexplorer]] kannst du sie dauerhaft löschen.
+> Audioaufnahmen verbleiben in deinem Vault, auch wenn du sie aus der Notiz entfernst. Über den [[Dateiexplorer|Dateiexplorer]] kannst du sie dauerhaft löschen.

@@ -8,7 +8,7 @@ Du kannst Überschriften und eingerückte Listen reduzieren, indem du den Mausze
 
 Die Reduzieren-Funktion ist standardmäßig aktiviert. Du kannst sie über die **Einstellungen** ( ![[lucide-settings.svg#icon]] ) deaktivieren unter **Editor → Überschriften einklappen** bzw. **Zeileneinzug einklappen**.
 
-Um alle Abschnitte einer Notiz gleichzeitig zu reduzieren oder erweitern, verwende die folgenden Befehle aus der [[Command palette|Befehlspalette]]:
+Um alle Abschnitte einer Notiz gleichzeitig zu reduzieren oder erweitern, verwende die folgenden Befehle aus der [[Befehlspalette|Befehlspalette]]:
 
 - **Alle Überschriften und Listen einklappen** zum Reduzieren.
 - **Alle Überschriften und Listen ausklappen** zum Erweitern.
