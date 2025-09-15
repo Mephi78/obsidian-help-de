@@ -1,5 +1,5 @@
 ---
-permalink: plugins/audio-rekorder
+permalink: plugins/rekorder
 ---
 
 Mit der [[Übersicht|Standarderweiterung]]  *Audio-Rekorder* kannst du Tonaufnahmen in einer Notiz aufzeichnen und speichern. Nimm damit bspw. Besprechungsprotokolle, Details aus einer Vorlesung oder andere wichtige Situationen auf, in denen du nicht schnell genug tippen kannst.

@@ -107,7 +107,7 @@ Die gestapelten Tabs wurden inspiriert von [Andy Matuschaks Sliding Notes](https
 Beispiele verlinkter Ansichten für Notizen:
 
 - [[Graph-Ansicht|Graph-Ansicht]] (lokal)
-- [[Backlinks|Rückverweise]]
+- [[Rückverweise|Rückverweise]]
 - [[Gliederung|Gliederung]]
 
 Um eine verlinkte Ansicht für die aktive Notiz zu öffnen:

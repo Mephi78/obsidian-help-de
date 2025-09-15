@@ -57,7 +57,7 @@ Eigenschaften haben ihre eigene [[Search|Syntax für die Suche]], die du neben a
 
 ### Vorlagen
 
-Du kannst Eigenschaften auch in [[Integrierte Erweiterungen/Templates|Vorlagen]] verwenden.
+Du kannst Eigenschaften auch in [[Vorlagen|Vorlagen]] verwenden.
 
 Wenn du in die aktive Notiz eine Vorlage einfügst, werden alle Eigenschaften aus der Vorlage zur Notiz hinzugefügt. Obsidian führt auch alle Eigenschaften, die bereits in der Notiz vorhanden sind, mit den Eigenschaften der Vorlage zusammen. ^templates-properties
 
@@ -225,9 +225,9 @@ Die Datumsauswahl verwendet das Standard-Datumsformat deines Betriebssystems. Du
 > 
 > ![[Mac-OS-DateTime.png|450]]
 
-Wenn die Standarderweiterung [[Daily notes|Tägliche Notizen]] aktiviert ist, fungieren Eigenschaften vom Typ Datum zusätzlich als interner Link zur täglichen Notiz für das entsprechende Datum.
+Wenn die Standarderweiterung [[Tägliche Notizen|Tägliche Notizen]] aktiviert ist, fungieren Eigenschaften vom Typ Datum zusätzlich als interner Link zur täglichen Notiz für das entsprechende Datum.
 
-![[Daily notes#^daily-notes-date]]
+![[Tägliche Notizen#^daily-notes-date]]
 
 ### JSON-Eigenschaften
 

@@ -2,7 +2,7 @@
 permalink: plugins/ausgehende-links
 ---
 
-Die [[Übersicht|Standarderweiterung]] *Ausgehende Links* zeigt eine Übersicht der tatsächlichen und potenziellen Verknüpfungen aus der aktiven Notiz mit weiteren Vault-Inhalten. Die Funktion ähnelt der Erweiterung [[Backlinks|Rückverweise]], die hingegen alle auf die aktive Notiz verweisenden Verknüpfungen anzeigt.
+Die [[Übersicht|Standarderweiterung]] *Ausgehende Links* zeigt eine Übersicht der tatsächlichen und potenziellen Verknüpfungen aus der aktiven Notiz mit weiteren Vault-Inhalten. Die Funktion ähnelt der Erweiterung [[Rückverweise|Rückverweise]], die hingegen alle auf die aktive Notiz verweisenden Verknüpfungen anzeigt.
 
 Du findest die Registerkarte *Ausgehende Links* ( ![[obsidian-icon-links-going-out.svg#icon]] ) in der rechten [[Seitenleisten|Seitenleiste]]. Sie enthält folgende Abschnitte:
 

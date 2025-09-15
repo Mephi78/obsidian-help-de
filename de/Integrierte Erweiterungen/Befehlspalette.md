@@ -14,7 +14,7 @@ Um einen Befehl über die Befehlspalette auszuführen:
 > [!tip] Tipp
 > Die Befehlspalette unterstützt die *unscharfe Suche*, so dass du einen Befehl auch dann finden kannst, wenn du den genauen Namen nicht kennst. Gibst du bspw. `fw` ein, wird der Befehl **F**arbschema **w**echseln gefunden.
 
-Ab **Version 1.8.3** werden die zuletzt verwendeten Befehle ganz oben in der Befehlspalette angezeigt. Die zuletzt verwendeten Befehle unterliegen auch weiterhin dem *unscharfen Suchalgorithmus*. Beim Filtern werden kürzere Befehle gegenüber den zuletzt verwendeten priorisiert.
+Ab **Version 1.8.3** werden die zuletzt verwendeten Befehle ganz oben in der Befehlspalette angezeigt. Die zuletzt verwendeten Befehle unterliegen auch weiterhin dem *unscharfen Suchalgorithmus* (auch: Fuzzy-Suche). Beim Filtern werden kürzere Befehle gegenüber den zuletzt verwendeten priorisiert.
 
 ## Angeheftete Befehle
 

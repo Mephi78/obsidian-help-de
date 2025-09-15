@@ -65,7 +65,7 @@ Wenn du im Editiermodus die Tastatur ausblendest, wird auch die Mobile-Werkzeugl
 
 ### Notizen erstellen oder finden
 
-Mit dem eingekreisten Pluszeichen in der Mitte ( ![[lucide-plus-circle.svg#icon]] ) kannst du eine vorhandene Notiz öffnen oder eine neue erstellen, ähnlich wie über die [[Quick switcher|Schnellauswahl]].
+Mit dem eingekreisten Pluszeichen in der Mitte ( ![[lucide-plus-circle.svg#icon]] ) kannst du eine vorhandene Notiz öffnen oder eine neue erstellen, ähnlich wie über die [[Schnellauswahl|Schnellauswahl]].
 
 ### Tab-Verwaltung
 

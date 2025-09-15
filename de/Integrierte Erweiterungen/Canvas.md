@@ -48,7 +48,7 @@ Um eine Textkarte in eine Datei umzuwandeln:
 3. Gib einen Titel für die Notiz ein und klicke **Speichern**.
 
 > [!note] Hinweis
-> Textkarten erscheinen nicht in der [[Backlinks|Rückverweise-Ansicht]], dazu musst du sie in eine Datei umwandeln.
+> Textkarten erscheinen nicht in der [[Rückverweise|Rückverweise-Ansicht]], dazu musst du sie in eine Datei umwandeln.
 
 ### Notiz als Karte hinzufügen
 

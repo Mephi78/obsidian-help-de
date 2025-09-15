@@ -4,10 +4,10 @@ cssclasses:
   - soft-embed
 description: Templates is a Core plugins|core plugin that lets you insert pre-defined snippets of text into your active note.
 mobile: true
-permalink: plugins/templates
+permalink: plugins/vorlagen
 publish: true
 ---
-#TODO
+#WIP/Mephi 
 Templates is a [[Übersicht|core plugin]] that lets you insert pre-defined snippets of text into your active note.
 
 ## Set your template folder
@@ -41,7 +41,7 @@ You can use `{{date}}` and `{{time}}` interchangeably with format strings, for e
 You can change the default date and time formats under **Settings → Templates → Date format** and **Settings → Templates → Time format**.
 
 > [!tip]
-> You can also use the `{{date}}` and `{{time}}` template variables in the [[Daily notes]] and [[Eindeutige Notiz]] plugins.
+> You can also use the `{{date}}` and `{{time}}` template variables in the [[Tägliche Notizen]] and [[Eindeutige Notiz]] plugins.
 
 ## Template properties
 

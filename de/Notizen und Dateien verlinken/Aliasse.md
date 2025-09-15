@@ -41,7 +41,7 @@ Obsidian erstellt den Link mit dem ausgewählten Alias als Anzeigetext, bspw. `[
 
 ## Nicht verlinkte Erwähnungen für eine Notiz finden
 
-Über die [[Backlinks|Rückverweise]] kannst du nicht verlinkte Erwähnungen eines Notiztitels oder Alias finden.
+Über die [[Rückverweise|Rückverweise]] kannst du nicht verlinkte Erwähnungen eines Notiztitels oder Alias finden.
 
 Wenn du bspw. "KI" als Alias für "Künstliche Intelligenz" definiert hast, kannst du Erwähnungen von "KI" in anderen Notizen finden.
 

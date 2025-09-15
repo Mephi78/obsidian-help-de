@@ -48,7 +48,7 @@ Der Bearbeitungsmodus bietet folgende Möglichkeiten zum Erstellen von Links:
 - Oder wähle einen Textabschnitt in deiner Notiz aus und dann gib `[[` ein.
 - Oder öffne die [[Befehlspalette|Befehlspalette]] und wähle **Internen Link hinzufügen**.
 
-![[Quick switcher#^search-autocomplete-large]]
+![[Schnellauswahl#^search-autocomplete-large]]
 
 Du kannst jede [[Dateiformate|unterstützte Datei]] verlinken, jedoch musst du bei allen Dateien, die keine Markdown-Dateien sind, die Dateiendung mit angeben, bspw. `[[Abbildung 1.png]]`.
 
@@ -172,7 +172,7 @@ Wenn du bspw. häufig auf die `[[Grundgesetze der Bewegung]]` als `[[Newtonsche 
 ## Vorschau für eine verlinkte Datei
 
 > [!note] Hinweis
-> Um eine Vorschau für verknüpfte Dateien zu erhalten, musst du die [[Page preview|Seitenvorschau]] aktivieren.
+> Um eine Vorschau für verknüpfte Dateien zu erhalten, musst du die [[Seitenvorschau|Seitenvorschau]] aktivieren.
 
 Um die Vorschau für eine Datei zu sehen, bewege den Mauszeiger über einen internen Link. Im Bearbeitungsmodus musst du zusätzlich `Strg` (oder `Cmd` unter macOS) gedrückt halten, während du über den Link fährst. Eine Vorschau des Dateiinhaltes erscheint neben dem Mauszeiger.
 

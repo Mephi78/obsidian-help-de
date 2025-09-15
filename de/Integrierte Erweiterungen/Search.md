@@ -1,7 +1,7 @@
 ---
 permalink: plugins/search
 ---
-#TODO
+#WIP/Mephi 
 Search is a [[Übersicht|core plugin]] that helps you find data in your Obsidian vault by using search terms and operators to narrow down results.
 
 By default, you can find Search in the left sidebar ( ![[lucide-search.svg#icon]] ). You can also open Search by pressing `Ctrl+Shift+F` (or `Cmd+Shift+F` on macOS).

@@ -84,7 +84,7 @@ The `new` action, creates a new note in the vault, optionally with some content.
 
 ## Create or open daily note
 
-The `daily` action creates or opens your daily note. The [[Daily notes]] plugin must be enabled.
+The `daily` action creates or opens your daily note. The [[Tägliche Notizen]] plugin must be enabled.
 
 ### Examples
 

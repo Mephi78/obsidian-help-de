@@ -38,7 +38,7 @@ Du kannst auch Links zu Notizen erstellen, die noch gar nicht existieren, falls 
 
 Wie in den vorhergehenden Schritten gezeigt, kannst du zu einer verlinkten Notiz wechseln, indem du `Strg` (oder `Cmd` unter macOS) gedrückt hältst und auf den Link klickst.
 
-Eine weitere Möglichkeit, zwischen Notizen zu navigieren, bieten die [[Backlinks|Rückverweise]]. Ein Rückverweis lässt dich in die entgegengesetzte Richtung durch deine Notizen navigieren.
+Eine weitere Möglichkeit, zwischen Notizen zu navigieren, bieten die [[Rückverweise|Rückverweise]]. Ein Rückverweis lässt dich in die entgegengesetzte Richtung durch deine Notizen navigieren.
 
 1. Öffne die "Isaac Newton" Notiz.
 2. In der rechten Seitenleiste klicke auf den Tab **Rückverweise**.

@@ -45,35 +45,35 @@ Einige dieser Funktionen sind standardmäßig deaktiviert. Du kannst sie in den 
 	- Konvertiere Markdown aus anderen Anwendungen in das Obsidian Format.
 - [[Lesezeichen|Lesezeichen]]
 	- Setze Lesezeichen für häufig verwendete Notizen, Überschriften, Suchvorgänge und mehr.
-- [[Note composer|Notizen-Werkbank]]
+- [[Notizen-Werkbank|Notizen-Werkbank]]
 	- Verbinden, Aufteilen und Umgestalten von Notizen.
-- [[Slides|Präsentation]]
+- [[Präsentation|Präsentation]]
 	- Erstelle eine Präsentation aus deinen Notizen.
-- [[Backlinks|Rückverweise]]
+- [[Rückverweise|Rückverweise]]
 	- Zeigt alle auf die aktive Notiz bezogenen Verweise und nicht verlinkten Erwähnungen.
-- [[Quick switcher|Schnellauswahl]]
+- [[Schnellauswahl|Schnellauswahl]]
 	- Suche, erstelle und öffne Notizen mittels Tastenkombination.
-- [[Page preview|Seitenvorschau]]
+- [[Seitenvorschau|Seitenvorschau]]
 	- Zeigt die Vorschau einer Notiz, wenn du den Mauszeiger über einen internen Link bewegst.
-- [[Slash commands|Slash-Befehle]]
+- [[Slash-Befehle|Slash-Befehle]]
 	- Führe Befehle im Bearbeitungsmodus aus, indem du einen Slash `/` eingibst.
 - [[Search|Suchen]]
 	- Finde Dateien in deinem Vault.
 - [[Obsidian Sync/Einführung|Sync]]
 	- Synchronisiere deine Notizen geräteübergreifend.
-- [[Tags view|Tag-Ansicht]]
+- [[Tag-Übersicht|Tag-Übersicht]]
 	- Listet alle Tags in deinem Vault auf.
-- [[Daily notes|Tägliche Notizen]]
+- [[Tägliche Notizen|Tägliche Notizen]]
 	- Erstelle und öffne Notizen basierend auf dem aktuellen Datum.
 - [[Obsidian Publish/Einführung|Veröffentlichen]]
 	- Veröffentliche deine Notizen als Webseite, Wiki oder Dokumentation.
-- [[Integrierte Erweiterungen/Templates|Vorlagen]]
+- [[Vorlagen|Vorlagen]]
 	- Füge vordefinierte Inhalte in deine Notizen ein.
-- [[Web viewer|Web-Viewer]]
+- [[Web-Viewer|Web-Viewer]]
 	- Öffne externe Links und Webseiten innerhalb von Obsidian.
 - [[Workspaces]]
 	- Speichere und wechsle zwischen Workspace-Layouts.
-- [[Random note|Zufällige Notiz]]
+- [[Zufällige Notiz|Zufällige Notiz]]
 	- Öffne eine zufällige Notiz aus deinem Vault.
 
 ### Weitere Plugins
