@@ -7,7 +7,7 @@ cssclasses:
   - list-cards-mobile-full
 permalink: plugins
 ---
-
+#UPDATE
 Erfahre, welche Zusatzfunktionen mit Obsidian vorinstalliert sind. Diese integrierten Erweiterungen werden offiziell vom Obsidian-Team entwickelt und unterstützt.
 
 Einige dieser Funktionen sind standardmäßig deaktiviert. Du kannst sie in den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) unter **Obsidian-Erweiterungen** einzeln aktivieren.
@@ -24,7 +24,12 @@ Einige dieser Funktionen sind standardmäßig deaktiviert. Du kannst sie in den 
 - [[Ausgehende Links|Ausgehende Links]]
 	- Zeigt von der aktiven Notiz ausgehende Links sowie Verweise auf nicht erstellte Inhalte.
 - [[Introduction to Bases|Bases]]
+%%ALT%%
 	- Erstelle datenbankähnliche Sichten, um deine Dateien anhand ihrer Eigenschaften zu sortieren und filtern.
+%%/ALT%%
+%%NEU%%
+	- Create custom views that let you edit, sort, and filter files using their properties.
+%%/NEU%%
 - [[Befehlspalette|Befehlspalette]]
 	- Schnelle Eingabe von Befehlen über die Tastatur.
 - [[Canvas]]

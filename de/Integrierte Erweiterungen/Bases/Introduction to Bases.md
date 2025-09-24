@@ -4,12 +4,22 @@ aliases:
   - Bases
 cssclasses:
   - list-cards
-description: Obsidian Bases let you turn any set of notes into a powerful database. With bases you can organize everything from projects to travel plans, reading lists, and more.
+  - list-cards-mobile-full
+description: Create database-like views of your notes, formatted as tables or cards. Edit, sort, and filter files using their properties.
 ---
 #TODO
+%%ALT%%
 Bases is a [[Übersicht|core plugin]] that lets you turn any set of notes into a powerful database. With bases you can organize everything from projects to travel plans, reading lists, and more. 
 
 Using a base you can view, edit, sort, and filter files and their [[Eigenschaften|properties]]. Each base can have several [[Views|views]], and different layouts such as tables and cards. Below is an example of table view where each row is a file, and each column is a property of that file.
+%%/ALT%%
+
+%%NEU%%
+Bases is a [[Core plugins|core plugin]] that lets you create database-like views of your notes. Using a base you can view, edit, sort, and filter files and their [[Properties|properties]]. Bases can help you organize everything from projects to travel plans, reading lists, and more.
+
+Each base can have several [[Views|views]] with different layouts such as tables and cards. Below is an example of table view where each row is a file, and each column is a property of that file.
+
+%%/NEU%%
 
 ![Example of a base showing a table view with a list of books](bases-noshadow.png#interface)
 
