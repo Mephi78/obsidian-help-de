@@ -22,7 +22,7 @@ Es gibt verschiedene Wege, einer Notiz eine Eigenschaft hinzuzufügen:
 - Verwende den [[Befehlspalette|Befehl]] **Dateieigenschaften hinzufügen**.
 - Verwende das [[Tastenkürzel|Tastenkürzel]] **`Strg/Cmd + ;`** (oder auf der deutschen Tastatur **`Strg + Ü`**).
 - Wähle **Dateieigenschaften hinzufügen** über das Drei-Punkte-Menü ( ![[lucide-ellipsis-vertical.svg#icon]] ) **Weitere Optionen** rechts oben in deiner Notiz.
-- Gib `---` am Anfang deiner Notiz ein.
+- Beginne deine Notiz mit `---`.
 
 Sobald du eine Eigenschaft hinzufügst, erscheint am Anfang der Notiz eine Zeile mit dem *Eigenschaftsnamen* und dem *Eigenschaftswert*.
 
@@ -276,5 +276,5 @@ Diese Eigenschaften wurden mit Obsidian 1.4 als veraltet markiert und sollten du
 | `alias`     | Veralteter Alias für `aliases`.    |
 | `cssclass`  | Veralteter Alias für `cssclasses`. |
 
-> [!tip] Wenn du alle deine Dateien auf das Format der neuen [[#Standardeigenschaften]] umstellen musst, kannst du den [[Importprogramm für Markdown Format]] für die Stapelverarbeitung verwenden.
+> [!tip] Wenn du alle deine Dateien auf das Format der neuen [[#Standardeigenschaften]] umstellen musst, kannst du das [[Importprogramm für Markdown Format]] für die Stapelverarbeitung verwenden.
 
