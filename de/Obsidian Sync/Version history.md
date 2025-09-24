@@ -14,7 +14,7 @@ publish: true
 - [[#Sync history]]
 - [[#Version history]]
 
-While not part of Obsidian Sync, a local version history is also available on each device if the [[File recovery]] plugin is enabled.
+While not part of Obsidian Sync, a local version history is also available on each device if the [[Datenwiederherstellung]] plugin is enabled.
 
 ## Sync history
 
@@ -34,7 +34,7 @@ When you enable the [[Obsidian Sync/Einführung|Sync]] core plugin, Sync history
 
 #### Enable via Command palette
 
-> [!info] This option requires the [[Command palette]] core plugin to be enabled.
+> [!info] This option requires the [[Befehlspalette]] core plugin to be enabled.
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 

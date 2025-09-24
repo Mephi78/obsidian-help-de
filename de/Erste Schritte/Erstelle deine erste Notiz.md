@@ -16,7 +16,7 @@ Obsidian speichert Notizen als einfache Textdateien. Das bedeutet, deine Daten s
 Um eine neue Notiz zu erstellen:
 
 1. Drücke die Tastenkombination `Strg+N` (oder `Cmd+N` unter macOS).
-2. Tippe "Obsidian" als Titel deiner Notiz und drücke die `Eingabetaste`.
+2. Gib "Obsidian" als Titel deiner Notiz ein und drücke die `Eingabetaste`.
 3. Kopiere den folgenden Text und füge ihn in deine Notiz ein:
 
 ```md

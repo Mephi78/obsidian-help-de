@@ -41,7 +41,7 @@ Zusätzlich kannst du globale Befehle hinzufügen, wie bspw. "Thema wechseln".
 
 In der Mobile App kannst du eine Schnell-Aktion festlegen, die ausgelöst wird, wenn du im Hauptfenster eine Wischgeste von oben nach unten ausführst.
 
-Standardmäßig wird über die Schnell-Aktion die [[Command palette|Befehlspalette]] geöffnet.
+Standardmäßig wird über die Schnell-Aktion die [[Befehlspalette|Befehlspalette]] geöffnet.
 
 ### Schnell-Aktion anpassen
 
@@ -65,7 +65,7 @@ Wenn du im Editiermodus die Tastatur ausblendest, wird auch die Mobile-Werkzeugl
 
 ### Notizen erstellen oder finden
 
-Mit dem eingekreisten Pluszeichen in der Mitte ( ![[lucide-plus-circle.svg#icon]] ) kannst du eine vorhandene Notiz öffnen oder eine neue erstellen, ähnlich wie über die [[Quick switcher|Schnellauswahl]].
+Mit dem eingekreisten Pluszeichen in der Mitte ( ![[lucide-plus-circle.svg#icon]] ) kannst du eine vorhandene Notiz öffnen oder eine neue erstellen, ähnlich wie über die [[Schnellauswahl|Schnellauswahl]].
 
 ### Tab-Verwaltung
 

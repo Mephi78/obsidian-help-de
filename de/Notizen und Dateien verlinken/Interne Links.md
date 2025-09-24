@@ -33,7 +33,7 @@ Um Markdown-Links zu verwenden:
 1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
 2. Unter **Dateien & Links** deaktiviere **\[\[Wiki-Links\]\] verwenden**.
 
-Auch wenn du Wiki-Links deaktiviert hast, kannst du zwei eckige geöffnete Klammern `[[` eintippen, um Autovervollständigen auszulösen. Wählst du dann eine Datei aus der Liste, erzeugt Obsidian stattdessen einen Markdown-Link.
+Auch wenn du Wiki-Links deaktiviert hast, kannst du zwei eckige geöffnete Klammern `[[` eingeben, um Autovervollständigen auszulösen. Wählst du dann eine Datei aus der Liste, erzeugt Obsidian stattdessen einen Markdown-Link.
 
 > [!note] Ungültige Zeichen
 > Eine Zeichenfolge, die eines der folgenden Zeichen enthält, funktioniert möglicherweise nicht als Link: `# | ^ : %% [[ ]]`. 
@@ -44,11 +44,11 @@ Auch wenn du Wiki-Links deaktiviert hast, kannst du zwei eckige geöffnete Klamm
 
 Der Bearbeitungsmodus bietet folgende Möglichkeiten zum Erstellen von Links:
 
-- Tippe `[[` ein und wähle dann die Datei aus, die du verlinken möchtest.
-- Oder wähle einen Textabschnitt in deiner Notiz aus und dann tippe `[[`.
-- Oder öffne die [[Command palette|Befehlspalette]] und wähle **Internen Link hinzufügen**.
+- Gib `[[` ein und wähle dann die Datei aus, die du verlinken möchtest.
+- Oder wähle einen Textabschnitt in deiner Notiz aus und dann gib `[[` ein.
+- Oder öffne die [[Befehlspalette|Befehlspalette]] und wähle **Internen Link hinzufügen**.
 
-![[Quick switcher#^search-autocomplete-large]]
+![[Schnellauswahl#^search-autocomplete-large]]
 
 Du kannst jede [[Dateiformate|unterstützte Datei]] verlinken, jedoch musst du bei allen Dateien, die keine Markdown-Dateien sind, die Dateiendung mit angeben, bspw. `[[Abbildung 1.png]]`.
 
@@ -60,7 +60,7 @@ Du kannst Links auf bestimmte Überschriften in deiner Notiz erstellen, sogenann
 
 **Überschrift in derselben Notiz verlinken**
 
-Um eine Überschrift innerhalb derselben Notiz zu erstellen, bspw. für ein interaktives Inhaltsverzeichnis, tippe `[[#`, und wähle aus der Liste der verfügbaren Überschriften diejenige aus, die du verlinken möchtest.
+Um eine Überschrift innerhalb derselben Notiz zu erstellen, bspw. für ein interaktives Inhaltsverzeichnis, gib `[[#` ein und wähle aus der Liste der verfügbaren Überschriften diejenige aus, die du verlinken möchtest.
 
 `[[#Vorschau für eine verlinkte Datei]]` erzeugt bspw. einen Link zur Überschrift [[#Vorschau für eine verlinkte Datei]].
 
@@ -172,7 +172,7 @@ Wenn du bspw. häufig auf die `[[Grundgesetze der Bewegung]]` als `[[Newtonsche 
 ## Vorschau für eine verlinkte Datei
 
 > [!note] Hinweis
-> Um eine Vorschau für verknüpfte Dateien zu erhalten, musst du die [[Page preview|Seitenvorschau]] aktivieren.
+> Um eine Vorschau für verknüpfte Dateien zu erhalten, musst du die [[Seitenvorschau|Seitenvorschau]] aktivieren.
 
 Um die Vorschau für eine Datei zu sehen, bewege den Mauszeiger über einen internen Link. Im Bearbeitungsmodus musst du zusätzlich `Strg` (oder `Cmd` unter macOS) gedrückt halten, während du über den Link fährst. Eine Vorschau des Dateiinhaltes erscheint neben dem Mauszeiger.
 

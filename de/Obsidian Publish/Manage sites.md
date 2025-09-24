@@ -77,12 +77,12 @@ A site is a collection of notes that's hosted by Obsidian Publish and available 
 
 | Option                 | Type   | Description                                                                                                                          |
 |------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Show navigation        | Toggle | Enable or disable the [[File explorer]] view on your publish site.                                                                   |
+| Show navigation        | Toggle | Enable or disable the [[Dateiexplorer]] view on your publish site.                                                                   |
 | Customize navigation   | Button | [[Customize your site#Customize navigation\|Customize]] the order of how your files are listed if **Show navigation** is toggled on. |
 | Show search bar        | Toggle | Enable or disable a search bar on your site.                                                                                         |
 | Show graph view        | Toggle | Enable or disable the graph view within the right sidebar of your site.                                                              |
-| Show table of contents | Toggle | Enable or disable the [[Outline\|Table of contents]] view on your site.                                                              |
-| Show backlinks         | Toggle | Enable or disable [[Backlinks]] on your site.                                                                                        |
+| Show table of contents | Toggle | Enable or disable the [[Gliederung\|Table of contents]] view on your site.                                                              |
+| Show backlinks         | Toggle | Enable or disable [[Rückverweise]] on your site.                                                                                        |
 
 ### Other site settings
 

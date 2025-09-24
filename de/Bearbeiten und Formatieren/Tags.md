@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Gewusst wie/Arbeiten mit Tags
+  - Gewusst wie/Verwendung von Tags
 permalink: tags
 ---
 
@@ -22,11 +22,11 @@ tags:
 
 ## Notizen über Tags finden
 
-Um Notizen über die [[Search|Suchfunktion]] zu finden, kannst du den [[Search#Search operators|Suchoperator]] `tag` in deiner Suchanfrage verwenden (z.B. `tag:wichtig`).
+Um Notizen über die [[Suche|Suchfunktion]] zu finden, kannst du den [[Suche#Suchoperatoren|Suchoperator]] `tag` in deiner Suchanfrage verwenden (z.B. `tag:wichtig`).
 
 Du kannst auch alle Notizen mit einem bestimmten Tag finden, indem du auf diesen Tag klickst in einer deiner Notizen.
 
-Um Notizen anhand der [[Tags view|Tag-Übersicht]] zu finden, wähle **Tags: Tag-Übersicht anzeigen** aus der [[Command palette|Befehlspalette]]. Klicke anschließend in der Tag-Übersicht auf den Tag, nach dem du suchen möchtest.
+Um Notizen anhand der [[Tag-Übersicht|Tag-Übersicht]] zu finden, wähle **Tags: Tag-Übersicht anzeigen** aus der [[Befehlspalette|Befehlspalette]]. Klicke anschließend in der Tag-Übersicht auf den Tag, nach dem du suchen möchtest.
 
 ## Verschachtelte Tags
 
@@ -34,7 +34,7 @@ Verschachtelte Tags definieren Tag-Hierarchien, die eine Suche oder das Filtern 
 
 Erstelle verschachtelte Tags, indem du Tag-Ebenen mit einem Schrägstrich (`/`) voneinander trennst, bspw. `#posteingang/ungelesen` und `#posteingang/in_bearbeitung`.
 
-Sowohl die [[Search|Suchfunktion]], als auch die [[Tags view|Tag-Übersicht]] unterstützen verschachtelte Tags.
+Sowohl die [[Suche|Suchfunktion]], als auch die [[Tag-Übersicht|Tag-Übersicht]] unterstützen verschachtelte Tags.
 
 ## Regeln für Tag-Namen
 
@@ -51,7 +51,7 @@ Tag-Namen müssen mindestens ein nicht numerisches Zeichen enthalten. #1984 ist 
 Die Groß-/Kleinschreibung spielt bei Tags keine Rolle. Beispielsweise werden #tag und #TAG als identisch angesehen.
 
 > [!note] Hinweis
-> Tags werden in der [[Tags view|Tag-Übersicht]] mit der Schreibweise angezeigt, die du verwendet hast bei der ersten Erstellung eines Tags. Wurde z.B. zuerst #Tag und danach noch #TAG verwendet, werden beide Vorkommen als #Tag angezeigt.
+> Tags werden in der [[Tag-Übersicht|Tag-Übersicht]] mit der Schreibweise angezeigt, die du verwendet hast bei der ersten Erstellung eines Tags. Wurde z.B. zuerst #Tag und danach noch #TAG verwendet, werden beide Vorkommen als #Tag angezeigt.
 
 Tag-Namen können keine Leerzeichen enthalten. Um Tags aus mehreren Wörtern besser lesbar zu gestalten, kannst du stattdessen eines der folgenden Formate verwenden:
 

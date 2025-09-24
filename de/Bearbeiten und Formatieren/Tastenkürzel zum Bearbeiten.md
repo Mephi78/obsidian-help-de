@@ -1,7 +1,7 @@
 ---
 aliases:
-  - Bearbeiten und formatieren/Editor-Tastenkürzels
-permalink: editor-Tastenkürzels
+  - Bearbeiten und formatieren/Editor-Tastenkürzel
+permalink: editor-shortcuts
 ---
 
 Erfahre, mit welchen Tastenkombinationen du dich durch deine Notizen bewegen und diese bearbeiten kannst. Du kannst auch [[Tastenkürzel|eigene Tastenkürzel]] festlegen.

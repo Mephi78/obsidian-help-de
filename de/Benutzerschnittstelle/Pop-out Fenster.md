@@ -13,11 +13,11 @@ Dateien können nur zwischen Fenstern verschoben werden, die zum selben Vault ge
 
 **Dateiexplorer:**
 
-Öffne im [[File explorer|Dateiexplorer]] mit Rechtsklick auf eine Notiz das Kontextmenü und wähle **In neuem Fenster öffnen**.
+Öffne im [[Dateiexplorer|Dateiexplorer]] mit Rechtsklick auf eine Notiz das Kontextmenü und wähle **In neuem Fenster öffnen**.
 
 **Befehlspalette:**
 
-Wähle in der [[Command palette|Befehlspalette]] **Aktiven Tab in neuem Fenster öffnen**.
+Wähle in der [[Befehlspalette|Befehlspalette]] **Aktiven Tab in neuem Fenster öffnen**.
 
 **Registerkarte:**
 
@@ -29,11 +29,11 @@ Wähle in der [[Command palette|Befehlspalette]] **Aktiven Tab in neuem Fenster
 
 **Dateiexplorer:**
 
-Ziehe aus dem [[File explorer|Dateiexplorer]] eine Datei auf ein bereits geöffnetes Pop-out Fenster desselben Vaults.
+Ziehe aus dem [[Dateiexplorer|Dateiexplorer]] eine Datei auf ein bereits geöffnetes Pop-out Fenster desselben Vaults.
 
 **Befehlspalette:**
 
-Wähle in der [[Command palette|Befehlspalette]] **Aktiven Tab in neues Fenster verschieben**.
+Wähle in der [[Befehlspalette|Befehlspalette]] **Aktiven Tab in neues Fenster verschieben**.
 
 **Registerkarte:**
 

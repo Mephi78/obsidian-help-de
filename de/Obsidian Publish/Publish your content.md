@@ -57,7 +57,7 @@ Set `publish: true` in the [[Eigenschaften]] of a note to automatically include 
 
 You can also automatically select notes and linked images in specific folders by adding them as **Included** folders:
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**.
+1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Befehlspalette]] and type **Publish: Publish changes...**.
 2. Select the **Manage publish filters** (![[lucide-filter.svg#icon]]) icon.
 3. In the **Included folders** section, select **Manage**.
 4. Choose the folders you want to include from the suggester.
@@ -70,7 +70,7 @@ To ignore a note in Obsidian Publish, set `publish: false` in the [[Eigenschafte
 
 You can also auto-ignore notes and images in specific folders by adding them as **Excluded** folders:
 
-1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Command palette]] and type **Publish: Publish changes...**.
+1. In **Ribbon**, select **Publish changes** (![[lucide-send.svg#icon]]) or open the [[Befehlspalette]] and type **Publish: Publish changes...**.
 2. Select the **Manage publish filters** (![[lucide-filter.svg#icon]]) icon.
 3. In the **Excluded folders** section, select **Manage**.
 4. Choose the folders you want to exclude from the suggester.

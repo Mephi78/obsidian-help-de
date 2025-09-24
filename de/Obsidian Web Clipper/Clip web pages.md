@@ -26,7 +26,7 @@ By default Web Clipper attempts to intelligently extract only the main article c
 
 Images are not automatically downloaded when you use Web Clipper. Instead, images link to their web-based URL. This saves space in your vault but it means the images will not be accessible offline, or if the URL stops working.
 
-You can download images for any file in Obsidian using the [[Command palette|command]] named **Download attachments for current file**. This command can also be mapped to a hotkey in Obsidian.
+You can download images for any file in Obsidian using the [[Befehlspalette|command]] named **Download attachments for current file**. This command can also be mapped to a hotkey in Obsidian.
 
 ## Hotkeys
 

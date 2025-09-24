@@ -18,7 +18,7 @@ Um eine Webseite einzubetten, füge folgenden Text in deine Notiz ein und ersetz
 > Einige Webseiten erlauben keine Einbettung. Möglicherweise stellen sie jedoch URLs zur Verfügung, die für die Einbettung vorgesehen sind. Falls eine Webseite die Einbettung blockiert, suche nach dem Titel der Webseite in Zusammenhang mit dem Suchbegriff "embed iframe" (z.B. "youtube embed iframe").
 
 > [!tip] Tipp
-> Wenn du Canvas verwendest, kannst du auch [[Canvas#Add cards from web pages|Webseiten in Karten einbetten]].
+> Wenn du Canvas verwendest, kannst du auch [[Canvas#Webseiten als Karte hinzufügen|Webseiten in Karten einbetten]].
 
 ## YouTube Video einbetten
 

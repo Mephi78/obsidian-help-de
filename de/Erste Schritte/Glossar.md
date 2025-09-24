@@ -6,7 +6,7 @@ Dieses Glossar enthält in Obsidian gebräuchliche Begriffe.
 
 ## Alias
 
-Ein **Alias** ist ein alternativer Titel für eine [[#Notiz]]. Nutze die [[#Eigenschaft]] `aliases`,  wenn du eine Notiz in deinem Vault mit unterschiedlichen Begriffen [[Aliasse|referenzieren]] möchtest. Obsidian listet diese dann bspw. automatisch in der [[Search|Suchansicht]] auf.
+Ein **Alias** ist ein alternativer Titel für eine [[#Notiz]]. Nutze die [[#Eigenschaft]] `aliases`,  wenn du eine Notiz in deinem Vault mit unterschiedlichen Begriffen [[Aliasse|referenzieren]] möchtest. Obsidian listet diese dann bspw. automatisch in der [[Suche|Suchansicht]] auf.
 
 ## Anhang
 
@@ -14,11 +14,11 @@ Ein **Anhang** ist eine Datei in einem [[Dateiformate|unterstützten Format]], d
 
 ## Ansicht
 
-Eine **Ansicht** zeigt Informationen, z.B. die [[Search|Suchansicht]].
+Eine **Ansicht** zeigt Informationen, z.B. die [[Suche|Suchansicht]].
 
 ## Befehl
 
-Ein **Befehl** ist eine Aktion, die ausgeführt werden kann, indem du sie in der [[Command palette|Befehlspalette]] auswählst oder ihr ein [[#Tastenkürzel]] zuweist.
+Ein **Befehl** ist eine Aktion, die ausgeführt werden kann, indem du sie in der [[Befehlspalette|Befehlspalette]] auswählst oder ihr ein [[#Tastenkürzel]] zuweist.
 
 ## CSS-Baustein
 
@@ -42,7 +42,7 @@ Eine **Eigenschaft** definiert zusätzliche Informationen, sogenannte Metadaten,
 
 Eine **Erweiterung** ergänzt Obsidian um zusätzliche Funktionen.
 
-- [[Standarderweiterungen|Integrierte Erweiterungen]] sind vom Obsidian Team entwickelte, bereits vorinstallierte Zusatzfunktionen, die nach Bedarf aktiviert oder deaktiviert werden können
+- [[Übersicht|Integrierte Erweiterungen]] sind vom Obsidian Team entwickelte, bereits vorinstallierte Zusatzfunktionen, die nach Bedarf aktiviert oder deaktiviert werden können
 - [[Externe Erweiterungen|Externe Erweiterungen]] (auch: Community-Erweiterung) wurden von Drittanbietern entwickelt und können [[Externe Erweiterungen#Externe Erweiterung installieren|nachinstalliert]] werden.
 
 Du kannst auch [eigene Erweiterungen erstellen](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).

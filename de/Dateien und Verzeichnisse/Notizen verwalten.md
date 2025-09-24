@@ -8,7 +8,7 @@ permalink: notizen-verwalten
 publish: true
 ---
 
-Dateien und Verzeichnisse lassen sich auf verschiedene Arten verwalten, indem du [[Tastenkürzel|Tastenkürzel]], [[Command palette|Befehle]] oder den [[File explorer|Dateiexplorer]] verwendest.
+Dateien und Verzeichnisse lassen sich auf verschiedene Arten verwalten, indem du [[Tastenkürzel|Tastenkürzel]], [[Befehlspalette|Befehle]] oder den [[Dateiexplorer|Dateiexplorer]] verwendest.
 
 ## Neue Notiz erstellen
 
@@ -17,7 +17,7 @@ Um eine neue Datei zu erstellen:
 1. Drücke `Strg+N` (oder `Cmd+N` unter macOS).
 2. Gib einen Titel ein und bestätige mittels `Eingabetaste`, um mit der Bearbeitung der Notiz zu beginnen.
 
-Du kannst neue Notizen auch über den [[File explorer#Create a new note|Dateiexplorer]] erstellen oder indem du **Neue Notiz erstellen** aus der [[Command palette|Befehlspalette]] wählst.
+Du kannst neue Notizen auch über den [[Dateiexplorer#Neue Notiz erstellen|Dateiexplorer]] erstellen oder indem du **Neue Notiz erstellen** aus der [[Befehlspalette|Befehlspalette]] wählst.
 
 > [!hint] Systemabhängige Zeichenbegrenzung
 > Obsidian beachtet die Dateinamenbeschränkungen des Betriebssystems, auf dem du die Notiz erstellst. Wenn du deine [[Synchronisiere Notizen zwischen Geräten|Notizen zwischen Geräten synchronisieren]] möchtest, stelle sicher, dass die Dateinamen auch [für andere Betriebssysteme geeignet](https://stackoverflow.com/q/1976007) sind.
@@ -32,15 +32,15 @@ Um eine aktive Notiz umzubenennen:
 
 Wenn du eine Datei umbenennst, aktualisiert Obsidian bei Bedarf alle Links, die auf diese Datei verweisen, automatisch.
 
-Über den [[File explorer#Rename a file or folder|Dateiexplorer]] kannst du Dateien oder Ordner auch umbenennen, ohne diese zu öffnen.
+Über den [[Dateiexplorer#Datei oder Ordner umbenennen|Dateiexplorer]] kannst du Dateien oder Ordner auch umbenennen, ohne diese zu öffnen.
 
 ## Notiz löschen
 
 Um eine Notiz zu löschen, wähle **![[lucide-trash-2.svg#icon]] Datei löschen** über das Drei-Punkte-Menü ( ![[lucide-ellipsis-vertical.svg#icon]] ) oben rechts in der aktiven Notiz.
 
-Oder wähle **Aktuelle Datei löschen** aus der [[Command palette|Befehlspalette]].
+Oder wähle **Aktuelle Datei löschen** aus der [[Befehlspalette|Befehlspalette]].
 
-Du kannst Dateien oder Ordner auch über den [[File explorer#Delete a file or folder|Dateiexplorer]] löschen.
+Du kannst Dateien oder Ordner auch über den [[Dateiexplorer#Datei oder Ordner löschen|Dateiexplorer]] löschen.
 
 > [!question] Was passiert mit Dateien, nachdem ich sie gelöscht habe?
 > Um festzulegen, was mit gelöschten Dateien geschehen soll, wähle eine der folgenden Optionen unter **Einstellungen → Dateien & Links**:

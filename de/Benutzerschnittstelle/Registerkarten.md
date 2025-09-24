@@ -65,7 +65,7 @@ Die Größe der Seitenleisten lässt sich auf ähnliche Weise ändern, um mehr P
 
 **Befehlspalette:**
 
-- Öffne die [[Command palette|Befehlspalette]] und wähle **Aktiven Tab in neues Fenster verschieben**.
+- Öffne die [[Befehlspalette|Befehlspalette]] und wähle **Aktiven Tab in neues Fenster verschieben**.
 
 ### Tab in ein bestehendes Fenster verschieben
 
@@ -107,8 +107,8 @@ Die gestapelten Tabs wurden inspiriert von [Andy Matuschaks Sliding Notes](https
 Beispiele verlinkter Ansichten für Notizen:
 
 - [[Graph-Ansicht|Graph-Ansicht]] (lokal)
-- [[Backlinks|Rückverweise]]
-- [[Outline|Gliederung]]
+- [[Rückverweise|Rückverweise]]
+- [[Gliederung|Gliederung]]
 
 Um eine verlinkte Ansicht für die aktive Notiz zu öffnen:
 

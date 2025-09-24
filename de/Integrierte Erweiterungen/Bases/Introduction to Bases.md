@@ -7,7 +7,7 @@ cssclasses:
 description: Obsidian Bases let you turn any set of notes into a powerful database. With bases you can organize everything from projects to travel plans, reading lists, and more.
 ---
 #TODO
-Bases is a [[Standarderweiterungen|core plugin]] that lets you turn any set of notes into a powerful database. With bases you can organize everything from projects to travel plans, reading lists, and more. 
+Bases is a [[Übersicht|core plugin]] that lets you turn any set of notes into a powerful database. With bases you can organize everything from projects to travel plans, reading lists, and more. 
 
 Using a base you can view, edit, sort, and filter files and their [[Eigenschaften|properties]]. Each base can have several [[Views|views]], and different layouts such as tables and cards. Below is an example of table view where each row is a file, and each column is a property of that file.
 

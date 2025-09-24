@@ -43,7 +43,7 @@ Weiterhin kannst du
 
 Ist ein CSS-Baustein aktiviert, wird Obsidian Änderungen daran automatisch erkennen und anwenden, sobald du die CSS-Datei speicherst.
 
-> [!TIP] Du musst Obsidian nicht neu starten, damit die Änderungen wirksam werden. Möglicherweise musst du jedoch über die [[Command palette|Befehlspalette]] die **Anwendung neu laden ohne zu speichern**, um Änderungen im aktuellen Thema bzw. der aktuellen Notiz zu sehen.
+> [!TIP] Du musst Obsidian nicht neu starten, damit die Änderungen wirksam werden. Möglicherweise musst du jedoch über die [[Befehlspalette|Befehlspalette]] die **Anwendung neu laden ohne zu speichern**, um Änderungen im aktuellen Thema bzw. der aktuellen Notiz zu sehen.
 
 ## CSS für Obsidian schreiben
 

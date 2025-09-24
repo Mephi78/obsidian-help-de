@@ -53,7 +53,7 @@ Um in die *Live-Vorschau* zu wechseln:
 - Klicke auf das Symbol für den Bearbeitungsmodus ( ![[lucide-edit-3.svg#icon]] ) rechts oben in der Notiz.
 - Oder klicke auf das interaktive Statussymbol  ( ![[lucide-book-icon.svg#icon]] bzw. ![[lucide-code-xml.svg#icon]] ) in der Statusleiste und wähle **Live-Vorschau**.
 - Oder drücke `Strg + E` (`Cmd + E` unter macOS).
-- Oder wähle **Editor/Vorschau Modus wechseln** aus der [[Command palette|Befehlspalette]].
+- Oder wähle **Editor/Vorschau Modus wechseln** aus der [[Befehlspalette|Befehlspalette]].
 
 > [!note] Hinweis
 > Standardmäßig wird der Editor im *Live-Vorschau*-Modus geöffnet. Du kannst dies in den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) ändern unter **Editor → Standardmodus zum Bearbeiten**.
@@ -75,7 +75,7 @@ Um in die *Quellcode-Ansicht* zu wechseln:
 > 
 > - Klicke auf das Symbol für den Bearbeitungsmodus ( ![[lucide-edit-3.svg#icon]] ) rechts oben in der Notiz.
 > - Oder drücke `Strg + E` (`Cmd + E` unter macOS).
-> - Oder wähle **Editor/Vorschau Modus wechseln** aus der [[Command palette|Befehlspalette]].
+> - Oder wähle **Editor/Vorschau Modus wechseln** aus der [[Befehlspalette|Befehlspalette]].
 
 > [!tip] Zwischen den beiden *Bearbeitungsmodi* wechseln
-> Um schnell zwischen *Live-Vorschau* und *Quellcode-Ansicht* zu wechseln, kannst du auch für den [[Command palette|Befehl]] **Umschalten zwischen Live-Vorschau/Quellcode-Ansicht** ein [[Tastenkürzel]] festlegen.
+> Um schnell zwischen *Live-Vorschau* und *Quellcode-Ansicht* zu wechseln, kannst du auch für den [[Befehlspalette|Befehl]] **Umschalten zwischen Live-Vorschau/Quellcode-Ansicht** ein [[Tastenkürzel]] festlegen.

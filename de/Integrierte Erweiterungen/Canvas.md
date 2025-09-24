@@ -1,249 +1,237 @@
 ---
 permalink: plugins/canvas
 ---
-#TODO
-Canvas is a [[Standarderweiterungen|core plugin]] for visual note-taking. It gives you infinite space to lay out notes and connect them to other notes, attachments, and web pages.
 
-Visual note-taking helps you to make sense of your notes by organizing them in a 2D space. Connect notes with lines and group related notes together to better understand the relationship between them.
+Mit der [[Übersicht|Standarderweiterung]] *Canvas* kannst du Schaubilder erstellen. Das Plugin stellt dir eine unendliche Leinwand zur Verfügung, auf der du deine Notizen, Anhänge oder auch Webseiten ausbreiten und miteinander verbinden kannst.
 
-Canvas data you create in Obsidian is saved as `.canvas` files using the open file format [JSON Canvas](https://jsoncanvas.org/).
+Diese visuelle Methode kann dabei helfen, deine Aufzeichnungen besser zu verstehen, indem du sie in einem 2-dimensionalen Raum anordnest. Du kannst sie mit Linien verbinden oder verwandte Notizen gruppieren, um Beziehungen und Zusammenhänge zwischen ihnen zu erkennen und darzustellen.
 
-## Create a new canvas
+> [!note]  Dateiendung .canvas
+> Wenn du in Obsidian einen Canvas erstellst, wird dieser in einer `.canvas` Datei im offenen Dateiformat [JSON Canvas](https://jsoncanvas.org/) gespeichert.
 
-To start using Canvas, you first need to create a file to hold your canvas. You can create a new canvas using the following methods.
+## Neuen Canvas erstellen
 
-**Command palette:**
+Um *Canvas* zu verwenden, musst du als erstes eine Datei erstellen, in der deine Zeichenfläche gespeichert wird. Du kannst einen neuen Canvas wie folgt erstellen:
 
-1. Open the [[Command palette]].
-2. Select **Canvas: Create new canvas** to create a canvas in the same folder as the active file.
+**Befehlspalette:**
 
-**File explorer:**
+1. Öffne die [[Befehlspalette]] ( ![[lucide-terminal.svg#icon]] ).
+2. Wähle **Canvas: Neuen Canvas erstellen**, um einen Canvas im selben Ordner zu erstellen wie die aktive Notiz.
 
-- In the [[File explorer]], right-click the folder you want to create the canvas in.
-- Select **New canvas**.
+**Dateiexplorer:**
 
-**Ribbon:**
+- Im [[Dateiexplorer|Dateiexplorer]] öffne mit Rechtsklick auf den Ordner, in dem du den Canvas speichern möchtest, das Kontextmenü.
+- Wähle **Neuer Canvas**.
 
-- In the vertical ribbon menu, select **Create new canvas** ( ![[lucide-layout-dashboard.svg#icon]] ) to create a canvas in the same folder as the active file.
+**Werkzeugleiste:**
 
-> [!note]  The .canvas file extension
-> Obsidian stores your canvas data as `.canvas` files using an open file format called [JSON Canvas](https://jsoncanvas.org/).
+- In der Werkzeugleiste klicke **Neuen Canvas erstellen** ( ![[lucide-layout-dashboard.svg#icon]] ), um einen Canvas im selben Ordner zu erstellen wie die aktive Notiz.
 
-## Add cards
+## Karten hinzufügen
 
-You can drag files into your canvas from Obsidian or from other applications. For example, Markdown files, images, audio, PDFs, or even unrecognized file types.
+Du kannst Dateien aus Obsidian oder anderen Anwendungen auf deine Zeichenfläche ziehen, wie bspw. Markdown-Dateien, Bilder, Audiodateien, PDFs oder sogar nicht erkannte Dateitypen.
 
-### Add text cards
+### Textkarten hinzufügen
 
-You can add text-only cards that don't reference a file. You can use Markdown, links, and code blocks just like in a note.
+Du kannst auch reine Textkarten zur Zeichenfläche hinzufügen, die keine Datei referenzieren. Im Text kannst du Markdown, Links oder Quellcode-Blöcke verwenden, ganz genau so wie in einer Notiz.
 
-To add a new text card to your canvas:
+Um eine neue Textkarte hinzuzufügen:
 
-- Select or drag the blank file icon at the bottom of the canvas.
+- Klicke auf das Symbol für "leere Datei" am unteren Rand der Zeichenfläche.
+- Oder ziehe dieses Symbol auf die Zeichenfläche.
+- Oder führe einen Doppelklick auf der Zeichenfläche aus.
 
-You can also add text cards by double-clicking on the canvas.
+Um eine Textkarte in eine Datei umzuwandeln:
 
-To convert a text card to a file:
+1. Öffne mit Rechtsklick auf die Karte das Kontextmenü.
+2. Wähle **In Datei umwandeln...**.
+3. Gib einen Titel für die Notiz ein und klicke **Speichern**.
 
-1. Right-click the text card and then select **Convert to file...**.
-2. Enter the note name and then select **Save**.
+> [!note] Hinweis
+> Textkarten erscheinen nicht in der [[Rückverweise|Rückverweise-Ansicht]], dazu musst du sie in eine Datei umwandeln.
 
-> [!note]
-> Text-only cards don't appear in [[Backlinks]]. To make them appear, you need to convert them to a file.
+### Notiz als Karte hinzufügen
 
-### Add cards from notes
+Um eine Notiz hinzuzufügen:
 
-To add a note from your vault to your canvas:
+1. Klicke das Dokument-Symbol.
+   Oder ziehe das Dokument-Symbol vom unteren Canvas-Rand auf die Zeichenfläche.
+   Oder öffne mit Rechtsklick auf die Zeichenfläche das Kontextmenü und wähle **Notiz aus Vault hinzufügen**.
+2. Wähle die Notiz, die du hinzufügen möchtest.
 
-1. Select or drag the document icon at the bottom of the canvas.
-2. Select the note you want to add.
+Du kannst eine Notiz auch direkt aus dem [[Dateiexplorer|Dateiexplorer]] auf die Zeichenfläche ziehen.
 
-You can also add notes from the canvas context menu:
+### Medien als Karte hinzufügen
 
-1. Right-click the canvas and then select **Add note from vault**.
-2. Select the note you want to add.
+Um Medien hinzuzufügen:
 
-Or, you can add them to the canvas by dragging the file from the [[File explorer]].
+1. Klicke das Bild-Symbol.
+   Oder ziehe das Bild-Symbol vom unteren Canvas-Rand auf die Zeichenfläche.
+   Oder öffne mit Rechtsklick auf die Zeichenfläche das Kontextmenü und wähle **Medien aus Vault hinzufügen**.
+2. Wähle die Mediendatei, die du hinzufügen möchtest.
 
-### Add cards from media
+Du kannst Mediendateien auch direkt aus dem [[Dateiexplorer|Dateiexplorer]] auf die Zeichenfläche ziehen.
 
-To add media from your vault to your canvas:
+### Webseiten als Karte hinzufügen
 
-1. Select or drag the image file icon at the bottom of the canvas.
-2. Select the media file you want to add.
+Um eine Webseite in den Canvas einzubetten:
 
-You can also add media from the canvas context menu:
+1. Öffne mit Rechtsklick auf die Zeichenfläche das Kontextmenü und wähle **Webseite hinzufügen**.
+2. Gib die URL der Webseite ein, die du hinzufügen möchtest und klicke **Speichern**.
 
-1. Right-click the canvas and then select **Add media from vault**.
-2. Select the media file you want to add.
+Du kannst auch in deinem Browser eine URL auswählen und auf die Zeichenfläche ziehen, um sie in eine Karte einzubetten.
 
-Or, you can add them to the canvas by dragging the file from the [[File explorer]].
+Um die Webseite in deinem Browser zu öffnen, drücke `Strg` (oder `Cmd` unter macOS) und klicke auf die Kartenbeschriftung. Oder öffne mit Rechtsklick das Kontextmenü und wähle **Im Browser öffnen**.
 
-### Add cards from web pages
+### Ordner-Inhalte als Karten hinzufügen
 
-To embed a web page in your canvas:
+Ziehe einen Ordner aus dem Dateiexplorer auf die Zeichenfläche, um alle Dateien in diesem Order dem Canvas hinzuzufügen.
 
-1. Right-click the canvas and then select **Add web page**.
-2. Enter the URL to the web page and then select **Save**.
+### Karten bearbeiten
 
-You can also select a URL in your browser and then drag it into the canvas to embed it in a card.
+Mit Doppelklick auf eine Karte wechselst du in den Bearbeitungsmodus. Klicke auf eine freie Fläche im Canvas oder drücke `Escape`, um die Bearbeitung zu beenden.
 
-To open the web page in your browser, press `Ctrl` (or `Cmd` on macOS) and select the card label. Or, right-click the card and select **Open in browser**.
+Du kannst auch mit Rechtsklick das Kontextmenü öffnen und **Bearbeiten** wählen.
 
-### Add cards from folders
+### Karten löschen
 
-Drag a folder from the file explorer to add all files in that folder to the canvas.
+- Wähle eine oder mehrere Karten aus und klicke **Entfernen** ( ![[lucide-trash-2.svg#icon]] ) in den Auswahlwerkzeugen oberhalb der Auswahl.
+- Oder öffne mit Rechtsklick auf die Auswahl das Kontextmenü und wähle **Löschen**.
+- Oder wähle eine oder mehrere Karten aus und drücke die `Rücktaste` bzw. `Entf`.
 
-### Edit a card
+### Karten tauschen
 
-Double-click on a text or note card to start editing it. Click outside the card to stop editing it. You can also press `Escape` to stop editing a card.
+Du kannst eine Notiz- oder Medienkarte gegen eine andere Karte vom selben Typ tauschen.
 
-You can also edit a card by right-clicking it and selecting **Edit**.
+Um eine Karte zu tauschen:
 
-### Delete a card
+1. Öffne das Kontextmenü mit Rechtsklick auf die Karte, die du ersetzen möchtest.
+2. Wähle **Datei tauschen...**.
+3. Wähle die Notiz bzw. Mediendatei, die du stattdessen einfügen möchtest.
 
-Remove selected cards by right-clicking any of them, and then selecting **Delete**. Or, press `Backspace` (or `Delete` on macOS).
+## Karten auswählen
 
-You can also select **Remove** ( ![[lucide-trash-2.svg#icon]] ) in the selection controls above your selection.
+Wähle einzelne Karten aus, indem du sie anklickst. Wähle mehrere Karten aus, indem du einen Auswahlrahmen darum ziehst.
 
-### Swap cards
+Du kannst einzelne Karten der Auswahl hinzufügen oder aus der Auswahl entfernen, indem du `Umschalt` gedrückt hältst und die Karte anklickst.
 
-You can swap a note or media card for another card of the same type.
+Drücke `Strg + A` (oder `Cmd + A` unter macOS), um alle Karten auszuwählen.
 
-To swap a note card:
+Um in einer Karte zu scrollen, musst du sie erst auswählen.
 
-1. Right-click the card you want to replace.
-2. Select **Swap file**.
-3. Select the note you want to replace with.
+### Karten anordnen
 
-## Select cards
+Ziehe eine ausgewählte Karte, um sie zu verschieben.
 
-Select cards in the canvas by clicking on them. You can select multiple cards by dragging a selection around them.
+Drücke `Alt` und ziehe, um eine Auswahl zu duplizieren.
 
-You can also add and remove cards from an existing selection by pressing `Shift` and selecting them.
+Wenn du beim Ziehen `Umschalt` gedrückt hältst, kannst du die Auswahl nur in eine Richtung verschieben.
 
-Press `Ctrl+a` (or `Cmd+a` on macOS) to select all cards in the canvas.
+Drücke die `Leertaste` beim Verschieben, um das Einrasten temporär zu deaktivieren.
 
-To scroll the content of a card, you first need to select it.
+Durch Auswahl einer Karte wird diese in den Vordergrund verschoben.
 
-### Arrange cards
+### Kartengröße ändern
 
-Drag a selected card to move it.
+Ziehe eine der Kanten einer Karte, um ihre Größe zu ändern.
 
-Press `Alt` (or `Option` on macOS) and drag to duplicate the selection.
+Drücke die `Leertaste` beim Ändern der Größe, um das Einrasten zu deaktivieren.
 
-You can press `Shift` while dragging to only move in one direction.
+Drücke `Umschalt` beim Ändern der Größe, um das Seitenverhältnis beizubehalten.
 
-Press `Space` while moving a selection to disable snapping.
+## Karten verbinden
 
-Selecting a card moves it to the front.
+Zeichne Linien zwischen Karten, um Beziehungen zwischen ihnen herzustellen. Verwende Farben und Beschriftungen, um die Beziehungen zu beschreiben.
 
-### Resize a card
+### Zwei Karten verbinden
 
-Drag any of a card's edges to resize it.
+Um zwei Karten mit einer direkten gerichteten Linie zu verbinden:
 
-You can press `Space` while resizing to disable snapping.
+1. Bewege den Mauszeiger über eine der Kanten einer Karte, bis ein ausgefüllter Kreis erscheint.
+2. Ziehe den Kreis zur Kante einer anderen Karte, um beide zu verbinden.
 
-To maintain the aspect ratio while resizing, press `Shift` while resizing.
+> [!tip] Tipp
+> Wenn du die Linie nicht bis zu einer anderen Karte ziehst, erscheint ein Kontextmenü, über das du eine Karte oder Notiz für die Verbindung auswählen kannst.
 
-## Connect cards
+### Verbindung zwischen zwei Karten aufheben
 
-Draw lines between cards to create relationships between them. Use colors and labels to describe how they relate to each other.
+Um eine Verbindung zwischen zwei Karten zu lösen:
 
-### Connect two cards
+- Ziehe die Verbindungslinie von der Karte weg, ohne sie mit einer anderen zu verbinden.
+- Oder rufe mit Rechtsklick auf eine Verbindungslinie das Kontextmenü auf und wähle **Entfernen**.
+- Oder klicke die Linie an, um sie auszuwählen und drücke die `Rücktaste` bzw. `Entf`.
 
-To connect two cards with a directed line:
+### Verbindung bearbeiten
 
-1. Hover the cursor over one of the edges of a card until you see a filled circle.
-2. Drag the circle to the edge of a different card to connect them.
+Um eine Verbindungslinie zu bearbeiten, ziehe eine Ende der Verbindung auf ein neues Verbindungsziel.
 
-> [!tip]
-> If you drag the line without connecting it to another card, you can then add the card you want to connect it to.
+### Über Verbindungen navigieren
 
-### Disconnect two cards
+Liegen zwei verbundene Karten weit voneinander entfernt, kannst du zur Quelle oder zum Ziel der Verbindung navigieren, indem du mit Rechtsklick auf die Verbindung das Kontextmenü öffnest und **Verbindung folgen** wählst.
 
-To remove the connection between two cards:
+### Verbindungen beschriften
 
-1. Hover the cursor over a connection line until two small circles appear on the line.
-2. Drag one of the circles from the card without connecting it to another.
+Du kannst einer Verbindungslinie eine Beschriftung hinzufügen, um die Beziehung zwischen zwei Karten zu beschreiben.
 
-You can also disconnect two cards by right-clicking the line between them, and then selecting **Remove**. Or, by selecting the line and then pressing `Backspace` (or `Delete` on macOS).
+Um eine Beschriftung hinzuzufügen oder zu bearbeiten:
 
-### Connect a card to a different card
+- Doppelklicke auf eine Linie.
+- Oder öffne mit Rechtsklick auf die Linie das Kontextmenü und wähle **Beschriftung bearbeiten**.
+- Oder wähle eine Linie aus und klicke in den Auswahlwerkzeugen auf **Beschriftung bearbeiten**.
 
-To move one of the ends of a connection line:
+Gib einen Text ein und klicke auf einen freien Teil der Zeichenfläche, um die Bearbeitung abzuschließen.
 
-1. Hover the cursor over a connection line until two small circles appear on the line.
-2. Drag the circle over the end you want to reconnect, to another card.
+### Farbe von Karten oder Verbindungen ändern
 
-### Navigate a connection
+1. Wähle die Karte oder Verbindung, die du färben möchtest.
+2. Klicke in den Auswahlwerkzeugen auf **Farbe wählen** ( ![[lucide-palette.svg#icon]] ).
+3. Wähle eine Farbe.
 
-If two connected cards are far apart, you can navigate to the source or the target of the connection by right-clicking the line and then select **Go to target** or **Go to source**.
+## Karten gruppieren
 
-### Add a label to a connection
+Um eine leere Gruppe zu erstellen, öffne mit Rechtsklick auf die Zeichenfläche das Kontextmenü und wähle **Gruppe erstellen**.
 
-You can add a label to a line to describe the relationship between two cards.
+Du kannst einer Gruppe einen Titel hinzufügen. Um den Titel zu ändern, klicke ihn doppelt an und bearbeite den Text. Drücke die `Eingabetaste` oder klicke irgendwo auf die Zeichenfläche, um die Bearbeitung abzuschließen.
 
-To label a connection:
+### Ausgewählte Karten gruppieren
 
-1. Double-click the line.
-2. Enter the label and then press `Escape` or click anywhere on the canvas.
+Um verwandte Karten zu gruppieren:
 
-You can also label a connection by selecting it and then selecting **Edit label** from the selection controls.
+1. Wähle die Karten aus.
+2. Öffne mit Rechtsklick auf die Auswahl das Kontextmenü und wähle **Gruppe erstellen**.
 
-To edit a connection label, double-click on the line, or right-click the line and then select **Edit label**.
+## Navigation auf dem Canvas
 
-### Change the color of a card or connection
+Ab einer gewissen Menge an Karten und Verbindungen ergibt sich gewiss die Notwendigkeit, einen bestimmten Ausschnitt der Zeichenfläche näher betrachten zu können. Erfahre, wie du den Bildausschnitt vergrößern, verkleinern und verschieben kannst.
 
-1. Select the cards or connections you want to color.
-2. In the selection controls, select **Set color** ( ![[lucide-palette.svg#icon]] ).
-3. Select a color.
+### Canvas verschieben
 
-## Group cards
+Um die Zeichenfläche zu verschieben:
 
-### Group selected cards
+- Halte die `Leertaste` gedrückt, um die Zeichenfläche mit der Maus frei zu verschieben.
+- Oder verschiebe die Zeichenfläche bei gedrückter mittlerer Maustaste.
+- Oder scrolle mit dem Mausrad zum vertikalen Verschieben bzw. halte `Umschalt` gedrückt und scrolle zum horizontalen Verschieben.
 
-To create an empty group:
+### Ansichtsvergrößerung einstellen
 
-- Right-click the canvas and then select **Create group**.
+Um die Ansicht zu zoomen:
+- Halte die `Leertaste` bzw. `Strg` (oder `Cmd` unter macOS) und scrolle mit dem  Mausrad.
+- Oder wähle **Vergrößern** ( ![[lucide-plus.svg#icon]] ) bzw. **Verkleinern** ( ![[lucide-minus.svg#icon]] ) aus der Werkzeugleiste rechts oben.
 
-To group related cards:
+#### Ansicht einpassen
 
-1. Select the cards.
-2. Right-click any of the selected cards and then select **Create group**.
+Um alle Elemente in den Bildausschnitt einzupassen, wähle **Vergrößerung anpassen** ( ![[lucide-maximize.svg#icon]] ) aus der Werkzeugleiste rechts oben. Oder verwende das Tastenkürzel `Umschalt + 1`.
 
-**Rename group:** Double-click the name of the group to edit it, and then press `Enter` to save.
+#### Auswahl einpassen
 
-## Navigate the canvas
+Um alle ausgewählten Elemente in den Bildausschnitt einzupassen, wähle aus den Auswahlwerkzeugen bzw. aus dem Kontextmenü **Auf Auswahl zoomen**. Oder verwende das Tastenkürzel `Umschalt + 2`.
 
-As you start adding more cards to your canvas, you want to understand how you can navigate the canvas to look at a part of it. Learn how to pan and zoom to move across the canvas with ease.
+#### Ansicht zurücksetzen
 
-### Pan the canvas
+Um die Vergrößerung auf den Standardwert zurückzusetzen, wähle **Vergrößerung zurücksetzen** aus der Werkzeugleiste rechts oben.
 
-To move the canvas vertically and horizontally, also known as _panning_, you can use any of the following approaches:
+## Tipps für Fortgeschrittene
 
-- Press `Space` and drag the canvas.
-- Drag the canvas using the middle-mouse button.
-- Scroll the mouse to pan vertically, and press `Shift` while scrolling to pan horizontally.
+Für weitere, fortgeschrittene Anwendungsfälle haben wir ein paar kurze Videos erstellt.
 
-### Zoom the canvas
-
-To zoom the canvas, press `Space`  or `Ctrl` (or `Cmd` on macOS) and scroll using the mouse wheel. Or, select **Zoom in** ( ![[lucide-plus.svg#icon]] ) and **Zoom out** ( ![[lucide-minus.svg#icon]] ) from the zoom controls in the upper-right corner.
-
-#### Zoom to fit
-
-To zoom the canvas so that every item is visible, select **Zoom to fit** ( ![[lucide-maximize.svg#icon]] ). Or, use the keyboard shortcut, `Shift+1`.
-
-#### Zoom to selection
-
-To zoom the canvas so that all selected items are visible, right-click a selected card and then select **Zoom to selection**. Or, use a keyboard shortcut by pressing `Shift+2`.
-
-#### Reset zoom
-
-To change the zoom level back to the default, select **Reset zoom** in the zoom controls in the upper-right corner.
-
-## Advanced tips
-
-We have made some quick videos to demonstrate some advanced use cases of Canvas.
-
-You can [check out all 72 tips here](https://obsidian.md/canvas#protips). Please note that the tip videos are only visible on desktop.
+Schau dir hier [alle 72 Tipps](https://obsidian.md/canvas#protips) an. Bitte beachte, dass die Videos nur auf dem Desktop angezeigt werden.

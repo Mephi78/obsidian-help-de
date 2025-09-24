@@ -68,7 +68,7 @@ Obsidian has established a connection and is comparing the local vault with the 
 - The local and remote vaults are fully synchronized.
 
 **Merging conflicted file**  
-A conflict was detected during syncing, and the file was merged rather than overwritten. See [[Troubleshoot Obsidian Sync#Conflict resolution|conflict resolution]] for more information. If the merge is unwanted, you can restore previous versions via [[Version history]] or [[File recovery]].
+A conflict was detected during syncing, and the file was merged rather than overwritten. See [[Troubleshoot Obsidian Sync#Conflict resolution|conflict resolution]] for more information. If the merge is unwanted, you can restore previous versions via [[Version history]] or [[Datenwiederherstellung]].
 
 **Rejected server change**  
 The changes on the remote vault are older than the version on your local device, so the local version is kept and the remote change is ignored. 

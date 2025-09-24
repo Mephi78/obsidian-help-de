@@ -3,7 +3,7 @@ aliases:
   - Gewusst wie/Dateien einbetten
 cssclasses:
   - soft-embed
-permalink: einbettungen
+permalink: einbetten
 ---
 
 Erfahre, wie du andere Notizen oder Medien in deine Notizen einbetten kannst. Das Einbetten von Dateien in deine Notizen macht Inhalte über den gesamten Vault hinweg wiederverwendbar.
@@ -109,4 +109,4 @@ Anschließend kannst du die Liste über ihren Blockbezeichner verlinken:
 
 ## Suchergebnisse einbetten
 
-![[Search#Embed search results in a note]]
+![[Suche#Suchergebnisse in Notiz einbinden]]

@@ -84,7 +84,7 @@ The `new` action, creates a new note in the vault, optionally with some content.
 
 ## Create or open daily note
 
-The `daily` action creates or opens your daily note. The [[Daily notes]] plugin must be enabled.
+The `daily` action creates or opens your daily note. The [[Tägliche Notizen]] plugin must be enabled.
 
 ### Examples
 
@@ -97,14 +97,14 @@ The `daily` action accepts the same parameters as the `new` action.
 
 ## Open search
 
-The `search` action opens [[Search]] in the specified vault, and optionally perform a search term.
+The `search` action opens [[Suche]] in the specified vault, and optionally perform a search term.
 
 ### Examples
 
 - `obsidian://search?vault=my%20vault`
-  This opens the vault `my vault`, and opens [[Search]].
+  This opens the vault `my vault`, and opens [[Suche]].
 - `obsidian://search?vault=my%20vault&query=Obsidian`
-  This opens the vault `my vault`, opens [[Search]], and performs a search for `Obsidian`.
+  This opens the vault `my vault`, opens [[Suche]], and performs a search for `Obsidian`.
 
 ### Parameters
 
