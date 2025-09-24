@@ -60,17 +60,17 @@ Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichni
 | Import notes              | Notizen Importieren               |
 | User interface            | ✅Benutzerschnittstelle          |
 | Editing and formatting    | ✅Bearbeiten und Formatieren     |
-| Linking notes and files   | 🚧Notizen und Dateien verlinken  |
+| Linking notes and files   | ✅Notizen und Dateien verlinken  |
 | Files and folders         | ✅Dateien und Verzeichnisse      |
-| Plugins                   | ==Integrierte Erweiterungen==     |
+| Plugins                   | 🚧Integrierte Erweiterungen      |
 | Obsidian Publish          | ==Obsidian Publish==              |
 | Obsidian Sync             | ==Obsidian Sync==                 |
 | Obsidian Web Clipper      | Obsidian Web Clipper              |
-| Extending Obsidian        | Obsidian erweitern und anpassen   |
-| Contributing to Obsidian  | Mitmachen                         |
+| Extending Obsidian        | 🚧Obsidian erweitern und anpassen |
+| Contributing to Obsidian  | 🚧Mitmachen                       |
 | Licenses and payment      | Lizenzen und Zahlung              |
 | Teams                     | Teams                             |
-| Obsidian                  | Obsidian                          |
+| Obsidian                  | 🚧Obsidian                        |
 ### Tricks & Kniffe
 
 > [!INFO] Publish Styles imitieren
