@@ -12,7 +12,7 @@ Mit der Drag & Drop Funktion kannst du im [[Glossar#Hauptbereich|Hauptbereich]] 
 ### Dateien ziehen
 
 - Du kannst eine oder mehrere Dateien aus dem [[Dateiexplorer|Dateiexplorer]] ziehen.
-- Du kannst Dateien aus der Ergebnisliste der [[Search|Suche]] ziehen.
+- Du kannst Dateien aus der Ergebnisliste der [[Suche|Suche]] ziehen.
 - Du kannst Dateien aus den [[Rückverweise|Rückverweisen]] oder nicht verlinkten Erwähnungen ziehen.
 - Du kannst Links aus einer Notiz in der Leseansicht (und damit die verlinkte Datei) ziehen.
 

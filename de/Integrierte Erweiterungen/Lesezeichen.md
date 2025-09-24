@@ -56,7 +56,7 @@ Ist für die aktive Notiz bereits ein Lesezeichen gesetzt, ändert sich der Befe
 >
 > **Suche**:
 >
-> 1. Gib einen [[Search#Search terms|Suchterm]] ein.
+> 1. Gib einen [[Suche#Suchbegriffe|Suchterm]] ein.
 > 2. Klicke unter dem Suchfeld auf den Ergebnis-Zähler mit dem Drei-Punkte-Symbol.
 > 3. Wähle **Setze Lesezeichen...**
 > 

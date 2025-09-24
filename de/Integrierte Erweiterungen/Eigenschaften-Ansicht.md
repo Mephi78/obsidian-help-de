@@ -16,5 +16,5 @@ Die [[Übersicht|Standarderweiterung]] *Eigenschaften-Ansicht* stellt zwei Seite
 In der Ansicht "Alle Eigenschaften" kannst du:
 
 - Eigenschaften nach Name oder Häufigkeit der Verwendung in deinem Vault sortieren.
-- Eine Eigenschaft anklicken, um die Suchansicht zu öffnen mit dem vorausgefüllten Suchterm für die [[Search#Search properties|Suche nach Eigenschaften]].
+- Eine Eigenschaft anklicken, um die Suchansicht zu öffnen mit dem vorausgefüllten Suchterm für die [[Suche#Suche nach Eigenschaften|Suche nach Eigenschaften]].
 - Über Rechtsklick auf eine Eigenschaft deren Bezeichnung oder Typ global ändern.

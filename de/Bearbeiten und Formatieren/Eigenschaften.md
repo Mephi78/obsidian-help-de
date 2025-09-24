@@ -53,7 +53,7 @@ Eigenschaften vom Typ **Text** und **Liste** kannst du als Werte URLs und [[Inte
 
 ### Nach Eigenschaften suchen
 
-Eigenschaften haben ihre eigene [[Search|Syntax für die Suche]], die du neben anderen Suchbegriffen und Operatoren verwenden kannst, siehe [[Search#Search properties|Nach Eigenschaften suchen]].
+Eigenschaften haben ihre eigene [[Suche|Syntax für die Suche]], die du neben anderen Suchbegriffen und Operatoren verwenden kannst, siehe [[Suche#Suche nach Eigenschaften|Nach Eigenschaften suchen]].
 
 ### Vorlagen
 

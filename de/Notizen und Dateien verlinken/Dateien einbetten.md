@@ -109,4 +109,4 @@ Anschließend kannst du die Liste über ihren Blockbezeichner verlinken:
 
 ## Suchergebnisse einbetten
 
-![[Search#Embed search results in a note]]
+![[Suche#Suchergebnisse in Notiz einbinden]]

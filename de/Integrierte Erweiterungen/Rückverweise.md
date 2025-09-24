@@ -3,61 +3,70 @@ aliases:
   - Gewusst wie/Verwendung von Rückverweisen
 permalink: plugins/rueckverweise
 ---
-#WIP/Mephi
-With the Backlinks [[Übersicht|plugin]], you can see all the _backlinks_ for the active note.
 
-A backlink for a note is a link from another note to that note. In the following example, the "Three laws of motion" note contains a link to the "Isaac Newton" note. The corresponding backlink would link from "Isaac Newton" back to "Three laws of motion".
+ Die [[Übersicht|Standarderweiterung]] *Rückverweise* zeigt dir alle Rückverweise auf die aktive Notiz an.
+
+Ein Rückverweis ist ein Link von einer anderen auf die aktive Notiz. Im folgenden Beispiel enthält die Notiz "Grundgesetze der Bewegung" einen Link zur Notiz "Isaac Newton". Der entsprechende Rückverweis würde von "Isaac Newton" zurückführen zu "Grundgesetze der Bewegung".
 
 ```mermaid
 flowchart LR
-  laws((Three laws of motion))
+  gesetze((Grundgesetze der Bewegung))
   newton((Isaac Newton))
 
-  laws --link--> newton
-  newton --backlink--> laws
+  gesetze --Link--> newton
+  newton --Rückverweis--> gesetze
 ```
 
-Backlinks can be useful to find notes that reference the note you're writing. Just imagine if you could list the backlinks for any website on the internet.
+Rückverweise helfen dir, Notizen zu finden, die auf deine aktuell bearbeitete Notiz verweisen. Stell dir vor, du könntest die Rückverweise auf jede Webseite im Internet auflisten.
 
-## Show backlinks
+## Rückverweise-Ansicht
 
-The Backlinks plugin displays the backlinks for the active tabs. There are two collapsible sections: **Linked mentions** and **Unlinked mentions**.
+Die Rückverweise-Ansicht listet alle Rückverweise für die jeweils aktive Notiz auf. Die Übersicht enthält zwei einklappbare Abschnitte:
 
-- **Linked mentions** are backlinks to the notes that contain an internal link to the active note.
-- **Unlinked mentions** are backlinks to any unlinked occurrence of the name of the active note.
+-  **Verlinkte Erwähnungen** listet Notizen auf, die [[interne Links]] auf die aktive Notiz enthalten.
+- **Nicht verlinkte Erwähnungen** listet Notizen auf, die den nicht verlinkten Titel der aktiven Notiz enthalten.
 
-It provides the following options:
+In der *Rückverweise-Ansicht* kannst du:
 
-- **Collapse results** toggles whether to expand each note to display the mentions in it.
-- **Show more context** toggles whether to truncate or display the full paragraph that contains the mention.
-- **Change sort order** determines how to sort the mentions.
-- **Show search filter** toggles a text field that lets you filter the mentions. For more information on how to build a search term, refer to [[Search]].
+- **Ergebnisse einklappen** legt fest ob die Notizenliste erweitert wird, um die darin enthaltenen Erwähnungen im Detail anzuzeigen.
+- **Mehr Kontext anzeigen** legt fest, ob der Absatz mit der Erwähnung vollständig oder gekürzt angezeigt wird.
+- **Sortierreihenfolge ändern** lässt dich die Liste nach Dateiname, Bearbeitungs- oder Erstellungsdatum sortieren.
+- **Suchfilter anzeigen** blendet ein Textfeld ein, über das du die Ergebnisliste [[Suche|filtern]] kannst.
 
-## View backlinks for a note
+## Rückverweise auf die aktive Notiz anzeigen
 
-To view the backlinks for the active note, click the **Backlinks** ( ![[obsidian-icon-links-coming-in.svg#icon]] ) tab in the right sidebar.
+Um die *Rückverweise* für die aktive Notiz anzuzeigen, klicke auf den Tab **Rückverweise**
+ ( ![[obsidian-icon-links-coming-in.svg#icon]] ) in der rechten [[Seitenleisten|Seitenleiste]].
 
-> [!note]
-> If you can't see the Backlinks tab, you can make it visible by opening the [[Befehlspalette]] and running the **Backlinks: Show backlinks** command.
+> [!note] Hinweis
+> Falls der Tab *Rückverweise* nicht vorhanden ist, kannst du ihn über die [[Befehlspalette]] mit dem Befehl **Rückverweise: Rückverweise anzeigen** einblenden.
 
-## See backlinks of a specific note
+## Rückverweise auf eine bestimmte Notiz anzeigen
 
-The backlinks tab lists backlinks for the active note and updates when you switch to a different note. If you want to see the backlinks for a specific note, regardless of whether it's active or note, you can open a _linked_ backlinks tab.
+Die *Rückverweise-Ansicht* listet die Rückverweise der aktiven Notiz auf und wird automatisch aktualisiert, wenn du zu einer anderen Notiz wechselst. Möchtest du die Rückverweise einer bestimmten Notiz sehen, auch wenn diese gerade nicht aktiv ist, kannst du eine *verlinkte* Rückverweise-Ansicht öffnen.
 
-To open a linked backlinks tab:
+Um eine verlinkte Rückverweise-Ansicht zu öffnen:
 
-1. Open the [[Befehlspalette]].
-2. Select **Backlinks: Open backlinks for the current note**.
+1. Öffne über das Drei-Punkte-Menü ( ![[lucide-ellipsis-vertical.svg#icon]] ) in der aktiven Notiz das Kontextmenü.
+2. Wähle **Verlinkte Ansicht öffnen → Rückverweise öffnen**.
 
-A separate tab opens next to your active note. The tab shows a link icon to let you know it's linked to a note.
+Auf diese Weise öffnest du eine separate Registerkarte unterhalb deiner aktiven Notiz. Anhand des Link-Symbols rechts neben dem Titel der Notiz siehst du, dass die Registerkarte mit der Notiz verlinkt ist.
 
-## Show backlinks in a note
+## Rückverweise innerhalb einer Notiz anzeigen
 
-Instead of showing the backlinks in a separate tab, you can show the backlinks at the bottom of your note.
+Anstatt die Rückverweise in einer separaten Registerkarte anzuzeigen, kannst du sie auch am Ende deiner Notiz anzeigen lassen. Es gibt verschiedene Möglichkeiten, Rückverweise innerhalb einer Notiz anzuzeigen.
 
-To show backlinks in a note:
+**Befehlspalette**:
 
-1. Open the [[Befehlspalette]].
-2. Select **Backlinks: Toggle backlinks in document**.
+1. Öffne die [[Befehlspalette]].
+2. Wähle **Rückverweise: Rückverweise im Dokument ein-/ausblenden**.
 
-Or, enable **Backlink in document** under the Backlinks plugin options to automatically toggle backlinks when you open a new note.
+**Drei-Punkte-Menü**:
+
+1. Öffne über das Drei-Punkte-Menü ( ![[lucide-ellipsis-vertical.svg#icon]] ) in der aktiven Notiz das Kontextmenü.
+2. Wähle **Rückverweise im Dokument**.
+
+**Erweiterungseinstellungen**:
+
+1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
+2. Aktiviere **Rückverweise am Ende einer Notiz anzeigen** unter **Obsidian-Erweiterungen → Rückverweise**.

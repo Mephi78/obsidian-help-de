@@ -6,7 +6,7 @@ permalink: plugins/tags
 
 Die [[Übersicht|Standarderweiterung]] *Tag-Übersicht* stellt eine Liste der in deinem Vault verwendeten Tags mit Angabe der Verwendungshäufigkeit zur Verfügung.
 
-Klicke auf einen Tag, um damit versehene Notizen zu [[Search|suchen]]. Um im Suchfeld weitere Tags hinzuzufügen, halte `Strg` (oder `Cmd` unter macOS) gedrückt und klicke auf einen anderen Tag.
+Klicke auf einen Tag, um damit versehene Notizen zu [[Suche|suchen]]. Um im Suchfeld weitere Tags hinzuzufügen, halte `Strg` (oder `Cmd` unter macOS) gedrückt und klicke auf einen anderen Tag.
 
 In der *Tag-Übersicht* kannst du:
 

@@ -22,7 +22,7 @@ tags:
 
 ## Notizen über Tags finden
 
-Um Notizen über die [[Search|Suchfunktion]] zu finden, kannst du den [[Search#Search operators|Suchoperator]] `tag` in deiner Suchanfrage verwenden (z.B. `tag:wichtig`).
+Um Notizen über die [[Suche|Suchfunktion]] zu finden, kannst du den [[Suche#Suchoperatoren|Suchoperator]] `tag` in deiner Suchanfrage verwenden (z.B. `tag:wichtig`).
 
 Du kannst auch alle Notizen mit einem bestimmten Tag finden, indem du auf diesen Tag klickst in einer deiner Notizen.
 
@@ -34,7 +34,7 @@ Verschachtelte Tags definieren Tag-Hierarchien, die eine Suche oder das Filtern 
 
 Erstelle verschachtelte Tags, indem du Tag-Ebenen mit einem Schrägstrich (`/`) voneinander trennst, bspw. `#posteingang/ungelesen` und `#posteingang/in_bearbeitung`.
 
-Sowohl die [[Search|Suchfunktion]], als auch die [[Tag-Übersicht|Tag-Übersicht]] unterstützen verschachtelte Tags.
+Sowohl die [[Suche|Suchfunktion]], als auch die [[Tag-Übersicht|Tag-Übersicht]] unterstützen verschachtelte Tags.
 
 ## Regeln für Tag-Namen
 

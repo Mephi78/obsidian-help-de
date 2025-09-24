@@ -20,7 +20,7 @@ Interagiere mit den Knoten im Graphen:
 Navigiere im Graphen:
 
 - Vergrößere oder verkleinere die Ansicht mit dem Scrollrad deiner Maus oder mit den Tasten `+` und `-` auf der Tastatur.
-- Bewege den Graphen durch Ziehen und Ablegen oder mit den Pfeiltasten deiner Tastatur.
+- Bewege den Graphen durch Klicken und Ziehen bei gedrückter Maustaste oder mit den Pfeiltasten deiner Tastatur.
 
 Du kannst dabei `Umschalt` gedrückt halten, um die Navigation zu beschleunigen.
 
@@ -34,7 +34,7 @@ Klicke **Voreinstellungen wiederherstellen** ( ![[lucide-rotate-ccw.svg#icon]] )
 
 Dieser Abschnitt regelt, welche Knoten im Graphen angezeigt werden.
 
-- **Suche Dateien** lässt dich Notizen nach bestimmten Suchkriterien filtern. Erfahre später mehr darüber, wie du [[Search|fortgeschrittene Suchfilter erstellen]] kannst.
+- **Suche Dateien** lässt dich Notizen nach bestimmten Suchkriterien filtern. Erfahre später mehr darüber, wie du [[Suche|fortgeschrittene Suchfilter erstellen]] kannst.
 - **Tags** lässt dich deine Tags (Kategorien) als separate Knoten anzeigen.
 - **Anhänge** bestimmt, ob Dateien angezeigt werden sollen, die keine Notizen sind.
 - **Nur existierende Dateien zeigen** lässt dich im Vault nicht existierende Dateien ausblenden. Da es möglich ist, Notizen zu verlinken, die noch nicht existieren, kann dir diese Einstellung helfen, die Graph-Ansicht einzugrenzen auf solche Dateien, die bereits vorhanden sind.
@@ -50,7 +50,7 @@ Um eine neue Gruppe zu erstellen:
 2. Gib im Suchfeld einen Suchbegriff für die Notizen ein, die du gruppieren möchtest.
 3. Klicke auf den farbigen Kreis daneben, um der neuen Gruppe eine Farbe zuzuweisen.
 
-Erfahre später mehr darüber, wie du [[Search|fortgeschrittene Suchfilter erstellen]] kannst.
+Erfahre später mehr darüber, wie du [[Suche|fortgeschrittene Suchfilter erstellen]] kannst.
 
 ### Anzeige
 

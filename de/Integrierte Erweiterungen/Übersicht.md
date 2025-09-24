@@ -57,7 +57,7 @@ Einige dieser Funktionen sind standardmäßig deaktiviert. Du kannst sie in den 
 	- Zeigt die Vorschau einer Notiz, wenn du den Mauszeiger über einen internen Link bewegst.
 - [[Slash-Befehle|Slash-Befehle]]
 	- Führe Befehle im Bearbeitungsmodus aus, indem du einen Slash `/` eingibst.
-- [[Search|Suchen]]
+- [[Suche|Suchen]]
 	- Finde Dateien in deinem Vault.
 - [[Obsidian Sync/Einführung|Sync]]
 	- Synchronisiere deine Notizen geräteübergreifend.

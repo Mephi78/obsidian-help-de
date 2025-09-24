@@ -2,47 +2,47 @@
 aliases:
 cssclasses:
   - soft-embed
-description: Templates is a Core plugins|core plugin that lets you insert pre-defined snippets of text into your active note.
+description: Die Standarderweiterung Vorlagen ermöglicht dir, vordefinierte Textbausteine in deine aktive Notiz einzufügen.
 mobile: true
 permalink: plugins/vorlagen
 publish: true
 ---
-#WIP/Mephi 
-Templates is a [[Übersicht|core plugin]] that lets you insert pre-defined snippets of text into your active note.
 
-## Set your template folder
+Die [[Übersicht|Standarderweiterung]] *Vorlagen* ermöglicht dir, vordefinierte Textbausteine in deine aktive Notiz einzufügen.
 
-1. In the bottom-left corner, click **Settings** ( ![[lucide-cog.svg#icon]] ).
-2. Under **Core plugins → Templates → Template folder location**, enter the folder containing your templates.
+## Speicherort für Vorlagen konfigurieren
 
-## Insert a template into the active note
+1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
+2. Gib unter **Obsidian-Erweiterungen → Vorlagen** einen **Speicherort für Vorlagen** ein.
 
-**Important:**  To insert a template, you need to first [[#Set your template folder]].
+## Vorlage in aktive Notiz einfügen
 
-1. In the ribbon, click **Insert template**.
-2. Select the template to insert at the cursor position in the active note.
+**Hinweis:**  Um eine Vorlage einzufügen, musst du zunächst einen [[#Speicherort für Vorlagen konfigurieren]].
 
-## Template variables
+1. Wähle **Vorlage einfügen** aus der Werkzeugleiste.
+2. Wähle die Vorlage aus, die du an der aktuellen Cursor-Position in die aktive Notiz einfügen möchtest.
 
-You can add dynamic information to your templates, using _template variables_. When you insert a template containing a template variable, Templates replaces it with its corresponding value.
+## Vorlagen-Variablen
 
-| Variable    | Description                                     |
-|-------------|-------------------------------------------------|
-| `{{title}}` | Title of the active note.                       |
-| `{{date}}`  | Today's date. **Default format:** `YYYY-MM-DD`. |
-| `{{time}}`  | Current time. **Default format:** `HH:mm`.      |
+Mit *Vorlagen-Variablen* kannst du einer Vorlage dynamische Inhalte hinzufügen. Wenn du eine Vorlage verwendest, die Variablen enthält, ersetzt die Erweiterung diese durch die entsprechenden Werte.
 
-Both `{{date}}` and `{{time}}` allow you to change the default format using a _format string_.
+| Variable    | Beschreibung                                      |
+| ----------- | ------------------------------------------------- |
+| `{{title}}` | Titel der aktiven Notiz.                          |
+| `{{date}}`  | Heutiges Datum. **Standardformat:** `YYYY-MM-DD`. |
+| `{{time}}`  | Aktuelle Uhrzeit. **Standardformat:** `HH:mm`.    |
 
-To set a format string, add a colon (`:`) followed by a string of [Moment.js format tokens](https://momentjs.com/docs/#/displaying/format/), for example `{{date:YYYY-MM-DD}}`.
+Das Format für `{{date}}` und `{{time}}` kannst du mit *Format-Token* anpassen.
 
-You can use `{{date}}` and `{{time}}` interchangeably with format strings, for example `{{time:YYYY-MM-DD}}`.
+Um das Ausgabeformat zu ändern, ergänze die Variable um einen Doppelpunkt ( `:`) gefolgt von einer Zeichenfolge aus [Moment.js-Token](https://momentjs.com/docs/#/displaying/format/), z.B. `{{date:YYYY-MM-DD}}`.
 
-You can change the default date and time formats under **Settings → Templates → Date format** and **Settings → Templates → Time format**.
+Auf diese Weise lässt sich das Format sowohl für `{{date}}`, als auch `{{time}}` definieren, bspw. `{{time:YYYY-MM-DD}}`.
 
-> [!tip]
-> You can also use the `{{date}}` and `{{time}}` template variables in the [[Tägliche Notizen]] and [[Eindeutige Notiz]] plugins.
+Zudem lässt sich das Standardformat für beide Variablen in den Erweiterungseinstellungen anpassen. Gib dazu die entsprechenden Format-Token unter **Einstellungen → Vorlagen → Datumsformat** bzw. **Zeitformat** ein.
 
-## Template properties
+> [!tip] Tipp
+> Die Variablen `{{date}}` und `{{time}}` sind möglicherweise hilfreich für die Erstellung von Vorlagen für [[Tägliche Notizen]] oder die [[Eindeutige Notiz]].
+
+## Vorlagen-Eigenschaften
 
 ![[Eigenschaften#^templates-properties]]

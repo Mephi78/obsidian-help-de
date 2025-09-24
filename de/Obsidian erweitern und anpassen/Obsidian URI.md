@@ -97,14 +97,14 @@ The `daily` action accepts the same parameters as the `new` action.
 
 ## Open search
 
-The `search` action opens [[Search]] in the specified vault, and optionally perform a search term.
+The `search` action opens [[Suche]] in the specified vault, and optionally perform a search term.
 
 ### Examples
 
 - `obsidian://search?vault=my%20vault`
-  This opens the vault `my vault`, and opens [[Search]].
+  This opens the vault `my vault`, and opens [[Suche]].
 - `obsidian://search?vault=my%20vault&query=Obsidian`
-  This opens the vault `my vault`, opens [[Search]], and performs a search for `Obsidian`.
+  This opens the vault `my vault`, opens [[Suche]], and performs a search for `Obsidian`.
 
 ### Parameters
 

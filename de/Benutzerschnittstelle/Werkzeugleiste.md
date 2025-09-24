@@ -58,7 +58,7 @@ Um eine Schnellzugriffsaktion zuzuweisen:
 1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
 2. Tippe **Darstellung**.
 3. Scrolle nach unten und tippe unter **Werkzeugleiste** auf **Verwalten**.
-	- Ordne Aktionen neu an durch Halten und Ziehen der Schaltfläche ( ![[lucide-menu.svg#icon]] ) rechts neben einer Aktion.
+	- Ordne Aktionen neu an, indem du die Schaltfläche ( ![[lucide-menu.svg#icon]] ) rechts neben einer Aktion klickst und bei gedrückter Maustaste ziehst.
 	- Blende Aktionen aus durch Tippen auf das rote Minus-Symbol ( ![[lucide-minus-circle.svg#icon]] ).
 	- Blende Aktionen ein durch Tippen auf das grüne Plus-Symbol ( ![[lucide-plus-circle.svg#icon]] ).
 

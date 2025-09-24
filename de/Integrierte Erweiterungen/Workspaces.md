@@ -1,53 +1,50 @@
 ---
 permalink: plugins/workspaces
 ---
-#WIP/Mephi 
-Workspaces is a [[Übersicht|core plugin]] that  lets you manage and switch between different application layouts depending on your task, for example journaling, reading, or writing.
 
-A workspace contains information about open files and tabs, and the width and visibility of each sidebar.
+Mit der [[Übersicht|Standarderweiterung]] *Workspaces* kannst du auf unterschiedliche Aufgaben zugeschnittene Layouts speichern und zwischen ihnen wechseln, ob du bspw. Tagebuch schreiben, lesen oder an einem bestimmten Projekt arbeiten möchtest.
 
-## Save a workspace
+Ein Workspace enthält Informationen über geöffnete Dateien und Tabs sowie die Anzeigebreite der Fensterbereiche und aktivierte Registerkarten in den Seitenleisten.
 
-**Ribbon:**
+## Workspace speichern
 
-1. In the ribbon, click **Manage workspace layouts** ( ![[lucide-panels-top-left.svg#icon]] ).
-2. Enter a name for the workspace.
-3. Select **Save**.
+**Werkzeugleiste:**
 
-**Command palette:**
+1. Klicke in der Werkzeugleiste auf **Workspace-Layouts verwalten** ( ![[lucide-panels-top-left.svg#icon]] ).
+2. Gib einen Namen für den Workspace ein.
+3. Klicke **Speichern**.
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Befehlspalette]].
-2. Search for the **Manage workspace layouts** command.
-3. Press `Enter` with the command selected.
-4. Enter a name for the workspace.
-5. Select **Save**.
+**Befehlspalette:**
 
-To update an existing workspace, save the workspace with the same name as the workspace you want to update.
+1. Drücke `Strg + P` (oder `Cmd + P` unter macOS), um die [[Befehlspalette]] zu öffnen.
+2. Wähle den Befehl **Workspace-Layouts verwalten**.
+3. Gib einen Namen für den Workspace ein.
+4. Klicke **Speichern**.
 
-## Load a workspace
+Um einen bestehenden Workspace zu ändern, speichere ihn unter dem Namen des Workspace, den du aktualisieren möchtest.
 
-**Ribbon:**
+## Workspace laden
 
-1. In the ribbon, click **Manage workspace layouts**  ( ![[lucide-panels-top-left.svg#icon]] ).
-2. Next to the workspace you want to load, select **Load**.
+**Werkzeugleiste:**
 
-**Command palette:**
+1. Klicke in der Werkzeugleiste auf **Workspace-Layouts verwalten** ( ![[lucide-panels-top-left.svg#icon]] ).
+2. Klicke neben dem gewünschten Workspace auf **Laden**.
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Befehlspalette]].
-2. Search for the **Manage workspace layouts** command.
-3. Press `Enter` with the command selected.
-4. Select the workspace to load.
+**Befehlspalette:**
 
-## Delete a workspace
+1. Drücke `Strg + P` (oder `Cmd + P` unter macOS), um die [[Befehlspalette]] zu öffnen.
+2. Wähle den Befehl **Workspace-Layouts verwalten**.
+3. Wähle den Workspace aus, den du laden möchtest.
 
-**Ribbon:**
+## Workspace löschen
 
-1. In the ribbon, click **Manage workspace layouts**  ( ![[lucide-panels-top-left.svg#icon]] ).
-2. Next to the workspace you want to delete, select **Delete layout** ( ![[lucide-x.svg#icon]] ).
+**Werkzeugleiste:**
 
-**Command palette:**
+1.Klicke in der Werkzeugleiste auf **Workspace-Layouts verwalten** ( ![[lucide-panels-top-left.svg#icon]] ).
+1. Klicke neben dem zu löschenden Layout auf **Layout löschen** ( ![[lucide-x.svg#icon]] ).
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Befehlspalette]].
-2. Search for the **Manage workspace layouts** command.
-3. Press `Enter` with the command selected.
-4. Next to the workspace you want to delete, select **Delete layout** ( ![[lucide-x.svg#icon]] ).
+**Befehlspalette:**
+
+1. Drücke `Strg + P` (oder `Cmd + P` unter macOS), um die [[Befehlspalette]] zu öffnen.
+2. Wähle den Befehl **Workspace-Layouts verwalten**.
+3. Klicke neben dem zu löschenden Layout auf **Layout löschen** ( ![[lucide-x.svg#icon]] ).

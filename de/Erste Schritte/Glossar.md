@@ -6,7 +6,7 @@ Dieses Glossar enthält in Obsidian gebräuchliche Begriffe.
 
 ## Alias
 
-Ein **Alias** ist ein alternativer Titel für eine [[#Notiz]]. Nutze die [[#Eigenschaft]] `aliases`,  wenn du eine Notiz in deinem Vault mit unterschiedlichen Begriffen [[Aliasse|referenzieren]] möchtest. Obsidian listet diese dann bspw. automatisch in der [[Search|Suchansicht]] auf.
+Ein **Alias** ist ein alternativer Titel für eine [[#Notiz]]. Nutze die [[#Eigenschaft]] `aliases`,  wenn du eine Notiz in deinem Vault mit unterschiedlichen Begriffen [[Aliasse|referenzieren]] möchtest. Obsidian listet diese dann bspw. automatisch in der [[Suche|Suchansicht]] auf.
 
 ## Anhang
 
@@ -14,7 +14,7 @@ Ein **Anhang** ist eine Datei in einem [[Dateiformate|unterstützten Format]], d
 
 ## Ansicht
 
-Eine **Ansicht** zeigt Informationen, z.B. die [[Search|Suchansicht]].
+Eine **Ansicht** zeigt Informationen, z.B. die [[Suche|Suchansicht]].
 
 ## Befehl
 
