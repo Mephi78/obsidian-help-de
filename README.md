@@ -66,7 +66,7 @@ Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichni
 | Obsidian Publish          | ==Obsidian Publish==              |
 | Obsidian Sync             | ==Obsidian Sync==                 |
 | Obsidian Web Clipper      | Obsidian Web Clipper              |
-| Extending Obsidian        | 🚧Obsidian erweitern und anpassen |
+| Extending Obsidian        | ✅Obsidian erweitern und anpassen |
 | Contributing to Obsidian  | 🚧Mitmachen                       |
 | Licenses and payment      | Lizenzen und Zahlung              |
 | Teams                     | Teams                             |
