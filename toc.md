@@ -103,7 +103,7 @@
 
 ### Obsidian erweitern und anpassen
 - Externe Erweiterungen
-- Farbschemata
+- Themen
 - CSS-Bausteine
 - Plugin-Sicherheit
 - Obsidian URI
