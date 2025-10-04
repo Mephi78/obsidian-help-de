@@ -47,7 +47,7 @@
 - Aliasse
 - Dateien einbetten
 
-### Dateien und Verzeichnisse
+### Dateien und Ordner
 - Dateiformate
 - Konfigurationsordner
 - Datenspeicherung
