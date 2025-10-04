@@ -48,7 +48,7 @@
 - Dateien einbetten
 
 ### Dateien und Ordner
-- Dateiformate
+- Dateitypen
 - Konfigurationsordner
 - Datenspeicherung
 - Notizen verwalten
