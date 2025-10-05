@@ -62,12 +62,13 @@ Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichni
 | Editing and formatting    | ✅Bearbeiten und Formatieren     |
 | Linking notes and files   | ✅Notizen und Dateien verlinken  |
 | Files and folders         | ✅Dateien und Ordner             |
-| Plugins                   | 🚧Integrierte Erweiterungen      |
+| Plugins                   | ✅Integrierte Erweiterungen      |
+| Bases                     | 🚧Bases                          |
 | Obsidian Publish          | ==Obsidian Publish==              |
 | Obsidian Sync             | ==Obsidian Sync==                 |
 | Obsidian Web Clipper      | Obsidian Web Clipper              |
 | Extending Obsidian        | ✅Obsidian erweitern und anpassen |
-| Contributing to Obsidian  | 🚧Mitmachen                       |
+| Contributing to Obsidian  | ✅Mitmachen                       |
 | Licenses and payment      | Lizenzen und Zahlung              |
 | Teams                     | Teams                             |
 | Obsidian                  | 🚧Obsidian                        |
