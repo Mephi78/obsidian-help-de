@@ -8,7 +8,7 @@ permalink: einbetten
 
 Erfahre, wie du andere Notizen oder Medien in deine Notizen einbetten kannst. Das Einbetten von Dateien in deine Notizen macht Inhalte über den gesamten Vault hinweg wiederverwendbar.
 
-Um eine Datei einzubetten, setze einem [[Interne Links|internen Link]] ein Ausrufezeichen (`!`) voran. Du kannst Dateien in jedem [[Dateiformate|unterstützten Format]] einbetten.
+Um eine Datei einzubetten, setze einem [[Interne Links|internen Link]] ein Ausrufezeichen (`!`) voran. Du kannst Dateien in jedem [[Dateitypen|unterstützten Format]] einbetten.
 
 > [!tip] Einbetten mittels Drag & Drop
 > Auf dem ![[lucide-monitor-check.svg#icon]] Desktop kannst du unterstützte Dateien auch per Drag & Drop direkt in deine Notiz ziehen, um sie automatisch einzubetten.

@@ -1,11 +1,11 @@
 ---
-description: Erfahre, welche Dateiformate von Obsidian unterstützt werden.
+description: Erfahre, welche Dateitypen von Obsidian unterstützt werden.
 mobile: true
-permalink: dateiformate
+permalink: dateitypen
 publish: true
 ---
 
-Obsidian unterstützt die folgenden Dateiformate:
+Obsidian unterstützt die folgenden Dateitypen:
 
 - **Markdown**: `.md`  
 - **Bases:** `.base`
@@ -15,11 +15,11 @@ Obsidian unterstützt die folgenden Dateiformate:
 - **Video**: `.mkv`, `.mov`, `.mp4`, `.ogv`, `.webm`  
 - **PDF**: `.pdf`  
 
-Mit [[Externe Erweiterungen|Community-Plugins]] kannst du Obsidian erweitern, um Unterstützung für weitere Dateiformate zu erhalten.
+Mit [[Externe Erweiterungen|Community-Plugins]] kannst du Obsidian erweitern, um Unterstützung für weitere Dateitypen zu erhalten.
 
 ### Eingebettete Dateien
 
-Viele Dateiformate — darunter Bilder, Audiodateien, Videos und PDFs — kannst du direkt in deine Notizen einbinden.
+Viele Dateitypen — darunter Bilder, Audiodateien, Videos und PDFs — kannst du direkt in deine Notizen einbinden.
 
 - Auf dem ![[lucide-monitor-check.svg#icon]] **Desktop** ziehe per Drag & Drop eine unterstützte Datei in eine Notiz, um sie automatisch einzubetten.
 - Über die ![[obsidian-icon-smartphone.svg#icon]] **Mobile**-Werkzeugleiste stehen dir die Funktionen **Einbettung hinzufügen** und **Anhang hinzufügen** zur Verfügung, um Dateien einzubinden.

@@ -28,4 +28,4 @@ Wenn du Drittanbieter-Plugins für Obsidian verwendest, empfehlen wir, für sens
 
 *Web-Viewer* basiert auf derselben [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag)-Funktion, mit der du auch Webseiten in [[Canvas]] einbetten kannst. *Web-Viewer* wurde einem [unabhängigen Audit](https://obsidian.md/blog/cure53-second-client-audit/) unterzogen, um sicherzustellen, dass die Erweiterung sicher implementiert wurde.
 
-Obsidian Plugins laufen [[Plugin security#Plugin capabilities|nicht isoliert (Sandbox)]] und haben daher umfassende Kontrolle über die Anwendung. Dieses Design ermöglicht leistungsstarke Funktionen, bringt jedoch gleichzeitig Sicherheitsrisiken mit sich. Während Obsidian ausgeführt wird, haben Drittanbieter-Erweiterungen vollen Zugriff auf Cookies im *Web-Viewer*.
+Obsidian Plugins laufen [[Plugin-Sicherheit#Plugin-Fähigkeiten|nicht isoliert (Sandbox)]] und haben daher umfassende Kontrolle über die Anwendung. Dieses Design ermöglicht leistungsstarke Funktionen, bringt jedoch gleichzeitig Sicherheitsrisiken mit sich. Während Obsidian ausgeführt wird, haben Drittanbieter-Erweiterungen vollen Zugriff auf Cookies im *Web-Viewer*.

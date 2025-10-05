@@ -168,7 +168,7 @@ There are three kinds of properties used in bases:
 
 ### File properties
 
-File properties refer to the file currently being tested or evaluated. File properties are available for all [[Dateiformate|file types]], including attachments.
+File properties refer to the file currently being tested or evaluated. File properties are available for all [[Dateitypen|file types]], including attachments.
 
 For example, a filter `file.ext == "md"` will be true for all Markdown files and false otherwise.
 

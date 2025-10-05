@@ -22,7 +22,7 @@ Themen werden nicht automatisch aktualisiert. Du kannst ein bestimmtes Thema akt
 Um alle Themen zu aktualisieren:
 
 1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
-2. Unter **Darstellung → Aktuelle Themen...** klicke **Nach Aktualisierungen suchen**.
+2. Unter **Darstellung → Installierte Community-Themen** klicke **Nach Aktualisierungen suchen**.
 3. Wenn Aktualisierungen verfügbar sind, klicke **Alle aktualisieren**.
 
 Um ein bestimmtes Thema zu aktualisieren:

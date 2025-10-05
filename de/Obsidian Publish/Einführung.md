@@ -9,11 +9,9 @@ permalink: publish
 
 [Obsidian Publish](https://obsidian.md/publish) ist ein Cloud-basierter Hosting-Dienst, mit dem du deine Notizen als Wiki, Wissensdatenbank, Dokumentation oder Digitaler Garten veröffentlichen kannst.
 
-Wähle Notizen aus, die du mit der Welt teilen möchtest, klicke **Veröffentlichen** und wir hosten alles auf `publish.obsidian.md/deine-seite`.
+Wähle Notizen aus, die du mit der Welt teilen möchtest, klicke **Veröffentlichen** und wir hosten es auf `publish.obsidian.md/deine-seite`.
 
-%%Select the notes you want to share with the world, press **Publish**, and we'll host it at `publish.obsidian.md/your-site`
-
-If you're reading this on [help.obsidian.md](https://help.obsidian.md), you're already looking at a site that uses Obsidian Publish! You can see the vault on [GitHub](https://github.com/obsidianmd/obsidian-docs).%%
+Falls du das auf [help.obsidian.md](https://help.obsidian.md) liest, schaust du bereits auf eine Seite, die mit Obsidian Publish veröffentlicht wurde! Den zugehörigen Vault findest du auf [GitHub](https://github.com/obsidianmd/obsidian-docs).
 
 ## Obsidian Publish verwenden
 

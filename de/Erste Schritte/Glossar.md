@@ -10,7 +10,7 @@ Ein **Alias** ist ein alternativer Titel für eine [[#Notiz]]. Nutze die [[#Eige
 
 ## Anhang
 
-Ein **Anhang** ist eine Datei in einem [[Dateiformate|unterstützten Format]], die außerhalb des [[#Vault|Vaults]] erstellt und diesem anschließend hinzugefügt wurde.
+Ein **Anhang** ist eine Datei in einem [[Dateitypen|unterstützten Format]], die außerhalb des [[#Vault|Vaults]] erstellt und diesem anschließend hinzugefügt wurde.
 
 ## Ansicht
 
@@ -95,7 +95,7 @@ Siehe [[#Eigenschaft]].
 
 ## Registerkarte
 
-`Aliasse: Tab`
+`Aliasse: Tab, Reiter`
 
 Eine **Registerkarte** enthält eine [[#Ansicht]]. Registerkarten können innerhalb des [[#Hauptbereich|Hauptbereiches]] und in den [[#Seitenleiste|Seitenleisten]] angeordnet werden. Siehe auch [[Registerkarten]].
 

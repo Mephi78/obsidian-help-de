@@ -127,7 +127,7 @@ Mehr Informationen über reguläre Ausdrücke findest du in FreeCodeCamp's [Prac
 
 ## Suche konfigurieren
 
-Um die Suche zu konfigurieren, klicke auf **Sucheinstellungen** ( ![[lucide-sliders-horizontal.svg#icon]] ) rechts neben dem Suchfeld.
+Um die Suche zu konfigurieren, klicke neben dem Suchfeld auf **Sucheinstellungen** ( ![[lucide-sliders-horizontal.svg#icon]] ).
 
 | Einstellung               | Beschreibung                                                                                       |
 | ------------------------- | -------------------------------------------------------------------------------------------------- |

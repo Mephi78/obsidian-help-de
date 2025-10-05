@@ -17,7 +17,7 @@ Aus einem geöffneten Vault heraus kannst du zwischen Vaults wechseln, indem du 
 1. Starte Obsidian.
 2. Klicke links unten auf dein ![[lucide-chevrons-up-down.svg#icon]] **Vault-Profil**.
 3. Wähle **Vaults verwalten...**.
-4. Klicke rechts neben **Einen neuen Vault erstellen** auf **Erstellen**.
+4. Klicke neben **Einen neuen Vault erstellen** auf **Erstellen**.
 5. Gib unter **Name des Vaults** den Namen deines neuen Vaults ein.
 6. Klicke **Wählen**, um den **Speicherort** deines neuen Vaults auszuwählen.
 7. Klicke **Erstellen**.
@@ -27,7 +27,7 @@ Aus einem geöffneten Vault heraus kannst du zwischen Vaults wechseln, indem du 
 1. Starte Obsidian.
 2. Klicke links unten auf dein ![[lucide-chevrons-up-down.svg#icon]] **Vault-Profil**.
 3. Wähle **Vaults verwalten...**.
-4. Klicke rechts neben **Ordner als Vault öffnen** auf **Öffnen**.
+4. Klicke neben **Ordner als Vault öffnen** auf **Öffnen**.
 5. Wähle im Dateibrowser den Ordner, den du als Vault verwenden möchtest.
 6. Klicke **Öffnen**.
 
@@ -62,7 +62,7 @@ Manche Betriebssysteme erlauben es nicht, einen Vault über die Vault-Verwaltung
 3. Starte Obsidian.
 4. Falls die Vault-Verwaltung sich nicht ohnehin bereits automatisch geöffnet hat, klicke links unten auf dein ![[lucide-chevrons-up-down.svg#icon]] **Vault-Profil**.
 5. Wähle **Vaults verwalten...**.
-6. Klicke rechts neben **Ordner als Vault öffnen** auf **Öffnen**.
+6. Klicke neben **Ordner als Vault öffnen** auf **Öffnen**.
 7. Wähle im Dateibrowser den Ordner, den du als Vault verwenden möchtest.
 8. Klicke **Öffnen**.
 9. Überprüfe, ob der Inhalt deines Vaults unverändert ist. Aktiviere ggf. in den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) die externen Erweiterungen erneut unter **Externe Erweiterungen → Community-Erweiterungen aktivieren**.

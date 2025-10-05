@@ -25,7 +25,7 @@ Um *Canvas* zu verwenden, musst du als erstes eine Datei erstellen, in der deine
 
 **Werkzeugleiste:**
 
-- In der Werkzeugleiste klicke **Neuen Canvas erstellen** ( ![[lucide-layout-dashboard.svg#icon]] ), um einen Canvas im selben Ordner zu erstellen wie die aktive Notiz.
+- Wähle in der Werkzeugleiste **Neuen Canvas erstellen** ( ![[lucide-layout-dashboard.svg#icon]] ), um einen Canvas im selben Ordner zu erstellen wie die aktive Notiz.
 
 ## Karten hinzufügen
 

@@ -30,7 +30,7 @@ Um einen CSS-Baustein in Obsidian ![[obsidian-icon-smartphone.svg#icon]] **Mobil
 
 1. Öffne einen Dateimanager und navigiere zu deinem Vault. Der Speicherort deines Vaults wird dir angezeigt, wenn du in der *Vault-Verwaltung* auf den Vault tippst.
 2. Öffne den [[Konfigurationsordner|Konfigurationsordner]] und erstelle einen Ordner `snippets`, falls dieser noch nicht existiert.
-3. Kopiere deinen CSS-Baustein in diesen Ordner. %%Add your CSS snippet to this folder.%%
+3. Kopiere deinen CSS-Baustein in diesen Ordner.
 4. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ) in Obsidian.
 5. Tippe auf **Darstellung** und scrolle bis ganz nach unten.
 6. Im Abschnitt **CSS-Bausteine** tippe auf **Bausteine neu laden** ( ![[lucide-refresh-cw.svg#icon]] ), damit dein Snippet in der Liste erscheint.
@@ -43,7 +43,7 @@ Weiterhin kannst du
 
 Ist ein CSS-Baustein aktiviert, wird Obsidian Änderungen daran automatisch erkennen und anwenden, sobald du die CSS-Datei speicherst.
 
-> [!TIP] Du musst Obsidian nicht neu starten, damit die Änderungen wirksam werden. Möglicherweise musst du jedoch über die [[Befehlspalette|Befehlspalette]] die **Anwendung neu laden ohne zu speichern**, um Änderungen im aktuellen Thema bzw. der aktuellen Notiz zu sehen.
+> [!TIP] Du musst Obsidian nicht neu starten, damit die Änderungen wirksam werden. Möglicherweise musst du jedoch über die [[Befehlspalette|Befehlspalette]] die **Anwendung neu laden ohne zu speichern**, um Änderungen im aktiven Thema bzw. der aktiven Notiz zu sehen.
 
 ## CSS für Obsidian schreiben
 
