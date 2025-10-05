@@ -7,15 +7,15 @@ mobile: false
 permalink: community-plugins
 ---
 
-Erfahre, wie du Obsidian erweitern kannst mit Plugins, die von unserer Community erstellt wurden. Verwende Erweiterungen, um Obsidian an deine speziellen Bedürfnisse anzupassen, wie bspw. die Unterstützung zusätzlicher Dateiformate oder die Integration von Drittanbieter-Diensten.
+Erfahre, wie du Obsidian erweitern kannst mit Plugins, die von unserer Community erstellt wurden. Verwende Erweiterungen, um Obsidian an deine speziellen Bedürfnisse anzupassen, wie bspw. die Unterstützung zusätzlicher Dateitypen oder die Integration von Drittanbieter-Diensten.
 
 > [!warning] Achtung
-> Externe Erweiterungen führen Drittanbieter-Code in deinem Namen aus, der potentiell Schaden verursachen kann. Um mehr darüber zu erfahren, was das Obsidian-Team unternimmt, um der Ausführung schädlicher Plugins vorzubeugen, siehe [[Plugin security]].
+> Externe Erweiterungen führen Drittanbieter-Code in deinem Namen aus, der potentiell Schaden verursachen kann. Um mehr darüber zu erfahren, was das Obsidian-Team unternimmt, um der Ausführung schädlicher Plugins vorzubeugen, siehe [[Plugin-Sicherheit]].
 
 ## Community-Plugins durchsuchen
 
 1. In den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) öffne **Externe Erweiterungen**.
-2. Klicke **Community-Erweiterungen aktivieren**. Für weitere Informationen, siehe [[Plugin security#Restricted mode|Restricted Mode]].
+2. Klicke **Community-Erweiterungen aktivieren**. Für weitere Informationen, siehe [[Plugin-Sicherheit#Eingeschränkter Modus|Restricted Mode]].
 3. Wähle **Durchsuchen** für eine Auflistung aller verfügbaren Community-Erweiterungen.
 
 Verwende das Suchfeld, um die Erweiterungen nach Name, Autor oder Beschreibung zu filtern.
@@ -24,7 +24,7 @@ Du kannst die verfügbaren Erweiterungen auch in deinem Browser durchsuchen, ind
 
 ## Externe Erweiterung installieren
 
-Um eine Community-Erweiterung zu installieren, musst du zunächst den [[Plugin security#Restricted mode|Eingeschränkten Modus]] deaktivieren.
+Um eine Community-Erweiterung zu installieren, musst du zunächst den [[Plugin-Sicherheit#Eingeschränkter Modus|Eingeschränkten Modus]] deaktivieren.
 
 1. In den **Einstellungen** ( ![[lucide-settings.svg#icon]] ) öffne **Externe Erweiterungen**.
 2. Wähle **Durchsuchen**, um die verfügbaren Plugins zu erkunden.
@@ -48,13 +48,13 @@ Aus Sicherheitsgründen werden externe Erweiterungen nicht automatisch aktualisi
 Um alle Erweiterungen gleichzeitig zu aktualisieren:
 
 1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
-2. Unter **Externe Erweiterungen → Aktuelle Erweiterungen** klicke **Nach Aktualisierungen suchen**.
+2. Unter **Externe Erweiterungen → Installierte Erweiterungen** klicke **Nach Aktualisierungen suchen**.
 3. Falls Aktualisierungen verfügbar sind, klicke **Alle aktualisieren**.
 
 Um eine bestimmte Erweiterung zu aktualisieren:
 
 1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
-2. Unter **Externe Erweiterungen → Aktuelle Erweiterungen** klicke **Nach Aktualisierungen suchen**.
+2. Unter **Externe Erweiterungen → Installierte Erweiterungen** klicke **Nach Aktualisierungen suchen**.
 3. Unter **Installierte Erweiterungen** klicke **Aktualisieren** neben dem Plugin, das du aktualisieren möchtest.
 
 ## Externe Erweiterung deinstallieren

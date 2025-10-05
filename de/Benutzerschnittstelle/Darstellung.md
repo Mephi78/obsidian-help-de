@@ -23,7 +23,7 @@ Um das Anwendungssymbol für Obsidian zu ändern:
 1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
 2. Wähle **Darstellung** und scrolle nach unten zum Abschnitt **Erweitert**.
 3. Unter **Benutzerdefiniertes App-Symbol** klicke **Auswählen** .
-4. Wähle die gewünschte Symboldatei aus deinem Dateisystem.  Unterstützte Dateiformate: `.icns`, `.ico`, `.png`, `.svg`.
+4. Wähle die gewünschte Symboldatei aus deinem Dateisystem.  Unterstützte Dateitypen: `.icns`, `.ico`, `.png`, `.svg`.
 5. Klicke **Neu starten**.
 6. Nach dem Neustart von Obsidian sollte das neue Symbol in der Taskleiste zu sehen sein.
 

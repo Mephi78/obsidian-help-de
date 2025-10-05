@@ -2,13 +2,13 @@
 aliases:
   - Fortgeschrittene Themen/Dateien löschen
   - Gewusst wie/Notizen umbenennen
-description: Erfahre, wie du Dateien und Verzeichnisse in deinem Vault verwalten kannst.
+description: Erfahre, wie du Dateien und Ordner in deinem Vault verwalten kannst.
 mobile: false
 permalink: notizen-verwalten
 publish: true
 ---
 
-Dateien und Verzeichnisse lassen sich auf verschiedene Arten verwalten, indem du [[Tastenkürzel|Tastenkürzel]], [[Befehlspalette|Befehle]] oder den [[Dateiexplorer|Dateiexplorer]] verwendest.
+Dateien und Ordner lassen sich auf verschiedene Arten verwalten, indem du [[Tastenkürzel|Tastenkürzel]], [[Befehlspalette|Befehle]] oder den [[Dateiexplorer|Dateiexplorer]] verwendest.
 
 ## Neue Notiz erstellen
 

@@ -26,7 +26,7 @@ For conflicts in Obsidian settings, such as plugin settings, the process is diff
 
 ###  Sync deleted a note I just created on two devices
 
-Obsidian Sync typically attempts to [[#Conflict resolution|resolve conflicts]] by merging conflicting notes across devices. However, issues can occur for users who _automatically generate_ or _modify notes_ on startup, such as with [[Tägliche Notizen]] or when using the community plugin [Templater](https://github.com/SilentVoid13/Templater).
+Obsidian Sync typically attempts to [[#Conflict resolution|resolve conflicts]] by merging conflicting notes across devices. However, issues can occur for users who _automatically generate_ or _modify notes_ on startup, such as with [[Tägliche Notiz]] or when using the community plugin [Templater](https://github.com/SilentVoid13/Templater).
 
 If a note is created locally on one device and, within a couple of minutes, Sync downloads a remote version of that same note, Sync will retain the remote version without merging the two. In this case, you can recover the local version using [[Datenwiederherstellung]].
 

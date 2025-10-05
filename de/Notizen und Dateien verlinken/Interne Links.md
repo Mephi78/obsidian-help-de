@@ -50,7 +50,7 @@ Der Bearbeitungsmodus bietet folgende Möglichkeiten zum Erstellen von Links:
 
 ![[Schnellauswahl#^search-autocomplete-large]]
 
-Du kannst jede [[Dateiformate|unterstützte Datei]] verlinken, jedoch musst du bei allen Dateien, die keine Markdown-Dateien sind, die Dateiendung mit angeben, bspw. `[[Abbildung 1.png]]`.
+Du kannst jede [[Dateitypen|unterstützte Datei]] verlinken, jedoch musst du bei allen Dateien, die keine Markdown-Dateien sind, die Dateiendung mit angeben, bspw. `[[Abbildung 1.png]]`.
 
 > [!tip] Setzt du ein Ausrufezeichen (!) vor einen Link, wird der Inhalt der verlinkten Datei direkt [[Dateien einbetten|eingebettet]].
 
@@ -135,6 +135,9 @@ Hänge bspw. `^zitat-des-tages` ans Ende eines Blockes:
 ```
 
 Diesen Block kannst du nun verlinken mit `[[2023-01-01#^zitat-des-tages]]`.
+
+> [!hint] Hinweis
+> Achte darauf, dem `^blockbezeichner` immer ein Leerzeichen voranzustellen, wenn du diesen direkt am Ende einer Zeile anhängst.
 
 > [!warning] Interoperabilität
 > Blockreferenzen sind spezifisch für Obsidian und gehören nicht zum Markdown-Standard. Links, die Blockreferenzen enthalten, funktionieren außerhalb von Obsidian nicht.

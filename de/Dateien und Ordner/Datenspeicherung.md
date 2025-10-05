@@ -29,7 +29,7 @@ Standardmäßig werden bei den meisten Betriebssystemen Ordner, die mit einem Pu
 - **GNU/Linux:** Gib im Terminal `ls -a` ein, um versteckte Dateien anzuzeigen.
 
 > [!tip] `.obsidian` unter Git
-> Die Dateien `.obsidian/workspace.json` und `.obsidian/workspaces.json` speichern das aktuelle Workspace-Layout und werden jeweils aktualisiert, sobald du eine neue Datei öffnest. Wenn du [Git](https://git-scm.com) verwendest, um deinen Vault zu verwalten, möchtest du diese Dateien möglicherweise in der `.gitignore` hinzufügen.
+> Die Dateien `.obsidian/workspace.json` und `.obsidian/workspaces.json` speichern das aktive Workspace-Layout und werden jeweils aktualisiert, sobald du eine neue Datei öffnest. Wenn du [Git](https://git-scm.com) verwendest, um deinen Vault zu verwalten, möchtest du diese Dateien möglicherweise in der `.gitignore` hinzufügen.
 
 ## Globale Einstellungen
 
@@ -45,7 +45,7 @@ Globale Einstellungen speichert Obsidian in einem Systemverzeichnis. Der Speiche
 
 IndexedDB ist eine client-seitige Low-Level-Datenbank, die Obsidian als Backend-Speicher verwendet. Sie wird benötigt, um [[Obsidian Sync/Einführung|Obsidian Sync]]-Verbindungen aufrecht zu erhalten und bewahrt den [[#Metadaten-Cache]], wenn die Anwendung geschlossen wird.
 
-> [!warning] Auf Apple-Geräten mit aktiviertem [Lockdown-Modus](https://support.apple.com/de-de/105120), von dem Obsidian nicht ausgenommen ist, kann die Anwendung nicht in diese Datenbank speichern. Der Vault wird dann bei jedem Start neu indiziert.
+> [!warning] Auf Apple-Geräten mit aktiviertem [Blockierungsmodus](https://support.apple.com/de-de/105120), von dem Obsidian nicht ausgenommen ist, kann die Anwendung nicht in diese Datenbank speichern. Der Vault wird dann bei jedem Start neu indiziert.
 
 ### Metadaten-Cache
 

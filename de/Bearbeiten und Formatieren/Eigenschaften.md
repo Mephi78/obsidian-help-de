@@ -225,9 +225,9 @@ Die Datumsauswahl verwendet das Standard-Datumsformat deines Betriebssystems. Du
 > 
 > ![[Mac-OS-DateTime.png|450]]
 
-Wenn die Standarderweiterung [[Tägliche Notizen|Tägliche Notizen]] aktiviert ist, fungieren Eigenschaften vom Typ Datum zusätzlich als interner Link zur täglichen Notiz für das entsprechende Datum.
+Wenn die Standarderweiterung [[Tägliche Notiz|Tägliche Notiz]] aktiviert ist, fungieren Eigenschaften vom Typ Datum zusätzlich als interner Link zur täglichen Notiz für das entsprechende Datum.
 
-![[Tägliche Notizen#^daily-notes-date]]
+![[Tägliche Notiz#^daily-notes-date]]
 
 ### JSON-Eigenschaften
 

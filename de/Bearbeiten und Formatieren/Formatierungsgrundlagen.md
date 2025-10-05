@@ -127,21 +127,6 @@ Du kannst Text auch mit Hilfe von  [[Tastenkürzel zum Bearbeiten|Editor-Shortcu
 
 Erfahre unter [[#Escape-Zeichen]], wie du die Anzeige der speziellen Formatierungszeichen erzwingen kannst, ohne dass die Formatierungsfunktion ausgelöst wird.
 
-%%Formatting can be forced to display in plain text by adding a backslash `\` in front of it.
-
-\*\*This line will not be bold\*\*
-
-```markdown
-\*\*This line will not be bold\*\*
-```
-
-\**This line will be italic and show the asterisks*\*
-
-```markdown
-\**This line will be italic and show the asterisks*\*
-```
-%%
-
 ## Interne Links
 
 Obsidian unterstützt zwei Formate für [[Interne Links|Interne Links]] zwischen Notizen:

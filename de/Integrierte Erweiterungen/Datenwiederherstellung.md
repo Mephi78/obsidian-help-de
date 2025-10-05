@@ -43,7 +43,7 @@ Die Sicherungskopien für die Datenwiederherstellung benötigen in der Regel wen
 
 ## Einschränkungen
 
-- **Apple Lockdown-Modus**: Die Funktion ist auf Apple-Geräten mit aktiviertem [Lockdown-Modus](https://support.apple.com/en-us/105120) nicht verfügbar, wenn Obsidian davon nicht ausgenommen ist.
+- **Apple Blockierungsmodus**: Die Funktion ist auf Apple-Geräten mit aktiviertem [Blockierungsmodus](https://support.apple.com/en-us/105120) nicht verfügbar, wenn Obsidian davon nicht ausgenommen ist.
 - **Dateitypen**: Mit der Datenwiederherstellung können nur `.md` und `.canvas` Dateien wiederhergestellt werden.
 - **Vault-Speicherort**: Wenn du deinen Vault ohne Verwendung der [[Vaults verwalten#Vault in einen anderen Ordner verschieben|Vault-Verwaltung]] verschiebst, sind vorhandene Snapshots möglicherweise nicht mehr zugänglich.
 

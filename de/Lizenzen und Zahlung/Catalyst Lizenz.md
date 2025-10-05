@@ -6,11 +6,11 @@ permalink: catalyst
 
 Die Catalyst Lizenz ermöglicht dir Zugang zu Beta-Versionen. Um die Weiterentwicklung von Obsidian mit dem [Einmalkauf einer Catalyst Lizenz](https://obsidian.md/buy/catalyst) zu unterstützen, benötigst du ein Obsidian-Konto.
 
-%%Benefits include:
+Vorteile:
 
-- Early access to [[#Frühzeitigen Zugang zu Versionen aktivieren|new versions]] of Obsidian
-- Access to exclusive [[#Unseren Insider-Kanälen beitreten|Insider channels]].
-- Exclusive [[#Forum-Abzeichen erhalten|forum badges]] and [[#Discord-Abzeichen erhalten|Discord badges]].%%
+- Frühzeitiger Zugang zu [[#Frühzeitigen Zugang zu Versionen aktivieren|neuen Obsidian-Versionen]]
+- Zutritt zu exklusiven [[#Unseren Insider-Kanälen beitreten|Insider-Kanälen]].
+- Exklusive [[#Forum-Abzeichen erhalten|Forum-Abzeichen]] und [[#Discord-Abzeichen erhalten|Discord-Abzeichen]].
 
 ## Catalyst-Stufen
 

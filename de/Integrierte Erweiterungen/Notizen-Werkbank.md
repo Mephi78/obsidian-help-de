@@ -19,14 +19,14 @@ Um die aktive Notiz mit einer anderen in deinem Vault zusammenzuführen:
 **Dateiexplorer**
 
 1. Öffne mit Rechtsklick auf die Notiz, die du zusammenführen möchtest, das Kontextmenü.
-2. Klicke **Verbinde gesamte Datei mit...**.
+2. Klicke **Verbinde gesamte Notiz mit...**.
 3. Wähle die Notiz, mit der die erste zusammengeführt werden soll.
 4. Bestätige die Sicherheitsabfrage über die Schaltfläche **Verbinden**.
 
 **Befehlspalette**
 
 1. Öffne die [[Befehlspalette]].
-2. Wähle **Notizen-Werkbank: Verbinde aktuelle Datei mit einer anderen Datei...**.
+2. Wähle **Notizen-Werkbank: Verbinde aktive Notiz mit einer anderen Notiz...**.
 3. Wähle die Notiz, mit der du die aktive zusammenführen möchtest.
 4. Bestätige die Sicherheitsabfrage über die Schaltfläche **Verbinden**.
 
@@ -47,14 +47,14 @@ Um Text in eine neue Notiz zu extrahieren:
 
 1. Markiere im **Bearbeitungsmodus** den Text, den du extrahieren möchtest.
 2. Öffne mit Rechtsklick auf die Selektion das Kontextmenü.
-3. Wähle **Aktuelle Auswahl extrahieren...**.
+3. Wähle **Aktive Auswahl extrahieren...**.
 4. Wähle die Notiz, in die der Text extrahiert werden soll.
 
 **Befehlspalette**
 
 1. Markiere im **Bearbeitungsmodus** den Text, den du extrahieren möchtest.
 2. Öffne die [[Befehlspalette]].
-3. Wähle den Befehl **Notizen-Werkbank: Aktuelle Auswahl extrahieren...**.
+3. Wähle den Befehl **Notizen-Werkbank: Aktive Auswahl extrahieren...**.
 4. Wähle die Notiz, in die der Text extrahiert werden soll.
 
 > [!tip] Tipp

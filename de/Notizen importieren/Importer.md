@@ -1,17 +1,17 @@
 ---
 aliases:
   - Plugins/importer
-description: Importer helps you migrate to Obsidian from various apps and formats.
+description: Importer hilft dir bei der Migration von verschiedenen Anwendungen und Formaten nach Obsidian.
 mobile: true
 permalink: plugins/importer
 publish: true
 ---
-#TODO
-Importer helps you migrate to Obsidian from various apps and formats. See the [[Importiere Notizen]] guide for detail.
 
-Importer is an official [[Externe Erweiterungen|Community plugin]] made by the Obsidian team, with contributions to [our open source code](https://github.com/obsidianmd/obsidian-importer). You can contribute by adding additional import formats. [See contribution guide.](https://github.com/obsidianmd/obsidian-importer/blob/master/CONTRIBUTING.md)
+Die Erweiterung *Importer* hilft bei der Migration deiner Notizen aus verschiedenen anderen Anwendungen und Formaten nach Obsidian. Detaillierte Anleitungen findest du unter [[Importiere Notizen]].
 
-## Install Importer
+*Importer* ist ein offizielles, vom Obsidian-Team gemeinsam mit euch entwickeltes [[Externe Erweiterungen|Community-Plugin]]. Du kannst an unserem [Open Source Projekt](https://github.com/obsidianmd/obsidian-importer) mitwirken, indem du z.B. weitere Importformate hinzufügst. Siehe dazu unseren [Contribution Guide.](https://github.com/obsidianmd/obsidian-importer/blob/master/CONTRIBUTING.md).
 
-1. Follow instructions in [[Externe Erweiterungen#Install a community plugin]]
-2. Download and enable [Importer](obsidian://show-plugin?id=obsidian-importer) from the list
+## Importer installieren
+
+1. Folge der Anleitung unter [[Externe Erweiterungen#Externe Erweiterung installieren]].
+2. Wähle [Importer](obsidian://show-plugin?id=obsidian-importer) aus der Plugin-Liste, installiere und aktiviere die Erweiterung.
