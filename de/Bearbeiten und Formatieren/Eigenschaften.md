@@ -22,7 +22,7 @@ Es gibt verschiedene Wege, einer Notiz eine Eigenschaft hinzuzufügen:
 - Verwende den [[Befehlspalette|Befehl]] **Dateieigenschaften hinzufügen**.
 - Verwende das [[Tastenkürzel|Tastenkürzel]] **`Strg/Cmd + ;`** (oder auf der deutschen Tastatur **`Strg + Ü`**).
 - Wähle **Dateieigenschaften hinzufügen** über das Drei-Punkte-Menü ( ![[lucide-ellipsis-vertical.svg#icon]] ) **Weitere Optionen** rechts oben in deiner Notiz.
-- Beginne deine Notiz mit `---`.
+- Beginne deine Notiz mit drei Bindestrichen (`---`).
 
 Sobald du eine Eigenschaft hinzufügst, erscheint am Anfang der Notiz eine Zeile mit dem *Eigenschaftsnamen* und dem *Eigenschaftswert*.
 
@@ -36,20 +36,17 @@ Zusätzlich zum Namen und Wert haben Eigenschaften auch einen *Typ*. Der Eigensc
 
 Obsidian unterstützt die folgenden Eigenschaftstypen:
 
-- **[[#^text-list|Text]]**
-- **[[#^text-list|Liste]]**
-- **[[#^numbers|Zahl]]**
-- **[[#^checkbox|Checkbox]]**
-- **[[#^date-time|Datum]]**
-- **[[#^date-time|Datum & Uhrzeit]]**
+- [[#Text]]
+- [[#Liste]]
+- [[#Zahl]]
+- [[#Checkbox]]
+- [[#Datum]]
+- [[#Datum und Uhrzeit]]
+- [[#Tag]]
 
 Sobald einem Eigenschaftsnamen ein Eigenschaftstyp zugewiesen wurde, verwenden alle Eigenschaften im Vault mit demselben Namen auch denselben Typ.
 
 ## Erweiterte Einsatzmöglichkeiten
-
-### Links
-
-Eigenschaften vom Typ **Text** und **Liste** kannst du als Werte URLs und [[Interne Links|interne Links]] zuweisen mittels `[[Link]]` Syntax.
 
 ### Nach Eigenschaften suchen
 
@@ -84,6 +81,7 @@ Einige Funktionen werden derzeit von Obsidian nicht unterstützt:
 - **Verschachtelung**: Um verschachtelte Eigenschaften anzuzeigen, empfehlen wir die Verwendung der [[Ansichten und Modi#Quellcode-Ansicht|Quellcode-Ansicht]].
 - **Stapelverarbeitung**: Zur Massenbearbeitung von Eigenschaften außerhalb der [[Eigenschaften-Ansicht|Eigenschaften-Ansicht]] empfehlen wir die Verwendung von Werkzeugen wie VSCode, Batch-Scripten oder externen Erweiterungen.
 - **Markdown in Eigenschaften**: Dies ist eine absichtliche Einschränkung, da Eigenschaften für kleine, atomare Informationen gedacht sind, die sowohl für den Menschen als auch maschinenlesbar sind.
+
 ## Tastenkürzel
 
 ### Eigenschaft hinzufügen
@@ -149,38 +147,43 @@ name: wert
 
 Die Reihenfolge der Schlüssel-Wert-Paare spielt keine Rolle, jedoch muss jeder Schlüssel innerhalb einer Notiz eindeutig sein. Du kannst bspw. nicht mehr als eine `tags`-Eigenschaft definieren.
 
-Werte können Text, Zahlen, `true` oder `false` und sogar Wertesammlungen (Listen) beinhalten.
-^text-list
+Werte können [[#Text|Text]], [[#Zahl|Zahlen]], [[#Checkbox|Checkboxen]], [[#Datum|Datumsangaben]], [[#Datum & Uhrzeit|Zeitangaben]] oder Wertesammlungen ([[#Liste|Listen]]) beinhalten.
+
+### Text
+
+Eigenschaften vom Typ **Text** enthalten eine einzelne Textzeile. Markdown-Formatierung wird darin nicht gerendert. Hashtags (`#`) in Eigenschaftswerten vom Typ Text erzeugen keine [[Tags]].
+
+Text-Eigenschaften können URLs und [[Interne Links]] mit der `[[Link]]` Syntax enthalten. Interne Links als Eigenschaftswerte müssen in Anführungszeichen eingeschlossen werden. Obsidian fügt diese automatisch hinzu, wenn du Links manuell zu einer Notiz hinzufügst. Aber denke daran, die Anführungsstriche in Vorlagen eigenständig hinzuzufügen.
 
 ```yaml
 ---
 titel: Krieg der Sterne # eine Text-Eigenschaft
-jahr: 1977
-favorit: true
+link: "[[Episode IV]]"
+url: https://www.example.com
+---
+```
+
+### Liste
+
+Eigenschaften vom Typ **Liste** enthalten mehrere Werte. Jeder Wert steht in einer eigenen Zeile mit vorangestelltem Anstrich (`-`) und einem Leerzeichen.
+
+Listenwerte können Text, Zahlen oder interne Links enthalten. [[Interne Links]] als Listen-Eigenschaften müssen in Anführungszeichen eingeschlossen werden.
+
+```yaml
+---
 schauspieler: # eine Listen-Eigenschaft
   - Mark Hamill
   - Harrison Ford
   - Carrie Fisher
----
-```
-
-### Links
-
-In **Text**- und **Listen**-Eigenschaften müssen [[Interne Links|interne Links]] in Anführungszeichen eingeschlossen werden. Obsidian fügt diese automatisch hinzu, wenn du Links manuell zu einer Notiz hinzufügst. Aber denke daran, die Anführungsstriche in Vorlagen eigenständig hinzuzufügen.
-
-```yaml
----
-link: "[[Link]]" 
 linkliste: 
   - "[[Link]]" 
   - "[[Link2]]"
 ---
 ```
 
-### Zahlen
+### Zahl
 
 Eigenschaften vom Typ **Zahl** müssen immer Zahlenwerte enthalten, keine Ausdrücke mit Operatoren. Es werden Ganzzahl- und Dezimalzahlwerte unterstützt.
-^numbers
 
 ```yaml
 ---
@@ -189,27 +192,24 @@ menge: 3.14
 ---
 ```
 
-### Checkboxen
+### Checkbox
 
-Eigenschaften vom Typ **Checkbox** enthalten den Wert `true` oder `false`. Ein leerer Wert wird als `false` interpretiert. In der Live-Vorschau wird die Eigenschaft als Kontrollkästchen repräsentiert.
-^checkbox
+Eigenschaften vom Typ **Checkbox** enthalten den Wert `true` oder `false`. In der Live-Vorschau wird die Eigenschaft als Kontrollkästchen repräsentiert.
 
 ```yaml
 ---
 favorit: true
 gelesen: false
-besitz: # wird als false interpretiert
+besitz: # leerer Wert, wird als false interpretiert
 ```
 
-### Datumsangaben
+### Datum
 
-Eigenschaften vom Typ **Datum** oder **Datum & Uhrzeit** werden im folgenden Format gespeichert: 
-^date-time
+Eigenschaften vom Typ **Datum** werden im folgenden Format gespeichert:
 
 ```yaml
 ---
 datum: 2020-08-21
-uhrzeit: 2020-08-21T10:30:00
 ---
 ```
 
@@ -228,6 +228,34 @@ Die Datumsauswahl verwendet das Standard-Datumsformat deines Betriebssystems. Du
 Wenn die Standarderweiterung [[Tägliche Notiz|Tägliche Notiz]] aktiviert ist, fungieren Eigenschaften vom Typ Datum zusätzlich als interner Link zur täglichen Notiz für das entsprechende Datum.
 
 ![[Tägliche Notiz#^daily-notes-date]]
+
+### Datum und Uhrzeit
+
+Eigenschaften vom Typ **Datum und Uhrzeit** enthalten eine Datums- und Zeitangabe und werden im folgenden Format gespeichert:
+
+```yaml
+---
+uhrzeit: 2020-08-21T10:30:00
+---
+```
+
+Wie bei [[#Datum|Datumsangaben]] verwendet der Auswahldialog für Zeitangaben das Standard-Zeiformat deines Betriebssystems. Du kannst es in den Systemeinstellungen anpassen.
+
+### Tag
+
+Der Typ **Tag** ist ein spezieller Eigenschaftstyp, der ausschließlich  von der Eigenschaft `tags` verwendet wird. Der Typ kann keiner anderen Eigenschaft zugewiesen werden.
+
+Tags werden in den Eigenschaften als Liste formatiert, wobei jeder Tag in einer eigenen Zeile steht mit vorangestelltem Anstrich (`-`) und Leerzeichen. Beachte, dass der Hashtag (`#`) in dieser Auflistung weggelassen wird.
+
+```yaml
+---
+tags: 
+  - journal
+  - projekt
+  - entwurf
+---
+```
+
 
 ### JSON-Eigenschaften
 
@@ -260,7 +288,7 @@ Folgende Standard-Eigenschaften können mit [[Obsidian Publish/Einführung|Obsid
 
 | Eigenschaft   | Beschreibung                                                                                                              |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| `publish`     | Siehe [[Publish your content#Automatically select notes to publish\|Notizen automatisch zur Veröffentlichung auswählen]]. |
+| `publish`     | Siehe [[Publish your content#Automatically select data to publish\|Notizen automatisch zur Veröffentlichung auswählen]]. |
 | `permalink`   | Siehe [[Permalinks\|Permalinks]].                                                                                         |
 | `description` | Siehe [[Social media link previews#Description\|Beschreibung]].                                                           |
 | `image`       | Siehe [[Social media link previews#Image\|Bild]].                                                                         |
