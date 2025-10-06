@@ -12,7 +12,7 @@
 - Obsidian Mobile
 - Glossar
 
-### Notizen Importieren
+### Notizen importieren
 - *DEFERRED*
 
 ### Benutzerschnittstelle
@@ -57,9 +57,7 @@
 
 
 ### Integrierte Erweiterungen
-- Bases
-  - Einführung
-  - *DEFERRED*
+
 
 - Übersicht
 - Anzahl der Wörter
@@ -89,16 +87,27 @@
 - Workspaces
 - Zufällige Notiz
 
+### Bases
+  - Einführung in Bases
+  - Erstelle eine Base
+  - Sichten
+  - Bases Syntax
+  - Funktionen
+  - Layouts
+    - Tabelle
+    - Liste
+    - Karten
+    - Landkarte
 ### Obsidian Publish
-- Einführung
+- Einführung in Obsidian Publish
 - *DEFERRED*
 
 ### Obsidian Sync
-- Einführung
+- Einführung in Obsidian Sync
 - *DEFERRED*
 
 ### Obsidian Web Clipper
-- Einführung
+- Einführung in Obsidian Web Clipper
 - *DEFERRED*
 
 ### Obsidian erweitern und anpassen
@@ -117,9 +126,9 @@
 ### Lizenzen und Zahlung
 - Einführung
 - Catalyst Lizenz
-- Ermäßigungen
-- Gutschriften
-- Rückerstattungen
+- Ermäßigung
+- Gutschrift
+- Rückerstattung
 - Umsatzsteuer
 
 ### Teams
