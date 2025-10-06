@@ -59,7 +59,7 @@
 ### Integrierte Erweiterungen
 
 
-- Übersicht
+- Standarderweiterungen
 - Anzahl der Wörter
 - Audio-Rekorder
 - Ausgehende Links
