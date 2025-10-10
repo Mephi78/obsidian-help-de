@@ -26,7 +26,7 @@ Das ist ein weiterer Absatz.
 Eine Leerzeile im Text erzeugt standardmäßig einen Absatz in Markdown.
 
 > [!tip] Mehrere Leerzeichen
-> Mehrere aufeinanderfolgende Leerzeichen innerhalb oder zwischen Absätzen werden in der [[Ansichten und Modi#Leseansicht|Leseansicht]] oder der [[Obsidian Publish/Einführung|veröffentlichten Webseite]] zu einem einzigen Leerzeichen zusammengefasst. Dasselbe gilt für mehrere Leerzeilen.
+> Mehrere aufeinanderfolgende Leerzeichen innerhalb oder zwischen Absätzen werden in der [[Ansichten und Modi#Leseansicht|Leseansicht]] oder der [[Einführung in Obsidian Publish|veröffentlichten Webseite]] zu einem einzigen Leerzeichen zusammengefasst. Dasselbe gilt für mehrere Leerzeilen.
 > 
 > ```md
 > Mehrere          aufeinanderfolgende          Leerzeichen

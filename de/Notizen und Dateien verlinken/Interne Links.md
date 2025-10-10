@@ -90,9 +90,9 @@ Mit `[[##` sucht allgemein nach Überschriften im gesamten Vault, während `[[
 
 Ein Block ist eine Texteinheit in einer Notiz, wie ein Absatz, Zitatblock oder Listenelement.
 
-Einen Block kannst du verlinken, indem du ans Ende eines Links auf eine Notiz `#^` gefolgt von einem eindeutigen Bezeichner anhängst, bspw. `[[2023-01-01#^37066d]]`. Sobald du das Hochzeichen (`^`) eingibst, erscheint eine Liste zur Auswahl von verfügbaren Blöcken.
+Einen Block kannst du verlinken, indem du ans Ende eines Links auf eine Notiz einen Hashtag gefolgt von einem Hochzeichen (`#^`) und einem eindeutigen Bezeichner anhängst, bspw. `[[2023-01-01#^37066d]]`. Sobald du das Hochzeichen (`^`) eingibst, erscheint eine Liste zur Auswahl von verfügbaren Blöcken.
 
-Setze bei *einfachen Absätzen* den Blockbezeichner ans Zeilenende:
+Setze bei *einfachen Absätzen* den Blockbezeichner mit vorangestelltem Leerzeichen ans Zeilenende:
 
 ```md
 Der flinke violette Edelstein flitzt mit rasender Geschwindigkeit durch den Absatz. Mit einem Stift in der einen Hand und einer Büroklammer in der anderen arbeitet Gemmy daran, die Welt des Notizen-Schreibens zu einem glücklicheren Ort zu machen. ^37066d
@@ -121,12 +121,12 @@ Bei *spezifischen Zeilen innerhalb einer Liste* kann der Blockbezeichner direkt 
 
 **Blöcke im gesamten Vault suchen**
 
-Um im gesamten Vault nach einem Block zu suchen, den du verlinken möchtest, kannst du zwei Hochzeichen `[[^^` verwenden. Allerdings dürfte die Ergebnisliste sehr viel länger sein, als bei der Suche nach [[#Sprungmarken erstellen|verlinkbaren Überschriften]], daher empfiehlt sich auch hier die Eingabe eines Suchbegriffs nach den Hochzeichen.
+Um im gesamten Vault nach einem Block zu suchen, den du verlinken möchtest, kannst du zwei Hochzeichen `[[^^` eingeben. Allerdings dürfte die Ergebnisliste sehr viel länger sein, als bei der Suche nach [[#Sprungmarken erstellen|verlinkbaren Überschriften]], daher empfiehlt sich auch hier die Eingabe eines Suchbegriffs nach den Hochzeichen.
 
 > [!info]- Abbildung: Sprungmarken zu Blöcken suchen
 > ![[link-block-heading.png#interface]]
 
-Du kannst auch menschenlesbare Blockbezeichner erstellen, indem du ein Hochzeichen, gefolgt von dem Bezeichner eingibst. Blockbezeichner können nur aus lateinischen Buchstaben, Zahlen und Bindestrichen bestehen.
+Du kannst auch menschenlesbare Blockbezeichner erstellen, indem du ein Hochzeichen (`^`), gefolgt von dem Bezeichner eingibst. Blockbezeichner können nur aus lateinischen Buchstaben, Zahlen und Bindestrichen bestehen.
 
 Hänge bspw. `^zitat-des-tages` ans Ende eines Blockes:
 

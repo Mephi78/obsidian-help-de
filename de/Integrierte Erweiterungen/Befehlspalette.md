@@ -2,7 +2,7 @@
 permalink: plugins/befehlspalette
 ---
 
-Mit der [[Übersicht|Standarderweiterung]] *Befehlspalette* kannst du jeden Befehl direkt über die Tastatur ausführen. Du kannst dir darüber auch alle verfügbaren Befehle und zugewiesenen [[Tastenkürzel|Tastenkürzel]] anzeigen lassen.
+Mit der [[Standarderweiterungen|Standarderweiterung]] *Befehlspalette* kannst du jeden Befehl direkt über die Tastatur ausführen. Du kannst dir darüber auch alle verfügbaren Befehle und zugewiesenen [[Tastenkürzel|Tastenkürzel]] anzeigen lassen.
 
 Um einen Befehl über die Befehlspalette auszuführen:
 

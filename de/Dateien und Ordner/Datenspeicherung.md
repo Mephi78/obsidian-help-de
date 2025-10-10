@@ -11,7 +11,7 @@ Obsidian speichert deine Notizen als [[Formatierungsgrundlagen|Markdown-formatie
 
 Da Notizen einfache Textdateien sind, kannst du sie mit einem beliebigen anderen Texteditor oder Dateimanager bearbeiten und verwalten. Obsidian aktualisiert deinen Vault automatisch, auch bei externen Änderungen.
 
-Du kannst einen Vault überall dort erstellen, wo es dein Betriebssystem erlaubt. Obsidian synchronisiert sich mit [[Obsidian Sync/Einführung|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git und vielen anderen Drittanbieter-Diensten.
+Du kannst einen Vault überall dort erstellen, wo es dein Betriebssystem erlaubt. Obsidian synchronisiert sich mit [[Einführung in Obsidian Sync|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git und vielen anderen Drittanbieter-Diensten.
 
 Du kannst mehrere Ordner als einzelne Vaults öffnen, z.B. um Notizen für die Arbeit und für die Schule zu trennen.
 
@@ -43,7 +43,7 @@ Globale Einstellungen speichert Obsidian in einem Systemverzeichnis. Der Speiche
 
 ## IndexedDB
 
-IndexedDB ist eine client-seitige Low-Level-Datenbank, die Obsidian als Backend-Speicher verwendet. Sie wird benötigt, um [[Obsidian Sync/Einführung|Obsidian Sync]]-Verbindungen aufrecht zu erhalten und bewahrt den [[#Metadaten-Cache]], wenn die Anwendung geschlossen wird.
+IndexedDB ist eine client-seitige Low-Level-Datenbank, die Obsidian als Backend-Speicher verwendet. Sie wird benötigt, um [[Einführung in Obsidian Sync|Obsidian Sync]]-Verbindungen aufrecht zu erhalten und bewahrt den [[#Metadaten-Cache]], wenn die Anwendung geschlossen wird.
 
 > [!warning] Auf Apple-Geräten mit aktiviertem [Blockierungsmodus](https://support.apple.com/de-de/105120), von dem Obsidian nicht ausgenommen ist, kann die Anwendung nicht in diese Datenbank speichern. Der Vault wird dann bei jedem Start neu indiziert.
 

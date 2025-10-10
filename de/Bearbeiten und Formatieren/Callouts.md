@@ -10,7 +10,7 @@ publish: true
 
 Verwende *Callouts*, um deine Notizen mit Randinformationen zu versehen, ohne den Lesefluss zu unterbrechen oder um Informationen besonders hervorzuheben.
 
-Um bspw.  einen Infokasten zu erstellen, beginne einen [[Formatierungsgrundlagen#Zitate|Zitatblock]] mit `[!info]`, wobei `info` den *Callout-Typ* bezeichnet. Der Callout-Typ bestimmt den Stil des Kastens. Eine Übersicht der verfügbaren Typen findest du unter [[#Unterstützte Typen]]. Auch [[Obsidian Publish/Einführung|Obsidian Publish]] verfügt über eine native Unterstützung von Callouts.
+Um bspw.  einen Infokasten zu erstellen, beginne einen [[Formatierungsgrundlagen#Zitate|Zitatblock]] mit `[!info]`, wobei `info` den *Callout-Typ* bezeichnet. Der Callout-Typ bestimmt den Stil des Kastens. Eine Übersicht der verfügbaren Typen findest du unter [[#Unterstützte Typen]]. Auch [[Einführung in Obsidian Publish|Obsidian Publish]] verfügt über eine native Unterstützung von Callouts.
 
 ```markdown
 > [!info] Das ist der Callout-Titel

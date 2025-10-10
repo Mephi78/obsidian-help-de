@@ -2,7 +2,7 @@
 permalink: plugins/suche
 ---
 
-Die *Suche* ist eine [[Übersicht|Standarderweiterung]], mit der du Daten in deinem Vault finden kannst, indem du Suchbegriffe und Operatoren verwendest, um die Ergebnisse einzugrenzen.
+Die *Suche* ist eine [[Standarderweiterungen|Standarderweiterung]], mit der du Daten in deinem Vault finden kannst, indem du Suchbegriffe und Operatoren verwendest, um die Ergebnisse einzugrenzen.
 
 Standardmäßig findest du die *Suche* ( ![[lucide-search.svg#icon]] ) in der linken Seitenleiste. Du kannst sie mit dem Tastenkürzel `Strg + Umschalt + F` (oder `Cmd + Umschalt + F` unter macOS) aufrufen.
 
@@ -145,7 +145,7 @@ embed OR search
 ```
 ````
 
-[[Obsidian Publish/Einführung|Obsidian Publish]] unterstützt keine eingebetteten [[Publish limitations#Search|Suchergebnisse]].
+[[Einführung in Obsidian Publish|Obsidian Publish]] unterstützt keine eingebetteten [[Publish limitations#Search|Suchergebnisse]].
 
 Um ein zur Laufzeit gerendertes Beispiel zu sehen, füge testweise den obigen Quellcode-Block in deinem Vault ein.
 

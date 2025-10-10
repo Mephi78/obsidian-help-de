@@ -6,7 +6,7 @@ permalink: plugins/markdown-import
 publish: true
 ---
 
-Mit der [[Übersicht|Standarderweiterung]] *Importprogramm für Markdown Format* kannst du Markdown aus anderen Anwendungen in das Obsidian Format konvertieren. Zudem kannst du damit bestimmte [[Eigenschaften]] in erforderliche neue Formate umwandeln.
+Mit der [[Standarderweiterungen|Standarderweiterung]] *Importprogramm für Markdown Format* kannst du Markdown aus anderen Anwendungen in das Obsidian Format konvertieren. Zudem kannst du damit bestimmte [[Eigenschaften]] in erforderliche neue Formate umwandeln.
 
 > [!warning] Achtung
 > Das Importprogramm konvertiert deinen gesamten Vault basierend auf deinen Einstellungen. [[Sichere deinen Vault|Sichere deinen Vault]], bevor du die Konvertierung startest.

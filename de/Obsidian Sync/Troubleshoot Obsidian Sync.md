@@ -8,7 +8,7 @@ permalink: sync/troubleshoot
 publish: true
 ---
 #TODO
-This page lists uncommon issues you may encounter with [[Obsidian Sync/Einführung|Obsidian Sync]] and how to resolve them. Before proceeding, we recommend reviewing the [[Status icon and messages]] and [[Frequently asked questions]] pages.
+This page lists uncommon issues you may encounter with [[Einführung in Obsidian Sync|Obsidian Sync]] and how to resolve them. Before proceeding, we recommend reviewing the [[Status icon and messages]] and [[Frequently asked questions]] pages.
 
 ## General
 

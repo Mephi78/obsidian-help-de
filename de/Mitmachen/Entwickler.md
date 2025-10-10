@@ -15,9 +15,11 @@ Du kannst [[Externe Erweiterungen]] oder [[Themen]] erstellen mit Typescript und
 
 Obsidian entwickelt und unterhält eine Reihe von Open Source Projekten. Du kannst Fehlerbehebungen oder Verbesserungen über Pull Requests an die folgenden GitHub Repositories senden:
 
-- [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), eine Browser-Erweiterung, mit der Webinhalte markiert und als Markdown-Dateien lokal gespeichert werden können.
-- [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), ein Plugin, das Daten aus einer Vielzahl von Formaten in reine Markdown-Textdateien konvertiert.
-- [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), ein offenes Dateiformat für unbegrenzte Canvas-Daten.
+- [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), offenes Dateiformat für unbegrenzte Canvas-Daten.
+- [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), Plugin, das Daten aus einer Vielzahl von Formaten in reine Markdown-Textdateien konvertiert.
+- [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), Browser-Erweiterung, mit der Webinhalte markiert und als Markdown-Dateien lokal gespeichert werden können.
+- [Defuddle](https://github.com/kepano/defuddle) (MIT), im Obsidian Web Clipper verwendeter HTML-zu-Markdown-Parser.
+- [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), Plugin zur Darstellung von Karten in Obsidian Bases.
 
 ### Dokumentation
 

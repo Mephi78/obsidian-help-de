@@ -2,7 +2,7 @@
 permalink: plugins/workspaces
 ---
 
-Mit der [[Übersicht|Standarderweiterung]] *Workspaces* kannst du auf unterschiedliche Aufgaben zugeschnittene Layouts speichern und zwischen ihnen wechseln, ob du bspw. Tagebuch schreiben, lesen oder an einem bestimmten Projekt arbeiten möchtest.
+Mit der [[Standarderweiterungen|Standarderweiterung]] *Workspaces* kannst du auf unterschiedliche Aufgaben zugeschnittene Layouts speichern und zwischen ihnen wechseln, ob du bspw. Tagebuch schreiben, lesen oder an einem bestimmten Projekt arbeiten möchtest.
 
 Ein Workspace enthält Informationen über geöffnete Dateien und Tabs sowie die Anzeigebreite der Fensterbereiche und aktivierte Registerkarten in den Seitenleisten.
 

@@ -7,9 +7,9 @@ permalink: payment
 #TODO
 Obsidian offers several services and licenses available for purchase.
 
-- [[Obsidian Sync/Einführung|Obsidian Sync]]
+- [[Einführung in Obsidian Sync|Obsidian Sync]]
 	- Sync notes across devices.
-- [[Obsidian Publish/Einführung|Obsidian Publish]]
+- [[Einführung in Obsidian Publish|Obsidian Publish]]
 	- Publish notes to the web.
 - [[Obsidian Credit]]
 	- Purchase and Gift Obsidian services.

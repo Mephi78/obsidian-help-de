@@ -4,7 +4,7 @@ aliases:
 permalink: plugins/lesezeichen
 ---
 
-Mit der *Lesezeichen*-[[Übersicht|Standarderweiterung]] kannst du schnell auf häufig verwendete Inhalte zugreifen. Ein Lesezeichen ist eine "Abkürzung", die dich direkt zur gesuchten Information führt.
+Mit der *Lesezeichen*-[[Standarderweiterungen|Standarderweiterung]] kannst du schnell auf häufig verwendete Inhalte zugreifen. Ein Lesezeichen ist eine "Abkürzung", die dich direkt zur gesuchten Information führt.
 
 Lesezeichen kannst du für folgende Elemente setzen:
 

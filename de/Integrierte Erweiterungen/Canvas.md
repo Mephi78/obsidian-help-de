@@ -2,7 +2,7 @@
 permalink: plugins/canvas
 ---
 
-Mit der [[Übersicht|Standarderweiterung]] *Canvas* kannst du Schaubilder erstellen. Das Plugin stellt dir eine unendliche Leinwand zur Verfügung, auf der du deine Notizen, Anhänge oder auch Webseiten ausbreiten und miteinander verbinden kannst.
+Mit der [[Standarderweiterungen|Standarderweiterung]] *Canvas* kannst du Schaubilder erstellen. Das Plugin stellt dir eine unendliche Leinwand zur Verfügung, auf der du deine Notizen, Anhänge oder auch Webseiten ausbreiten und miteinander verbinden kannst.
 
 Diese visuelle Methode kann dabei helfen, deine Aufzeichnungen besser zu verstehen, indem du sie in einem 2-dimensionalen Raum anordnest. Du kannst sie mit Linien verbinden oder verwandte Notizen gruppieren, um Beziehungen und Zusammenhänge zwischen ihnen zu erkennen und darzustellen.
 

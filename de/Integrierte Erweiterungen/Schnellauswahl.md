@@ -2,7 +2,7 @@
 permalink: plugins/schnellauswahl
 ---
 
-Die *Schnellauswahl* ist eine [[Übersicht|Standarderweiterung]] die das schnelle Suchen und Öffnen von Notizen über die Tastatur ermöglicht.
+Die *Schnellauswahl* ist eine [[Standarderweiterungen|Standarderweiterung]] die das schnelle Suchen und Öffnen von Notizen über die Tastatur ermöglicht.
 
 ## Schnellauswahl öffnen
 

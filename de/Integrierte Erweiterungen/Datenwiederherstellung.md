@@ -6,7 +6,7 @@ permalink: plugins/datenwiederherstellung
 publish: true 
 ---
 
-Die [[Übersicht|Standarderweiterung]] *Datenwiederherstellung* schützt deine Arbeit vor versehentlichem Löschen, Dateibeschädigungen oder unerwünschten Änderungen, indem sie in regelmäßigen Abständen automatisch vollständige Snapshots deiner Notizen speichert. Die Dateiwiederherstellung ist keine vollständige Backup-Lösung, daher empfehlen wir, deine Obsidian-Dateien [[Sichere deinen Vault|zusätzlich separat zu sichern]].
+Die [[Standarderweiterungen|Standarderweiterung]] *Datenwiederherstellung* schützt deine Arbeit vor versehentlichem Löschen, Dateibeschädigungen oder unerwünschten Änderungen, indem sie in regelmäßigen Abständen automatisch vollständige Snapshots deiner Notizen speichert. Die Dateiwiederherstellung ist keine vollständige Backup-Lösung, daher empfehlen wir, deine Obsidian-Dateien [[Sichere deinen Vault|zusätzlich separat zu sichern]].
 
 Um nicht zu viel [[#Speicher und Leistung|Speicherplatz]] zu beanspruchen, werden die Snapshots nur für eine bestimmte Anzahl an Tagen gespeichert und dann gelöscht. Snapshots enthalten den gesamten Inhalt deines Vaults, nicht nur die Änderungen, damit du jede vorherige Version wiederherstellen kannst.
 
@@ -14,7 +14,7 @@ Um nicht zu viel [[#Speicher und Leistung|Speicherplatz]] zu beanspruchen, werde
 
 Snapshots werden in den [[Datenspeicherung#Globale Einstellungen|Globalen Einstellungen]] außerhalb deines Vaults gespeichert, um Datenverlust im Zusammenhang mit dem Vault zu berücksichtigen. Hierbei wird jeweils der absolute Pfad zur Notiz verwendet. Wenn du also deinen Vault kürzlich im Dateisystem verschoben hast und Daten von einem Zeitpunkt vor dem Verschieben wiederherstellen möchtest, ist es notwendig, den Vault zunächst wieder an den vorherigen Speicherort zu bewegen.
 
-> [!tip] Bei der Verwendung von [[Obsidian Sync/Einführung|Obsidian Sync]] oder [[Synchronisiere Notizen zwischen Geräten|anderen Synchronisationsdiensten]] werden Snapshots für die Datenwiederherstellung nicht synchronisiert. Snapshots sind gerätespezifisch und verbleiben lokal auf jedem Gerät.
+> [!tip] Bei der Verwendung von [[Einführung in Obsidian Sync|Obsidian Sync]] oder [[Synchronisiere Notizen zwischen Geräten|anderen Synchronisationsdiensten]] werden Snapshots für die Datenwiederherstellung nicht synchronisiert. Snapshots sind gerätespezifisch und verbleiben lokal auf jedem Gerät.
 
 ## Snapshot wiederherstellen
 

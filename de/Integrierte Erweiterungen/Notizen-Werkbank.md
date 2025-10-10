@@ -2,7 +2,7 @@
 permalink: plugins/werkbank
 ---
 
-Mit der [[Übersicht|Standarderweiterung]] *Notizen-Werkbank* kannst du Notizen zusammenführen oder eine in mehrere Notizen aufteilen.
+Mit der [[Standarderweiterungen|Standarderweiterung]] *Notizen-Werkbank* kannst du Notizen zusammenführen oder eine in mehrere Notizen aufteilen.
 
 ## Notizen zusammenfügen
 

@@ -10,7 +10,7 @@ permalink: sync/faq
 publish: true
 ---
 #TODO
-This page lists some of the common questions related to questions and limitations for [[Obsidian Sync/Einführung|Obsidian Sync]].
+This page lists some of the common questions related to questions and limitations for [[Einführung in Obsidian Sync|Obsidian Sync]].
 
 ## General
 

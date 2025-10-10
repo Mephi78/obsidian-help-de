@@ -39,4 +39,4 @@ Wähle in der [[Befehlspalette|Befehlspalette]] **Aktiven Tab in neues Fenster 
 
 Ziehe einen Tab auf eine Registerkartengruppe in einem bereits geöffneten Zielfenster oder öffne mit Rechtsklick auf einen Tab das Kontextmenü und wähle **In ein neues Fenster verschieben**.
 
-> [!tip] Einige Registerkarten lassen sich auch aus der Seitenleiste in ein separates Fenster verschieben über Rechtsklick auf den Tab und Auswahl der Option **In ein neues Fenster verschieben**.
+> [!tip] Einige Registerkarten (z.B. die [[Gliederung]]) lassen sich auch aus der Seitenleiste in ein separates Fenster verschieben über Rechtsklick auf den Tab und Auswahl der Option **In ein neues Fenster verschieben**.

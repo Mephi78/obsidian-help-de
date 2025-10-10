@@ -23,7 +23,7 @@ Einige dieser Funktionen sind standardmäßig deaktiviert. Du kannst sie in den 
 	- Erstelle und speichere Audioaufnahmen direkt in einer Notiz.
 - [[Ausgehende Links|Ausgehende Links]]
 	- Zeigt von der aktiven Notiz ausgehende Links sowie Verweise auf nicht erstellte Inhalte.
-- [[Introduction to Bases|Bases]]
+- [[Einführung in Bases|Bases]]
 	- Erstelle datenbankähnliche Sichten, um deine Dateien anhand ihrer Eigenschaften zu sortieren und filtern.
 - [[Befehlspalette|Befehlspalette]]
 	- Schnelle Eingabe von Befehlen über die Tastatur.
@@ -59,13 +59,13 @@ Einige dieser Funktionen sind standardmäßig deaktiviert. Du kannst sie in den 
 	- Führe Befehle im Bearbeitungsmodus aus, indem du einen Slash `/` eingibst.
 - [[Suche|Suchen]]
 	- Finde Dateien in deinem Vault.
-- [[Obsidian Sync/Einführung|Sync]]
+- [[Einführung in Obsidian Sync|Sync]]
 	- Synchronisiere deine Notizen geräteübergreifend.
 - [[Tag-Übersicht|Tag-Übersicht]]
 	- Listet alle Tags in deinem Vault auf.
 - [[Tägliche Notiz|Tägliche Notiz]]
 	- Erstelle und öffne Notizen basierend auf dem aktuellen Datum.
-- [[Obsidian Publish/Einführung|Veröffentlichen]]
+- [[Einführung in Obsidian Publish|Veröffentlichen]]
 	- Veröffentliche deine Notizen als Webseite, Wiki oder Dokumentation.
 - [[Vorlagen|Vorlagen]]
 	- Füge vordefinierte Inhalte in deine Notizen ein.

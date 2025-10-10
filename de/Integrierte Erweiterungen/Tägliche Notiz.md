@@ -2,7 +2,7 @@
 permalink: plugins/taegliche-notizen
 ---
 
-Die [[Übersicht|Standarderweiterung]] *Tägliche Notizen* erstellt oder öffnet eine Notiz basierend auf dem aktuellen Datum. Verwende tägliche Notizen, um ein Journal, ein Tagebuch oder Aufgabenlisten zu erstellen.
+Die [[Standarderweiterungen|Standarderweiterung]] *Tägliche Notizen* erstellt oder öffnet eine Notiz basierend auf dem aktuellen Datum. Verwende tägliche Notizen, um ein Journal, ein Tagebuch oder Aufgabenlisten zu erstellen.
 
 Um die heutige Notiz zu öffnen:
 

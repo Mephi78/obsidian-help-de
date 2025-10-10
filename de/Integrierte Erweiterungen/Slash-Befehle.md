@@ -2,7 +2,7 @@
 permalink: plugins/slash-befehle
 ---
 
-Die [[Übersicht|Standarderweiterung]] *Slash-Befehle* ermöglicht im Bearbeitungsmodus den Schnellzugriff auf Befehle, indem du einen Schrägstrich (`/` - auch: Slash) am Zeilenanfang oder nach einem Leerzeichen eingibst.
+Die [[Standarderweiterungen|Standarderweiterung]] *Slash-Befehle* ermöglicht im Bearbeitungsmodus den Schnellzugriff auf Befehle, indem du einen Schrägstrich (`/` - auch: Slash) am Zeilenanfang oder nach einem Leerzeichen eingibst.
 
 Um einen Befehl auszulösen:
 

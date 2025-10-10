@@ -2,7 +2,7 @@
 permalink: plugins/dateiexplorer
 ---
 
-Mit der [[Übersicht|Standarderweiterung]] *Dateiexplorer* kannst du Dateien und Ordner in deinem Vault verwalten. Du kannst Notizen und andere [[Dateitypen|unterstützte Dateien]] in deinem Vault durchsuchen und gängige Dateioperationen ausführen:
+Mit der [[Standarderweiterungen|Standarderweiterung]] *Dateiexplorer* kannst du Dateien und Ordner in deinem Vault verwalten. Du kannst Notizen und andere [[Dateitypen|unterstützte Dateien]] in deinem Vault durchsuchen und gängige Dateioperationen ausführen:
 
 - Dateien und Ordner erstellen, löschen oder umbenennen.
 - Dateien und Ordner verschieben mittels Drag & Drop.

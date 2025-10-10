@@ -6,7 +6,7 @@ permalink: plugins/eigenschaften
 publish: true
 ---
 
-Die [[Übersicht|Standarderweiterung]] *Eigenschaften-Ansicht* stellt zwei Seitenleisten-Ansichten für die Verwaltung der [[Eigenschaften|Dateieigenschaften]] zur Verfügung:
+Die [[Standarderweiterungen|Standarderweiterung]] *Eigenschaften-Ansicht* stellt zwei Seitenleisten-Ansichten für die Verwaltung der [[Eigenschaften|Dateieigenschaften]] zur Verfügung:
 
 - **Dateieigenschaften** zeigt die Eigenschaften der aktiven Notiz.
 - **Alle Eigenschaften** listet alle Eigenschaften in deinem Vault und deren Typ auf.
