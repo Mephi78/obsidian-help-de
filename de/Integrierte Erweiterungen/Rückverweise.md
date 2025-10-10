@@ -4,7 +4,7 @@ aliases:
 permalink: plugins/rueckverweise
 ---
 
- Die [[Übersicht|Standarderweiterung]] *Rückverweise* zeigt dir alle Rückverweise auf die aktive Notiz an.
+ Die [[Standarderweiterungen|Standarderweiterung]] *Rückverweise* zeigt dir alle Rückverweise auf die aktive Notiz an.
 
 Ein Rückverweis ist ein Link von einer anderen auf die aktive Notiz. Im folgenden Beispiel enthält die Notiz "Grundgesetze der Bewegung" einen Link zur Notiz "Isaac Newton". Der entsprechende Rückverweis würde von "Isaac Newton" zurückführen zu "Grundgesetze der Bewegung".
 

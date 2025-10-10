@@ -42,7 +42,7 @@ Eine **Eigenschaft** definiert zusätzliche Informationen, sogenannte Metadaten,
 
 Eine **Erweiterung** ergänzt Obsidian um zusätzliche Funktionen.
 
-- [[Übersicht|Integrierte Erweiterungen]] sind vom Obsidian Team entwickelte, bereits vorinstallierte Zusatzfunktionen, die nach Bedarf aktiviert oder deaktiviert werden können
+- [[Standarderweiterungen|Integrierte Erweiterungen]] sind vom Obsidian Team entwickelte, bereits vorinstallierte Zusatzfunktionen, die nach Bedarf aktiviert oder deaktiviert werden können
 - [[Externe Erweiterungen|Externe Erweiterungen]] (auch: Community-Erweiterung) wurden von Drittanbietern entwickelt und können [[Externe Erweiterungen#Externe Erweiterung installieren|nachinstalliert]] werden.
 
 Du kannst auch [eigene Erweiterungen erstellen](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
@@ -159,7 +159,7 @@ Ein **Vault** ist ein Ordner in deinem Dateisystem, der deine [[#Notiz|Notizen]]
 
 `Aliasse: Remote-Daten`
 
-Ein **Remote Vault** ist eine Kopie deines lokalen Vaults, die mit [[Obsidian Sync/Einführung|Obsidian Sync]] aktuell gehalten wird. Die Daten im Remote-Vault werden abhängig von Änderungen deiner lokalen Daten aktualisiert. Siehe auch [[Local and remote vaults]].
+Ein **Remote Vault** ist eine Kopie deines lokalen Vaults, die mit [[Einführung in Obsidian Sync|Obsidian Sync]] aktuell gehalten wird. Die Daten im Remote-Vault werden abhängig von Änderungen deiner lokalen Daten aktualisiert. Siehe auch [[Local and remote vaults]].
 
 ## Werkzeugleiste
 

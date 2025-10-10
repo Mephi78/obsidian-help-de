@@ -2,7 +2,7 @@
 permalink: plugins/gliederung
 ---
 
-Die [[Übersicht|Standarderweiterung]] *Gliederung* listet alle Überschriften der aktiven Notiz auf.
+Die [[Standarderweiterungen|Standarderweiterung]] *Gliederung* listet alle Überschriften der aktiven Notiz auf.
 
 Du kannst Überschriften in der Gliederung anklicken, um zum entsprechenden Abschnitt in der Notiz zu springen.
 

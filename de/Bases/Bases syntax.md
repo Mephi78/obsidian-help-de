@@ -1,306 +1,316 @@
 ---
 permalink: bases/syntax
 aliases:
-  - Bases file format
+  - Bases Dateiformat
 ---
-#TODO
-When you [[Create a base|create a base]] in Obsidian, it is saved as a `.base` file. Bases are typically edited using the app interface, but the syntax can also be edited manually, and embedded in a code block.
 
-The [[Introduction to Bases|Bases]] syntax defines [[Views]], filters, and formulas. Bases must be valid YAML conforming to the schema defined below.
+Wenn du in Obsidian eine [[Erstelle eine Base|Base erstellst]], wird diese als `.base`-Datei gespeichert. Bases werden in der Regel interaktiv über die Bedienoberfläche bearbeitet, aber du kannst den Quellcode auch manuell editieren und in einen Quelltext-Block einbetten.
 
-## Example
+Mit der [[Einführung in Bases|Bases]] Syntax kannst du [[Sichten]], Filter und Formeln definieren. Bases müssen aus validem YAML bestehen und dem nachfolgend definierten Schema entsprechen.
 
-Here's an example of a base file. We'll walk through each section in detail.
+## Anwendungsfall
 
-```yaml
-filters:
-  or:
-    - file.hasTag("tag")
-    - and:
-        - file.hasTag("book")
-        - file.hasLink("Textbook")
-    - not:
-        - file.hasTag("book")
-        - file.inFolder("Required Reading")
-formulas:
-  formatted_price: 'if(price, price.toFixed(2) + " dollars")'
-  ppu: "(price / age).toFixed(2)"
-properties:
-  status:
-    displayName: Status
-  formula.formatted_price:
-    displayName: "Price"
-  file.ext:
-    displayName: Extension
-views:
-  - type: table
-    name: "My table"
-    limit: 10
-    filters:
-      and:
-        - 'status != "done"'
-        - or:
-            - "formula.ppu > 5"
-            - "price > 2.1"
-    order:
-      - file.name
-      - file.ext
-      - note.age
-      - formula.ppu
-      - formula.formatted_price
-```
-
-### Filters
-
-By default a base includes every file in the vault. There is no `from` or `source` like in SQL or Dataview. The `filters` section lets you define conditions to narrow down the dataset.
+Das folgende Beispiel einer Base-Datei werden wir Schritt für Schritt im Detail durchgehen.
 
 ```yaml
 filters:
   or:
     - file.hasTag("tag")
     - and:
-        - file.hasTag("book")
-        - file.hasLink("Textbook")
+        - file.hasTag("buch")
+        - file.hasLink("Lehrbuch")
     - not:
-        - file.hasTag("book")
-        - file.inFolder("Required Reading")
+        - file.hasTag("buch")
+        - file.inFolder("Pflichtlektüre")
+formulas:
+  formatierter_preis: 'if(preis, preis.toFixed(2) + " Euro")'
+  stp: "(preis / alter).toFixed(2)"
+properties:
+  note.status:
+    displayName: Status
+  formula.formatierter_preis:
+    displayName: "Preis"
+  file.ext:
+    displayName: Dateieindung
+views:
+  - type: table
+    name: "Meine Tabelle"
+    limit: 10
+    filters:
+      and:
+        - 'status != "erledigt"'
+        - or:
+            - "formula.stp > 5"
+            - "preis > 2.1"
+    order:
+      - file.name
+      - file.ext
+      - note.alter
+      - formula.stp
+      - formula.formatierter_preis
 ```
 
-There are two opportunities to apply filters:
+### Filter
 
-1. At the global `filters` level (shown above) where they apply to all views in the base.
-2. At the `view` level where apply only to a specific view.
+Standardmäßig umfasst eine Base alle Dateien im Vault. Es gibt kein `from` oder `source`, wie in SQL oder Dataview. Im Abschnitt `filters` kannst du Bedingungen definieren, um den Datensatz einzugrenzen.
 
-These two sections are functionally equivalent and when evaluating for a view they will be concatenated with an `AND`.
+```yaml
+filters:
+  or:
+    - file.hasTag("tag")
+    - and:
+        - file.hasTag("buch")
+        - file.hasLink("Lehrbuch")
+    - not:
+        - file.hasTag("buch")
+        - file.inFolder("Pflichtlektüre")
+```
 
-The `filters` section contains either a single filter statement as a string, or a recursively defined filter object. Filter objects may contain one of `and`, `or`, or `not`. These keys are a heterogeneous list of other filter objects or filter statements in strings. A filter statement is a line which evaluates to truthy or falsey when applied to a note. It can be one of the following:
+Es gibt zwei Möglichkeiten, Filter anzuwenden:
 
-- A basic comparison using standard arithmetic operators.
-- A function. A variety of [[Functions]] are built-in, and plugins can add additional functions.
+1. Auf globaler Ebene im Abschnitt `filters` (siehe oben) definierte Filter werden auf alle Sichten in der Base angewendet.
+2. Auf Sicht-Ebene im Abschnitt `view` definierte Filter gelten nur für eine bestimmte Sicht.
 
-The syntax and available functions for filters and formulas are the same.
+Die beiden Abschnitte sind funktional gleichwertig und die Filterdefinitionen werden bei der Auswertung für eine Sicht mit `UND` verkettet.
 
-### Formulas
+Der Abschnitt `filters` enthält entweder eine einzelne Filteranweisung als Zeichenfolge oder ein rekursiv definiertes Filterobjekt. Filterobjekte können einen oder mehrere `and`, `or` oder `not` Operatoren enthalten. Eine Filteranweisung ist eine Code-Zeile, die bei Anwendung auf eine Notiz wahr oder falsch ergibt. Folgende Varianten sind möglich:
 
-The `formulas` section defines formula properties that can be displayed across all views in the base file.
+- Ein einfacher Vergleich mittels arithmetischen Operatoren.
+- Eine Funktion.
+
+Obsidian bietet eine Vielzahl von integrierten [[Funktionen]], die durch externe Plugins noch erweitert werden können.
+
+Syntax und verfügbare Funktionen sind identisch für globale und Sicht-Filter.
+
+### Formeln
+
+Der Abschnitt `formulas` definiert Formel-Eigenschaften, die in allen Sichten einer Base angezeigt werden können.
 
 ```yaml
 formulas:
-  formatted_price: 'if(price, price.toFixed(2) + " dollars")'
-  ppu: "(price / age).toFixed(2)"
+  formatierter_preis: 'if(preis, preis.toFixed(2) + " Euro")'
+  stp: "(preis / alter).toFixed(2)"
 ```
 
-Formula properties support basic arithmetic operators and a variety of built-in [[Functions]]. In the future, plugins will be able to add functions for use in formulas.
+Formel-Eigenschaften unterstützen arithmetische Grundoperatoren und eine Reihe von integrierten [[Funktionen]]. Zukünftig können externe Erweiterungen weitere Funktionen für die Verwendung in Formeln hinzufügen.
 
-You can reference properties in different ways depending on their type:
+Du kannst Eigenschaften je nach Typ auf unterschiedliche Weise referenzieren:
 
-- **Note properties** are properties defined in the note’s frontmatter. For example `note.price` or `note["price"]`.  
-  If no prefix is specified, the property is assumed to be a `note` property.
-- **File properties** describe the file itself.  
-  For example `file.size` or `file.ext`. You can also reference the file object directly, e.g., `file.hasLink()`.
-- **Formula properties** are other formulas in the base.  
-  Example `formula.formatted_price`.
+- **Notiz-Eigenschaften** sind Eigenschaften, die im Frontmatter einer Notiz definiert sind, z.B. `note.preis` oder `note["preis"]`.  
+  Wenn kein Präfix definiert ist, wird eine Eigenschaft als `note`-Eigenschaft interpretiert.
+- **Datei-Eigenschaften** beschreiben die Datei selbst.  
+  Z.B. `file.size` (Dateigröße) oder `file.ext` (Dateiendung). Du kannst das Datei-Objekt auch direkt referenzieren, bspw. `file.hasLink()`.
+- **Formel-Eigenschaften** sind in der Base definierte Formeln.  
+  Z.B. `formula.formatierter_preis`.
 
-A formula can use values from other formula properties, as long as there’s no circular reference.  
+Eine Formel kann wiederum andere Formel-Eigenschaften enthalten, solange kein Zirkelbezug vorliegt.
 
-Formula properties are always stored as strings in YAML, but their actual **output data type** is determined by the type of the underlying data and the return value of any functions used.
+Formel-Eigenschaften werden in YAML immer als Zeichenketten gespeichert, aber ihr eigentlicher **Ausgabedatentyp** wird durch den Typ der zugrundeliegenden Daten und den Rückgabewert der Funktion bestimmt.
 
-Note the use of nested quotes is necessary to include text literals in the YAML field. Text literals must be enclosed in single or double quotes.
+Beachte, dass die Anwendung von verschachtelten Anführungszeichen erforderlich ist, um String-Literale in YAML-Feldern zu verwenden. Literale müssen in einfache oder doppelte Anführungszeichen gesetzt werden.
 
-### Properties
+### Eigenschaften
 
-The `properties` section allows storing configuration information about each property. It is up to the individual view how to use these configuration values. For example, in tables the display name is used for the column headers.
+Im Abschnitt `properties` kannst du Einstellungen zu jeder Eigenschaft definieren. Es hängt von der jeweiligen Sicht ab, wie die Einstellungswerte interpretiert werden. In Tabellen wird der `displayName` bspw. als Spaltenüberschrift verwendet.
 
 ```yaml
 properties:
-  status:
+  note.status:
     displayName: Status
-  formula.formatted_price:
-    displayName: "Price"
+  formula.formatierter_preis:
+    displayName: "Preis"
   file.ext:
-    displayName: Extension
+    displayName: Dateiendung
 ```
 
-Display names are not used in filters or formulas.
+In Filtern oder Formeln werden Anzeigenamen nicht verwendet.
 
-### Views
+> [!note] Hinweis
+> Achte darauf, im Abschnitt `properties` auch Notiz-Eigenschaften in der vollständigen Punkt-Notation zu verwenden. Die [[#Notiz-Eigenschaften|Kurzschreibweise]] funktioniert hier nicht.
 
-The `views` section defines how the data can be rendered. Each entry in the `views` list defines a separate view of the same data, and there can be as many different views as needed.
+### Sichten
+
+Der Abschnitt `views` bestimmt, wie die anzuzeigenden Daten gerendert werden. Jeder Eintrag in der `views`-Liste definiert eine separate Sicht auf dieselben Daten. Du kannst so viele Sichten definieren, wie du benötigst.
+
+Hier im Beispiel enthält die Liste nur einen Eintrag, also eine Sicht.
 
 ```yaml
 views:
   - type: table
-    name: "My table"
+    name: "Meine Tabelle"
     limit: 10
     filters:
       and:
-        - 'status != "done"'
+        - 'status != "erledigt"'
         - or:
-            - "formula.ppu > 5"
-            - "price > 2.1"
+            - "formula.stp > 5"
+            - "preis > 2.1"
     order:
       - file.name
       - file.ext
-      - note.age
-      - formula.ppu
-      - formula.formatted_price
+      - note.alter
+      - formula.stp
+      - formula.formatierter_preis
 ```
 
-- `type` selects from the built-in and plugin-added view types.
-- `name` is the display name, and can be used to define the default view.
-- `filters` are exactly the same as described above, but apply only to the view.
+- `type` kann eines der integrierten oder durch Plugins hinzugefügten [[Sichten#Layout|Layouts]] enthalten.
+- `name` ist der Anzeigename, der verwendet werden kann, um das Standard-Layout festzulegen (mittels [[Erstelle eine Base#Base-Datei einbetten|Anchor Tag]]).
+- `filters` definiert die auf eine bestimmte Sicht anzuwendenden Filter, wie oben beschrieben.
+- `order` bestimmt, welche Elemente in welcher Reihenfolge angezeigt werden sollen. Im Beispiel ist eine Tabellen-Sicht definiert, wobei die in `order` gelisteten Elemente als anzuzeigende Spalten interpretiert werden.
 
-[[Views]] can add additional data to store any information needed to maintain state or properly render, however plugin authors should take care to not use keys already in use by the core Bases plugin. As an example, a table view may use this to limit the number of rows or to select which column is used to sort rows and in which direction. A different view type such as a map could use this for mapping which property in the note corresponds to the latitude and longitude and which property should be displayed as the pin title.
+[[Sichten]] können *zusätzliche Daten* hinzugefügt werden, die für die Funktionsweise oder Darstellung eines spezifischen Layouts notwendig sind. Plugin-Entwickler sollten jedoch darauf achten, keine Schlüssel zu verwenden, die bereits durch die Standarderweiterung *Bases* verwendet werden.
 
-In the future, API will allow views to read and write these values, allowing the view to build its own interface for configuration.
+Ein Tabellen-Layout könnte diese Zusatzinformationen bspw. verwenden, um die Anzahl der angezeigten Zeilen zu limitieren oder zu definieren, welche Spalten in welcher Richtung für die Sortierung verwendet werden. Ein anderes Layout, wie z.B. eine Landkarte, könnte dies verwenden, um zu definieren, welche Notiz-Eigenschaften den Breiten- und Längengrad enthalten und welche der Eigenschaften als Titel für eine Stecknadel-Markierung verwendet werden soll.
 
-## Properties
+Es ist angedacht, dass die API künftig das Lesen und Schreiben dieser Zusatzinformationen erlaubt, so dass für ein Layout eine eigene Konfigurationsschnittstelle erstellt werden kann.
 
-There are three kinds of properties used in bases:
+## Eigenschaften
 
-1. **Note properties**, stored in frontmatter of Markdown files.
-2. **File properties**, accessible for all file types.
-3. **Formula properties**, defined in the `.base` file itself (see above).
+Bases kennt drei Arten von Eigenschaften:
 
-### Note properties
+1. **Notiz-Eigenschaften** sind im Frontmatter von Markdown-Dateien gespeichert.
+2. **Datei-Eigenschaften** sind für jeden Dateityp zugänglich.
+3. **Formel-Eigenschaften** sind in der `.base`-Datei selbst definiert (siehe [[#Formeln|oben]]).
 
-[[Eigenschaften|Note properties]] are only available for Markdown files, and are stored in the YAML frontmatter of each note. These properties can be accessed using the format `note.author` or simply `author` as a shorthand.
+### Notiz-Eigenschaften
 
-### File properties
+[[Eigenschaften|Notiz-Eigenschaften]] sind nur für Markdown-Dateien verfügbar und werden im YAML-Frontmatter einer Notiz definiert. Auf diese Eigenschaften kannst du entweder mit `note.eigenschaftsname` oder einfach verkürzt mit `eigenschaftsname` zugreifen.
 
-File properties refer to the file currently being tested or evaluated. File properties are available for all [[Dateitypen|file types]], including attachments.
+### Datei-Eigenschaften
 
-For example, a filter `file.ext == "md"` will be true for all Markdown files and false otherwise.
+Datei-Eigenschaften beziehen sich auf die jeweils verarbeitete Datei. Diese Eigenschaften sind für alle [[Dateitypen]] verfügbar, auch für Anhänge.
 
-| Property      | Type   | Description                                                   |
-| ------------- | ------ | ------------------------------------------------------------- |
-| `file.backlinks`  | List   | List of backlink files. Note: This property is performance heavy. When possible, reverse the lookup and use `file.links`. Does not automatically refresh results when the vault is changed. |
-| `file.ctime`  | Date   | Created time                                                  |
-| `file.embeds` | List   | List of all embeds in the note                                |
-| `file.ext`    | String | File extension                                                |
-| `file.file`   | File   | File object, only usable in specific functions                |
-| `file.folder` | String | Path of the file folder                                       |
-| `file.links`  | List   | List of all internal links in the note, including frontmatter |
-| `file.mtime`  | Date   | Modified time                                                 |
-| `file.name`   | String | File name                                                     |
-| `file.path`   | String | Path of the file                                              |
-| `file.properties`   | Object | All properties on the file. Note: Does not automatically refresh results when the vault is changed. |
-| `file.size`   | Number | File size                                                     |
-| `file.tags`   | List   | List of all tags in the file content and frontmatter          |
+Ein Filter `file.ext == "md"` würde bspw. die Dateiendungen der Dateien in deinem Vault untersuchen und alle Markdown-Dateien zurückgeben.
 
-### Access properties of the current file
+| Eigenschaft       | Typ    | Beschreibung                                                                                                                                                                                                                                            |
+| ----------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `file.backlinks`  | Liste  | Liste der [[Rückverweise]] einer Datei. **Hinweis**: Diese Eigenschaft ist sehr leistungsintensiv. Kehre nach Möglichkeit die Suche um und verwende stattdessen `file.links`. Ergebnisse werden nicht automatisch aktualisiert bei Änderungen im Vault. |
+| `file.ctime`      | Datum  | Erstellungszeitpunkt                                                                                                                                                                                                                                    |
+| `file.embeds`     | Liste  | Liste aller in die Notiz eingebetteten Elemente                                                                                                                                                                                                         |
+| `file.ext`        | Text   | Dateiendung                                                                                                                                                                                                                                             |
+| `file.file`       | Datei  | Dateiobjekt, nur in bestimmten Funktionen verwendbar                                                                                                                                                                                                    |
+| `file.folder`     | Text   | Pfad zum Ordner, in dem die Datei gespeichert ist                                                                                                                                                                                                       |
+| `file.links`      | Liste  | Liste aller interner Links in einer Notiz, einschließlich Frontmatter                                                                                                                                                                                   |
+| `file.mtime`      | Datum  | Zeitpunkt der letzten Bearbeitung                                                                                                                                                                                                                       |
+| `file.name`       | Text   | Dateiname                                                                                                                                                                                                                                               |
+| `file.path`       | Text   | Speicherpfad der Datei                                                                                                                                                                                                                                  |
+| `file.properties` | Objekt | Alle Eigenschaften der Datei. **Hinweis**: Ergebnisse werden bei Änderungen im Vault nicht automatisch aktualisiert.                                                                                                                                    |
+| `file.size`       | Zahl   | Dateigröße                                                                                                                                                                                                                                              |
+| `file.tags`       | Liste  | Liste aller Tags in einer Notiz, einschließlich Frontmatter                                                                                                                                                                                             |
 
-Embedded bases can use `this` to access properties of the current file. For example, `this.file.name` will resolve to the name of the file which has embedded the base, instead of the file being evaluated.
+### Zugriff auf Eigenschaften der aktiven Datei
 
-In a sidebar, `this` takes on the special meaning of "the currently active file". This allows you to create contextual queries based on the active file in the main content area. For example, this can be used to replicate the backlinks pane with this filter: `file.hasLink(this.file)`.
+Eingebettete Bases können `this` verwenden, um gezielt auf die Eigenschaften der Datei zuzugreifen, in die sie eingebettet sind, z.B. `this.file.name`.
 
-## Operators
+Aus einer Seitenleiste heraus bezieht sich `this` speziell auf die "derzeit aktive Datei". Auf diese Weise kannst du kontextbezogene Abfragen basierend auf der im Hauptfensterbereich aktiven Datei erstellen und diese in einer der Seitenleisten anzeigen. Du könntest damit bspw. die [[Rückverweise]]-Ansicht nachempfinden, indem du dem Filter `file.hasLink(this.file)` anwendest.
 
-### Arithmetic operators
+## Operatoren
 
-Arithmetic operators perform arithmetic on numbers. For example, `radius * (2 * 3.14)`.
+### Arithmetische Operatoren
 
-| Operator | Description |
-| -------- | ----------- |
-| `+`      | plus        |
-| `-`      | minus       |
-| `*`      | multiply    |
-| `/`      | divide      |
-| `%`      | modulo      |
-| `( )`    | parenthesis |
+Arithmetische Operatoren führen arithmetische Berechnungen mit Zahlen aus, bspw. `radius * (2 * 3.14)`.
 
-### Date arithmetic
+| Operator | Beschreibung   |
+| -------- | -------------- |
+| `+`      | Addition       |
+| `-`      | Subtraktion    |
+| `*`      | Multiplikation |
+| `/`      | Division       |
+| `%`      | Modulo         |
+| `( )`    | Klammern       |
 
-Dates can be modified by adding and subtracting durations. Duration units accept multiple formats:
+### Datumsberechnung
 
-| Unit                     | Duration |
-| ------------------------ | -------- |
-| `y`, `year`, `years`     | year     |
-| `M`, `month`, `months`   | month    |
-| `d`, `day`, `days`       | day      |
-| `w`, `week`, `weeks`     | week     |
-| `h`, `hour`, `hours`     | hour     |
-| `m`, `minute`, `minutes` | minute   |
-| `s`, `second`, `seconds` | second   |
+Datumsangaben können geändert werden, indem eine Zeitdauer addiert oder subtrahiert wird. Die Dauer kann im folgenden Format angegeben werden:
 
-To modify or offset Date objects, use the `+` or `-` operator with a duration string. For example, `date + "1M"` adds 1 month to the date, while `date - "2h"` subtracts 2 hours from the date.
+| Format                   | Dauer   |
+| ------------------------ | ------- |
+| `y`, `year`, `years`     | Jahr    |
+| `M`, `month`, `months`   | Monat   |
+| `d`, `day`, `days`       | Tag     |
+| `w`, `week`, `weeks`     | Woche   |
+| `h`, `hour`, `hours`     | Stunde  |
+| `m`, `minute`, `minutes` | Minute  |
+| `s`, `second`, `seconds` | Sekunde |
 
-The global [[Functions|function]] `today()` can be used to get the current date, and `now()` can be used to get the current date with time.
+Verwende für Berechnungen mit Datumsobjekten den `+` oder `-` Operator mit einer Dauer im Textformat, z.B. addiert `date + "1M"` einen Monat zu einem Datum, während `date - "2h"` zwei Stunden abzieht.
 
-- `now() + "1 day"` returns a datetime exactly 24 hours from the time of execution.
-- `file.mtime > now() - "1 week"` returns `true` if the file was modified within the last week.
-- `date("2024-12-01") + "1M" + "4h" + "3m"` returns a Date object representing `2025-01-01 04:03:00`.
-- Subtract two dates to get the millisecond difference between the two, for example, `now() - file.ctime`.
-- To get the date portion of a Date with time, use `datetime.date()`.
-- To format a Date object, use the `format()` function, for example `datetime.format("YYYY-MM-DD")`.
+Die globale [[Funktionen|Funktion]] `today()` kann verwendet werden, um das aktuelle Datum zu ermitteln und `now()` ruft das aktuelle Datum mit Uhrzeit ab.
 
-### Comparison operators
+- `now() + "1 day"` gibt das Datum mit Uhrzeit zurück, das genau 24 Stunden nach der Ausführung liegt.
+- `file.mtime > now() - "1 week"` gibt `true` zurück, wenn die Datei innerhalb der letzten Woche geändert wurde.
+- `date("2024-12-01") + "1M" + "4h" + "3m"` gibt ein Datumsobjekt zurück, das `2025-01-01 04:03:00` darstellt.
+- Subtrahiere zwei Datumsangaben, um die Differenz dazwischen in Millisekunden zu erhalten, z.B. `now() - file.ctime`.
+- Um das Datum aus einer Datumsangabe mit Uhrzeit zu extrahieren, kannst du `datetime.date()` verwenden.
+- Verwende die Funktion `format()`, um ein Datum zu formatieren, bspw. `datetime.format("YYYY-MM-DD")`.
 
-Comparison operators can be used to compare numbers, or Date objects. Equal and not equal can be used with any kind of value, not just numbers and dates.
+### Vergleichsoperatoren
 
-| Operator | Description              |
-| -------- | ------------------------ |
-| `==`     | equals                   |
-| `!=`     | not equal                |
-| `>`      | greater than             |
-| `<`      | less than                |
-| `>=`     | greater than or equal to |
-| `<=`     | less than or equal to    |
+Mit Vergleichsoperatoren kannst du Zahlen oder Datumsobjekte vergleichen. Der Gleichheits- und Ungleichheits-Operator kann verwendet werden, um jegliche Werte zu vergleichen, nicht nur Zahlen und Datumsangaben.
 
-### Boolean operators
+| Operator | Beschreibung        |
+| -------- | ------------------- |
+| `==`     | ist gleich          |
+| `!=`     | ungleich            |
+| `>`      | größer als          |
+| `<`      | kleiner als         |
+| `>=`     | größer oder gleich  |
+| `<=`     | kleiner oder gleich |
 
-Boolean operators can be used to combine or invert logical values, resulting in a true or false value.
+### Logische Operatoren
 
-| Operator | Description |
-| -------- | ----------- |
-| `!`      | logical not |
-| `&&`     | logical and |
-| \|\|     | logical or  |
+Boolesche Operatoren können verwendet werden, um Werte logisch zu verknüpfen oder zu negieren, was in der Aussage *wahr* oder *falsch* resultiert.
 
-## Functions
+| Operator | Beschreibung    |
+| -------- | --------------- |
+| `!`      | logisches NICHT |
+| `&&`     | logisches UND   |
+| \|\|     | logisches ODER  |
 
-See the [[Functions|list of functions]] that can be used in formulas and [[Views|filters]].
+## Funktionen
 
-## Types
+Für die Verwendung in [[#Formeln|Formeln]] und [[Sichten#Filter|Filtern]] gibt es eine [[Funktionen|Reihe von Funktionen]].
 
-Bases have a type system which is used by formulas and filters to apply functions to properties.
+## Typen
 
-### Strings, numbers, and booleans
+Bases verfügt über ein Typsystem, das von Formeln und Filtern verwendet wird, um Funktionen auf Eigenschaften anzuwenden.
 
-Strings, numbers, and booleans are "primitive" values which do not require a function to create.
+### Zeichenfolgen, Zahlen und Boolean
 
-- Strings are enclosed in single or double quotes, for example `"message"`.
-- Numbers are written as digits, and may optionally be enclosed in parenthesis for clarity. For example, `1` or `(2.5)`.
-- Booleans are written as `true` or `false` without quotes.
+Zeichenfolgen, Zahlen und boolsche Werte sind sogenannte primitive Typen, für deren Erstellung keine Funktion erforderlich ist.
 
-### Dates and durations
+- Zeichenfolgen werden in einfache oder doppelte Anführungszeichen gesetzt, bspw. `"Text"`.
+- Zahlen werden mit Ziffern geschrieben und können optional zur Verdeutlichung in Klammern gesetzt werden, z.B. `1` oder `(2.5)`.
+- Boolsche Werte werden ohne Anführungszeichen als `true` oder `false` geschrieben.
 
-Dates represent a specific date, or a date and time depending on the function used to create them, or that type that has been assigned to the [[Eigenschaften|property]].
+### Datum und Zeitdauer
 
-- To construct a date, use the `date` function, for example `date("2025-01-01 12:00:00")`
-- To modify a date, add or remove a duration, for example `now() + "1 hour"` or `today() + "7d"`
-- Compare dates using comparison operators (e.g. `>` or `<`) and arithmetic operators (for example, `(now() + "1d") - now()` returns `86400000` milliseconds.)
-- To extract portions of a date, use the available fields (`now().hour`), or a convenience function (`now.time()`).
-- Many other [[Functions|fields and functions]] are available on date objects.
+Datumsangaben repräsentieren ein bestimmtes Datum oder ein Datum mit Uhrzeit, je nachdem, welche Funktion zur Erstellung verwendet oder welcher Datentyp der [[Eigenschaften|Eigenschaft]] zugewiesen wurde.
 
-### Objects and lists
+- Verwende die Funktion `date`, um ein Datum zu erzeugen, z.B. `date("2025-01-01 12:00:00")`.
+- Um ein Datum zu ändern, addiere oder subtrahiere eine Dauer, z.B. `now() + "1 hour"` oder `today() - "7d"`.
+- Vergleiche Datumsangaben mit Vergleichsoperatoren (z.B. `>`, `<`) oder arithmetischen Operatoren (z.B. `(now() + "1d") - now()` ergibt `86400000` Millisekunden).
+- Um Teile eines Datums zu extrahieren, verwende die verfügbaren Felder (bspw. `now().hour`) oder eine entsprechende Funktion (z.B. `now.time()`).
+- Für Datumsobjekte sind noch eine Reihe weitere [[Funktionen|Felder und Funktionen]] verfügbar.
 
-- Turn a single element into a list using the `list()` function. This is especially helpful for properties which may contain a mixture of lists or single values.
-- Access list elements using square brackets, and a 0-based index. For example, `property[0]` returns the first element from the list.
-- Access object elements using square brackets and the element name or dot notation. For example, `property.subprop` or `property["subprop"]`.
+### Objekte und Listen
 
-### Files and links
+- Wandle ein einzelnes Element mit der Funktion `list()` in eine Liste um. Diese Funktion ist hilfreich für Eigenschaften, die sowohl Listen, als auch Einzelwerte enthalten können.
+- Verwende eckige Klammern (`[]`) in Verbindung mit einem nullbasierten Index, um auf Listenelemente zuzugreifen. `eigenschaft[0]` gibt bspw. das erste Element einer Liste zurück.
+- Verwende eckige Klammern (`[]`) in Verbindung mit dem Elementnamen oder die Punkt-Notation, um auf Objekte zuzugreifen, z.B. `adresse["straße"]` oder `adresse.straße`.
 
-[[Verlinke Notizen|Wikilinks]] in [[Eigenschaften|frontmatter properties]] are automatically recognized as Link objects. Links will render as a clickable link in the [[Views|view]].
+### Dateien und Links
 
-- To construct a link, use the global `link` [[Functions|function]], for example `link("filename")` or `link("https://obsidian.md")`.
-- You can create a link from any string, for example, `link(file.ctime.date().toString())`.
-- To set the display text, pass in an optional string or icon as a second parameter, for example `link("filename", "display")` or `link("filename", icon("plus"))`.
+[[Verlinke Notizen|Wikilinks]] in [[Eigenschaften|Frontmatter-Eigenschaften]] werden automatisch als Link-Objekte erkannt. Link-Objekte werden in [[Sichten]] als klickbare Links gerendert.
 
-A File object can be turned into a link using `file.asLink()` with an optional display text.
+- Erstelle einen Link mit der globalen [[Funktionen|Funktion]] `link`, z.B. `link("dateiname")` oder `link("https://obsidian.md")`.
+- Du kannst Links aus einer beliebigen Zeichenfolge erstellen, z.B. `link(file.ctime.date().toString())`.
+- Um den Anzeigetext festzulegen, übergib der Funktion optional eine Zeichenfolge oder ein Icon als zweiten Parameter, z.B. `link("dateiname", "Anzeige")` oder `link("dateiname", icon("plus"))`.
 
-Links can be compared with `==` and `!=`. They are equivalent as long as they point to the same file, or if the file does not exist when looked up, their link text must be identical.
+Ein Dateiobjekt kann mittels `file.asLink()` und einem optionalen Anzeigetext in einen Link umgewandelt werden.
 
-Links can be compared to files such as `file` or `this`. They will equate if the link resolves to the file. For example, `author == this`.
+Du kannst Links mit `==` und `!=` vergleichen. Solange zwei Links auf dieselbe Datei verweisen, werden sie als gleich betrachtet. Ist die referenzierte Datei nicht vorhanden, wird stattdessen der Anzeigetext verglichen.
 
-Links can also be checked in list contains, for example, `authors.contains(this)`.
+Links können mit Dateien verglichen werden, wie z.B. `file` oder `this`. Verweist der Link auf die verglichene Datei, werden beide als gleich betrachtet, z.B. `autor == this`.
+
+Du kannst auch prüfen, ob Links in Listen enthalten sind, z.B. `autoren.contains(this)`.

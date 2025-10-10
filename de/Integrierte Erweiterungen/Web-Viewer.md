@@ -2,7 +2,7 @@
 permalink: plugins/web-viewer
 ---
 
-Mit der [[Übersicht|Standarderweiterung]] *Web-Viewer* kannst externe Links direkt innerhalb ![[lucide-monitor-check.svg#icon]] Obsidian-Desktop öffnen. Die Erweiterung erleichtert die Arbeit an Webrecherche-Projekten, da du verlinkte Inhalte lesen kannst, ohne die Anwendung zu wechseln.
+Mit der [[Standarderweiterungen|Standarderweiterung]] *Web-Viewer* kannst externe Links direkt innerhalb ![[lucide-monitor-check.svg#icon]] Obsidian-Desktop öffnen. Die Erweiterung erleichtert die Arbeit an Webrecherche-Projekten, da du verlinkte Inhalte lesen kannst, ohne die Anwendung zu wechseln.
 
 Externe Inhalte werden in einer eigenen [[Registerkarten|Registerkarte]] geöffnet, die du wie gewohnt anordnen, aufteilen oder in einem [[Pop-out Fenster]] öffnen kannst. In [[Canvas]]-Dateien als Karten eingebettete Webseiten können als Web-Viewer-Tabs geöffnet werden.
 

@@ -2,7 +2,7 @@
 permalink: plugins/woerteranzahl
 ---
 
-*Anzahl der Wörter* ist eine [[Übersicht|Standarderweiterung]] zur Anzeige der Anzahl von Wörtern und Zeichen der jeweils aktiven Notiz.
+*Anzahl der Wörter* ist eine [[Standarderweiterungen|Standarderweiterung]] zur Anzeige der Anzahl von Wörtern und Zeichen der jeweils aktiven Notiz.
 
 Auf dem ![[lucide-monitor-check.svg#icon]] Desktop erscheint diese Anzeige in der [[Statusleiste|Statusleiste]].
 

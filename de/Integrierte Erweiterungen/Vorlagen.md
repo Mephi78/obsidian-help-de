@@ -8,7 +8,7 @@ permalink: plugins/vorlagen
 publish: true
 ---
 
-Die [[Übersicht|Standarderweiterung]] *Vorlagen* ermöglicht dir, vordefinierte Textbausteine in deine aktive Notiz einzufügen.
+Die [[Standarderweiterungen|Standarderweiterung]] *Vorlagen* ermöglicht dir, vordefinierte Textbausteine in deine aktive Notiz einzufügen.
 
 ## Speicherort für Vorlagen konfigurieren
 

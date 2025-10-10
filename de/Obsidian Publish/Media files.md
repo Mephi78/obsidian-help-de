@@ -8,7 +8,7 @@ cssclasses:
 permalink: publish/media
 ---
 #TODO
-[[Obsidian Publish/Einführung|Obsidian Publish]] allows you to host notes and various media types, including images and video clips, with a limit of 4 GB per site. For more details, please refer to our [[Dateitypen|accepted file formats]].
+[[Einführung in Obsidian Publish|Obsidian Publish]] allows you to host notes and various media types, including images and video clips, with a limit of 4 GB per site. For more details, please refer to our [[Dateitypen|accepted file formats]].
 
 ![[Publish limitations#^publish-media-limit]]
 

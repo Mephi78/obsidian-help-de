@@ -8,7 +8,7 @@ cssclasses:
 permalink: discounts
 ---
 #TODO
-Obsidian currently offers two types of discounts: education and non-profit. They both give you 40% off our add-on services [[Obsidian Sync/Einführung|Obsidian Sync]] and [[Obsidian Publish/Einführung|Obsidian Publish]].
+Obsidian currently offers two types of discounts: education and non-profit. They both give you 40% off our add-on services [[Einführung in Obsidian Sync|Obsidian Sync]] and [[Einführung in Obsidian Publish|Obsidian Publish]].
 
 ## How to apply
 

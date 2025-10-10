@@ -4,7 +4,7 @@ aliases:
 permalink: plugins/eindeutige-notiz
 ---
 
-Mit der [[Übersicht|Standarderweiterung]] *Eindeutige Notiz* kannst du Notizen mit Zeitstempel-basierten, automatisch generierten Namen erstellen, ähnlich wie Zettelkasten-Notizen.
+Mit der [[Standarderweiterungen|Standarderweiterung]] *Eindeutige Notiz* kannst du Notizen mit Zeitstempel-basierten, automatisch generierten Namen erstellen, ähnlich wie Zettelkasten-Notizen.
 
 Wenn du bspw. am 1. Januar 2024 um 9:45 Uhr eine *Eindeutige Notiz* erstellst, wird diese mit dem Namen `202401010945` abgespeichert. Falls bereits eine Notiz mit diesem Namen existiert, wird der nächste verfügbare Zeitstempel verwendet.
 

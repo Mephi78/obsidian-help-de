@@ -38,7 +38,7 @@ Verschachtelte Tags werden von Obsidian-Funktionen wie folgt unterstützt.
 
 - Die [[Suche]] listet z.B. für `tag:posteingang` Notizen mit `#posteingang` und auch mit verschachtelten Tags, wie `#posteingang/ungelesen`.
 - In der [[Tag-Übersicht]] werden verschachtelte Tags als zum jeweils übergeordneten Tag zugehörig angezeigt.
-- In [[Introduction to Bases|Bases]] werden verschachtelte Tags durch die [[Functions#hasTag| Funktion "hasTag"]] erkannt, wobei `file.hasTag("a")` sowohl `#a`, als auch `#a/b` findet.
+- In [[Einführung in Bases|Bases]] werden verschachtelte Tags durch die [[Funktionen#hasTag| Funktion "hasTag"]] erkannt, wobei `file.hasTag("a")` sowohl `#a`, als auch `#a/b` findet.
 
 ## Regeln für Tag-Namen
 

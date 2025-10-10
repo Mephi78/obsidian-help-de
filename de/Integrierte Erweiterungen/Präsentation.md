@@ -2,7 +2,7 @@
 permalink: plugins/praesentation
 ---
 
-Die [[Übersicht|Standarderweiterung]] *Präsentation* ermöglicht die Erstellung von Folien aus deinen Notizen. Um eine Präsentation zu starten:
+Die [[Standarderweiterungen|Standarderweiterung]] *Präsentation* ermöglicht die Erstellung von Folien aus deinen Notizen. Um eine Präsentation zu starten:
 
 **Dateimenü:**
 

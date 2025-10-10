@@ -284,7 +284,7 @@ Obsidian stellt eine Reihe von Standardeigenschaften bereit:
 
 ### Eigenschaften für Obsidian Publish
 
-Folgende Standard-Eigenschaften können mit [[Obsidian Publish/Einführung|Obsidian Publish]] verwendet werden:
+Folgende Standard-Eigenschaften können mit [[Einführung in Obsidian Publish|Obsidian Publish]] verwendet werden:
 
 | Eigenschaft   | Beschreibung                                                                                                              |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------- |
