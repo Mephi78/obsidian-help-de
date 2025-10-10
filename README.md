@@ -63,7 +63,7 @@ Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichni
 | Linking notes and files   | ✅Notizen und Dateien verlinken  |
 | Files and folders         | ✅Dateien und Ordner             |
 | Plugins                   | ✅Integrierte Erweiterungen      |
-| Bases                     | 🚧Bases                          |
+| Bases                     | ✅Bases                          |
 | Obsidian Publish          | ==Obsidian Publish==              |
 | Obsidian Sync             | ==Obsidian Sync==                 |
 | Obsidian Web Clipper      | Obsidian Web Clipper              |
