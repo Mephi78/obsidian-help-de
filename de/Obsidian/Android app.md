@@ -1,30 +1,29 @@
 ---
 permalink: android
 ---
-#TODO
-To Sync your notes with Obsidian on Android see [[Synchronisiere Notizen zwischen Geräten]].
 
-## Vault location
+Um deine Notizen mit Obsidian auf Android zu synchronisieren, siehe [[Synchronisiere Notizen zwischen Geräten]].
 
-When you launch Obsidian on Android, you'll be asked to choose where your vault data should be stored. You can choose **device storage** (recommended) or **app storage**.
+## Vault-Speicherort
 
-### Device storage
+Wenn du Obsidian auf Android startest, wirst du aufgefordert, einen Speicherort für deinen Vault festzulegen. Du kannst zwischen **Gerätespeicher** (empfohlen) und **Anwendungsspeicher** wählen.
 
-With the **device storage** option, your data is stored in a shared location on your device. This allows your Obsidian vault to be accessed by other apps and services, such as third-party [[Synchronisiere Notizen zwischen Geräten|sync]] tools.
+### Gerätespeicher
 
-This is the recommended option because it offers better compatibility with sync tools and ensures your data persists even if you uninstall the app. However, this option requires additional permissions to access your device's files.
+Mit der Option **Gerätespeicher** werden deine Daten in einem freigegebenen Ordner auf deinem Gerät gespeichert. Auf diese Weise können auch andere Apps und Dienste auf Dateien in deinem Vault zugreifen, wie Drittanbieter-[[Synchronisiere Notizen zwischen Geräten|Synchronisierungsdienste]].
 
-Due to limitations with Android, Obsidian will request "All files" access to function reliably. Google recommends this for apps like Obsidian which are considered "document management apps". [Learn more](https://developer.android.com/training/data-storage/manage-all-files).
+Diese Option ist empfohlen, da sie eine bessere Kompatibilität mit Synchronisierungsdiensten gewährleistet und sicherstellt, dass deine Daten auch nach Deinstallation von Obsidian erhalten bleiben. Es werden jedoch zusätzliche Berechtigungen für den Zugriff auf die Dateien deines Geräts benötigt.
 
-The app only uses this permission to help you access your data on your device. Your data is never accessible to us. To learn more about how we protect your data and ensure your privacy, visit our [Security page](https://obsidian.md/security).
+Aufgrund von Einschränkungen bei Android fordert Obsidian *Zugriff auf Alle Dateien*, um zuverlässig zu funktionieren. [Google empfiehlt](https://developer.android.com/training/data-storage/manage-all-files) diese Einstellung für "Dokumentenmanagement-Apps" wie Obsidian.
 
-### App storage
+Die App verwendet diese Berechtigung nur, um dir Zugriff auf deine Daten auf deinem Gerät zu ermöglichen. Wir haben zu keinem Zeitpunkt Zugriff auf deine Daten. Erfahre mehr darüber, wie wir deine Daten schützen, auf unserer Webseite im Abschnitt [Sicherheit](https://obsidian.md/security).
 
-With the **app storage** option, your data is stored in Obsidian’s private app storage. This keeps your data isolated from other apps for added privacy.
+### Anwendungsspeicher
 
-This is a good option if you're not using any external sync tools and prefer tighter app-level sandboxing for your notes.
+Mit der Option **Anwendungsspeicher** werden deine Daten im privaten App-Speicher von Obsidian gespeichert. Deine Daten bleiben dadurch von anderen Apps isoliert, was für zusätzlichen Datenschutz sorgt.
 
-With this option you can use [[Einführung in Obsidian Sync|Obsidian Sync]] and third-party syncing plugins available through [[Externe Erweiterungen]], but you cannot use tools like Syncthing that rely on shared storage.
+Diese Option eignet sich, wenn du keine externen Synchronisierungsdienste verwendest und ein strengeres Sandboxing auf App-Ebene für deine Notizen bevorzugst.
 
-> [!warning] Uninstalling Obsidian will delete your local notes if you are using app storage
-> If you use the **App storage** option your local vault data will be deleted if you uninstall the app. Your Obsidian vault data on other devices will not be deleted.
+Mit dieser Option kannst du [[Einführung in Obsidian Sync|Obsidian Sync]] und Drittanbieter-Plugins verwenden, die als [[Externe Erweiterungen|Externe Erweiterung]] verfügbar sind. Externe Dienste hingegen, wie Syncthing, sind nicht verwendbar, weil diese auf freigegebene Ordner bauen.
+
+> [!warning] Mit der Deinstallation von Obsidian werden deine lokalen Notizen ebenfalls gelöscht, wenn du den **Anwendungsspeicher** verwendest.
