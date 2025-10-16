@@ -2,6 +2,7 @@
 aliases:
   - Gewusst wie/Anhänge verwalten
 permalink: anhaenge
+publish: true
 ---
 
 Du kannst [[Dateitypen|unterstützte Dateien]] als *Anhänge* in deinen Vault importieren, wie bspw. Bilder, Audiodateien oder PDFs. Anhänge sind normale Dateien, auf die du über dein Dateisystem zugreifen kannst. Anhänge können in Notizen [[Dateien einbetten|eingebettet]] werden.

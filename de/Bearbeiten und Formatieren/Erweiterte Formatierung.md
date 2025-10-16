@@ -2,6 +2,7 @@
 aliases:
   - Markdown für Fortgeschrittene
 permalink: erweiterte-syntax
+publish: true
 ---
 
 Erfahre, wie du fortgeschrittene Formatierungstechniken in deinen Notizen anwendest.

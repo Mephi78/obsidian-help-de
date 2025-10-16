@@ -7,6 +7,7 @@ cssclasses:
   - hide-title
   - list-cards-mobile-full
 permalink: /
+publish: true
 ---
 # Obsidian Hilfe
 

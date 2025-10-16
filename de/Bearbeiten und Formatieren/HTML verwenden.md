@@ -2,6 +2,7 @@
 aliases:
   - Fortgeschrittene Themen/HTML-Bereinigung
   - Bearbeiten und formatieren/HTML-Formatierung
+publish: true
 ---
 
 Obsidian unterstützt HTML, damit du deine Notizen nach Belieben gestalten oder sogar [[Webseiten einbetten|Webseiten einbetten]] kannst. Die Verwendung von HTML birgt jedoch Risiken. Um Schaden durch bösartigen Code zu verhindern, *bereinigt* Obsidian jeglichen HTML-Code in deinen Notizen.

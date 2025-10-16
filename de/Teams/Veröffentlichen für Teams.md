@@ -15,8 +15,8 @@ Obsidian funktioniert auch in Verbindung mit einer Vielzahl an Drittanbieter-Wer
 Erfahre mehr darüber, wie man eine [[Einführung in Obsidian Publish|Obsidian Publish]]-Webseite erstellt und einrichtet in den folgenden Abschnitten:
 
 - [[Einführung in Obsidian Publish]]
-- [[Collaborate on a Publish site]]
-- [[Publish limitations]]
+- [[Zusammenarbeit in Publish]]
+- [[Beschränkungen]]
 
 Wenn du Teil eines größeren Teams bist, empfiehlt es sich möglicherweise, Obsidian Publish mit einer ausgereiften Versionskontrolle wie Git zu kombinieren. Du kannst Obsidian Publish in Verbindung mit einem externen Versionskontrollsystem verwenden oder einen Synchronisierungsdienst wie [[Einführung in Obsidian Sync|Obsidian Sync]] verwenden, um Änderungen für mehrere Anwender synchron zu halten.
 

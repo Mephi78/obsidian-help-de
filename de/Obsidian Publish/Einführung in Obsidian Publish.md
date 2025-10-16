@@ -19,7 +19,7 @@ Falls du das auf [help.obsidian.md](https://help.obsidian.md) liest, schaust du 
 	- Erste Schritte mit Obsidian Publish.
 - [[Manage sites|Seitenverwaltung]]
 	- Erfahre, wie du mehrere veröffentlichte Seiten verwalten kannst.
-- [[Collaborate on a Publish site|Zusammenarbeit]]
+- [[Zusammenarbeit in Publish|Zusammenarbeit in Publish]]
 	- Veröffentliche eine Seite gemeinsam mit deinem Team.
 - [[Customize your site|Personalisierung]]
 	- Konfiguriere deine veröffentlichte Seite.
@@ -27,7 +27,7 @@ Falls du das auf [help.obsidian.md](https://help.obsidian.md) liest, schaust du 
 	- Obsidian Publish mit deiner eigenen Domäne verwenden.
 - [[Permalinks]]
 	- Definiere unveränderliche Hyperlinks für deine Seiten.
-- [[Analytics|Analysen]]
+- [[Analysen|Analysen]]
 	- Analysen für deine Webseite einrichten.
 - [[SEO]]
 	- Suchmaschinenoptimierung für Obsidian Publish.

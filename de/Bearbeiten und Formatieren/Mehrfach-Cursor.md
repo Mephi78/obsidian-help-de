@@ -2,6 +2,7 @@
 aliases:
   - Gewusst wie/Mehrere Textstellen gleichzeitig bearbeiten
 permalink: mehrfach-cursor
+publish: true
 ---
 
 Mit Obsidian kannst du Text an mehreren Stellen gleichzeitig bearbeiten mit der Mehrfach-Cursor-Funktion. Du kannst zusätzliche Cursor positionieren, indem du die `Alt`-Taste gedrückt hältst und an eine andere Stelle in der Notiz klickst.

@@ -1,5 +1,6 @@
 ---
 permalink: bases/sichten/tabelle
+publish: true
 ---
 
 Die Tabellen-Sicht zeigt eine [[Einführung in Bases|Base]] als Tabelle an mit einer Zeile für jede Datei und Spalten für die [[Eigenschaften]].

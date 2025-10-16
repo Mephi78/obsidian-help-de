@@ -211,7 +211,7 @@ Bitte überprüfe die Seiten, an denen du arbeitest, auf fehlerhafte Links und k
 
 ### Meta Beschreibungen
 
-Diese Dokumentation wird auf GitHub gepflegt und online über [[Einführung in Obsidian Publish|Obsidian Publish]] gehostet. Publish erzeugt [[Social media link previews#Description|Meta Beschreibungen]] für Social Cards und andere [[SEO]] Elemente aus der `description`-[[Eigenschaften|Eigenschaft]].
+Diese Dokumentation wird auf GitHub gepflegt und online über [[Einführung in Obsidian Publish|Obsidian Publish]] gehostet. Publish erzeugt [[Social-Media-Vorschau#Beschreibung|Meta Beschreibungen]] für Social Cards und andere [[SEO]] Elemente aus der `description`-[[Eigenschaften|Eigenschaft]].
 
 Wenn die Seite, an der du arbeitest, keine `description` beinhaltet, füge bitte eine hinzu. Die Beschreibung sollte in maximal 150 Zeichen eine objektive Zusammenfassung des Seiteninhalts geben.
 

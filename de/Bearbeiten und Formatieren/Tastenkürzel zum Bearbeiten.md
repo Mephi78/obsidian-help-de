@@ -2,6 +2,7 @@
 aliases:
   - Bearbeiten und formatieren/Editor-Tastenkürzel
 permalink: editor-shortcuts
+publish: true
 ---
 
 Erfahre, mit welchen Tastenkombinationen du dich durch deine Notizen bewegen und diese bearbeiten kannst. Du kannst auch [[Tastenkürzel|eigene Tastenkürzel]] festlegen.

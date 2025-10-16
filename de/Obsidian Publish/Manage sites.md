@@ -41,7 +41,7 @@ A site is a collection of notes that's hosted by Obsidian Publish and available 
 ## View site options
 
 1. In ribbon, to the left of the application window, click **Publish changes** ( ![[lucide-send.svg#icon]] ).
-2. In the **Publish changes** dialog, click **Change site options** ( ![[lucide-cog.svg#icon]] ).
+2. In the **Publish changes** dialog, click **Change site options** ( ![[lucide-settings.svg#icon]] ).
 
 ## Site options
 

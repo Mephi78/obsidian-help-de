@@ -1,5 +1,6 @@
 ---
 permalink: bases/funktionen
+publish: true
 ---
 
 Funktionen werden in [[Einführung in Bases|Bases]] verwendet, um [[Eigenschaften|Eigenschaftswerte]] in Formeln und Filtern zu manipulieren. Weitere Informationen zur Verwendung von Funktionen findest du in der [[Bases Syntax|Bases Syntaxreferenz]].

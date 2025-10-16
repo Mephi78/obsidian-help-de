@@ -86,7 +86,7 @@ The **Publish changes** menu will appear as a slide-up.
 ### Set a site name
 
 1. [[#Open Publish]]
-2. Select **Change site options** ( ![[lucide-cog.svg#icon]] ).
+2. Select **Change site options** ( ![[lucide-settings.svg#icon]] ).
 3. In **Site name**, under **General**, enter the name of your site.
 4. Select **Save site settings**.
 
@@ -99,7 +99,7 @@ The **Publish changes** menu will appear as a slide-up.
 3. Choose the notes you want to publish.
 4. Select **Publish**.
 
-> [!abstract] **Further reading**: [[Publish your content]], [[Obsidian Publish/Security and privacy|Security and privacy]], [[Publish limitations|Publish limitations]]
+> [!abstract] **Further reading**: [[Publish your content]], [[Obsidian Publish/Security and privacy|Security and privacy]], [[Beschränkungen|Beschränkungen]]
 
 You've configured an Obsidian Publish site and published your first notes. Head over to the site address you configured earlier in this guide, and start sharing it with your readers.
 
@@ -108,4 +108,4 @@ You've configured an Obsidian Publish site and published your first notes. Head 
 Now that you've published your first notes, you might want to:
 - Set up a custom domain for your site: [[Custom domains]]
 - Learn about advanced site customization: [[Customize your site]]
-- Find out how to add social media cards: [[Social media link previews]]
+- Find out how to add social media cards: [[Social-Media-Vorschau]]

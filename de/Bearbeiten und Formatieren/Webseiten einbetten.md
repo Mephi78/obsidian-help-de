@@ -4,6 +4,7 @@ aliases:
   - iframe
   - Bearbeiten und formatieren/Webseiten einbetten
 permalink: webseiten-einbetten
+publish: true
 ---
 
 Erfahre, wie du den [iframe](https://developer.mozilla.org/de/docs/Web/HTML/Element/iframe)-Tag verwenden kannst, um HTML-Seiten in deine Notizen einzubetten.

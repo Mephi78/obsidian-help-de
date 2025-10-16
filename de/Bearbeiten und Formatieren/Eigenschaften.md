@@ -290,9 +290,9 @@ Folgende Standard-Eigenschaften können mit [[Einführung in Obsidian Publish|Ob
 | ------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | `publish`     | Siehe [[Publish your content#Automatically select data to publish\|Notizen automatisch zur Veröffentlichung auswählen]]. |
 | `permalink`   | Siehe [[Permalinks\|Permalinks]].                                                                                         |
-| `description` | Siehe [[Social media link previews#Description\|Beschreibung]].                                                           |
-| `image`       | Siehe [[Social media link previews#Image\|Bild]].                                                                         |
-| `cover`       | Siehe [[Social media link previews#Image\|Bild]].                                                                         |
+| `description` | Siehe [[Social-Media-Vorschau#Beschreibung\|Beschreibung]].                                                           |
+| `image`       | Siehe [[Social-Media-Vorschau#Bild\|Bild]].                                                                         |
+| `cover`       | Siehe [[Social-Media-Vorschau#Bild\|Bild]].                                                                         |
 
 ### Veraltete Eigenschaften
 

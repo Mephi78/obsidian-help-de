@@ -1,5 +1,6 @@
 ---
 permalink: seiteninhalte-reduzieren
+publish: true
 ---
 
 Erfahre, wie du einen besseren Überblick über sehr umfangreiche Notizen gewinnen kannst, indem du Teile der Notiz ausblendest. Die *Reduzieren*-Funktion ist nützlich, wenn du Gliederungen für deine Notizen erstellst und dich auf den Teil konzentrieren möchtest, an dem du gerade arbeitest.

@@ -9,6 +9,7 @@ aliases:
   - Editor
   - Bearbeitungsmodus
 permalink: bearbeiten-und-lesen
+publish: true
 ---
 
 Obsidian bietet dir verschiedene *Ansichten* und *Modi* in denen du deine Notizen lesen oder bearbeiten kannst.
