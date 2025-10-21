@@ -100,7 +100,20 @@
     - Landkarte
 ### Obsidian Publish
 - Einführung in Obsidian Publish
-- *DEFERRED*
+- Obsidian Publish einrichten
+- Webseiten verwalten
+- Webseite individualisieren
+- Inhalte veröffentlichen
+- Zusammenarbeit in Publish
+- Social-Media-Vorschau
+- Mediendateien
+- Analysen
+- Eigene Domain
+- Permalinks
+- SEO
+- Sicherheit und Datenschutz
+- Beschränkungen
+- Fehlerbehandlung
 
 ### Obsidian Sync
 - Einführung in Obsidian Sync
