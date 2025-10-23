@@ -10,7 +10,7 @@ publish: true
 
 Erfahre, wie du das Erscheinungsbild von Obsidian in einzelnen Aspekten anpassen kannst, ohne gleich ein ganzes [Thema entwickeln](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) zu müssen.
 
-> [!TIP] Erfahre mehr über den Einsatz von CSS in Verbindung mit [[Einführung in Obsidian Publish|Obsidian Publish]] im Abschnitt über die [[Customize your site|Personalisierung deiner Webseite]].
+> [!TIP] Erfahre mehr über den Einsatz von CSS in Verbindung mit [[Einführung in Obsidian Publish|Obsidian Publish]] im Abschnitt über die [[Webseite individualisieren|Personalisierung deiner Webseite]].
 
 CSS (Cascading Style Sheets) ist eine Sprache, mit der man die Darstellung von HTML-Dokumenten beeinflussen kann. Mit Hilfe von CSS-Bausteinen kannst du Teile der Bedienoberfläche von Obsidian ändern, wie bspw. die Größe oder Farbe von Überschriften. Obsidian stellt einige [CSS-Variablen](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) zur Verfügung, über die sich Bedienelemente leicht deinen Bedürfnissen anpassen lassen.
 

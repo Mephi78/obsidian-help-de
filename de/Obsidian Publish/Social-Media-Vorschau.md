@@ -1,5 +1,6 @@
 ---
 permalink: publish/social-media
+publish: true
 ---
 
 Viele soziale Netzwerke unterstützen eine umfangreiche Seitenvorschau, wenn jemand einen Link zu einer Webseite teilt. Mithilfe von [[Eigenschaften]] kannst du bestimmen, wie deine Webseite in dieser Seitenvorschau angezeigt wird..

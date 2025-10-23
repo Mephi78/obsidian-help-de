@@ -2,6 +2,7 @@
 aliases:
   - Benutzerschnittstelle/Workspace
 permalink: workspace
+publish: true
 ---
 
 ## Desktop

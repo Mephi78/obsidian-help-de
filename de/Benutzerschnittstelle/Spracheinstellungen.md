@@ -2,6 +2,7 @@
 aliases:
   - Konzepte/Anzeigesprache
 permalink: sprache
+publish: true
 ---
 
 Obsidians Bedienoberfläche wurde von [[Danksagung#Übersetzer|unseren großartigen freiwilligen Helfern]] in verschiedene Sprachen übersetzt. Du kannst die Anzeigesprache festlegen, wenn du einen Vault erstellst oder später über **Einstellungen** ( ![[lucide-settings.svg#icon]] ) → **Allgemein** → **Sprache**.

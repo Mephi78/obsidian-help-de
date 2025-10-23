@@ -2,6 +2,7 @@
 aliases:
   - Benutzerschnittstelle/Workspace/Statusleiste
 permalink: statusleiste
+publish: true
 ---
 
 Die Statusleiste befindet sich in der rechten unteren Ecke des Anwendungsfensters. Sie zeigt hilfreiche Kurzinformationen über den aktuellen Vault bzw. die aktive Notiz, wie die Anzahl der Wörter oder den Modus der aktiven Registerkarte.

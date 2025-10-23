@@ -27,7 +27,7 @@ Vermutlich müssen wir deine Datenbank prüfen. Bitte kontaktiere den [[Hilfe un
 
 **Warum wird das CSS aus meinem [[Konfigurationsordner]] nicht auf die veröffentlichte Webseite angewendet?**
 
-Obsidian Publish berücksichtigt deinen Konfigurationsordner nicht. Erstelle stattdessen eine Datei `publish.css` im Wurzelverzeichnis des Vaults, den du veröffentlichen möchtest. Erfahre mehr dazu im Abschnitt [[Customize your site]].
+Obsidian Publish berücksichtigt deinen Konfigurationsordner nicht. Erstelle stattdessen eine Datei `publish.css` im Wurzelverzeichnis des Vaults, den du veröffentlichen möchtest. Erfahre mehr dazu im Abschnitt [[Webseite individualisieren]].
 
 **Warum sieht mein CSS auf der Publish-Webseite nicht genauso aus wie in der Anwendung?**
 

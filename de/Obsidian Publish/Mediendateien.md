@@ -6,6 +6,7 @@ aliases:
 cssclasses:
   - soft-embed
 permalink: publish/medien
+publish: true
 ---
 
 Mit [[Einführung in Obsidian Publish|Obsidian Publish]] kannst du Notizen und verschiedene Medientypen wie Bilder oder Videos bis zu 4 GB je Webseite hosten. Weitere Informationen findest du im Abschnitt [[Dateitypen|Unterstützte Dateitypen]].

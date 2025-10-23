@@ -2,6 +2,7 @@
 aliases:
   - Anpassen/Darstellung
 permalink: darstellung
+publish: true
 ---
 
 ### Farbschema

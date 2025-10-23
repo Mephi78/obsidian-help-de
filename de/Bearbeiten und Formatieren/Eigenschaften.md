@@ -288,7 +288,7 @@ Folgende Standard-Eigenschaften können mit [[Einführung in Obsidian Publish|Ob
 
 | Eigenschaft   | Beschreibung                                                                                                              |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| `publish`     | Siehe [[Publish your content#Automatically select data to publish\|Notizen automatisch zur Veröffentlichung auswählen]]. |
+| `publish`     | Siehe [[Inhalte veröffentlichen#Daten zum Veröffentlichen automatisch auswählen\|Notizen automatisch zur Veröffentlichung auswählen]]. |
 | `permalink`   | Siehe [[Permalinks\|Permalinks]].                                                                                         |
 | `description` | Siehe [[Social-Media-Vorschau#Beschreibung\|Beschreibung]].                                                           |
 | `image`       | Siehe [[Social-Media-Vorschau#Bild\|Bild]].                                                                         |

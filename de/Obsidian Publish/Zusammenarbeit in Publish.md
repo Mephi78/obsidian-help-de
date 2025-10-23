@@ -2,9 +2,9 @@
 aliases:
   - Obsidian Publish/Zusammenarbeit
 description: Erfahre, wie du mit anderen Obsidian-Anwendern gemeinsam eine Webseite veröffentlichen kannst mit Obsidian Publish.
+publish: true
 mobile: true
 permalink: publish/zusammenarbeit
-publish: true
 ---
 
 Erfahre, wie du mit anderen Obsidian-Anwendern gemeinsam an einer [[Einführung in Obsidian Publish|Obsidian Publish]]-Webseite arbeiten kannst. Indem du deine Freunde oder Kollegen als Mitwirkende zu deiner Webseite hinzufügst, können diese Änderungen auf deiner Webseite veröffentlichen.

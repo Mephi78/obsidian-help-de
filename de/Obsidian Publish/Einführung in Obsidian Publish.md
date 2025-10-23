@@ -15,15 +15,15 @@ Falls du das auf [help.obsidian.md](https://help.obsidian.md) liest, schaust du 
 
 ## Obsidian Publish verwenden
 
-- [[Set up Obsidian Publish|Obsidian Publish einrichten]]
+- [[Obsidian Publish einrichten|Obsidian Publish einrichten]]
 	- Erste Schritte mit Obsidian Publish.
-- [[Manage sites|Seitenverwaltung]]
+- [[Webseiten verwalten|Seitenverwaltung]]
 	- Erfahre, wie du mehrere veröffentlichte Seiten verwalten kannst.
 - [[Zusammenarbeit in Publish|Zusammenarbeit in Publish]]
 	- Veröffentliche eine Seite gemeinsam mit deinem Team.
-- [[Customize your site|Personalisierung]]
+- [[Webseite individualisieren|Personalisierung]]
 	- Konfiguriere deine veröffentlichte Seite.
-- [[Custom domains|Spezifische Domänen]]
+- [[Eigene Domain|Spezifische Domänen]]
 	- Obsidian Publish mit deiner eigenen Domäne verwenden.
 - [[Permalinks]]
 	- Definiere unveränderliche Hyperlinks für deine Seiten.
@@ -31,5 +31,5 @@ Falls du das auf [help.obsidian.md](https://help.obsidian.md) liest, schaust du 
 	- Analysen für deine Webseite einrichten.
 - [[SEO]]
 	- Suchmaschinenoptimierung für Obsidian Publish.
-- [[Obsidian Publish/Security and privacy|Sicherheit und Datenschutz]]
+- [[Sicherheit und Datenschutz|Sicherheit und Datenschutz]]
 	- Wie Obsidian deine Daten schützt.

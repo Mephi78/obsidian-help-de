@@ -2,11 +2,12 @@
 aliases:
   - Suchmaschinenoptimierung
 permalink: publish/seo
+publish: true
 ---
 
 [[Einführung in Obsidian Publish|Obsidian Publish]]-Webseiten werden automatisch für Suchmaschinen und [[Social-Media-Vorschau|Social Cards]] optimiert. Du kannst die Metadaten für Beschreibungen, Permalinks und Titelbilder deiner Webseite auch anpassen.
 
-Beachte, dass du die Suchmaschinen-Indexierung in den [[Manage sites#Site Options|Webseiten-Einstellungen]] auch deaktivieren kannst.
+Beachte, dass du die Suchmaschinen-Indexierung in den [[Webseiten verwalten#Seiteneinstellungen|Webseiten-Einstellungen]] auch deaktivieren kannst.
 
 ### Google Suchanalyse
 
@@ -30,7 +31,7 @@ Die Metadaten für eine Seite kannst du über die [[Eigenschaften#Eigenschaften 
 
 | Eigenschaft   | Beschreibung                                                                                                             |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `publish`     | Siehe [[Publish your content#Automatically select notes to publish\|Notizen zum Veröffentlichen automatisch auswählen]]. |
+| `publish`     | Siehe [[Inhalte veröffentlichen#Automatically select notes to publish\|Notizen zum Veröffentlichen automatisch auswählen]]. |
 | `permalink`   | Siehe [[Permalinks\|Permalinks]].                                                                                        |
 | `description` | Siehe [[Social-Media-Vorschau#Beschreibung\|Beschreibung]].                                                              |
 | `image`       | Siehe [[Social-Media-Vorschau#Bild\|Bild]].                                                                              |

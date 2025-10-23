@@ -1,5 +1,6 @@
 ---
 permalink: publish/beschraenkungen
+publish: true
 ---
 
 > [!tip] Unsere großartige Community hat zu einigen hier benannten Einschränkungen Umgehungslösungen entwickelt. Erfahre mehr darüber im unserem Forum unter [Publish Resources](https://forum.obsidian.md/t/obsidian-publish-resources/74582).

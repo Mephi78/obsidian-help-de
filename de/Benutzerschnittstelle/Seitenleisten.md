@@ -2,6 +2,7 @@
 aliases:
   - Benutzerschnittstelle/Workspace/Seitenleisten
 permalink: seitenleisten
+publish: true
 ---
 
 Obsidian hat zwei Seitenleisten, je eine links und rechts. In der ![[lucide-monitor-check.svg#icon]] Desktop Version und auf größeren Tablets enthält die linke Seitenleiste auch die [[Werkzeugleiste]]. In der ![[obsidian-icon-smartphone.svg#icon]] Mobile Version und auf kleineren Tablets sind die Seitenleisten [[#Seitenleisten ein- oder ausblenden|standardmäßig ausgeblendet]].

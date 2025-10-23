@@ -1,68 +1,68 @@
 ---
 aliases:
-  - Obsidian Publish/Redirecting old notes
-  - Obsidian Publish/Redirect old notes
+  - Obsidian Publish/Umleitung alter Notizen
 permalink: publish/permalinks
+publish: true
 ---
-#TODO
-You can rename the URL to your notes, using _permalinks_.
 
-For example, you can turn this:
+Du kannst die URL für deine Notizen umbenennen mit *Permalinks*.
 
-```
-https://publish.obsidian.md/username/Company/About+us
-```
-
-Into this:
+Bspw. kannst du diesen Link umwandeln:
 
 ```
-https://publish.obsidian.md/username/about
+https://publish.obsidian.md/benutzer/Unternehmen/%C3%9Cber+uns
 ```
 
-To create a permalink for a note, add the `permalink` property to your [[Eigenschaften]].
+...in diesen:
+
+```
+https://publish.obsidian.md/benutzer/ueber
+```
+
+Um einen Permalink für eine Notiz zu erstellen, füge die [[Eigenschaften|Eigenschaft]] `permalink` hinzu.
 
 ```yaml
 ---
-permalink: about
+permalink: ueber
 ---
 ```
 
-If someone visits a note using the original URL, they'll be automatically redirected to the permalink.
+Wenn jemand die Seite über die ursprüngliche URL aufruft, wird er automatisch umgeleitet auf den Permalink.
 
-## Redirect old notes
+## Alte Notizen umleiten
 
-Renaming and removing notes is a natural part of maintaining a living vault. While Obsidian automatically updates links when you move a note within your local vault, other websites may still link to your old notes on your published [[Einführung in Obsidian Publish|Obsidian Publish]] site. You can redirect readers from one note to another.
+Das Umbenennen und Entfernen von Notizen ist natürlicher Bestandteil der Pflege eines aktiven Vaults. Doch während Obsidian interne Links automatisch aktualisiert, wenn du eine Notiz innerhalb deines Vaults verschiebst, können andere Webseiten weiterhin auf deine alten [[Einführung in Obsidian Publish|veröffentlichten]] Notizen verweisen. Du kannst deine Leser von einer Notiz auf eine andere umleiten.
 
-Imagine you want to move a note from one folder to another:
+Stell dir vor, du möchtest eine Notiz von einem Ordner in einen anderen verschieben:
 
-- **Guides**
-  - ~~Making friends.md~~ (removed)
+- **Anleitungen**
+  - ~~Freunde finden.md~~ (gelöscht)
 - **Tutorials**
-  - *How to make friends.md* (added)
+  - *Wie man Freunde findet.md* (hinzugefügt)
 
-After you move the note, Obsidian automatically updates all links within the vault. However, if you publish the change to your Publish site, any links to `/Guides/Making+friends` will result in a 404.
+Wenn du die Notiz verschiebst, aktualisiert Obsidian automatisch alle Links in deinem Vault. Wenn du die Änderung veröffentlichst, werden jedoch alle Links nach `/Anleitungen/Freunde+finden` einen 404-Fehler erzeugen.
 
-To redirect readers from `/Guides/Making+friends` to `/Tutorials/How+to+make+friends`, you need to add an [[Aliasse|alias]] in `How to make friends.md`, the note you want to redirect to.
+Um deine Leser von `/Anleitungen/Freunde+finden` nach `/Tutorials/Wie+man+Freunde+findet` umzuleiten, musst du der Notiz `Wie man Freunde findet.md`, auf die du umleiten möchtest, einen [[Aliasse|Alias]] hinzufügen.
 
 ```md
 ---
-alias: Guides/Making friends
+alias: Anleitungen/Freunde finden
 ---
 
-# How to make friends
+# Wie man Freunde findet
 ```
 
-> [!important]
-> Make sure that you include the full path to the old note in the alias. While using only the note name as an alias works in your local vault, Publish needs the full path to the note to be able to redirect to it.
+> [!important] Wichtig
+> Stelle sicher, dass du den vollständigen Pfad zur alten Notiz im Alias angibst. Die Kurzschreibweise ohne den Ordner-Pfad funktioniert nur innerhalb deines lokalen Vaults, Obsidian Publish benötigt für eine erfolgreiche Weiterleitung den vollständigen Pfad.
 
-You can redirect multiple notes by adding an alias for each.
+Du kannst mehrere alte Pfade auf die neue Notiz umleiten, indem du für jede einen Alias hinzufügst.
 
 ```md
 ---
 aliases: 
-  - Guides/Making friends
-  - Developing friendships
+  - Anleitungen/Freunde finden
+  - Freundschaften entwickeln
 ---
 
-# How to make friends
+# Wie man Freunde findet
 ```

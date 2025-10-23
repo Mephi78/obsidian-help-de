@@ -1,6 +1,7 @@
 ---
 description: Erfahre, wie du die Drag & Drop Funktion in Obsidian anwenden kannst.
 permalink: drag-and-drop
+publish: true
 ---
 
 Die Drag & Drop Funktion in Obsidian bietet dir zahlreiche Möglichkeiten, Elemente - wie Registerkarten, Dateien, Ordner oder Inhalte - durch Ziehen und Ablegen zu organisieren.
