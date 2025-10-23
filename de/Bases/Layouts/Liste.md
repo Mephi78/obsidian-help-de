@@ -1,5 +1,6 @@
 ---
 permalink: bases/sichten/liste
+publish: true
 ---
 
 Die Listen-Sicht zeigt die Dateien in deiner [[Einführung in Bases|Base]] als ungeordnete oder nummerierte [[Formatierungsgrundlagen#Listen|Liste]] an.

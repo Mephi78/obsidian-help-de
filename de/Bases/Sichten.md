@@ -1,5 +1,6 @@
 ---
 permalink: bases/sichten
+publish: true
 ---
 
 Mit *Sichten* kannst du die Informationen in einer [[Einführung in Bases|Base]] auf verschiedene Weise organisieren. Eine Base kann mehrere Sichten enthalten, jede mit einer eigenen Konfiguration zum Anzeigen, Sortieren und Filtern von Dateien.

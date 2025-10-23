@@ -7,6 +7,7 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 description: Erstelle datenbankähnliche Sichten auf Notizen in Form von Tabellen oder Karten. Bearbeite, sortiere und filtere Dateien über ihre Eigenschaften.
+publish: true
 ---
 
 Die [[Standarderweiterungen|Standarderweiterung]] *Bases* ermöglicht die Erstellung datenbankähnlicher Sichten auf deine Notizen. Mit einer Base kannst du Dateien und deren Eigenschaften anzeigen, bearbeiten, sortieren und filtern. Bases können dir helfen, alles zu organisieren, von Leselisten über Reisepläne bis hin zu Projekten und vielem mehr.

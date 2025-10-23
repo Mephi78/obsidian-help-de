@@ -1,6 +1,7 @@
 ---
 description: Erfahre, wie du Dateien in einem separaten Fenster öffnen kannst.
 permalink: pop-out-fenster
+publish: true
 ---
 
 > [!compatibility] Diese Funktion ist nur in der Desktop-Anwendung verfügbar.

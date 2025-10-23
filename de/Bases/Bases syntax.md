@@ -2,6 +2,7 @@
 permalink: bases/syntax
 aliases:
   - Bases Dateiformat
+publish: true
 ---
 
 Wenn du in Obsidian eine [[Erstelle eine Base|Base erstellst]], wird diese als `.base`-Datei gespeichert. Bases werden in der Regel interaktiv über die Bedienoberfläche bearbeitet, aber du kannst den Quellcode auch manuell editieren und in einen Quelltext-Block einbetten.

@@ -1,5 +1,6 @@
 ---
 permalink: bases/sichten/karten
+publish: true
 ---
 
 Die Karten-Sicht zeigt die Dateien einer [[Einführung in Bases|Base]] als Karten in einem Raster an. Damit kannst du galerieähnliche Layouts mit Bildern erstellen.

@@ -5,6 +5,7 @@ aliases:
   - Shortcut
   - Tastenkombination
 permalink: shortcuts
+publish: true
 ---
 
 Obsidian erlaubt die Einrichtung von benutzerdefinierten Tastenkürzeln, auch als Tastenkombination oder Shortcut bekannt.

@@ -1,5 +1,6 @@
 ---
 permalink: obsidian-markdown
+publish: true
 ---
 
 Obsidian strebt nach größtmöglicher Leistungsfähigkeit, ohne mit bestehenden Formaten zu brechen. Daher verwenden wir eine Kombination aus verschiedenen [[Formatierungsgrundlagen|Markdown]]-Varianten.

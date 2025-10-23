@@ -26,7 +26,7 @@ Clicking or tapping the icon opens a context menu with the following options:
 - ![[lucide-history.svg#icon]] [[Version history]] (Greyed out if not viewing a note)
 - ![[lucide-align-left.svg#icon]] Open [[#Sync activity log|Sync log]]
 - ![[lucide-trash-2.svg#icon]] [[Version history#Restore a deleted file|Deleted files]]
-- ![[lucide-cog.svg#icon]] [[Sync settings and selective syncing|Sync settings]]
+- ![[lucide-settings.svg#icon]] [[Sync settings and selective syncing|Sync settings]]
 
 ## Sync activity log
 

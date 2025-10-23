@@ -57,4 +57,4 @@ Be aware that Obsidian Sync has [[Frequently asked questions|Limitations]] that 
 - The maximum number of collaborators on a shared vault is 20 users.
 - The maximum file size for attachments depends on the [[Plans and storage limits|plan]] of your remote vault host, with 5 MB for the Standard Plan and 200 MB for the Plus Plan.
 
-Learn more about [[Syncing for teams]].
+Learn more about [[Synchronisierung für Teams]].

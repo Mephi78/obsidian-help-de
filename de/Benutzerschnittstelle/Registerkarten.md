@@ -5,6 +5,7 @@ aliases:
   - Fensterlayout
   - Benutzerschnittstelle/Registerkarten
 permalink: registerkarten
+publish: true
 ---
 
 Registerkarten (auch: Tabs) in Obsidian funktionieren ähnlich wie Registerkarten in anderen Anwendungen, wie z.B. Web-Browsern.

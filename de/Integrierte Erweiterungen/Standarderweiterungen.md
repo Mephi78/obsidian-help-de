@@ -63,7 +63,7 @@ Einige dieser Funktionen sind standardmäßig deaktiviert. Du kannst sie in den 
 	- Synchronisiere deine Notizen geräteübergreifend.
 - [[Tag-Übersicht|Tag-Übersicht]]
 	- Listet alle Tags in deinem Vault auf.
-- [[Tägliche Notiz|Tägliche Notiz]]
+- [[Tägliche Notiz|Tägliche Notizen]]
 	- Erstelle und öffne Notizen basierend auf dem aktuellen Datum.
 - [[Einführung in Obsidian Publish|Veröffentlichen]]
 	- Veröffentliche deine Notizen als Webseite, Wiki oder Dokumentation.

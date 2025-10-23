@@ -2,6 +2,7 @@
 aliases:
   - Gewusst wie/Verwendung von Tags
 permalink: tags
+publish: true
 ---
 
 Tags sind Stichwörter oder Themen, mit denen du Notizen schneller finden kannst.

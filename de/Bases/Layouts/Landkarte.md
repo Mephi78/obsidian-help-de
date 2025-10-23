@@ -1,5 +1,6 @@
 ---
 permalink: bases/sichten/landkarte
+publish: true
 ---
 
 Die Landkarten-Sicht zeigt Dateien in einer [[Einführung in Bases|Base]] als interaktive Karte mit Stecknadel-Markierungen für jede Datei und einer Vorschau mit den Eigenschaften dieser Datei.

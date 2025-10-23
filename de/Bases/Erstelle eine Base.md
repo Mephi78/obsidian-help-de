@@ -1,5 +1,6 @@
 ---
 permalink: bases/base-erstellen
+publish: true
 ---
 
 Mit [[Einführung in Bases|Bases]] kannst du datenbankähnliche Sichten auf deine Notizen erstellen. Erfahre hier, wie du eine Base erzeugst und in eine Notiz einbindest. Jede Base kann eine oder mehrere [[Sichten|Sichten]] beinhalten, um Informationen auf unterschiedliche Weise darzustellen.

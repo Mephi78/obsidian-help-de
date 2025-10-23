@@ -145,7 +145,7 @@ embed OR search
 ```
 ````
 
-[[Einführung in Obsidian Publish|Obsidian Publish]] unterstützt keine eingebetteten [[Publish limitations#Search|Suchergebnisse]].
+[[Einführung in Obsidian Publish|Obsidian Publish]] unterstützt keine eingebetteten [[Beschränkungen#Suche|Suchergebnisse]].
 
 Um ein zur Laufzeit gerendertes Beispiel zu sehen, füge testweise den obigen Quellcode-Block in deinem Vault ein.
 

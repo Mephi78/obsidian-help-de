@@ -2,6 +2,7 @@
 aliases:
   - Benutzerschnittstelle/Workspace/Werkzeugleiste
 permalink: werkzeugleiste
+publish: true
 ---
 
 Obsidians Werkzeugleiste ermöglicht den Schnellzugriff auf häufig benötigte Funktionen.

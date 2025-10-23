@@ -225,7 +225,7 @@ Die Datumsauswahl verwendet das Standard-Datumsformat deines Betriebssystems. Du
 > 
 > ![[Mac-OS-DateTime.png|450]]
 
-Wenn die Standarderweiterung [[Tägliche Notiz|Tägliche Notiz]] aktiviert ist, fungieren Eigenschaften vom Typ Datum zusätzlich als interner Link zur täglichen Notiz für das entsprechende Datum.
+Wenn die Standarderweiterung [[Tägliche Notiz|Tägliche Notizen]] aktiviert ist, fungieren Eigenschaften vom Typ Datum zusätzlich als interner Link zur täglichen Notiz für das entsprechende Datum.
 
 ![[Tägliche Notiz#^daily-notes-date]]
 
@@ -288,11 +288,11 @@ Folgende Standard-Eigenschaften können mit [[Einführung in Obsidian Publish|Ob
 
 | Eigenschaft   | Beschreibung                                                                                                              |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| `publish`     | Siehe [[Publish your content#Automatically select data to publish\|Notizen automatisch zur Veröffentlichung auswählen]]. |
+| `publish`     | Siehe [[Inhalte veröffentlichen#Daten zum Veröffentlichen automatisch auswählen\|Notizen automatisch zur Veröffentlichung auswählen]]. |
 | `permalink`   | Siehe [[Permalinks\|Permalinks]].                                                                                         |
-| `description` | Siehe [[Social media link previews#Description\|Beschreibung]].                                                           |
-| `image`       | Siehe [[Social media link previews#Image\|Bild]].                                                                         |
-| `cover`       | Siehe [[Social media link previews#Image\|Bild]].                                                                         |
+| `description` | Siehe [[Social-Media-Vorschau#Beschreibung\|Beschreibung]].                                                           |
+| `image`       | Siehe [[Social-Media-Vorschau#Bild\|Bild]].                                                                         |
+| `cover`       | Siehe [[Social-Media-Vorschau#Bild\|Bild]].                                                                         |
 
 ### Veraltete Eigenschaften
 

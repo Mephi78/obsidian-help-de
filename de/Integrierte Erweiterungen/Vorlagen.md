@@ -41,7 +41,7 @@ Auf diese Weise lässt sich das Format sowohl für `{{date}}`, als auch `{{time}
 Zudem lässt sich das Standardformat für beide Variablen in den Erweiterungseinstellungen anpassen. Gib dazu die entsprechenden Format-Token unter **Einstellungen → Vorlagen → Datumsformat** bzw. **Zeitformat** ein.
 
 > [!tip] Tipp
-> Die Variablen `{{date}}` und `{{time}}` sind möglicherweise hilfreich für die Erstellung von Vorlagen für [[Tägliche Notiz]] oder die [[Eindeutige Notiz]].
+> Die Variablen `{{date}}` und `{{time}}` sind möglicherweise hilfreich für die Erstellung von Vorlagen für [[Tägliche Notiz|Tägliche Notizen]] oder die [[Eindeutige Notiz]].
 
 ## Vorlagen-Eigenschaften
 

@@ -1,37 +1,38 @@
 ---
 aliases:
-  - Search Engine Optimization
+  - Suchmaschinenoptimierung
 permalink: publish/seo
+publish: true
 ---
-#TODO
-[[Einführung in Obsidian Publish|Obsidian Publish]] sites are automatically optimized for search engines and [[Social media link previews|social sharing cards]]. You can also customize page metadata with descriptions, permalinks, and images.
 
-Note that you can disallow search engine indexing, in your [[Manage sites#Site Options|site options]].
+[[Einführung in Obsidian Publish|Obsidian Publish]]-Webseiten werden automatisch für Suchmaschinen und [[Social-Media-Vorschau|Social Cards]] optimiert. Du kannst die Metadaten für Beschreibungen, Permalinks und Titelbilder deiner Webseite auch anpassen.
 
-### Google Search Console
+Beachte, dass du die Suchmaschinen-Indexierung in den [[Webseiten verwalten#Seiteneinstellungen|Webseiten-Einstellungen]] auch deaktivieren kannst.
 
-To track SEO with Google, register your site on [Google Search Console](https://search.google.com/search-console). You can also follow our recommended steps to [[Analytics|set up Google Analytics]].
+### Google Suchanalyse
+
+Um SEO mit Google zu verfolgen, registriere deine Webseite in der [Google Search Console](https://search.google.com/search-console). Unsere Anleitung zur [[Analysen|Konfiguration von Google Analytics]] könnte dich auch interessieren.
 
 ### Sitemap
 
-The sitemap for your Publish site is available at `/sitemap.xml`, for example:
+Die Sitemap für deine Publish-Webseite erreichst du unter `/sitemap.xml`, z.B.:
 https://help.obsidian.md/sitemap.xml
 
-The sitemap is also available as an RSS feed at `/rss.xml`:
+Die Sitemap ist auch als RSS Feed verfügbar unter `/rss.xml`:
 https://help.obsidian.md/rss.xml
 
 ### Permalinks
 
-Consider using [[Permalinks]] to define permanent URLs on your site.
+Erwäge die Verwendung von [[Permalinks]], um permanente URLs auf in Webseite zu definieren.
 
-### Metadata
+### Metadaten
 
-Page metadata can be customized using [[Eigenschaften#Eigenschaften für Obsidian Publish|Properties]], which can be useful for [[Social media link previews|social sharing cards]].
+Die Metadaten für eine Seite kannst du über die [[Eigenschaften#Eigenschaften für Obsidian Publish|Notiz-Eigenschaften]] anpassen, bspw. zur Gestaltung von [[Social-Media-Vorschau|Social Cards]].
 
-| Property      | Description                                                                                                       |
-| ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `publish`     | See [[Publish your content#Automatically select notes to publish\|Automatically select notes to publish]]. |
-| `permalink`   | See [[Permalinks\|Permalinks]].                                                                                   |
-| `description` | See [[Social media link previews#Description\|Description]].                                                      |
-| `image`       | See [[Social media link previews#Image\|Image]].                                                                  |
-| `cover`       | See [[Social media link previews#Image\|Image]].                                                                  |
+| Eigenschaft   | Beschreibung                                                                                                             |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `publish`     | Siehe [[Inhalte veröffentlichen#Automatically select notes to publish\|Notizen zum Veröffentlichen automatisch auswählen]]. |
+| `permalink`   | Siehe [[Permalinks\|Permalinks]].                                                                                        |
+| `description` | Siehe [[Social-Media-Vorschau#Beschreibung\|Beschreibung]].                                                              |
+| `image`       | Siehe [[Social-Media-Vorschau#Bild\|Bild]].                                                                              |
+| `cover`       | Siehe [[Social-Media-Vorschau#Bild\|Bild]].                                                                              |
