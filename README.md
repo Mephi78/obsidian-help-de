@@ -52,7 +52,7 @@ Grundsätzlich werden alle Inhalte des Vaults übersetzt, wie hier nicht abschli
 
 Bitte orientiere dich bei der Übersetzung am [Wörterbuch für die deutsche Übersetzung](https://github.com/obsidianmd/obsidian-translations/blob/master/de.termbase.md) und an bereits übersetzten Inhalten.
 
-Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichnisse (oberste Ebene im Obsidian-Dateiexplorer) nach dem Veröffentlichen des Vaults als Webseite. Themen, die zuerst übersetzt werden sollten, sind hervorgehoben.
+Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichnisse (oberste Ebene im Obsidian-Dateiexplorer) nach dem Veröffentlichen des Vaults als Webseite mit Bearbeitungsstatus.
 
 | Englisch                  | Deutsch                           |
 |---------------------------|-----------------------------------|
@@ -64,13 +64,13 @@ Zur Orientierung hier eine Übersicht der Darstellungsreihenfolge der Verzeichni
 | Files and folders         | ✅Dateien und Ordner             |
 | Plugins                   | ✅Integrierte Erweiterungen      |
 | Bases                     | ✅Bases                          |
-| Obsidian Publish          | ==Obsidian Publish==              |
-| Obsidian Sync             | ==Obsidian Sync==                 |
+| Obsidian Publish          | ✅Obsidian Publish               |
+| Obsidian Sync             | 🚧Obsidian Sync                  |
 | Obsidian Web Clipper      | Obsidian Web Clipper              |
 | Extending Obsidian        | ✅Obsidian erweitern und anpassen |
 | Contributing to Obsidian  | ✅Mitmachen                       |
 | Licenses and payment      | Lizenzen und Zahlung              |
-| Teams                     | Teams                             |
+| Teams                     | ✅Teams                           |
 | Obsidian                  | 🚧Obsidian                        |
 ### Tricks & Kniffe
 
