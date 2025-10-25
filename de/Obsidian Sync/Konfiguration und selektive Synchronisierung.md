@@ -1,35 +1,34 @@
 ---
 aliases:
-  - Sync settings
-  - Selective syncing
-  - Obsidian Sync/Select files and settings to sync
-  - Settings profile
-description: This page explains the Sync settings and guides you in selecting which files to sync.
+  - Sync-Einstellungen
+  - Selektive Synchronisierung
+  - Obsidian Sync/Auswahl zu synchronisierender Dateien und Einstellungen
+description: Erfahre, wie du Obsidian Sync konfigurieren und festlegen kannst, welche Dateien synchronisiert werden sollen.
 mobile: true
-permalink: sync/settings
+permalink: sync/einstellungen
 publish: true
 ---
-#TODO
-When you [[Plans and storage limits#Create a new remote vault|create a remote vault]] and [[Set up Obsidian Sync#Connect to a remote vault|connect to it]], the Sync Core plugin becomes the place for managing your remote vault.
+#WIP
+When you [[Tarife und Speicherkapazität#Neuen Remote-Vault erstellen|create a remote vault]] and [[Obsidian Sync einrichten#Remote-Vault verbinden|connect to it]], the Sync Core plugin becomes the place for managing your remote vault.
 
-## Sync settings
+## Sync-Einstellungen
 
 **Remote vault**  
-This section shows your currently connected remote vault. It includes a **Disconnect** button to disconnect from the remote vault and a **Manage** button to view all remote vaults your account has access to (including shared vaults via [[Collaborate on a shared vault|collaboration]]).
+This section shows your currently connected remote vault. It includes a **Disconnect** button to disconnect from the remote vault and a **Manage** button to view all remote vaults your account has access to (including shared vaults via [[Zusammenarbeit in einem freigegebenen Vault|collaboration]]).
 
-> [!todo] If your remote vault is located in a third-party sync service, you will see a red error message. Follow the steps in [[Switch to Obsidian Sync]] to resolve this.
+> [!todo] If your remote vault is located in a third-party sync service, you will see a red error message. Follow the steps in [[Umstellung auf Obsidian Sync]] to resolve this.
 
 **Sync status**  
 Displays the current sync status of the remote vault. This section includes either a **Pause** or **Resume** button, depending on the status.
 
 **Device name**  
-Assign a unique name to the device currently syncing. This helps track activity in the [[Status icon and messages#Sync activity log|sync log]]. This setting is device specific, just like [[#Selective syncing]].
+Assign a unique name to the device currently syncing. This helps track activity in the [[Status-Symbole und Benachrichtigungen#Sync activity log|sync log]]. This setting is device specific, just like [[#Selective syncing]].
 
 **[[#Conflict resolution]]**
 Choose how conflicts are resolved when a note is independently modified on multiple devices. This setting is device specific, just like [[#Selective syncing]].
 
 **Deleted files**  
-Contains a button to **View** or **Restore** deleted files. For more details, see [[Version history]].
+Contains a button to **View** or **Restore** deleted files. For more details, see [[Versionsverlauf]].
 
 **Storage usage**  
 Displays a progress bar showing how much of your sync storage is used.
@@ -40,7 +39,7 @@ Displays a progress bar showing how much of your sync storage is used.
 Provides instructions on how to [[Hilfe und Kontakt#Obsidian Support kontaktieren|contact Obsidian support]], including options to **Copy debug info** and **Email support**.
 ### Conflict resolution
 
-Obsidian Sync includes basic [[Troubleshoot Obsidian Sync#Conflict resolution|conflict resolution]] for handling changes made from different devices. Starting in Obsidian 1.9.7, you can choose how conflicts are handled on each device:
+Obsidian Sync includes basic [[Obsidian Sync/Fehlerbehandlung#Conflict resolution|conflict resolution]] for handling changes made from different devices. Starting in Obsidian 1.9.7, you can choose how conflicts are handled on each device:
 - **Automatically merge**(default): Obsidian Sync combines all changes from different devices into a single file. While this preserves all edits, it may occasionally create duplicate text or formatting issues that you'll need to clean up manually.
 - **Create conflict file**: When conflicting changes are detected, Obsidian creates a separate conflict file instead of automatically merging. You can then review both versions and merge them yourself, giving you full control over the final result.
 
@@ -52,7 +51,7 @@ You can also choose what to sync in the Sync Core plugin's settings. This sectio
 
 ## Selective syncing
 
-Files synced to your [[Local and remote vaults|remote vault]] contribute to your [[Frequently asked questions#How large can each remote vault be|storage limit]]. By default, Obsidian Sync activates **selective sync** for the following file types:
+Files synced to your [[Lokale und Remote-Vaults|remote vault]] contribute to your [[Frequently asked questions#How large can each remote vault be|storage limit]]. By default, Obsidian Sync activates **selective sync** for the following file types:
 - Images
 - Audio
 - Videos
@@ -77,7 +76,7 @@ To sync community plugins, manually enable **Active community plugin list** and 
 2. Under **Selective sync**, enable the file types you want to sync.
 3. Restart the application to apply the new settings. On ![[obsidian-icon-smartphone.svg#icon]] mobile or tablet, this may require a force-quit.
 
-Note that your [[Plans and storage limits|Sync plan]] defines the maximum file size you can sync. The Standard plan allows syncing files up to 5MB, while the Plus plan supports files up to 200MB.
+Note that your [[Tarife und Speicherkapazität|Sync plan]] defines the maximum file size you can sync. The Standard plan allows syncing files up to 5MB, while the Plus plan supports files up to 200MB.
 
 > [!info] Adding a file to the **Excluded files** list does not remove it from the remote vault if it has already been synced. Configure your Sync settings *before* syncing to avoid using unnecessary storage.
 

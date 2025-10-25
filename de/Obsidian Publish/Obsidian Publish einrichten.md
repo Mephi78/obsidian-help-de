@@ -100,7 +100,7 @@ Der **Publish**-Dialog erscheint als Slide-up.
 3. Wähle die Notizen aus, die du veröffentlichen möchtest.
 4. Bestätige mit **Veröffentlichen**.
 
-> [!abstract] **Weitere Informationen**: [[Inhalte veröffentlichen]], [[Sicherheit und Datenschutz|Sicherheit und Datenschutz]], [[Beschränkungen]]
+> [!abstract] **Weitere Informationen**: [[Inhalte veröffentlichen]], [[Obsidian Publish/Sicherheit und Datenschutz|Sicherheit und Datenschutz]], [[Beschränkungen]]
 
 Du hast eine Obsidian Publish-Webseite erstellt und deine ersten Notizen veröffentlicht. Rufe die Webadresse auf, die du zuvor konfiguriert hast und teile sie mit deinen Lesern.
 

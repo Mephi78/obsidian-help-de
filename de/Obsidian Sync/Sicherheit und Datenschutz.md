@@ -1,16 +1,16 @@
 ---
 aliases:
-  - Security/privacy for Obsidian Sync
-  - Access control for Obsidian Sync
-description: Learn about the security and privacy considerations for Obsidian Sync.
+  - Sicherheit/Datenschutz mit Obsidian Sync
+  - Zugriffskontrolle für Obsidian Sync
+description: Betrachtungen zu Sicherheit und Datenschutz für Obsidian Sync.
 mobile: false
-permalink: sync/security
+permalink: sync/sicherheit
 publish: true
 ---
-#TODO
-## Encryption
+#WIP
+## Verschlüsselung
 
-For your safety, [[Einführung in Obsidian Sync|Obsidian Sync]] encrypts your [[Local and remote vaults|remote vault]] and all communication with Obsidian's servers.
+For your safety, [[Einführung in Obsidian Sync|Obsidian Sync]] encrypts your [[Lokale und Remote-Vaults|remote vault]] and all communication with Obsidian's servers.
 
 When you create a new remote vault, you have two options:
 
@@ -21,7 +21,7 @@ We recommend end-to-end encryption for all users as it is the most private and s
 
 Your choice only affects your remote vault. Obsidian doesn't encrypt your local vault.
 
-### What does end-to-end encryption mean?
+### Was bedeutet Ende-zu-Ende-Verschlüsselung?
 
 End-to-end encryption means that the data is encrypted from the moment it leaves your device, and can only be decrypted using your encryption key once it's back on one of your devices.
 
@@ -29,7 +29,7 @@ We can't read your data. Neither can any potential eavesdroppers, such as your i
 
 In the rare case of a complete server breach, your data remains encrypted—no one can decrypt your files without knowing your password.
 
-### What are the risks of using standard encryption?
+### Was sind die Risiken einer Standard-Verschlüsselung?
 
 Standard encryption is fundamentally less secure than end-to-end encryption, but it can be a convenient option if you do not expect the data you are syncing to be completely private. For example, if your synced vault is [[Einführung in Obsidian Publish|published]] to a public website like this Help site, then end-to-end encryption is not necessary.
 
@@ -37,7 +37,7 @@ Standard encryption is the same method of encryption used by cloud storage compa
 
 End-to-end encryption guarantees that Obsidian can never access your data and should always be used to sync data that you wish to remain completely private and secure.
 
-### What encryption do you use?
+### Welche Verschlüsselung verwendet Obsidian?
 
 For data security, we implement industry-standard encryption protocols. Specifically, we use [AES-256](https://www.nist.gov/publications/advanced-encryption-standard-aes-0), the strongest encryption standard, widely employed in contexts such as online banking. The encryption process involves the following technical details:
 
@@ -62,7 +62,7 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 
 1. Make a full vault backup on your primary device, just in case something goes wrong. This can be as simple as making a copy of the vault folder, or creating a zip file from the vault.
 2. Disconnect the remote vault in each of your devices. This can be done by going to **Settings → Sync → Pick remote vault → Disconnect**.
-3. [[Set up Obsidian Sync#Create a new remote vault|Create a new remote vault]] on your primary device from the same Settings page. Optionally, you can delete the previous remote vault since you don't have the password for it anyway. (You may have to delete the previous remote vault if you are at the [[Frequently asked questions#How many remote vaults can I have?|vault limit]])
+3. [[Obsidian Sync einrichten#Neuen Remote-Vault erstellen|Create a new remote vault]] on your primary device from the same Settings page. Optionally, you can delete the previous remote vault since you don't have the password for it anyway. (You may have to delete the previous remote vault if you are at the [[Frequently asked questions#How many remote vaults can I have?|vault limit]])
 4. Wait for your primary device to sync. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
 5. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
 6. Now all your devices should be connected to the new remote vault.

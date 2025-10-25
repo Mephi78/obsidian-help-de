@@ -32,7 +32,7 @@ Aus einem geöffneten Vault heraus kannst du zwischen Vaults wechseln, indem du 
 6. Klicke **Öffnen**.
 
 > [!tip] Vault aus Obsidian Sync öffnen
-> Um zu erfahren, wie du einen Remote-Vault mit Obsidian Sync öffnest, siehe [[Set up Obsidian Sync|Obsidian Sync konfigurieren]].
+> Um zu erfahren, wie du einen Remote-Vault mit Obsidian Sync öffnest, siehe [[Obsidian Sync einrichten|Obsidian Sync konfigurieren]].
 
 ## Vault umbenennen
 

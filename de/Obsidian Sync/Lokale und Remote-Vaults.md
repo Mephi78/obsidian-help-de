@@ -11,7 +11,7 @@ mobile: true
 permalink: sync/vault-types
 publish: true
 ---
-#TODO
+#WIP
 If you want to use your notes on different devices, one of the options you have is to [[Synchronisiere Notizen zwischen Geräten]]. Obsidian offers one such service, [[Einführung in Obsidian Sync|Obsidian Sync]], that works differently than other syncing services, like [[Synchronisiere Notizen zwischen Geräten#iCloud|iCloud]] and [[Synchronisiere Notizen zwischen Geräten#OneDrive|OneDrive]].
 
 Here are some key terms:
@@ -62,7 +62,7 @@ If the cloud service has background syncing, then some of these processes may be
 
 Obsidian Sync allows you to create a remote vault that serves as centralized storage through its [[Einführung in Obsidian Sync|Obsidian Sync]] service. This allows you to choose almost any folder on any of your devices to store your files - whether on an external hard drive, in `C:\`, or in App storage on Android.
 
-However, we do have a list of recommended locations for your local vault if you also use [[#File-based sync services]] on the same device - mainly, anywhere that is not in a [[Switch to Obsidian Sync#Move your vault out of your third-party syncing service or cloud storage|third-party syncing service]].
+However, we do have a list of recommended locations for your local vault if you also use [[#File-based sync services]] on the same device - mainly, anywhere that is not in a [[Umstellung auf Obsidian Sync#Verschiebe deinen Vault aus deinem Drittanbieter-Sync- oder Cloud-Speicher|third-party syncing service]].
 
 The diagram below shows a simplified version of how Obsidian Sync works:
 
@@ -100,9 +100,9 @@ When you make changes to files in your local vault, Obsidian Sync detects these 
 
 When conflicts occur or when you need to control which files sync, Obsidian Sync provides specific mechanisms to handle these situations:
 
-![[Troubleshoot Obsidian Sync#Conflict resolution|Conflict resolution]]
+![[Obsidian Sync/Fehlerbehandlung#Conflict resolution|Conflict resolution]]
 
-![[Sync settings and selective syncing#Selective syncing#Exclude a folder from syncing]]
+![[Konfiguration und selektive Synchronisierung#Selective syncing#Exclude a folder from syncing]]
 
 ### Offline behavior
 
@@ -110,6 +110,6 @@ Changes made while offline are queued and sync automatically when your device re
 
 ## Next steps
 
-- [[Set up Obsidian Sync]] to get started with remote vaults.
-- [[Switch to Obsidian Sync]] if you're currently using file-based sync and want to use Obsidian Sync.
+- [[Obsidian Sync einrichten]] to get started with remote vaults.
+- [[Umstellung auf Obsidian Sync]] if you're currently using file-based sync and want to use Obsidian Sync.
 - [[Synchronisiere Notizen zwischen Geräten|Explore other sync options]] if you're still deciding.

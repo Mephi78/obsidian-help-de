@@ -1,20 +1,20 @@
 ---
 aliases:
-  - Share remote vaults
-  - Collaboration
-  - Collaborating
-  - Obsidian Sync/Share remote vaults
-description: This page details how you can collaborate with other Obsidian Sync users.
+  - Remote-Vaults freigeben
+  - Zusammenarbeit
+  - Kollaboration
+  - Obsidian Sync/Remote-Vaults teilen
+description: Erfahre mehr über die Zusammenarbeit mit anderen Obsidan Sync-Nutzern.
 mobile: true
-permalink: sync/collaborate
+permalink: sync/zusammenarbeit
 publish: true
 ---
-#TODO
-With [[Einführung in Obsidian Sync|Obsidian Sync]] you can collaborate on a shared vault with your team.
+#WIP
+[[Einführung in Obsidian Sync|Obsidian Sync]] ermöglicht die Zusammenarbeit mit deinem Team in einem freigegebenen Vault.
 
-All collaborators must have an active Sync subscription to access a shared vault. Joining a shared vault does not count towards your [[Frequently asked questions#How many remote vaults can I have?|vault limit]].
+Alle Mitwirkenden müssen ein aktives Sync-Abo besitzen, um auf einen freigegebenen Vault zugreifen zu können. Die Mitarbeit an von anderen Nutzern freigegeben Vaults wird nicht auf dein [[Frequently asked questions#How many remote vaults can I have?|Vault-Limit]] angerechnet.
 
-If the remote vault is [[Obsidian Sync/Security and privacy|end-to-end encrypted]], collaborators must enter the encryption password when they set up the vault.
+Wenn der Remote-Vault [[Obsidian Sync/Sicherheit und Datenschutz|verschlüsselt]] ist, müssen Mitwirkende das Passwort für die Verschlüsselung eingeben, wenn sie den Vault lokal einrichten.
 
 ## Manage users
 
@@ -46,7 +46,7 @@ Fine-grained permissions are not supported yet. All collaborators receive the sa
 
 Shared vaults allow teams to work together on a set of files, however Obsidian does not yet support collaborative live editing on the same file. You will not see the other user's cursor, and their edits will only appear once the changes are synced.
 
-If multiple users are editing the same file at the same time, [[Troubleshoot Obsidian Sync#Conflict resolution|changes will be merged]] during the syncing process. Changes can be viewed and restored using [[Version history]].
+If multiple users are editing the same file at the same time, [[Obsidian Sync/Fehlerbehandlung#Conflict resolution|changes will be merged]] during the syncing process. Changes can be viewed and restored using [[Versionsverlauf]].
 
 ![[version-history-collaboration.png]]^version-history-image
 
@@ -55,6 +55,6 @@ If multiple users are editing the same file at the same time, [[Troubleshoot Obs
 Be aware that Obsidian Sync has [[Frequently asked questions|Limitations]] that may affect your team:
 
 - The maximum number of collaborators on a shared vault is 20 users.
-- The maximum file size for attachments depends on the [[Plans and storage limits|plan]] of your remote vault host, with 5 MB for the Standard Plan and 200 MB for the Plus Plan.
+- The maximum file size for attachments depends on the [[Tarife und Speicherkapazität|plan]] of your remote vault host, with 5 MB for the Standard Plan and 200 MB for the Plus Plan.
 
 Learn more about [[Synchronisierung für Teams]].

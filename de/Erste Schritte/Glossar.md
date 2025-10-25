@@ -159,7 +159,7 @@ Ein **Vault** ist ein Ordner in deinem Dateisystem, der deine [[#Notiz|Notizen]]
 
 `Aliasse: Remote-Daten`
 
-Ein **Remote Vault** ist eine Kopie deines lokalen Vaults, die mit [[Einführung in Obsidian Sync|Obsidian Sync]] aktuell gehalten wird. Die Daten im Remote-Vault werden abhängig von Änderungen deiner lokalen Daten aktualisiert. Siehe auch [[Local and remote vaults]].
+Ein **Remote Vault** ist eine Kopie deines lokalen Vaults, die mit [[Einführung in Obsidian Sync|Obsidian Sync]] aktuell gehalten wird. Die Daten im Remote-Vault werden abhängig von Änderungen deiner lokalen Daten aktualisiert. Siehe auch [[Lokale und Remote-Vaults]].
 
 ## Werkzeugleiste
 

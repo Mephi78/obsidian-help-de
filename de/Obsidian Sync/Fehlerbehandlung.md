@@ -2,13 +2,13 @@
 aliases:
 cssclasses:
   - soft-embed
-description: This page lists uncommon issues you may encounter with Obsidian Sync and how to resolve them.
+description: Erfahre mehr über häufig auftretende Probleme bei der Verwendung von Obsidian Sync.
 mobile: true
-permalink: sync/troubleshoot
+permalink: sync/fehlerbehandlung
 publish: true
 ---
-#TODO
-This page lists uncommon issues you may encounter with [[Einführung in Obsidian Sync|Obsidian Sync]] and how to resolve them. Before proceeding, we recommend reviewing the [[Status icon and messages]] and [[Frequently asked questions]] pages.
+#WIP
+This page lists uncommon issues you may encounter with [[Einführung in Obsidian Sync|Obsidian Sync]] and how to resolve them. Before proceeding, we recommend reviewing the [[Status-Symbole und Benachrichtigungen]] and [[Frequently asked questions]] pages.
 
 ## General
 
@@ -22,7 +22,7 @@ When Obsidian Sync detects a conflict between the local and remote versions of a
 
 For conflicts in Obsidian settings, such as plugin settings, the process is different. Obsidian Sync merges the JSON files by applying keys from the local JSON on top of the remote JSON.
 
-> [!help] To check when conflicts occurred, filter for "Merge Conflicts" in the [[Status icon and messages#Sync activity log|Sync log]].
+> [!help] To check when conflicts occurred, filter for "Merge Conflicts" in the [[Status-Symbole und Benachrichtigungen#Sync activity log|Sync log]].
 
 ###  Sync deleted a note I just created on two devices
 
@@ -47,11 +47,11 @@ This issue is most commonly seen on Windows, where Windows Defender may quaranti
 
 Another frequent cause is double-syncing, where Obsidian Sync is running alongside another syncing service.
 
-![[Switch to Obsidian Sync#Move your vault out of your third-party syncing service or cloud storage]]
+![[Umstellung auf Obsidian Sync#Verschiebe deinen Vault aus deinem Drittanbieter-Sync- oder Cloud-Speicher]]
 
 ---
 
-Finally, this can happen when a file is restored on one device, but then removed from a secondary device due to [[Status icon and messages#Skipped messages|illegal characters]] in the filename.
+Finally, this can happen when a file is restored on one device, but then removed from a secondary device due to [[Status-Symbole und Benachrichtigungen#Skipped messages|illegal characters]] in the filename.
 
 ## Android
 

@@ -8,8 +8,8 @@ description: Obsidian Sync keeps a record of all changes made to your notes and 
 mobile: true
 publish: true
 ---
-#TODO
-[[Einführung in Obsidian Sync|Obsidian Sync]] regularly checks for updates to your [[Sync settings and selective syncing|synced files]], keeping a record of any changes. These are stored as new entries in the [[#Version history]]. This information can be accessed in a few ways:
+#WIP
+[[Einführung in Obsidian Sync|Obsidian Sync]] regularly checks for updates to your [[Konfiguration und selektive Synchronisierung|synced files]], keeping a record of any changes. These are stored as new entries in the [[#Version history]]. This information can be accessed in a few ways:
 
 - [[#Sync history]]
 - [[#Version history]]
@@ -23,7 +23,7 @@ The Sync history (or Sync sidebar) feature, introduced in Obsidian version 1.7, 
 In the sidebar, you can select an item to open its file in your active window. The items also have context menus, allowing you to perform actions such as moving the file or viewing its [[#Notes and attachments|Version history]].
 
 > [!compatibility] Desktop-only feature
-> When you hover over a synced file in the sidebar, you can see who last edited the file. This is especially useful if you are [[Collaborate on a shared vault|collaborating]] on a shared vault.
+> When you hover over a synced file in the sidebar, you can see who last edited the file. This is especially useful if you are [[Zusammenarbeit in einem freigegebenen Vault|collaborating]] on a shared vault.
 
 > [!tip] 
 > Settings and deleted items will not appear in the Sync history sidebar. These can be found in the [[#Notes and attachments|Version history]] instead.
@@ -64,11 +64,11 @@ Sync history will then appear as a dropdown option in the [[Seitenleisten|right 
 
 In addition to the [[#Sync history]], Obsidian also maintains a version history for restoring notes and attachments. If you accidentally delete a note or want to revert to a previous version, you can restore it from the version history.
 
-The retention period for your version history depends on your [[Plans and storage limits|Obsidian Sync plan]]. On the Standard plan, notes are retained for 1 month, while on the Plus plan, they are kept for 12 months. After this period, older versions of your notes are deleted. 
+The retention period for your version history depends on your [[Tarife und Speicherkapazität|Obsidian Sync plan]]. On the Standard plan, notes are retained for 1 month, while on the Plus plan, they are kept for 12 months. After this period, older versions of your notes are deleted. 
 
 For [[Anhänge|attachments]], older versions are stored for <u>two weeks</u>.
 
-![[Collaborate on a shared vault#^version-history-image]]
+![[Zusammenarbeit in einem freigegebenen Vault#^version-history-image]]
 
 ### Notes and attachments
 
@@ -146,4 +146,4 @@ Obsidian Sync also keeps track of the changes made to your vault configuration s
 4. Select the **View** button next to **Settings version history**.
 5. In the **Settings File** pop-up, choose a settings file you want to view.  
 6. In the changes window, select the **Restore** button.
-7. Reload or restart Obsidian to have the setting take effect. For more details, refer to the instructions in [[Set up Obsidian Sync#Adjust Obsidian Sync settings|Adjust Obsidian Sync settings]].
+7. Reload or restart Obsidian to have the setting take effect. For more details, refer to the instructions in [[Obsidian Sync einrichten#Obsidian Sync konfigurieren|Adjust Obsidian Sync settings]].

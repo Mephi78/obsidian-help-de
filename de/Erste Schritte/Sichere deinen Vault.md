@@ -14,7 +14,7 @@ Standardmäßig speichert Obsidian deine Notizen **lokal** auf deinem Gerät, ni
 
 ## Synchronisieren ist keine Datensicherung
 
-Dienste wie [[Einführung in Obsidian Sync|Obsidian Sync]], iCloud, OneDrive oder Dropbox helfen dir, deine Notizen zwischen verschiedenen Geräten zu synchronisieren. Diese Dienste bieten zwar Funktionen wie die [[Version history|Wiederherstellung von Notizen]], sind aber **nicht für Datensicherungen ausgelegt**. Die Synchronisierung hält deine Notizen zwar auf dem neuesten Stand, schützt sie aber nicht vor Datenverlust.
+Dienste wie [[Einführung in Obsidian Sync|Obsidian Sync]], iCloud, OneDrive oder Dropbox helfen dir, deine Notizen zwischen verschiedenen Geräten zu synchronisieren. Diese Dienste bieten zwar Funktionen wie die [[Versionsverlauf|Wiederherstellung von Notizen]], sind aber **nicht für Datensicherungen ausgelegt**. Die Synchronisierung hält deine Notizen zwar auf dem neuesten Stand, schützt sie aber nicht vor Datenverlust.
 
 - **Synchronisierung:** Die Synchronisierung sorgt dafür, dass deine Dateien auf allen Geräten identisch sind. Wenn du eine Datei auf einem Gerät änderst, wird sie auf allen synchronisierten Geräten aktualisiert. Synchronisierungsdienste kennen kein "primäres" Gerät.
 - **Sicherung:** Bei einer Sicherung wird eine Kopie deiner Daten an einem anderen Ort gespeichert, damit du diese im Falle von Beschädigungen oder Datenverlust wiederherstellen kannst. Sicherungen sind nicht für Aktualisierungen in Echtzeit oder die Zusammenarbeit gedacht.

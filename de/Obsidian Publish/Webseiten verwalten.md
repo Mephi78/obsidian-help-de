@@ -89,5 +89,5 @@ Eine Webseite ist eine Sammlung von Notizen, die in Obsidian Publish gehostet wi
 
 | Option                         | Typ          | Beschreibung                                                                                                                               |
 | ------------------------------ | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Passwörter                     | Schaltfläche | [[Sicherheit und Datenschutz#Webseiten-Passwort hinzufügen\|Setze ein Passwort]], um den Zugriff auf die gesamte Webseite zu beschränken. |
+| Passwörter                     | Schaltfläche | [[Obsidian Publish/Sicherheit und Datenschutz#Webseiten-Passwort hinzufügen\|Setze ein Passwort]], um den Zugriff auf die gesamte Webseite zu beschränken. |
 | Google Analytics Tracking-Code | Eingabe      | **Nur mit eigener Domain**. Trage deinen Google Analytics Tracking-Code hier ein.                                                          |
