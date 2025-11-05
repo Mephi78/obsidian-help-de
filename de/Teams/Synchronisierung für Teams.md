@@ -16,21 +16,21 @@ Da Obsidian deine Daten in einfachen Textdateien (`.md`) speichert, hast du etli
 
 Mit [[Einführung in Obsidian Sync|Obsidian Sync]] kannst du innerhalb deines Teams gemeinsam an einem freigegebenen Vault arbeiten.
 
-Alle Mitwirkenden **müssen ein aktives Sync-Abo** besitzen, um Zugriff auf den freigegebenen Vault zu erhalten. Der Beitritt zu einem freigegebenen Vault wird nicht auf dein [[Plans and storage limits#Plans|Limit für Remote-Vaults]] angerechnet. Beachte, dass Obsidian Sync nicht in einer [[Kommerzielle Lizenz|Kommerzellen Lizenz]] enthalten ist, sondern separat erworben werden muss.
+Alle Mitwirkenden **müssen ein aktives Sync-Abo** besitzen, um Zugriff auf den freigegebenen Vault zu erhalten. Der Beitritt zu einem freigegebenen Vault wird nicht auf dein [[Tarife und Speicherkapazität#Tarifübersicht|Limit für Remote-Vaults]] angerechnet. Beachte, dass Obsidian Sync nicht in einer [[Kommerzielle Lizenz|Kommerzellen Lizenz]] enthalten ist, sondern separat erworben werden muss.
 
-Wenn der Remote-Vault [[Obsidian Sync/Security and privacy#Encryption|Ende-zu-Ende-verschlüsselt]] ist, müssen Mitwirkende ein Passwort eingeben beim erstmaligen Zugriff auf den freigegebenen Vault.
+Wenn der Remote-Vault [[Obsidian Sync/Sicherheit und Datenschutz#Verschlüsselung|Ende-zu-Ende-verschlüsselt]] ist, müssen Mitwirkende ein Passwort eingeben beim erstmaligen Zugriff auf den freigegebenen Vault.
 
-![[Collaborate on a shared vault#Manage users|Zusammenarbeit]]
+![[Zusammenarbeit in einem freigegebenen Vault#Nutzerverwaltung|Zusammenarbeit]]
 
-![[Collaborate on a shared vault#Collaborate with your team|Zusammenarbeit]]
+![[Zusammenarbeit in einem freigegebenen Vault#Zusammenarbeit mit deinem Team|Zusammenarbeit]]
 
-![[Collaborate on a shared vault#Limitations|Zusammenarbeit]]
+![[Zusammenarbeit in einem freigegebenen Vault#Einschränkungen|Zusammenarbeit]]
 
 ## Sicherheit
 
-![[Obsidian Sync/Security and privacy#Hosting|Sicherheit und Datenschutz]]
-![[Obsidian Sync/Security and privacy#What encryption do you use?|Sicherheit und Datenschutz]]
-![[Obsidian Sync/Security and privacy#Has Obsidian completed a third-party security audit?|Sicherheit und Datenschutz]]
+![[Obsidian Sync/Sicherheit und Datenschutz#Hosting|Sicherheit und Datenschutz]]
+![[Obsidian Sync/Sicherheit und Datenschutz#Welche Verschlüsselung verwendet Obsidian?|Sicherheit und Datenschutz]]
+![[Obsidian Sync/Sicherheit und Datenschutz#Hat Obsidian ein externes Sicherheitsaudit durchlaufen?|Sicherheit und Datenschutz]]
 
 ## Häufig gestellte Fragen
 

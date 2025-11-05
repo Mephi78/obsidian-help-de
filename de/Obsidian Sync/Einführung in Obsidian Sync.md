@@ -13,36 +13,36 @@ publish: true
 
 ## Obsidian Sync verwenden
 
-- [[Set up Obsidian Sync|Obsidian Sync einrichten]]
+- [[Obsidian Sync einrichten|Obsidian Sync einrichten]]
 	- Synchronisierung auf allen Geräten einrichten.
-- [[Switch to Obsidian Sync|Auf Obsidian Sync umstellen]]
+- [[Umstellung auf Obsidian Sync|Auf Obsidian Sync umstellen]]
 	- Deinen Vault auf den Einsatz von Obsidian Sync vorbereiten.
-- [[Sync settings and selective syncing|Selektive Synchronisierung]]
+- [[Konfiguration und selektive Synchronisierung|Selektive Synchronisierung]]
 	- Konfiguriere, welche Dateien und Einstellungen synchronisiert werden.
-- [[Plans and storage limits|Pläne und Speicherplatz]]
-	- Erfahre mehr über Sync-Abo-Pläne.
-- [[Plans and storage limits|Remote-Vault-Speicher]]
+- [[Tarife und Speicherkapazität]]
+	- Erfahre mehr über Sync-Abo-Tarife.
+- [[Tarife und Speicherkapazität|Remote-Vault-Speicher]]
 	- Speicherverwaltung deines Remote-Vaults.
-- [[Version history|Versionshistorie]]
+- [[Versionsverlauf]]
 	- Frühere Versionen einer Notiz einsehen oder wiederherstellen.
-- [[Status icon and messages|Statusmeldungen und -symbole]]
+- [[Statussymbole und Benachrichtigungen|Statusmeldungen und -symbole]]
 	- Übersicht über Sync-Log und Statussymbole.
-- [[Obsidian Sync/Security and privacy|Sicherheit und Datenschutz]]
+- [[Obsidian Sync/Sicherheit und Datenschutz|Sicherheit und Datenschutz]]
 	- Wie Obsidian deine Daten schützt.
-- [[Collaborate on a shared vault|Zusammenarbeit]]
+- [[Zusammenarbeit in einem freigegebenen Vault|Zusammenarbeit]]
 	- Einem geteilten Vault Team-Mitglieder zuweisen.
 - [[Sichere deinen Vault|Obsidian-Dateien sichern]]
 	- Sicherheitskopien deines Vaults mit Drittanbieter-Werkzeugen anlegen.
-- [[Sync regions|Sync-Regionen]]
+- [[Sync-Regionen|Sync-Regionen]]
 	- Verschiebe deinen Sync-Vault auf einen anderen regionalen Server.
-- [[Troubleshoot Obsidian Sync|Fehlerbehebung]]
+- [[Obsidian Sync/Fehlerbehandlung|Fehlerbehebung]]
 	- Bekannte Synchronisierungsprobleme und Lösungen.
 
 ## Wichtig
 
-Wenn du Obsidian Sync zusammen mit anderen Cloud-Speicher-Lösungen wie Dropbox, Google Drive oder OneDrive verwendest, [[Sichere deinen Vault|sichere bitte deine Obsidian-Dateien]], um dich für mögliche Konflikte bei der Synchronisierung abzusichern. Wir empfehlen jedoch grundsätzlich eine [[Switch to Obsidian Sync|vollständige Migration auf Obsidian Sync]].
+Wenn du Obsidian Sync zusammen mit anderen Cloud-Speicher-Lösungen wie Dropbox, Google Drive oder OneDrive verwendest, [[Sichere deinen Vault|sichere bitte deine Obsidian-Dateien]], um dich für mögliche Konflikte bei der Synchronisierung abzusichern. Wir empfehlen jedoch grundsätzlich eine [[Umstellung auf Obsidian Sync|vollständige Migration auf Obsidian Sync]].
 
-Für häufig gestellte Fragen und weitere Informationen über Obsidian Sync, siehe [[Obsidian Sync/Frequently asked questions|FAQ]].
+Für häufig gestellte Fragen und weitere Informationen über Obsidian Sync, siehe [[Häufig gestellte Fragen|FAQ]].
 
 > [!warning] Diese Funktion ist auf Apple-Geräten mit aktivierten [Blockierungsmodus](https://support.apple.com/de-de/105120) nicht verfügbar, es sei denn, Obsidian wird davon ausgenommen.
 

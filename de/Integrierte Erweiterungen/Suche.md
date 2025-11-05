@@ -43,6 +43,11 @@ Verwende Klammern, um Wortkombinationen auszuschließen:
 
 - `Besprechung -(Arbeit Treffen)` listet Dateien auf, die `Besprechung`, aber nicht gleichzeitig `Arbeit` und `Treffen` enthalten.
 
+Verwende eckige Klammern (`[]`) oder Anführungsstriche (`""`), um die Ergebnisliste mit den Operatoren größer (`>`) oder kleiner als (`<`) zu filtern:
+
+- `Treffen [duration:<5]` listet Dateien auf, die `Treffen` enthalten und eine Dauer kleiner als 5.
+- `Treffen [duration:>5]` listet Dateien auf, die `Treffen` enthalten und eine Dauer größer als 5.
+
 > [!tip] Suchbegriff erklären
 > Wenn du einen komplexen Suchterm verstehen möchtest, aktiviere **Suchbegriff erklären** in den Sucheinstellungen ( ![[lucide-sliders-horizontal.svg#icon]] ) für eine Erklärung deiner Eingabe im Suchfeld.
 

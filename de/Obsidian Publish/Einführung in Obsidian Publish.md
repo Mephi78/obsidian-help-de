@@ -31,5 +31,5 @@ Falls du das auf [help.obsidian.md](https://help.obsidian.md) liest, schaust du 
 	- Analysen für deine Webseite einrichten.
 - [[SEO]]
 	- Suchmaschinenoptimierung für Obsidian Publish.
-- [[Sicherheit und Datenschutz|Sicherheit und Datenschutz]]
+- [[Obsidian Publish/Sicherheit und Datenschutz|Sicherheit und Datenschutz]]
 	- Wie Obsidian deine Daten schützt.

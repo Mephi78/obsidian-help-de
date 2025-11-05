@@ -8,7 +8,7 @@ publish: true
 
 Du entscheidest, welche deiner Notizen auf deiner [[Einführung in Obsidian Publish|Obsidian Publish]]-Webseite veröffentlicht werden. Der Rest deiner Notizen verbleibt sicher in deinem lokalen Vault.
 
-Nur veröffentlichte Notizen werden an Obsidian's Server gesendet. Notizen, die du entpublizierst, werden auch von Obsidian's Server gelöscht.
+Nur veröffentlichte Notizen werden an die Obsidian-Server gesendet. Notizen, die du entpublizierst, werden auch vom Obsidian-Server gelöscht.
 
 ## Passwortschutz
 

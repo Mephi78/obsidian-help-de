@@ -1,5 +1,5 @@
 ---
-description: Erfahre mehr über häufig auftretende Probleme bei der Verwendung von Obsidian Publish
+description: Erfahre mehr über häufig auftretende Probleme bei der Verwendung von Obsidian Publish.
 mobile: true
 publish: true
 permalink: publish/fehlerbehandlung

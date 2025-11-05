@@ -17,7 +17,7 @@ Wir empfehlen auch, unseren [[Sichere deinen Vault|Backup-Leitfaden]] zu lesen, 
 
 ## Synchronisierungsmethoden
 
-Obsidian speichert deine Daten einfach als Dateien in einem Ordner, dem sogenannten [[Local and remote vaults|Vault]]. Damit ergeben sich viele Möglichkeiten, deine Daten zu synchronisieren.
+Obsidian speichert deine Daten einfach als Dateien in einem Ordner, dem sogenannten [[Lokale und Remote-Vaults|Vault]]. Damit ergeben sich viele Möglichkeiten, deine Daten zu synchronisieren.
 
 Hier sind einige Synchronisierungsmethoden, die sich für [Obsidian-Nutzer](https://obsidian.md/community) bewährt haben:
 
@@ -34,7 +34,7 @@ Die einfachste und offiziell unterstützte Synchronisierungsmethode bietet unser
 
 Obsidian Sync ist Ende-zu-Ende-verschlüsselt für maximale Privatsphäre und bietet eine nahtlose Integration in Obsidian.
 
-Folge dem [[Set up Obsidian Sync|Konfigurationsleitfaden]], um Obsidian Sync einzurichten.
+Folge dem [[Obsidian Sync einrichten|Konfigurationsleitfaden]], um Obsidian Sync einzurichten.
 
 > [!Important] Vermeide die gleichzeitige Nutzung von Obsidian Sync mit anderen Cloud-Diensten, wie Dropbox oder OneDrive, **für denselben Vault**, da dies zu Datenkonflikten und Beschädigung deiner Dateien führen kann.
 
