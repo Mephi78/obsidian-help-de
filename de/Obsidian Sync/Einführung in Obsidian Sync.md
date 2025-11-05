@@ -25,7 +25,7 @@ publish: true
 	- Speicherverwaltung deines Remote-Vaults.
 - [[Versionsverlauf]]
 	- Frühere Versionen einer Notiz einsehen oder wiederherstellen.
-- [[Status-Symbole und Benachrichtigungen|Statusmeldungen und -symbole]]
+- [[Statussymbole und Benachrichtigungen|Statusmeldungen und -symbole]]
 	- Übersicht über Sync-Log und Statussymbole.
 - [[Obsidian Sync/Sicherheit und Datenschutz|Sicherheit und Datenschutz]]
 	- Wie Obsidian deine Daten schützt.
@@ -42,7 +42,7 @@ publish: true
 
 Wenn du Obsidian Sync zusammen mit anderen Cloud-Speicher-Lösungen wie Dropbox, Google Drive oder OneDrive verwendest, [[Sichere deinen Vault|sichere bitte deine Obsidian-Dateien]], um dich für mögliche Konflikte bei der Synchronisierung abzusichern. Wir empfehlen jedoch grundsätzlich eine [[Umstellung auf Obsidian Sync|vollständige Migration auf Obsidian Sync]].
 
-Für häufig gestellte Fragen und weitere Informationen über Obsidian Sync, siehe [[Obsidian Sync/Frequently asked questions|FAQ]].
+Für häufig gestellte Fragen und weitere Informationen über Obsidian Sync, siehe [[Häufig gestellte Fragen|FAQ]].
 
 > [!warning] Diese Funktion ist auf Apple-Geräten mit aktivierten [Blockierungsmodus](https://support.apple.com/de-de/105120) nicht verfügbar, es sei denn, Obsidian wird davon ausgenommen.
 

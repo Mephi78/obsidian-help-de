@@ -13,7 +13,7 @@ publish: true
 Erfahre, wie du deinen Vault von der derzeitigen Synchronisierungslösung auf Obsidian Sync umstellen kannst.
 
 > [!warning] Vermeide die gleichzeitige Verwendung mehrerer Synchronisierungslösungen für dieselben Dateien
-> Es ist [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|nicht empfohlen]], Obsidian Sync neben Cloud-Speicherdiensten (z.B.  iCloud, Dropbox, OneDrive, Google Drive) zu verwenden, da dies zu Konflikten führen kann. Cloud-Speicherdienste können jedoch eine Rolle in deiner [[Sichere deinen Vault|Backup]]-Strategie spielen.
+> Es ist [[Häufig gestellte Fragen#Kann ich einen Drittanbieter-Synchronisierungsdienst mit Obsidian Sync verwenden?|nicht empfohlen]], Obsidian Sync neben Cloud-Speicherdiensten (z.B.  iCloud, Dropbox, OneDrive, Google Drive) zu verwenden, da dies zu Konflikten führen kann. Cloud-Speicherdienste können jedoch eine Rolle in deiner [[Sichere deinen Vault|Backup]]-Strategie spielen.
 
 ## Verschiebe deinen Vault aus deinem Drittanbieter-Sync- oder Cloud-Speicher
 

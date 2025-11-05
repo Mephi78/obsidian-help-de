@@ -9,52 +9,50 @@ mobile: true
 permalink: sync/zusammenarbeit
 publish: true
 ---
-#WIP
+
 [[Einführung in Obsidian Sync|Obsidian Sync]] ermöglicht die Zusammenarbeit mit deinem Team in einem freigegebenen Vault.
 
-Alle Mitwirkenden müssen ein aktives Sync-Abo besitzen, um auf einen freigegebenen Vault zugreifen zu können. Die Mitarbeit an von anderen Nutzern freigegeben Vaults wird nicht auf dein [[Frequently asked questions#How many remote vaults can I have?|Vault-Limit]] angerechnet.
+Alle Mitwirkenden müssen ein aktives Sync-Abo besitzen, um auf einen freigegebenen Vault zugreifen zu können. Die Mitarbeit an von anderen Nutzern freigegeben Vaults wird nicht auf dein [[Häufig gestellte Fragen#Wie viele Remote-Vaults stehen mir zur Verfügung?|Vault-Limit]] angerechnet.
 
 Wenn der Remote-Vault [[Obsidian Sync/Sicherheit und Datenschutz|verschlüsselt]] ist, müssen Mitwirkende das Passwort für die Verschlüsselung eingeben, wenn sie den Vault lokal einrichten.
 
-## Manage users
+## Nutzerverwaltung
 
-### Add users
+### Nutzer hinzufügen
 
-To invite a user to share a remote vault:
+So lädst du andere zur Zusammenarbeit ein:
 
-1. Open **Settings**.
-2. In the side menu, select **Sync**.
-3. Next to **Remote vault**, select **Manage**.
-4. Next to the remote vault you want to share, select **Manage sharing** ( ![[lucide-users.svg#icon]] ).
-5. In **Invite user**, enter the email of the user you want to invite.
-6. Select **Add**.
+1. Öffne die **Einstellungen** → **Sync**.
+2. Neben **Remote-Vault** wähle **Verwalten**.
+3. Neben dem Remote-Vault, den du freigeben möchtest, wähle **Freigabe verwalten** ( ![[lucide-users.svg#icon]] ).
+4. Gib in **Nutzer einladen** die Mailadresse des Nutzers ein, den du einladen möchtest.
+5. Bestätige mit **Hinzufügen**.
 
-### Remove users
+### Nutzer entfernen
 
-1. Open **Settings**.
-2. In the side menu, select **Sync**.
-3. Next to **Remote vault**, select **Manage**.
-4. Next to the user you want to remove access from, select **Remove user** ( ![[lucide-x.svg#icon]] ).
+1. Öffne die **Einstellungen** → **Sync**.
+2. Neben **Remote-Vault** wähle **Verwalten**.
+3. Klicke neben dem Nutzer, dem du die Berechtigung entziehen möchtest, auf **Nutzer entfernen** ( ![[lucide-x.svg#icon]] ).
 
-## Collaborate with your team
+## Zusammenarbeit mit deinem Team
 
-### Permissions
+### Berechtigungen
 
-Fine-grained permissions are not supported yet. All collaborators receive the same permissions as the vault owner, with one exception: only the vault owner can invite collaborators.
+Fein abgestufte Berechtigungen werden noch nicht unterstützt. Alle Mitwirkenden erhalten dieselben Berechtigungen wie der Vault-Eigentümer, mit einer Ausnahme: Nur der Eigentümer kann Nutzer einladen.
 
-### Live editing
+### Live-Bearbeitung
 
-Shared vaults allow teams to work together on a set of files, however Obsidian does not yet support collaborative live editing on the same file. You will not see the other user's cursor, and their edits will only appear once the changes are synced.
+Freigegebene Vaults ermöglichen die Zusammenarbeit an einer Reihe von Dateien. Obsidian unterstützt jedoch noch keine Live-Bearbeitung derselben Datei. Du siehst den Cursor der anderen Nutzer nicht und Änderungen erscheinen erst, wenn diese synchronisiert wurden.
 
-If multiple users are editing the same file at the same time, [[Obsidian Sync/Fehlerbehandlung#Conflict resolution|changes will be merged]] during the syncing process. Changes can be viewed and restored using [[Versionsverlauf]].
+Wenn mehrere Nutzer dieselbe Datei zur selben Zeit bearbeiten, werden bei der Synchronisierung die [[Obsidian Sync/Fehlerbehandlung#Auflösen von Konflikten|Änderungen zusammengeführt]]. Änderungen können über den [[Versionsverlauf]] angezeigt und zurückgesetzt werden.
 
 ![[version-history-collaboration.png]]^version-history-image
 
-## Limitations
+## Einschränkungen
 
-Be aware that Obsidian Sync has [[Frequently asked questions|Limitations]] that may affect your team:
+Beachte die [[Häufig gestellte Fragen|Einschränkungen]] von Obsidian Sync, die sich auf dein Team auswirken können:
 
-- The maximum number of collaborators on a shared vault is 20 users.
-- The maximum file size for attachments depends on the [[Tarife und Speicherkapazität|plan]] of your remote vault host, with 5 MB for the Standard Plan and 200 MB for the Plus Plan.
+- An einem freigegebenen Vault können maximal 20 Nutzer mitwirken.
+- Die maximale Dateigröße für Anhänge ist abhängig vom [[Tarife und Speicherkapazität|Tarif]], der für den Remote-Vault gilt (5 MB im Standard-Tarif und 200 MB im Plus-Tarif).
 
-Learn more about [[Synchronisierung für Teams]].
+Siehe auch [[Synchronisierung für Teams]].

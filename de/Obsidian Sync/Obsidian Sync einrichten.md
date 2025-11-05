@@ -19,7 +19,7 @@ Du hast ein Obsidian Sync-Abo erworben und stehst in den Startlöchern. Wir zeig
 
 Zunächst werden wir einen neuen [[Lokale und Remote-Vaults|Remote-Vault]] erstellen und mit einem vorhandenen lokalen Vault verbinden. Du brauchst keinen neuen, leeren lokalen Vault erstellen, um Obsidian Sync zu verwenden.
 
-> [!info] Wird dein aktueller Vault bereits mit iCloud, OneDrive, Dropbox oder einem vergleichbaren Dienst synchronisiert? Falls **ja** oder falls du **unsicher** bist, lies bitte die [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|FAQ]] und [[Umstellung auf Obsidian Sync]], bevor du weitermachst.
+> [!info] Wird dein aktueller Vault bereits mit iCloud, OneDrive, Dropbox oder einem vergleichbaren Dienst synchronisiert? Falls **ja** oder falls du **unsicher** bist, lies bitte die [[Häufig gestellte Fragen#Kann ich einen Drittanbieter-Synchronisierungsdienst mit Obsidian Sync verwenden?|FAQ]] und [[Umstellung auf Obsidian Sync]], bevor du weitermachst.
 
 ### Voraussetzungen
 
@@ -45,7 +45,7 @@ Zunächst werden wir einen neuen [[Lokale und Remote-Vaults|Remote-Vault]] erste
 
 1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
 2. Unter **Obsidian-Erweiterungen** wähle **Sync**.
-3. Neben **Remote-Vault** klicke **Wählen**.
+3. Klicke neben **Remote-Vault** auf **Auswählen**.
 4. Wähle **Neuen Vault erstellen**.
 5. Gib in **Vault-Name** den Namen deines Remote-Vaults ein.
 6. Wähle unter **Region** eine [[#Regionale Sync-Server|Server-Region]] für deinen Remote-Vault. 
@@ -78,7 +78,7 @@ Nach dem Ändern der Sync-Einstellungen und Neustart von Obsidian wird stattdess
 > [!done] Status der Synchronisierung
 > Sobald die Synchronisierung abgeschlossen ist, erscheint ein grüner Kreis mit Häkchen ( ![[obsidian-icon-sync-synced.svg#icon]] ) rechts unten in der ![[lucide-monitor-check.svg#icon]] Anwendung  bzw. in der rechten Seitenleiste der ![[obsidian-icon-smartphone.svg#icon]] App. Im Sync-Log erscheint die Meldung "Fully Synced".
 >
-> Für mehr Informationen zum Sync-Status siehe [[Status-Symbole und Benachrichtigungen]].
+> Für mehr Informationen zum Sync-Status siehe [[Statussymbole und Benachrichtigungen]].
 ^obsidian-sync-status
 
 Um weitere Geräte mit dem neu erstellten und synchronisierten Remote-Vault zu verbinden, fahre mit [[Obsidian Sync einrichten#Remote-Vault auf anderem Gerät synchronisieren|Remote-Vault auf anderem Gerät synchronisieren]] fort.
@@ -94,7 +94,7 @@ Wir gehen davon aus, dass du bereits einen [[#Neuen Remote-Vault erstellen|Remot
 Wenn du eine neu installierte Obsidian-Instanz öffnest, erscheint die [[Vaults verwalten|Vault-Verwaltung]]. Um einen neuen lokalen Vault zu erstellen mit den Inhalten aus einem Remote-Vault, führe die folgenden Schritte aus.
 
 1. In der **Vault-Verwaltung** wähle abhängig vom Gerät eine der folgenden Optionen:
-	1. ![[lucide-monitor-check.svg#icon]] **Desktop**: Neben **Obsidian Sync verbinden**wähle **Anmelden**.
+	1. ![[lucide-monitor-check.svg#icon]] **Desktop**: Neben **Obsidian Sync verbinden** wähle **Anmelden**.
 	2. ![[obsidian-icon-smartphone.svg#icon]] **Mobile/Tablet**: Wähle **Setup Obsidian Sync**.
 2. Melde dich an deinem Obsidian-Konto an:
 	1. Wenn du [[2-factor authentication|2FA]] aktiviert hast, gibt deinen 2FA-Code ein.
@@ -122,7 +122,7 @@ Wenn du auf diesem Gerät bereits einen lokalen Vault erstellt hast und diesen m
 5. Gib das **Passwort für Verschlüsselung** ein, falls du zuvor eins zugewiesen hast.
 6. Du wirst aufgefordert, die Synchronisierung zu starten. Es empfiehlt sich, zunächst die Sync-Einstellungen zu überprüfen und ggf. anzupassen. Falls du den gesamten Vault ohne Anpassungen synchronisieren möchtest, kannst du **Synchronisierung starten** betätigen. 
 
-> [!warning] Wenn dein lokaler Vault bereits Notizen enthält (nicht empfohlen), erhältst du vor der Ausführung eine Warnmeldung, dass diese Notizen zusammengeführt werden. Konflikte werden nach [[Obsidian Sync/Fehlerbehandlung#Conflict resolution|Obsidian Sync's Konfliktlösungsregeln]] aufgelöst.
+> [!warning] Wenn dein lokaler Vault bereits Notizen enthält (nicht empfohlen), erhältst du vor der Ausführung eine Warnmeldung, dass diese Notizen zusammengeführt werden. Konflikte werden nach [[Obsidian Sync/Fehlerbehandlung#Auflösen von Konflikten|Obsidian Sync's Konfliktlösungsregeln]] aufgelöst.
 
 ![[Obsidian Sync einrichten#Obsidian Sync konfigurieren]]
 
@@ -157,7 +157,7 @@ Die Verbindung zum Remote-Vault wurde nun aufgehoben und dieses Gerät wird nich
 
 Obsidian Sync lässt dich einen Standort für deinen Remote-Vault wählen. Falls du Obsidian `1.4.16` oder älter verwendest, wird die Region automatisch für dich ausgewählt.
 
-Falls du unsicher bist, welche Region für deinen aktuellen Vault eingestellt ist, findest du in [[Obsidian Sync/Sicherheit und Datenschutz#Where can I find my current Sync server and where is it hosted?|Where can I find my current Sync server and where is it hosted?]] eine Anleitung.
+Falls du unsicher bist, welche Region für deinen aktuellen Vault eingestellt ist, findest du in [[Obsidian Sync/Sicherheit und Datenschutz#Wie finde ich meinen aktuellen Sync-Server und wo wird er gehostet?|Where can I find my current Sync server and where is it hosted?]] eine Anleitung.
 
 ![[sync-regional-sync-servers.png#interface|300]]
 
@@ -172,4 +172,4 @@ Nach der Einrichtung von Obsidian Sync möchtest du möglicherweise:
 - Erkunden, wie du [[Konfiguration und selektive Synchronisierung|spezifische Dateien und die Einstellungen synchronisieren]] kannst.
 - Erfahren, was passiert, wenn sich dein Remote-Vault [[Versionsverlauf|füllt]].
 - Mit anderen Obsidian Sync-Nutzern gemeinsam an einem [[Zusammenarbeit in einem freigegebenen Vault|freigegebenen Vault]] arbeiten.
-- Die [[Frequently asked questions|Sync FAQ]] nach Antworten auf häufig gestellte Fragen durchsuchen.
+- Die [[Häufig gestellte Fragen|Sync FAQ]] nach Antworten auf häufig gestellte Fragen durchsuchen.

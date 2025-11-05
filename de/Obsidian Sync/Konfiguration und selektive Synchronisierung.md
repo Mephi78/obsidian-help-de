@@ -3,159 +3,162 @@ aliases:
   - Sync-Einstellungen
   - Selektive Synchronisierung
   - Obsidian Sync/Auswahl zu synchronisierender Dateien und Einstellungen
-description: Erfahre, wie du Obsidian Sync konfigurieren und festlegen kannst, welche Dateien synchronisiert werden sollen.
+description: Erfahre, wie du Obsidian Sync konfigurieren und festlegen kannst, welche Dateien synchronisiert werden.
 mobile: true
 permalink: sync/einstellungen
 publish: true
 ---
-#WIP
-When you [[Tarife und Speicherkapazität#Neuen Remote-Vault erstellen|create a remote vault]] and [[Obsidian Sync einrichten#Remote-Vault verbinden|connect to it]], the Sync Core plugin becomes the place for managing your remote vault.
+
+Wenn du einen [[Tarife und Speicherkapazität#Neuen Remote-Vault erstellen|Remote-Vault erstellst]] und [[Obsidian Sync einrichten#Remote-Vault verbinden|verbindest]], kannst du den Remote-Vault über die Einstellungen der Obsidian-Erweiterung *Sync* verwalten.
 
 ## Sync-Einstellungen
 
-**Remote vault**  
-This section shows your currently connected remote vault. It includes a **Disconnect** button to disconnect from the remote vault and a **Manage** button to view all remote vaults your account has access to (including shared vaults via [[Zusammenarbeit in einem freigegebenen Vault|collaboration]]).
+**Remote-Vault**  
+Hier wird dein aktuell verbundener Remote-Vault angezeigt. Über die Schaltfläche **Trennen** kannst du die Verbindung zum Remote-Vault aufheben. Über die Schaltfläche **Verwalten** kannst du alle Remote-Vaults anzeigen, auf die dein Nutzerkonto Zugriff hat (einschließlich zur [[Zusammenarbeit in einem freigegebenen Vault|Zusammenarbeit]] freigegebener Vaults).
 
-> [!todo] If your remote vault is located in a third-party sync service, you will see a red error message. Follow the steps in [[Umstellung auf Obsidian Sync]] to resolve this.
+> [!todo] Falls dein Vault sich in einem Ordner befindet, der möglicherweise von einem Drittanbieter-Dienst synchronisiert wird, erscheint hier eine rote Warnmeldung. Befolge die Anleitung unter [[Umstellung auf Obsidian Sync]], um dieses Problem zu beheben.
 
-**Sync status**  
-Displays the current sync status of the remote vault. This section includes either a **Pause** or **Resume** button, depending on the status.
+**Sync-Status**  
+Zeigt den aktuellen Synchronisierungsstatus des Remote-Vaults an. Über die Schaltfläche **Anhalten** bzw. **Fortfahren** kannst du je nach Status die Synchronisierung anhalten oder fortsetzen.
 
-**Device name**  
-Assign a unique name to the device currently syncing. This helps track activity in the [[Status-Symbole und Benachrichtigungen#Sync activity log|sync log]]. This setting is device specific, just like [[#Selective syncing]].
+**Name des Gerätes**  
+Weise dem Gerät, das gerade synchronisiert wird, einen eindeutigen Namen zu. Das ist hilfreich bei der Analyse des [[Statussymbole und Benachrichtigungen#Sync-Log|Sync-Protokolls]]. Die Einstellung ist gerätespezifisch, ebenso wie die [[#Selektive Synchronisierung]].
 
-**[[#Conflict resolution]]**
-Choose how conflicts are resolved when a note is independently modified on multiple devices. This setting is device specific, just like [[#Selective syncing]].
+**[[#Auflösen von Konflikten|Konflikte beim Zusammenführen]]**
+Entscheide, wie Konflikte aufgelöst werden sollen, wenn eine Notiz auf mehreren Geräten gleichzeitig geändert wird. Die Einstellung ist gerätespezifisch, ebenso wie die [[#Selektive Synchronisierung]].
 
-**Deleted files**  
-Contains a button to **View** or **Restore** deleted files. For more details, see [[Versionsverlauf]].
+**Gelöschte Dateien**  
+Enthält Schaltflächen zum **Zeigen** bzw. **Wiederherstellen** gelöschter Dateien. Für weitere Informationen, siehe [[Versionsverlauf]].
 
-**Storage usage**  
-Displays a progress bar showing how much of your sync storage is used.
+**Größe des Vaults**  
+Zeigt einen Fortschrittsbalken über die Auslastung deines Sync-Speicherplatzes.
 
-> [!tip] It may take up to 30 minutes for the current usage to update due to server-side processing.
+> [!tip] Aufgrund serverseitiger Verarbeitung kann die Aktualisierung der Speicherauslastung bis zu 30 Minuten dauern.
 
-**Contact support**  
-Provides instructions on how to [[Hilfe und Kontakt#Obsidian Support kontaktieren|contact Obsidian support]], including options to **Copy debug info** and **Email support**.
-### Conflict resolution
+**Support kontaktieren**  
+Enthält Anweisungen zur Kontaktaufnahme mit dem [[Hilfe und Kontakt#Obsidian Support kontaktieren|Obsidian Support]]. Du kannst über Schaltflächen die **Debug-Informationen kopieren** und eine **Email an den Support** senden.
 
-Obsidian Sync includes basic [[Obsidian Sync/Fehlerbehandlung#Conflict resolution|conflict resolution]] for handling changes made from different devices. Starting in Obsidian 1.9.7, you can choose how conflicts are handled on each device:
-- **Automatically merge**(default): Obsidian Sync combines all changes from different devices into a single file. While this preserves all edits, it may occasionally create duplicate text or formatting issues that you'll need to clean up manually.
-- **Create conflict file**: When conflicting changes are detected, Obsidian creates a separate conflict file instead of automatically merging. You can then review both versions and merge them yourself, giving you full control over the final result.
+### Auflösen von Konflikten
 
-> [!note] The conflict file option doesn't currently support in-app merging tools. You can use community plugins with "diff" or "merge" features to help with this process within Obsidian.
+Obsidian Sync bietet eine grundlegende [[Obsidian Sync/Fehlerbehandlung#Auflösen von Konflikten|Konfliktbehandlung]] für die Verarbeitung von Änderungen, die von verschiedenen Geräten vorgenommen wurden. Ab Obsidian 1.9.7 kannst du für jedes Gerät wählen, wie Konflikte behandelt werden sollen:
+- **Automatisch zusammenführen **(Standard): Obsidian Sync führt alle Änderungen von den verschiedenen Geräten in einer Notiz zusammen.  Dadurch bleiben alle Änderungen erhalten, jedoch können gelegentlich Formatierungsprobleme auftauchen, die manuell bereinigt werden müssen.
+- **Konfliktdatei erstellen**: Wenn Obsidian Sync konfliktbehaftete Änderungen erkennt, wird eine separate Konfliktdatei erstellt, anstatt die Notizen automatisch zusammenzuführen. Du kannst dann beide Versionen prüfen und sie manuell zusammenführen, damit behältst du die volle Kontrolle über das Ergebnis.
 
----
+> [!note] Die Option *Konfliktdatei* unterstützt derzeit keine In-App-Werkzeuge zum Zusammenführen. Du kannst Community-Erweiterungen mit "Diff"- oder "Merge"-Funktionen verwenden, um diesen Vorgang innerhalb Obsidian zu unterstützen.
 
-You can also choose what to sync in the Sync Core plugin's settings. This section covers **selective sync** and **vault configuration sync**, along with their associated caveats.
+## Selektive Synchronisierung
 
-## Selective syncing
+Du kannst über die Sync-Einstellungen auch bestimmen, welche Dateien synchronisiert werden sollen.  Dieser Abschnitt behandelt die Optionen **Selektive Synchronisierung** und **Vault-Konfiguration synchronisieren** sowie die damit verbundenen Einschränkungen.
 
-Files synced to your [[Lokale und Remote-Vaults|remote vault]] contribute to your [[Frequently asked questions#How large can each remote vault be|storage limit]]. By default, Obsidian Sync activates **selective sync** for the following file types:
-- Images
-- Audio
+Dateien, die mit deinem [[Lokale und Remote-Vaults|Remote-Vault]] synchronisiert werden, werden auf dein [[Häufig gestellte Fragen#Wie groß kann jeder Remote-Vault sein?|Speicher-Limit]] angerechnet. Standardmäßig aktiviert Obsidian Sync die **Selektive Synchronisierung** für folgende Dateitypen:
+
+- Bilder
+- Audiodateien
 - Videos
 - PDFs
 
-To sync additional file types, toggle the `Sync all other types` option.
+Um weitere Dateitypen zu synchronisieren, aktiviere die Option **Alle anderen Dateien synchronisieren**.
 
-The default **vault configuration sync** settings include:
-- Other file types
-- Main settings
-- Appearance
-- Themes and snippets
-- Hotkeys
-- Active core plugin list
-- Core plugin settings
+Die Standardeinstellung für **Vault-Konfiguration synchronisieren** beinhaltet:
 
-To sync community plugins, manually enable **Active community plugin list** and **Installed community plugin list**.
+- Andere Dateitypen
+- Allgemeine Einstellungen
+- Darstellung
+- Themen und Snippets
+- Tastenkürzel
+- Aktive Obsidian-Erweiterungen
+- Obsidian-Erweiterungseinstellungen
 
-### Change the file types you want to sync
+Um Community-Erweiterungen zu synchronisieren, aktiviere manuell **Aktive externe Erweiterungen** und **Installierte externe Erweiterungen**.
 
-1. Open **Settings → Sync**.
-2. Under **Selective sync**, enable the file types you want to sync.
-3. Restart the application to apply the new settings. On ![[obsidian-icon-smartphone.svg#icon]] mobile or tablet, this may require a force-quit.
+### Zu synchronisierende Dateitypen ändern
 
-Note that your [[Tarife und Speicherkapazität|Sync plan]] defines the maximum file size you can sync. The Standard plan allows syncing files up to 5MB, while the Plus plan supports files up to 200MB.
+1. Öffne die **Einstellungen → Sync**.
+2. Aktiviere unter **Selektive Synchronisierung** die Dateitypen, die synchronisiert werden sollen.
+3. Starte Obsidian neu, um die Einstellungen zu übernehmen. Auf dem ![[obsidian-icon-smartphone.svg#icon]] Mobilgerät oder Tablet ist möglicherweise ein erzwungener Neustart erforderlich.
 
-> [!info] Adding a file to the **Excluded files** list does not remove it from the remote vault if it has already been synced. Configure your Sync settings *before* syncing to avoid using unnecessary storage.
+Beachte, dass dein [[Tarife und Speicherkapazität|Sync-Tarif]] die maximale Dateigröße bestimmt, die du synchronisieren kannst. Der Standard-Tarif erlaubt die Synchronisierung von Dateien bis zu einer Größe von 5 MB, während der Plus-Tarif Dateigrößen bis zu 200 MB unterstützt.
 
-### Exclude a folder from syncing
+> [!info] Wenn du eine Datei in **Ausgeschlossene Dateien** hinzufügst, die zuvor bereits synchronisiert wurde, wird diese nicht automatisch aus dem Remote-Vault entfernt. Konfiguriere deine Sync-Einstellungen am besten, *vor* der ersten Synchronisierung, um unnötigen Speicherverbrauch zu vermeiden.
 
-By default, Obsidian syncs all files and folders in your vault. To exclude a specific folder from syncing:
-1. Open **Settings → Sync**.
-2. Next to **Excluded folders**, select **Manage**.
-3. Select the folder you want to exclude from the list.
-4. Select **Done**.
+### Ordner von der Synchronisierung ausschließen
 
-To remove a folder from the exclusion list, select the ![[lucide-x.svg#icon]] button next to the folder name.
+Standardmäßig synchronisiert Obsidian Sync alle Dateien und Ordner in deinem Vault. So schließt du bestimmte Ordner von der Synchronisierung aus:
 
-#### Always excluded from sync
+1. Öffne die **Einstellungen → Sync**.
+2. Neben **Ausgeschlossene Ordner** wähle **Verwalten**.
+3. Wähle den Ordner aus der Liste, den du ausschließen möchtest.
+4. Bestätige mit **Fertig**.
 
-##### File recovery snapshots
+Um einen Ordner aus der Liste der ausgeschlossenen Ordner zu entfernen, wähle die Schaltfläche ![[lucide-x.svg#icon]] neben dem entsprechenden Ordnernamen.
 
-The snapshots in the [[Datenwiederherstellung]] plugin are not synced via Obsidian Sync, as snapshots are kept in the [[Datenspeicherung#Globale Einstellungen|Global settings]].
+#### Immer von der Synchronisierung ausgeschlossen
 
-##### Hidden files and folders
+##### Snapshots für die Datenwiederherstellung
 
-Files and folders beginning with a `.` are treated as hidden and excluded from sync. The only exception is the vault's [[Konfigurationsordner|configuration folder]] (`.obsidian`), which does sync.
+Die Snapshots für die [[Datenwiederherstellung]] werden niemals mit Obsidian Sync synchronisiert, da Snapshots in den [[Datenspeicherung#Globale Einstellungen|Globalen Einstellungen]] gespeichert werden.
 
-Common examples of hidden files and folders that are not synced:
+##### Versteckte Dateien und Ordner
+
+Dateien und Ordner, deren Namen mit einem Punkt (`.`) beginnen, werden als versteckte Dateien behandelt und somit von der Synchronisierung ausgeschlossen. Die einzige Ausnahme stellt der [[Konfigurationsordner]] (`.obsidian`) dar, der bei Bedarf synchronisiert wird.
+
+Mögliche Beispiele für versteckte Dateien und Ordner, die nicht synchronisiert werden:
+
 - `.vscode`
 - `.git`
 - `.idea`
 - `.gitignore`
 
-##### Sync settings
+##### Sync-Einstellungen
 
-Sync settings do not sync across devices. You need to configure them separately on each device as needed.
+Die Sync-Einstellungen selbst werden nicht synchronisiert. Du musst Obsidian Sync auf jedem Gerät separat konfigurieren.
 
-## Updating your synced vault settings
+## Synchronisierte Vault-Einstellungen aktualisieren
 
-To modify sync settings across multiple devices, follow these steps:
+Befolge diese Schritte, um die Sync-Einstellungen auf mehreren Geräten zu ändern:
 
-> [!tip] The terms "primary" and "secondary" devices are for clarity only; Sync does not differentiate between them.
+> [!tip] Die Begriffe "primäres" und "weitere" Geräte dienen lediglich dem besseren Verständnis - für Obsidian Sync ist diese Unterscheidung nicht von Belang.
 
-### Primary device
+### Primäres Gerät
 
-The primary device acts as the source of truth. Changes made here are synced across all other devices.
+Dein primäres Gerät (in der Regel der Computer) dient als "Quelle der Wahrheit". Änderungen auf diesem Gerät werden auf alle weiteren Geräte synchronisiert.
 
-1. Go to **Settings → Sync**.
-2. Activate the desired settings under **Vault configuration sync**.
-3. Reload or restart Obsidian. On ![[obsidian-icon-smartphone.svg#icon]] mobile or tablet, a force-quit may be required.
-4. Allow time for the settings to sync with your remote vault.
+1. Öffne die **Einstellungen → Sync**.
+2. Aktiviere die gewünschten Einstellungen unter **Vault-Konfiguration synchronisieren**.
+3. Starte Obsidian neu. Auf ![[obsidian-icon-smartphone.svg#icon]] Mobilgeräten bzw. Tablets ist möglicherweise ein erzwungener Neustart notwendig.
+4. Warte bis die Synchronisierung der Einstellungen mit dem Remote-Vault abgeschlossen ist.
 
-### Secondary device(s)
+### Weitere Geräte
 
-Secondary devices (such as your phone) receive updates from the primary device.
+Weitere Geräte (bspw. dein Smartphone) erhalten Aktualisierungen vom primären Gerät.
 
-1. Go to **Settings → Sync**.
-2. Enable the necessary settings under **Vault configuration sync**.
-3. Wait for changes to download from the remote vault.
-4. Reload or restart the app to apply the synced settings. On ![[obsidian-icon-smartphone.svg#icon]] mobile or tablet, a force-quit may be required.
+1. Öffne die **Einstellungen → Sync**.
+2. Aktiviere die gewünschten Einstellungen unter **Vault-Konfiguration synchronisieren**.
+3. Warte bis die die Änderungen vom Remote-Vault heruntergeladen sind.
+4. Starte die Obsidian App neu, um die synchronisierten Einstellungen zu übernehmen. Auf ![[obsidian-icon-smartphone.svg#icon]] Mobilgeräten bzw. Tablets ist möglicherweise ein erzwungener Neustart notwendig.
 
-### Reloading of settings
+### Neuladen der Einstellungen
 
-Certain settings can be hot reloaded, while others require a restart:
+Bestimmte Einstellungen können über Obsidian Sync im laufenden Betrieb aktualisiert werden, während andere einen Neustart der Anwendung erfordern:
 
-- **Hot-reloadable**: Most Obsidian configurations, including hotkeys and properties, appearance settings, and configurations for already-enabled core plugins.
-- **Requires reload**: CSS changes (e.g., [[CSS-Bausteine]], [[Themen]]), graph view configurations, and core plugin states (e.g., enabling/disabling Daily Notes).
+- **Im laufenden Betrieb (Hot-Reload-fähig)**: Die meisten Obsidian-Einstellungen, einschließlich Tastenkürzel und Eigenschaften, Einstellungen für die Darstellung und bereits aktivierte Obsidian-Erweiterungen.
+- **Neustart erforderlich**: CSS-Änderungen (z.B. [[CSS-Bausteine]], [[Themen]]), Graph-Ansicht-Einstellungen und die Aktivierung bzw. Deaktivierung einiger Obsidian-Erweiterungen (bspw. *Tägliche Notiz*).
 
-Community plugins typically do not support hot reloading and require a restart when new settings are applied.
+Community-Erweiterungen unterstützen üblicherweise kein Hot Reload und erfordern den Neustart der Anwendung, um geänderte Einstellungen zu übernehmen.
 
-> [!todo] Plugin developers: Learn how to [integrate hot-reload functionality with Obsidian Sync](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/onExternalSettingsChange).
+> [!todo] Plugin-Entwickler: Erfahre, wie du die [Hot-Reload-Funktionalität für Obsidian Sync integrieren](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/onExternalSettingsChange) kannst.
 
-## Settings profiles
+## Einstellungsprofile
 
-Obsidian Sync can sync multiple [[Konfigurationsordner|configuration folders]] to the same remote vault, allowing you to create separate profiles (e.g., one for mobile, another for your laptop).
+Obsidian Sync kann mehrere [[Konfigurationsordner]] mit demselben Remote-Vault synchronisieren, was die Erstellung separater Einstellungsprofile ermöglicht (bspw. eines für Mobilgeräte, ein anderes für den Laptop).
 
-### Create a settings profile
+### Einstellungsprofil erstellen
 
-To create a new settings profile:
+So erstellst du ein neues Einstellungsprofil:
 
-1. Open **Settings → Files and links**.
-2. Under **Override config folder**, enter a name for your profile, starting with a period (`.`), e.g., `.obsidian-mobile`.
-3. Relaunch Obsidian to apply the changes.
+1. Öffne die **Einstellungen → Dateien & Links**.
+2. Gib unter **Konfigurationsordner überschreiben** einen Namen für dein Profil ein, beginnend mit einem Punkt (`.`), z.B. `.obsidian-mobile`.
+3. Starte Obsidian neu, um die Änderung zu übernehmen.
 
-> [!note] 
-> Changing the settings profile will require reconfiguring your sync settings. To avoid redownloading plugins and themes, copy your existing `.obsidian` folder and rename it to match your new profile (e.g., `.obsidian-mobile`) before making changes.
+> [!note] Hinweis
+> Wenn du das Einstellungsprofil änderst, musst du deine Sync-Einstellungen neu konfigurieren. Um zu vermeiden, dass installierte Plugins und Themen neu heruntergeladen werden müssen, kopiere deinen bestehenden Konfigurationsordner `.obsidian` und benenne ihn entsprechend dem neuen Profil um (z.B. `.obsidian-mobile`), *bevor* du diese Einstellung änderst.

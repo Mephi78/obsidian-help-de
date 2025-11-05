@@ -1,149 +1,148 @@
 ---
 aliases:
-  - Sync history
-  - Sync Sidebar
+  - Sync-Historie
+  - Sync-Seitenleiste
 cssclasses:
   - soft-embed
-description: Obsidian Sync keeps a record of all changes made to your notes and regularly checks for updates and creates new versions of your notes.
+description: Obsidian Sync protokolliert alle Synchronisierungsvorgänge, prüft regelmäßig auf Aktualisierungen und erstellt neue Versionen deiner Notizen.
 mobile: true
 publish: true
 ---
-#WIP
-[[Einführung in Obsidian Sync|Obsidian Sync]] regularly checks for updates to your [[Konfiguration und selektive Synchronisierung|synced files]], keeping a record of any changes. These are stored as new entries in the [[#Version history]]. This information can be accessed in a few ways:
 
-- [[#Sync history]]
-- [[#Version history]]
+[[Einführung in Obsidian Sync|Obsidian Sync]] prüft regelmäßig, ob Aktualisierungen für deine [[Konfiguration und selektive Synchronisierung|synchronisierten Dateien]] anliegen und protokolliert alle Änderungen. Diese werden als neue Einträge im [[#Versionsverlauf]] verzeichnet. 
 
-While not part of Obsidian Sync, a local version history is also available on each device if the [[Datenwiederherstellung]] plugin is enabled.
+So kannst du auf diese Informationen zugreifen:
 
-## Sync history
+- [[#Synchronisierungsverlauf]]
+- [[#Versionsverlauf]]
 
-The Sync history (or Sync sidebar) feature, introduced in Obsidian version 1.7, allows you to quickly view recently created or modified notes and attachments that have been synced. You can also think of it as an _editing_ history.
+Obwohl keine Funktion von Obsidian Sync, ist auf jedem Gerät auch ein lokaler Versionsverlauf verfügbar, wenn die Obsidian-Erweiterung [[Datenwiederherstellung]] aktiviert ist.
 
-In the sidebar, you can select an item to open its file in your active window. The items also have context menus, allowing you to perform actions such as moving the file or viewing its [[#Notes and attachments|Version history]].
+## Synchronisierungsverlauf
 
-> [!compatibility] Desktop-only feature
-> When you hover over a synced file in the sidebar, you can see who last edited the file. This is especially useful if you are [[Zusammenarbeit in einem freigegebenen Vault|collaborating]] on a shared vault.
+Mit der Funktion Synchronisierungsverlauf (oder Sync-Seitenleiste), die in Obsidian 1.7 eingeführt wurde, kannst du schnell alle erstellten oder geänderten Notizen bzw. Anhänge anzeigen, die kürzlich synchronisiert wurden. Du kannst dir diese Funktion auch als *Bearbeitungsverlauf* vorstellen.
 
-> [!tip] 
-> Settings and deleted items will not appear in the Sync history sidebar. These can be found in the [[#Notes and attachments|Version history]] instead.
+In der Seitenleiste kannst du ein Element auswählen, um die Datei im aktiven Fenster zu öffnen. Mit Rechtsklick auf ein Element öffnest du das Kontextmenü, das verschiedene Aktionen bereitstellt, bspw. um eine Datei zu verschieben oder ihren [[#Notizen und Anhänge|Versionsverlauf]] anzuzeigen.
 
-### Show Sync history
+> [!compatibility] Nur für Desktop-Version
+> Wenn du in der Seitenleiste mit dem Mauszeiger über eine synchronisierte Datei fährst, kannst du sehen, wer sie zuletzt bearbeitet hat. Diese Funktion ist besonders nützlich für die [[Zusammenarbeit in einem freigegebenen Vault|Zusammenarbeit]] in einem freigegebenen Vault.
 
-When you enable the [[Einführung in Obsidian Sync|Sync]] core plugin, Sync history is automatically enabled but does not appear in the sidebar by default. You will need to manually add it using a command or a hotkey.
+> [!tip] Tipp
+> Einstellungen und gelöschte Dateien werden in der Sync-Seitenleiste nicht angezeigt. Diese findest du stattdessen im [[#Notizen und Anhänge|Versionsverlauf]].
 
-#### Enable via Command palette
+### Synchronisierungsverlauf anzeigen
 
-> [!info] This option requires the [[Befehlspalette]] core plugin to be enabled.
+Wenn du das [[Einführung in Obsidian Sync|Sync]]-Plugin aktivierst, ist der Versionsverlauf automatisch aktiviert, erscheint aber nicht standardmäßig in der Seitenleiste. Du musst die Sync-Seitenleiste manuell hinzufügen über die Befehlspalette oder ein Tastenkürzel.
+
+#### Aktivieren über Befehlspalette
+
+> [!info] Die Obsidian-Erweiterung [[Befehlspalette]] muss aktiviert sein.
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the **Command palette**. ( ![[lucide-terminal.svg#icon]] )
-2. Type "Sync".
-3. Select the "Sync: Show Sync history" option.
+1. Öffne die **Befehlspalette**. ( ![[lucide-terminal.svg#icon]] )
+2. Gib "Sync" ein.
+3. Wähle die Option **Sync: Synchronisierungsverlauf anzeigen**.
 
-Sync history will then appear in the [[Seitenleisten|right sidebar]].
+Der Synchronisierungsverlauf erscheint dann in der [[Seitenleisten|rechten Seitenleiste]].
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Werkzeugleiste]] ( ![[lucide-menu.svg#icon]] ).
-2. Open the **Command palette**. ( ![[lucide-terminal.svg#icon]] )
-3. Type "Sync".
-4. Select the "Sync: Show Sync history" option.
+1. Öffne die [[Werkzeugleiste]] ( ![[lucide-menu.svg#icon]] ).
+2. Öffne die **Befehlspalette**. ( ![[lucide-terminal.svg#icon]] )
+3. Gib "Sync" ein.
+4. Wähle die Option **Sync: Synchronisierungsverlauf anzeigen**.
 
-Sync history will then appear as a dropdown option in the [[Seitenleisten|right sidebar]].
+Der Synchronisierungsverlauf erscheint dann als Auswahloption in der [[Seitenleisten|rechten Seitenleiste]].
 
-#### Enable via Hotkey
+#### Aktivieren über Tastenkürzel
 
-1. Open **Settings**.
-2. In the **Options** category, select **Hotkeys**.
-3. In the hotkeys search bar, type "Sync".
-4. Next to "Sync: Show Sync history," assign your preferred hotkey.
+1. Öffne die **Einstellungen** ( ![[lucide-settings.svg#icon]] ).
+2. Wähle **Tastenkürzel**.
+3. Gib im Suchfeld "Sync" ein.
+4. Weise der Aktion **Sync: Synchronisierungsverlauf anzeigen** ein Tastenkürzel zu.
 
-## Version history
+## Versionsverlauf
 
-In addition to the [[#Sync history]], Obsidian also maintains a version history for restoring notes and attachments. If you accidentally delete a note or want to revert to a previous version, you can restore it from the version history.
+Zusätzlich zum [[#Synchronisierungsverlauf]] führt Obsidian auch einen Versionsverlauf für die Wiederherstellung von Notizen und Anhängen. Wenn du aus Versehen eine Notiz löschst oder zu einer früheren Version zurückkehren möchtest, kannst du diese aus dem Versionsverlauf wiederherstellen.
 
-The retention period for your version history depends on your [[Tarife und Speicherkapazität|Obsidian Sync plan]]. On the Standard plan, notes are retained for 1 month, while on the Plus plan, they are kept for 12 months. After this period, older versions of your notes are deleted. 
+Die Aufbewahrungsfrist für den Versionsverlauf hängt von deinem [[Tarife und Speicherkapazität|Obsidian Sync-Tarif]] ab. Im Standard-Tarif werden Notizen einen Monat lang aufbewahrt, im Plus-Tarif sogar 12 Monate. Nach Ablauf dieser Frist werden ältere Versionen deiner Notizen gelöscht. 
 
-For [[Anhänge|attachments]], older versions are stored for <u>two weeks</u>.
+Für [[Anhänge]] werden ältere Versionen nur <u>zwei Wochen</u> aufbewahrt.
 
 ![[Zusammenarbeit in einem freigegebenen Vault#^version-history-image]]
 
-### Notes and attachments
+### Notizen und Anhänge
 
-The process for restoring both notes and attachments is the same. 
+Der Vorgang zum Wiederherstellen von Anhängen ist derselbe wie für Notizen. 
 
-#### View version history of a file
-
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
-1. In the **File explorer**, select the note you want to restore.
-2. Select **Open version history**.
-3. Select the version of the note you want to view on the left. The contents will be displayed on the right. 
-
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
-1. In the **File explorer**, select the note you want to restore.
-2. Long press to bring up the context menu.
-3. Select **Open version history**.
-4. In the pop-up menu, select the version of the note you want to view. 
-5. Once selected, the contents of the note will be available to review.
-
-#### View version history of a deleted or renamed file
-
-1. Open **Settings**.
-2. In the sidebar, under **Core plugins***, select **Sync**.
-3. Next to **Deleted files**, select **View**.
-4. Select the note you want to view the version history for.
-5. In the version history pop-up, select the version of the note you want to view on the left. 
-
-#### Restore a previous version of a file
+#### Versionsverlauf einer Datei anzeigen
 
 **Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
-1. In the **File explorer**, select the note you want to restore.
-2. Select **Open version history**.
-3. Select the version of the note you want to restore on the left. The contents will be displayed on the right.
-4. Select the **Restore** button.
-5. The note contents will be replaced with the restored version.
+1. Wähle im **Dateiexplorer** die Notiz, die du wiederherstellen möchtest.
+2. Wähle **Versionsverlauf öffnen**.
+3. Wähle auf der linken Seite die Version der Notiz aus, die du ansehen möchtest.
+4. Der Inhalt der Notiz wird rechts angezeigt. 
 
 **Mobile** ![[obsidian-icon-smartphone.svg#icon]]
-1. In the **File explorer**, select the note you want to restore.
-2. Long press to bring up the context menu.
-3. Select **Open version history**.
-4. In the pop-up menu, select the version of the note you want to restore.
-5. Once selected, the contents of the note will be available to review.
-6. Select the **Restore** button.
-7. The note contents will be replaced with the restored version.
+1. Wähle im **Dateiexplorer** die Notiz, die du wiederherstellen möchtest.
+2. Drücke lange auf die Notiz, um das Kontextmenü zu öffnen.
+3. Wähle **Versionsverlauf öffnen**.
+4. Wähle im Popup-Menü die Version der Notiz aus, die du ansehen möchtest.
+5. Nach der Auswahl kannst du den Inhalt der Notiz überprüfen.
 
-#### Restore a deleted file
+#### Versionsverlauf einer gelöschten oder umbenannten Datei anzeigen
 
-1. Open **Settings**.
-2. In the sidebar, under **Core plugins***, select **Sync**.
-3. Next to **Deleted files**, select **View**.
-4. Choose the note you want to restore.
-5. In the list of versions to the left, select the version you want to restore.
-6. Select the **Restore** button on the right.
-7. The note will be restored to its original location in the filesystem.
+1. Öffne die **Einstellungen** → **Sync**.
+2. Neben **Gelöschte Dateien** wähle **Anzeigen**.
+3. Wähle die Notiz, für die du den Versionsverlauf sehen möchtest.
+4. Wähle im Popup-Menü die Version der Notiz aus, die du ansehen möchtest.
 
-> [!tip] You can select multiple notes with **bulk restore** by selecting the checkboxes, or using `shift+click`. These files will not be able to be reviewed in this menu. 
+#### Frühere Version einer Datei wiederherstellen
 
-### Settings history
+**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
+1. Wähle im **Dateiexplorer** die Notiz, die du wiederherstellen möchtest.
+2. Wähle **Versionsverlauf öffnen**.
+3. Wähle auf der linken Seite die Version der Notiz aus, die du ansehen möchtest. Der Inhalt wird rechts angezeigt. 
+4. Wähle **Wiederherstellen**.
+5. Der Inhalt wird mit der wiederhergestellten Version ersetzt.
 
-Obsidian Sync also keeps track of the changes made to your vault configuration settings. 
+**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
+1. Wähle im **Dateiexplorer** die Notiz, die du wiederherstellen möchtest.
+2. Drücke lange auf die Notiz, um das Kontextmenü zu öffnen.
+3. Wähle **Versionsverlauf öffnen**.
+4. Wähle im Popup-Menü die Version der Notiz aus, die du wiederherstellen möchtest.
+5. Nach der Auswahl kannst du den Inhalt der Notiz überprüfen.
+6. Wähle **Wiederherstellen**.
+7. Der Inhalt wird mit der wiederhergestellten Version ersetzt.
 
-#### View version history of a setting
+#### Gelöschte Datei wiederherstellen
 
-1. Open **Settings**.
-2. In the sidebar, under **Core plugins***, select **Sync**.
-3. Navigate down to **Vault configuration sync**. 
-4. Select the **View** button next to **Settings version history**.
-5. In the **Settings File** pop-up, choose a settings file you want to view.  
+1. Öffne die **Einstellungen** → **Sync**.
+2. Neben **Gelöschte Dateien** wähle **Anzeigen**.
+3. Wähle die Notiz, die du wiederherstellen möchtest.
+4. Wähle links die Version der Notiz aus, die du wiederherstellen möchtest.
+5. Wähle **Wiederherstellen** auf der rechten Seite.
+6. Die Notiz wird an ihrem ursprünglichen Speicherort im Dateisystem wiederhergestellt.
 
-#### Restore a previous version of a setting
+> [!tip] Du kannst mehrere Notizen für **Mehrere wiederherstellen** auswählen, indem du die Checkboxen aktivierst oder die Notizen mit `Umschalt + Klick` auswählst. Diese Dateien können nicht in dem Menü geprüft werden. 
 
-1. Open **Settings**.
-2. In the sidebar, under **Core plugins**, select **Sync**.
-3. Navigate down to **Vault configuration sync**. 
-4. Select the **View** button next to **Settings version history**.
-5. In the **Settings File** pop-up, choose a settings file you want to view.  
-6. In the changes window, select the **Restore** button.
-7. Reload or restart Obsidian to have the setting take effect. For more details, refer to the instructions in [[Obsidian Sync einrichten#Obsidian Sync konfigurieren|Adjust Obsidian Sync settings]].
+### Einstellungsverlauf
+
+Obsidian Sync verfolgt auch die Änderungen in den Vault-Einstellungen. 
+
+#### Einstellungsverlauf anzeigen
+
+1. Öffne die **Einstellungen** → **Sync**.
+2. Scrolle zum Abschnitt **Vault-Konfiguration synchronisieren**. 
+3. Wähle **Anzeigen** neben **Einstellungsverlauf**.
+4. Wähle im Dialog **Einstellungsdatei** die Einstellungsdatei, die du anzeigen möchtest.  
+
+#### Frühere Version einer Einstellung wiederherstellen
+
+1. Öffne die **Einstellungen** → **Sync**.
+2. Scrolle zum Abschnitt **Vault-Konfiguration synchronisieren**. 
+3. Wähle **Anzeigen** neben **Einstellungsverlauf**.
+4. Wähle im Dialog **Einstellungsdatei** die Einstellungsdatei, die du wiederherstellen möchtest.  
+5. Wähle **Wiederherstellen**.
+6. Starte Obsidian neu, um die Einstellungen zu übernehmen. Für mehr Informationen, siehe [[Obsidian Sync einrichten#Obsidian Sync konfigurieren|Obsidian Sync konfigurieren]].

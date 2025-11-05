@@ -26,7 +26,7 @@ Unsere Abo-Tarife *Sync Standard* und *Sync Plus* im Vergleich:
 
 ## Speicherkapazität
 
-Die Datenmenge, die du mit [[Einführung in Obsidian Sync|Obsidian Sync]] speichern kannst, hängt von deinem Abo-Tarif ab. Mit *Sync Plus* kannst du über dein persönliches [Obsidian-Dashboard](https://obsidian.md/account/sync) zusätzlichen Speicherplatz erwerben (bis zu 100 GB). Für mehr Informationen, siehe [[Frequently asked questions]].
+Die Datenmenge, die du mit [[Einführung in Obsidian Sync|Obsidian Sync]] speichern kannst, hängt von deinem Abo-Tarif ab. Mit *Sync Plus* kannst du über dein persönliches [Obsidian-Dashboard](https://obsidian.md/account/sync) zusätzlichen Speicherplatz erwerben (bis zu 100 GB). Für mehr Informationen, siehe [[Häufig gestellte Fragen]].
 
 Es gibt ein kontoübergreifendes Gesamtspeicherlimit für alle Notizen in deinen Vaults. [[Versionsverlauf]] und [[Anhänge]] werden auf das Speicherlimit deines Nutzerkontos ebenfalls angerechnet.
 
@@ -37,13 +37,13 @@ Wenn du die Speichergrenze für dein Konto erreichst, stellt Obsidian Sync die S
 Um sehr große Dateien in deinem Vault zu identifizieren und zu löschen:
 
 1. Öffne **Einstellungen** → **Sync**.
-2. Wähle **Zeige größte Dateien** neben **Vault Größe über Limit**. 
-	1. Falls **Vault Größe über Limit** nicht angezeigt wird, hast du ==das Limit noch nicht erreicht==.
+2. Wähle **Zeige größte Dateien** neben **Vault-Größe über Limit**. 
+	1. Falls **Vault-Größe über Limit** nicht angezeigt wird, hast du ==das Limit noch nicht erreicht==.
 3. Schließe den Dialog **Zeige größte Dateien**.
 4. Lösche einige große Dateien, die du nicht länger benötigst.
 5. Warte, bis Obsidian die Überprüfung abgeschlossen hat. Das kann eine Weile dauern.
 6. Öffne **Einstellungen** → **Sync**.
-7. Wähle **Bereinigen** neben **Vault Größe über Limit**. Die gelöschten Dateien werden nun auch aus dem Remote-Vault gelöscht, um Speicherplatz zu schaffen.
+7. Wähle **Bereinigen** neben **Vault-Größe über Limit**. Die gelöschten Dateien werden nun auch aus dem Remote-Vault gelöscht, um Speicherplatz zu schaffen.
 
 Nachdem die Bereinigung auf dem Sync-Server übernommen wurde, sollte Obsidian Sync wieder wie gewohnt arbeiten.
 

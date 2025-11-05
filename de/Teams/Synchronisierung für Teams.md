@@ -20,17 +20,17 @@ Alle Mitwirkenden **müssen ein aktives Sync-Abo** besitzen, um Zugriff auf den 
 
 Wenn der Remote-Vault [[Obsidian Sync/Sicherheit und Datenschutz#Verschlüsselung|Ende-zu-Ende-verschlüsselt]] ist, müssen Mitwirkende ein Passwort eingeben beim erstmaligen Zugriff auf den freigegebenen Vault.
 
-![[Zusammenarbeit in einem freigegebenen Vault#Manage users|Zusammenarbeit]]
+![[Zusammenarbeit in einem freigegebenen Vault#Nutzerverwaltung|Zusammenarbeit]]
 
-![[Zusammenarbeit in einem freigegebenen Vault#Collaborate with your team|Zusammenarbeit]]
+![[Zusammenarbeit in einem freigegebenen Vault#Zusammenarbeit mit deinem Team|Zusammenarbeit]]
 
-![[Zusammenarbeit in einem freigegebenen Vault#Limitations|Zusammenarbeit]]
+![[Zusammenarbeit in einem freigegebenen Vault#Einschränkungen|Zusammenarbeit]]
 
 ## Sicherheit
 
 ![[Obsidian Sync/Sicherheit und Datenschutz#Hosting|Sicherheit und Datenschutz]]
 ![[Obsidian Sync/Sicherheit und Datenschutz#Welche Verschlüsselung verwendet Obsidian?|Sicherheit und Datenschutz]]
-![[Obsidian Sync/Sicherheit und Datenschutz#Has Obsidian completed a third-party security audit?|Sicherheit und Datenschutz]]
+![[Obsidian Sync/Sicherheit und Datenschutz#Hat Obsidian ein externes Sicherheitsaudit durchlaufen?|Sicherheit und Datenschutz]]
 
 ## Häufig gestellte Fragen
 
