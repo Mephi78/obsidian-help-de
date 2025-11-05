@@ -117,11 +117,29 @@
 
 ### Obsidian Sync
 - Einführung in Obsidian Sync
-- *DEFERRED*
+- Lokale und Remote-Vaults
+- Obsidian Sync einrichten
+- Umstellung auf Obsidian Sync
+- Konfiguration und selektive Synchronisierung
+- Versionsverlauf
+- Statussymbole und Benachrichtigungen
+- Tarife und Speicherkapazität
+- Sicherheit und Datenschutz
+- Zusammenarbeit in einem freigegebenen Vault
+- Fehlerbehandlung
+- Häufig gestellte Fragen
+- Sync-Regionen
+- Sync-Verschlüsselung aktualisieren
 
 ### Obsidian Web Clipper
 - Einführung in Obsidian Web Clipper
-- *DEFERRED*
+- Webseiten ausschneiden
+- Webseiten markieren
+- Webseiten interpretieren
+- Vorlagen
+- Variablen
+- Filter
+- Fehlerbehandlung
 
 ### Obsidian erweitern und anpassen
 - Externe Erweiterungen
