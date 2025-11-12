@@ -1,5 +1,6 @@
 ---
 permalink: plugins/gliederung
+publish: true
 ---
 
 Die [[Standarderweiterungen|Standarderweiterung]] *Gliederung* listet alle Überschriften der aktiven Notiz auf.

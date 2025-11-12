@@ -6,6 +6,7 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 permalink: plugins
+publish: true
 ---
 
 Erfahre, welche Zusatzfunktionen mit Obsidian vorinstalliert sind. Diese integrierten Erweiterungen werden offiziell vom Obsidian-Team entwickelt und unterstützt.
@@ -67,7 +68,7 @@ Einige dieser Funktionen sind standardmäßig deaktiviert. Du kannst sie in den 
 	- Erstelle und öffne Notizen basierend auf dem aktuellen Datum.
 - [[Einführung in Obsidian Publish|Veröffentlichen]]
 	- Veröffentliche deine Notizen als Webseite, Wiki oder Dokumentation.
-- [[Vorlagen|Vorlagen]]
+- [[Integrierte Erweiterungen/Vorlagen|Vorlagen]]
 	- Füge vordefinierte Inhalte in deine Notizen ein.
 - [[Web-Viewer|Web-Viewer]]
 	- Öffne externe Links und Webseiten innerhalb von Obsidian.

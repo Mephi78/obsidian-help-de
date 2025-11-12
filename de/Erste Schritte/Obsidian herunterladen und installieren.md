@@ -1,5 +1,6 @@
 ---
 permalink: installation
+publish: true
 ---
 
 Obsidian ist für alle gängigen Desktop- und mobilen Plattformen erhältlich. Diese Möglichkeiten hast du, um Obsidian herunterzuladen und zu installieren.

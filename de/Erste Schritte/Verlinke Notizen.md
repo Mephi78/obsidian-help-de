@@ -2,6 +2,7 @@
 aliases:
   - Gewusst wie/Verlinkungen
 permalink: notizen-verlinken
+publish: true
 ---
 
 Obsidian ist großartig, um sich Notizen zu machen - die wahre Stärke der Anwendung liegt jedoch in der Möglichkeit, diese Notizen zu verlinken. Zu verstehen, wie eine Information mit einer anderen zusammenhängt, kann deine Merkfähigkeit verbessern und die Fähigkeit, tiefere Einsichten zu gewinnen. Diese Anleitung wird dir helfen, Links mit Obsidian zu erstellen und durch deinen Vault zu navigieren.

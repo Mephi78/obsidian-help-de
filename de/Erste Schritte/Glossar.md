@@ -1,5 +1,6 @@
 ---
 permalink: glossar
+publish: true
 ---
 
 Dieses Glossar enthält in Obsidian gebräuchliche Begriffe.

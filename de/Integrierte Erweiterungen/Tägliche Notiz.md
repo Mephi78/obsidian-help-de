@@ -23,7 +23,7 @@ Standardmäßig wird eine neue leere Notiz erzeugt und nach dem heutigen Datum i
 
 ## Tägliche Notiz aus Vorlage erstellen
 
-Wenn deine täglichen Notizen immer denselben Aufbau haben, kannst du eine [[Vorlagen|Vorlage]] verwenden, um bei der Erstellung die neue Tagesnotiz mit bestimmten Inhalten vorzubefüllen.
+Wenn deine täglichen Notizen immer denselben Aufbau haben, kannst du eine [[Integrierte Erweiterungen/Vorlagen|Vorlage]] verwenden, um bei der Erstellung die neue Tagesnotiz mit bestimmten Inhalten vorzubefüllen.
 
 1. Erstelle dafür eine neue Notiz, z.B. "Tägliche Vorlage" mit dem folgenden Text (oder was immer dir sinnvoll erscheint):
 

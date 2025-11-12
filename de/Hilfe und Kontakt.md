@@ -1,5 +1,6 @@
 ---
 permalink: ressourcen
+publish: true
 ---
 
 Finde Unterstützung, melde Verstöße gegen die Sicherheit oder Community-Richtlinien und erfahre, wie du etwas zu Obsidian beitragen kannst.

@@ -3,6 +3,7 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 permalink: web-clipper
+publish: true
 ---
 
 Der Obsidian Web Clipper ist eine freie Browser-Erweiterung, mit der du Web-Inhalte markieren und in deinem Vault speichern kannst.
@@ -25,19 +26,19 @@ Hol dir den Obsidian Web Clipper als offizielle Erweiterung für deinen Browser:
 
 ## Web Clipper verwenden
 
-- [[Clip web pages|Web-Inhalte speichern]]
+- [[Webseiten speichern|Web-Inhalte speichern]]
 	- Leg los und erfahre, wie man Inhalte von Webseiten speichert.
-- [[Highlight web pages|Highlighter]]
+- [[Webseiten markieren|Highlighter]]
 	- Markiere wichtige Passagen und wähle Elemente aus, die du speichern möchtest.
-- [[Interpret web pages|Interpreter]]
+- [[Webseiten interpretieren|Interpreter]]
 	- Verwende Eingaben in natürlicher Sprache, um Daten einer Webseite zu erfassen und zu ändern.
-- [[Troubleshoot Web Clipper|Fehlerbehebung]]
+- [[Obsidian Web Clipper/Fehlerbehandlung|Fehlerbehebung]]
 	- Löse bekannte Probleme mit dem Web Clipper.
-- [[Obsidian Web Clipper/Templates|Vorlagen]]
+- [[Obsidian Web Clipper/Vorlagen|Vorlagen]]
 	- Erstelle benutzerdefinierte Vorlagen für bestimmte Webseiten.
-- [[Variables|Variablen]]
+- [[Variablen|Variablen]]
 	- Befülle Seitendaten vorab in deiner Vorlage.
-- [[Filters|Filter]]
+- [[Filter|Filter]]
 	- Ändere die Ausgabe von Vorlagen-Variablen.
 
 ## Datenschutz

@@ -2,6 +2,7 @@
 aliases:
   - Plugins/Favoriten
 permalink: plugins/lesezeichen
+publish: true
 ---
 
 Mit der *Lesezeichen*-[[Standarderweiterungen|Standarderweiterung]] kannst du schnell auf häufig verwendete Inhalte zugreifen. Ein Lesezeichen ist eine "Abkürzung", die dich direkt zur gesuchten Information führt.

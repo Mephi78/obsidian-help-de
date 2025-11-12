@@ -243,6 +243,7 @@ Für eine geordnete Liste beginne jede Zeile mit einer Zahl gefolgt von einem Pu
 > 3) Dritter Listeneintrag
 
 %% Stand 2025-07-24: Wird ohne Zeilenumbruch gerendert; `Umschalt + Eingabetaste` erzeugt eine neue Zeile mit zwei Leerzeichen, der Cursor bleibt in dieser Zeile stehen. %%
+
 %%Verwende `Umschalt + Eingabetaste`, um einen [[#Zeilenumbrüche|Zeilenumbruch]] innerhalb der Liste zu erzeugen, ohne die Nummerierung zu unterbrechen.
 
 ```md

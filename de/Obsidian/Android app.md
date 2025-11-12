@@ -1,5 +1,6 @@
 ---
 permalink: android
+publish: true
 ---
 
 Um deine Notizen mit Obsidian auf Android zu synchronisieren, siehe [[Synchronisiere Notizen zwischen Geräten]].

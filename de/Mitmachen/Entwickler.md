@@ -3,6 +3,7 @@ aliases:
   - Entwickler/Plugins erstellen
   - Entwickler/Themen erstellen
 permalink: entwickler
+publish: true
 ---
 
 Für Entwickler gibt es verschiedene Möglichkeiten, bei Obsidian mitzumachen.

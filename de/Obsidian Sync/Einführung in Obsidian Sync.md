@@ -9,7 +9,7 @@ permalink: sync
 publish: true
 ---
 
-[Obsidian Sync](https://obsidian.md/sync) ist ein kostenpflichtiger Zusatzdienst, der es dir ermöglicht, deine Notizen unter Wahrung deiner Privatsphäre geräteübergreifend zu synchronisieren. %%is an add-on service that allows you to privately sync your notes across devices.%%
+[Obsidian Sync](https://obsidian.md/sync) ist ein kostenpflichtiger Zusatzdienst mit dem du deine Notizen unter Wahrung deiner Privatsphäre geräteübergreifend synchronisieren kannst.
 
 ## Obsidian Sync verwenden
 

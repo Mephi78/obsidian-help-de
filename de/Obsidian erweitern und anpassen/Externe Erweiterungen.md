@@ -5,6 +5,7 @@ aliases:
 description: Erfahre, wie du Obsidian mit Community-Plugins erweitern kannst.
 mobile: false
 permalink: community-plugins
+publish: true
 ---
 
 Erfahre, wie du Obsidian erweitern kannst mit Plugins, die von unserer Community erstellt wurden. Verwende Erweiterungen, um Obsidian an deine speziellen Bedürfnisse anzupassen, wie bspw. die Unterstützung zusätzlicher Dateitypen oder die Integration von Drittanbieter-Diensten.

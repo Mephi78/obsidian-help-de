@@ -2,6 +2,8 @@
 permalink: bases/syntax
 aliases:
   - Bases Dateiformat
+description: Einführung in Obsidian's Bases Syntax.
+mobile: true
 publish: true
 ---
 
@@ -199,11 +201,15 @@ Ein Filter `file.ext == "md"` würde bspw. die Dateiendungen der Dateien in dein
 | `file.size`       | Zahl   | Dateigröße                                                                                                                                                                                                                                              |
 | `file.tags`       | Liste  | Liste aller Tags in einer Notiz, einschließlich Frontmatter                                                                                                                                                                                             |
 
-### Zugriff auf Eigenschaften der aktiven Datei
+### Zugriff auf Eigenschaften mit `this`
 
-Eingebettete Bases können `this` verwenden, um gezielt auf die Eigenschaften der Datei zuzugreifen, in die sie eingebettet sind, z.B. `this.file.name`.
+Verwende das Objekt `this`, um gezielt auf Dateieigenschaften zuzugreifen. Worauf `this` verweist, hängt davon ab, wo die Base angezeigt wird.
 
-Aus einer Seitenleiste heraus bezieht sich `this` speziell auf die "derzeit aktive Datei". Auf diese Weise kannst du kontextbezogene Abfragen basierend auf der im Hauptfensterbereich aktiven Datei erstellen und diese in einer der Seitenleisten anzeigen. Du könntest damit bspw. die [[Rückverweise]]-Ansicht nachempfinden, indem du dem Filter `file.hasLink(this.file)` anwendest.
+Wird die Base im Hauptfenster geöffnet, verweist `this` auf die Eigenschaften der Base-Datei selbst. `this.file.folder` enthält dann bspw. den Speicherpfad zur Base-Datei.
+
+Bei eingebetteten Bases verweist `this` auf die Eigenschaften der Datei (Notiz oder Canvas), in die die Base eingebettet wurde. `this.file.name` gibt dann bspw. den Namen der einbettenden Datei zurück.
+
+Aus einer Seitenleiste heraus bezieht sich `this` auf die derzeit aktive Datei. Auf diese Weise kannst du kontextbezogene Abfragen basierend auf der im Hauptfensterbereich aktiven Datei erstellen und diese in einer der Seitenleisten anzeigen. Du könntest damit bspw. die [[Rückverweise]]-Ansicht nachempfinden, indem du dem Filter `file.hasLink(this.file)` anwendest.
 
 ## Operatoren
 

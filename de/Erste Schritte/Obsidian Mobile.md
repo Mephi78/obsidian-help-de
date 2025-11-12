@@ -1,5 +1,6 @@
 ---
 permalink: mobile
+publish: true
 ---
 
 Obsidian Mobile möchte Anwendern, die bereits die Desktop-Anwendung verwenden, eine vertraute Benutzererfahrung bieten.

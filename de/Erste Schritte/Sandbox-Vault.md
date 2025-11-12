@@ -1,5 +1,6 @@
 ---
 permalink: sandbox
+publish: true
 ---
 
 Mit dem **Obsidian Sandbox-Vault** kannst du die verschiedenen Funktionen der Anwendung erkunden ohne Auswirkung auf deine eigenen Daten. Du kannst diesen Vault zum Lernen und für die Fehleranalyse einsetzen, z.B. um zu testen, ob ein Problem durch eine Erweiterung, ein Thema oder die Anwendung selbst verursacht wird.
