@@ -3,6 +3,7 @@ aliases:
   - Obsidian URI verwenden
   - Fortgeschrittene Themen/Obsidian URI verwenden
   - Konzepte/Obsidian URI
+publish: true
 ---
 
 *Obsidian URI* ist ein anwendungsspezifisches Protokoll, das es erlaubt, verschiedene Obsidian-Funktionen aufzurufen, bspw. das Öffnen oder Erstellen einer Notiz. Damit ermöglicht *Obsidian URI* Automation und anwendungsübergreifende Arbeitsabläufe.

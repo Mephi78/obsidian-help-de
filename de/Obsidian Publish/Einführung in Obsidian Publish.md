@@ -5,6 +5,7 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 permalink: publish
+publish: true
 ---
 
 [Obsidian Publish](https://obsidian.md/publish) ist ein Cloud-basierter Hosting-Dienst, mit dem du deine Notizen als Wiki, Wissensdatenbank, Dokumentation oder Digitaler Garten veröffentlichen kannst.

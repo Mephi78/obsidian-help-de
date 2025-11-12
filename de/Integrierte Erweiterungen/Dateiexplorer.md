@@ -1,5 +1,9 @@
 ---
+aliases:
+description: Mit der Standarderweiterung Dateiexplorer kannst du Dateien und Ordner in deinem Vault verwalten.
+mobile:
 permalink: plugins/dateiexplorer
+publish: true
 ---
 
 Mit der [[Standarderweiterungen|Standarderweiterung]] *Dateiexplorer* kannst du Dateien und Ordner in deinem Vault verwalten. Du kannst Notizen und andere [[Dateitypen|unterstützte Dateien]] in deinem Vault durchsuchen und gängige Dateioperationen ausführen:
@@ -37,6 +41,13 @@ Um einen neuen Ordner im Stammverzeichnis deines Vaults zu erstellen:
 Um einen Unterordner zu erstellen:
 1. Öffne mit Rechtsklick auf den Ordner, für den du einen Unterordner erstellen möchtest, das Kontextmenü und wähle **Neuer Ordner**.
 2. Gib den Ordnernamen ein und drücke die `Eingabetaste`.
+
+## Sortierung ändern
+
+So änderst du die Sortierreihenfolge deiner Dateien:
+
+1.  Wähle oben im Dateiexplorer das Symbol **Sortierreihenfolge ändern** ( ![[lucide-arrow-up-narrow-wide.svg#icon]] ).
+2. Entscheide, wie deine Dateien sortiert werden sollen: Jeweils in aufsteigender oder absteigender Reihenfolge nach Dateiname, Erstellungs- oder Bearbeitungszeitpunkt.
 
 ## Datei oder Ordner löschen
 

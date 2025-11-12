@@ -1,5 +1,6 @@
 ---
 permalink: offiziell
+publish: true
 ---
 
 Obsidian's offizielle Webseite findest du unter https://obsidian.md.

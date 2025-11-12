@@ -4,6 +4,7 @@ aliases:
   - Obsidian Sync/Sichere deinen Vault
   - Backup
 permalink: backup
+publish: true
 ---
 
 Wenn du noch keine Sicherungskopie deines Rechners erstellt hast, dann ist jetzt der beste Zeitpunkt! Obsidians Erweiterung zur [[Datenwiederherstellung|Datenwiederherstellung]] ist nützlich, aber hat ihre Grenzen. Die Erweiterung kann nur eine bestimmte Datenmenge wiederherstellen und speichert die Wiederherstellungsdaten pro Gerät. Für einen zuverlässigeren Schutz deiner Daten empfiehlt es sich, ein geeignetes Backup-System einzusetzen.

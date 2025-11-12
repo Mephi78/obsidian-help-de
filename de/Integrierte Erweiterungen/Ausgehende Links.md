@@ -1,5 +1,6 @@
 ---
 permalink: plugins/ausgehende-links
+publish: true
 ---
 
 Die [[Standarderweiterungen|Standarderweiterung]] *Ausgehende Links* zeigt eine Übersicht der tatsächlichen und potenziellen Verknüpfungen aus der aktiven Notiz mit weiteren Vault-Inhalten. Die Funktion ähnelt der Erweiterung [[Rückverweise|Rückverweise]], die hingegen alle auf die aktive Notiz verweisenden Verknüpfungen anzeigt.

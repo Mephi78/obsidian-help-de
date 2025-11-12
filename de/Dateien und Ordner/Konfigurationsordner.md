@@ -3,6 +3,7 @@ aliases:
   - .obsidian
   - Einstellungsverzeichnis
 permalink: konfigurationsordner
+publish: true
 ---
 
 Der Konfigurationsordner enthält alle Einstellungsdateien für deinen [[Vaults verwalten|Obsidian-Vault]].

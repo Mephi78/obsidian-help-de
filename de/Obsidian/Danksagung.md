@@ -1,6 +1,7 @@
 ---
 aliases: Credits
 permalink: danke
+publish: true
 ---
 
 Die Namen sind nicht nach Beitragsumfang, sondern alphabetisch geordnet (zumindest bemühen wir uns!).

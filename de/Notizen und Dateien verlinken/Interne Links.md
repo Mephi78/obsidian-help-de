@@ -18,10 +18,10 @@ Obsidian kann interne Links automatisch aktualisieren, wenn du eine Datei umbene
 
 Obsidian unterstützt die folgenden Link-Formate:
 
-- Wiki-Link: `[[Grundgesetze der Bewegung]]`
-- Markdown: `[Grundgesetze der Bewegung](Grundgesetze%20der%20Bewegung.md)`
+- Wiki-Link: `[[Grundgesetze der Bewegung]]` oder `[[Grundgesetze der Bewegung.md]]`
+- Markdown: `[Grundgesetze der Bewegung](Grundgesetze%20der%20Bewegung)` oder `[Grundgesetze der Bewegung](Grundgesetze%20der%20Bewegung.md)`
 
-Beide Links im Beispiel oben sind gleichwertig - sie werden auf die gleiche Weise dargestellt und verweisen auf dieselbe Notiz.
+Beide Links im Beispiel oben sind gleichwertig — sie werden auf die gleiche Weise dargestellt und verweisen auf dieselbe Notiz.
 
 > [!note] Hinweis
 > Links im Markdown-Format erfordern ein [URL-Encoding](https://de.wikipedia.org/wiki/URL-Encoding) der Zieladresse. Leerzeichen bspw. müssen durch `%20`ersetzt werden.

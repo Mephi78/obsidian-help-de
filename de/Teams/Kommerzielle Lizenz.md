@@ -6,10 +6,9 @@ permalink: teams/lizenz
 
 Obsidian ist kostenfrei nutzbar und zu 100% nutzerfinanziert. Organisationen können sich dafür entscheiden, Obsidian mit dem Kauf einer Kommerziellen Lizenz zu unterstützen.
 
-Organisationen, die Obsidian unterstützen, können auf unserer [Unternehmens-Website](https://obsidian.md/enterprise/) vorgestellt werden.
-%%Organizations that support Obsidian can be featured on our [Enterprise page](https://obsidian.md/enterprise/) by purchasing 25 or more licenses.
+Organisationen, die Obsidian unterstützen, indem sie mehr als 25 Lizenzen erwerben, können auf unserer [Unternehmens-Website](https://obsidian.md/enterprise/) vorgestellt werden.
 
-Commercial licenses **are not** eligible for a refund per our [[Refund policy]].%%
+Kommerzielle Lizenzen sind gemäß unserer [[Refund policy|Rückerstattungsrichtlinie]] **nicht** rückerstattungsfähig.
 
 ## Kommerzielle Lizenz erwerben
 

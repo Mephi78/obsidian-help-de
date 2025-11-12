@@ -1,5 +1,6 @@
 ---
 permalink: plugins/graph
+publish: true
 ---
 
 Die Graph-Ansicht ist eine [[Standarderweiterungen|Standard-Erweiterung]], die Beziehungen zwischen den Notizen in deinem Vault sichtbar macht.

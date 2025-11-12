@@ -5,6 +5,7 @@ aliases:
 cssclasses:
   - list-cards
 permalink: import
+publish: true
 ---
 
 Anwendungen kommen und gehen - deine Daten jedoch sollten überdauern. Obsidian speichert Notizen lokal in einfachen Textdateien im Markdown-Format. Im Gegensatz zur Verwendung proprietärer Dateiformate im Cloud-Speicher behältst du damit die volle Kontrolle über deine Daten. Auf diese Weise kannst du Obsidian offline verwenden oder bei Bedarf auch ganz einfach zu einer anderen Anwendung wechseln.

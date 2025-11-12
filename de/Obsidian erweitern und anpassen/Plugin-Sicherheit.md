@@ -1,5 +1,6 @@
 ---
 permalink: plugin-sicherheit
+publish: true
 ---
 
 Das Obsidian-Team nimmt Sicherheit sehr ernst. Hier erläutern wir die Risiken, die mit der Installation von [[Externe Erweiterungen|externen Erweiterungen]] verbunden sind und welche Maßnahmen wir ergreifen, um diese möglichst gering zu halten.

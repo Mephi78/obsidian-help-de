@@ -1,5 +1,6 @@
 ---
 permalink: symlinks
+publish: true
 ---
 
 Du kannst [Symbolische Verkknüpfungen](https://de.wikipedia.org/wiki/Symbolische_Verkn%C3%BCpfung) (Symlinks) oder [Soft Links](https://learn.microsoft.com/de-de/windows/win32/fileio/hard-links-and-junctions#junctions) in deinem Vault verwenden, um Dateien außerhalb des Vaults und des [[Datenspeicherung#Globale Einstellungen|Systemverzeichnisses]] zu speichern.

@@ -54,7 +54,7 @@ Eigenschaften haben ihre eigene [[Suche|Syntax für die Suche]], die du neben an
 
 ### Vorlagen
 
-Du kannst Eigenschaften auch in [[Vorlagen|Vorlagen]] verwenden.
+Du kannst Eigenschaften auch in [[Integrierte Erweiterungen/Vorlagen|Vorlagen]] verwenden.
 
 Wenn du in die aktive Notiz eine Vorlage einfügst, werden alle Eigenschaften aus der Vorlage zur Notiz hinzugefügt. Obsidian führt auch alle Eigenschaften, die bereits in der Notiz vorhanden sind, mit den Eigenschaften der Vorlage zusammen. ^templates-properties
 

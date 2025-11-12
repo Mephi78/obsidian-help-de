@@ -2,6 +2,7 @@
 aliases:
   - Lizenzen & Zahlung/Catalyst Lizenz
 permalink: catalyst
+publish: true
 ---
 
 Die Catalyst Lizenz ermöglicht dir Zugang zu Beta-Versionen. Um die Weiterentwicklung von Obsidian mit dem [Einmalkauf einer Catalyst Lizenz](https://obsidian.md/buy/catalyst) zu unterstützen, benötigst du ein Obsidian-Konto.

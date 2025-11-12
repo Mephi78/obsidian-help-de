@@ -1,5 +1,6 @@
 ---
 permalink: finanzielle-unterstuetzung
+publish: true
 ---
 
 Hier erfährst du, wie du einen finanziellen Beitrag zur Weiterentwicklung von Obsidian leisten kannst.

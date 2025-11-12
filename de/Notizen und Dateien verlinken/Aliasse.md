@@ -5,6 +5,7 @@ aliases:
 permalink: aliasse
 cssclasses:
   - soft-embed
+publish: true
 ---
 
 Wenn du eine Notiz unter verschiedenen Namen referenzieren möchtest, kannst du *Aliasse* hinzufügen. Ein Alias ist ein alternativer Name für eine Notiz.
