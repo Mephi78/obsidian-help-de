@@ -20,9 +20,10 @@ Anwendungen kommen und gehen - deine Daten jedoch sollten überdauern. Obsidian 
 - <span class="icon-app icon-google-keep"></span> [[Import from Google Keep|Google Keep]]
 - <span class="icon-app icon-bear"></span> [[Import from Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Import from Craft|Craft]]
-- <span class="icon-app icon-html"></span> [[Import HTML files|HTML files]]
-- <span class="icon-app icon-md"></span> [[Import Markdown files|Markdown files]]
-- <span class="icon-app icon-md"></span> [[Import Textbundle files|Textbundle files]]
+- <span class="icon-app icon-html"></span> [[Import HTML files|HTML-Dateien]]
+- <span class="icon-app icon-md"></span> [[Import CSV files|CSV-Dateien]]
+- <span class="icon-app icon-md"></span> [[Import Markdown files|Markdown-Dateien]]
+- <span class="icon-app icon-md"></span> [[Import Textbundle files|Textbundle-Dateien]]
 - <span class="icon-app icon-md"></span> [[Import Zettelkasten notes|Zettelkasten notes]]
 
 ## Weitere Formate

@@ -97,7 +97,7 @@ Wenn du eine neu installierte Obsidian-Instanz öffnest, erscheint die [[Vaults 
 	1. ![[lucide-monitor-check.svg#icon]] **Desktop**: Neben **Obsidian Sync verbinden** wähle **Anmelden**.
 	2. ![[obsidian-icon-smartphone.svg#icon]] **Mobile/Tablet**: Wähle **Setup Obsidian Sync**.
 2. Melde dich an deinem Obsidian-Konto an:
-	1. Wenn du [[2-factor authentication|2FA]] aktiviert hast, gibt deinen 2FA-Code ein.
+	1. Wenn du [[2-Faktor-Authentifizierung|2FA]] aktiviert hast, gibt deinen 2FA-Code ein.
 3. Du wirst aufgefordert, den Remote-Vault zu wählen, mit dem du dein Gerät synchronisieren möchtest. Wähle **Verbinden**.
 4. Gib einen beliebigen Namen für den lokalen Vault ein, in dem die Daten aus dem Remote-Vault gespeichert werden sollen. Hinweis: Falls du [[Obsidian URI]]s verwendest, solltest du denselben Namen verwenden wie für den lokalen Vault auf dem anderen Gerät. 
 5. Wähle **Erstellen**.

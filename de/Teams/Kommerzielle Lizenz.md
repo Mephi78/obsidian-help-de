@@ -59,13 +59,13 @@ Das Logo sollte als SVG bereitgestellt werden, das 32 x 32 Pixel ausfüllt und n
 ## Häufig gestellte Fragen
 
 **Kann ich eine Lizenz für mich selbst kaufen oder muss ich mein Unternehmen bitten, sie für mich zu erwerben?**
-Ja. Du kannst eine Lizenz für dich selbst erwerben über dein [Obsidian Benutzer-Dashboard](https://obsidian.md/account/commercial). Bei den meisten Unternehmen kann man einen Kaufbeleg für die Spesenabrechnung einreichen. Für weitere Informationen wende dich am besten an die IT-Abteilung deines Unternehmens.
+Ja. Du kannst eine Lizenz für dich selbst erwerben über dein [Obsidian-Dashboard](https://obsidian.md/account/commercial). Bei den meisten Unternehmen kann man einen Kaufbeleg für die Spesenabrechnung einreichen. Für weitere Informationen wende dich am besten an die IT-Abteilung deines Unternehmens.
 
 **Welchen Firmennamen soll ich eintragen, wenn ich die Lizenz für mich selbst bestelle?**
 Falls dein Unternehmen die Kosten zurückerstattet, verwende den Firmennamen. Andernfalls verwende deinen vollständigen Namen als Firmenname.
 
 **Kann ich eine Kommerzielle Lizenz für mehrere Mitarbeiter erwerben?**
-Ja. Du kannst mehrere Kommerzielle Lizenzen über dein[Obsidian Benutzer-Dashboard](https://obsidian.md/account/commercial) bestellen. Es ist nicht notwendig, für jeden Mitarbeiter ein eigenes Obsidian-Konto anzulegen. Du kannst ein einziges "Admin"-Konto verwenden, um alle Lizenzen zu erwerben.
+Ja. Du kannst mehrere Kommerzielle Lizenzen über dein[Obsidian-Dashboard](https://obsidian.md/account/commercial) bestellen. Es ist nicht notwendig, für jeden Mitarbeiter ein eigenes Obsidian-Konto anzulegen. Du kannst ein einziges "Admin"-Konto verwenden, um alle Lizenzen zu erwerben.
 
 Nach dem Kauf einer Lizenz erhältst du einen Lizenzschlüssel, den du an deine Mitarbeiter versenden kannst, um die Lizenz in der Anwendung zu aktivieren, wie oben beschrieben.
 

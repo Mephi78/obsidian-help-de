@@ -40,13 +40,13 @@ Mit dem Erwerb einer Catalyst Lizenz erhältst du Zugriff auf einige Vorteile. E
 **Hinweis:** Um dein Obsidian-Konto mit deinem Forum-Benutzerkonto zu verknüpfen, musst du für beide dieselbe E-Mail-Adresse verwenden.
 
 1. Tritt unserem [Forum](https://forum.obsidian.md/) bei.
-2. Rufe dein [Obsidian Benutzer-Dashboard](https://obsidian.md/account/catalyst) auf.
+2. Rufe dein [Obsidian-Dashboard](https://obsidian.md/account/catalyst) auf.
 3. Unter **Catalyst**, wähle **Get forum badge**.
 
 ### Discord-Abzeichen erhalten
 
 1. Tritt unserem [Discord Server](https://discord.gg/veuWUTm) bei.
-2. Rufe dein [Obsidian Benutzer-Dashboard](https://obsidian.md/account/catalyst) auf.
+2. Rufe dein [Obsidian-Dashboard](https://obsidian.md/account/catalyst) auf.
 3. Unter **Catalyst**, wähle **Get Discord badge**.
 
 ### Unseren Insider-Kanälen beitreten
@@ -55,4 +55,4 @@ Insider können sich mit dem Obsidian-Team und anderen Insidern in unseren exklu
 
 ### Frühzeitigen Zugang zu Versionen aktivieren
 
-Erfahre, wie du [[Early access versions|frühzeitigen Zugang zu Versionen]] erhalten kannst.
+Erfahre, wie du [[Early-Access-Versionen|frühzeitigen Zugang zu Versionen]] erhalten kannst.
