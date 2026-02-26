@@ -1,32 +1,32 @@
 ---
 permalink: obsidian
 ---
-#TODO
-## What is Obsidian
 
-Obsidian is both a Markdown editor and a knowledge base app.
+## Was ist Obsidian
 
-Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing a densely networked knowledge base.
+Obsidian ist sowohl ein Markdown-Editor, als auch eine Wissensdatenbank-App.
 
-How do we start creating a network, you ask? Let's first start making some [[Interne Links]]!
+In der einfachsten Anwendung kannst du damit Markdown-Dateien bearbeiten und anzeigen. Seine wahre Stärke liegt jedoch in der Verwaltung einer dicht vernetzten Wissensdatenbank.
 
-## How we're different
+Wie baut man ein solches Netzwerk auf, fragst du dich? Beginne damit, einige [[Interne Links]] zu estellen!
 
-### You own and control your data
+## Was uns von anderen unterscheidet
 
-We believe in plain text for something as important as your knowledge base. You don't want to put your own brain over someone else's neck, do you? Treat your second brain the same way.
+### Du behältst das Eigentum und die Kontrolle über deine Daten
 
-Sync is only a utility to facilitate working on multiple devices, the data will always primarily live on your hard disk.
+Wir setzen auf reinen Text für etwas so Wichtiges wie deine Wissensdatenbank. Du möchtest dein eigenes Gehirn sicher nicht auf den Hals eines anderen setzen, oder? Behandle dein zweites Gehirn ebenso.
 
-When the file system replaces the cloud, you get flexible options to work with your files: you can back them up with Dropbox, use Git to do versioning, or encrypt your disk for security. Whatever works on your file system will work on your Obsidian knowledge base.
+Obsidian Sync ist nur ein Hilfsmittel, um dir die Arbeit auf mehreren Geräten zu erleichtern - deine Daten werden immer in erster Linie auf deiner Festplatte gespeichert.
+
+Wenn das Dateisystem die Cloud ersetzt, erhältst du flexible Möglichkeiten, mit deinen Dateien zu arbeiten: Du kannst sie mit Dropbox sichern, Git zur Versionsverwaltung verwenden oder für eine höhere Sicherheit deine Festplatte verschlüsseln. Was auch immer auf deinem Dateisystem funktioniert, funktioniert ebenso für deine Obsidian-Wissensdatenbank.
 
 ### Links sind das A und O
 
-Links and connections are crucial to discovering the relations between what we know.
+Links und Verknüpfungen sind entscheidend, um die Beziehungen zwischen dem, was wir wissen, zu entdecken.
 
-Obsidian greatly values this, and encourages it with [[Interne Links]] and [[Graph-Ansicht]], among other things.
+Diesen misst Obsidian einen hohen Wert bei und unterstützt hier u.a. mit [[Interne Links|internen Links]] sowie der [[Graph-Ansicht]].
 
-As John Locke puts it...
+Wie John Locke es ausdrückt...
 
 > The acts of the mind, wherein it exerts its power over simple ideas, are chiefly these three:
 >
@@ -36,28 +36,28 @@ As John Locke puts it...
 
  \- John Locke, An Essay Concerning Human Understanding (1690)
 
-Hierarchy gives us No. 1, and linking gives us No. 2. We're still unsure what No. 3 entails in the context of note-taking, but it might have something to do with programming or macros.
+Die Hierarchie gibt uns Nr. 1 und Verknüpfungen ergeben Nr. 2. Wir sind uns noch nicht sicher, was Nr. 3 im Zusammenhang mit Notizen bedeutet, aber es könnte etwas mit Programmierung und Makros zu tun haben.
 
-### Your own toolkit
+### Dein eigenes Toolkit
 
-Note-taking is a highly personal activity. Naturally there is no single all-encompassing solution for everyone.
+Notizen zu machen sind eine höchst persönliche Angelegenheit. Natürlich gibt es nicht die eine Lösung, die für jedermann geeignet ist.
 
-Instead of providing you with an opinionated and assembled product, [[Obsidian]] gives you a foundation and numerous functional building blocks  to discover and build your own solution.
+Anstatt dir ein vorgefertigtes Produkt mit festgelegten Funktionen hinzustellen, bietet dir [[Obsidian]] ein Fundament mit zahlreichen Funktionsbausteinen, anhand derer du deine eigene Lösung entdecken und gestalten kannst.
 
-The foundation is to be able to view files, edit them, and search them. For the minimalist, that's enough.
+Die grundlegende Basis lässt dich Dateien anzeigen, bearbeiten und durchsuchen - ausreichend für Minimalisten.
 
-On top of that, you can add isolated, independent building blocks to add features to your note-taking:
+Darüber hinaus kannst du isolierte, unabhängige Bausteine hinzufügen für neue Notiz-Funktionen:
 
-- If you're taking class notes, [[Audio-Rekorder]] and LaTeX math might be useful;
-- If you're taking work notes, [[Präsentation]] and [[Rückverweise]] may come in handy;
-- If you're a researcher, [[Graph-Ansicht]] and [[Anzahl der Wörter]] might be essential to your toolkit.
+- Für Mitschriften im Unterricht findest du vielleicht den [[Audio-Rekorder]] oder LaTeX nützlich;
+- Für Arbeitsnotizen sind evtl. [[Präsentation|Präsentationen]] oder [[Rückverweise]] hilfreich;
+- Für wissenschaftliche Forschung könnten sich [[Graph-Ansicht]] und [[Anzahl der Wörter]] als unverzichtbar erweisen für dein Toolkit.
 
-We don't expect plugins to be the silver bullet to solve all the problems, but it does get us closer than a monolith solution, without all the features that you don't need cluttering the interface.
+Wir erwarten nicht, dass Plugins das Wundermittel zur Lösung aller Probleme sind, aber sie bringen uns sicher näher ans Ziel, als eine monolithische Lösung, die mit zu vielen Funktionen die Bedienoberfläche unnötig überladen würde.
 
-We support [[CSS-Bausteine]], [[Themen]], and [[Externe Erweiterungen]], which enable even more interface customization and support less common use cases.
+[[CSS-Bausteine]], [[Themen]] und [[Externe Erweiterungen]] ermöglichen dir eine noch umfassendere Anpassung der Bedienoberfläche und auch Unterstützung für weniger übliche Anwendungsfälle.
 
-## Follow our development
+## Verfolge unsere Entwicklung
 
-Curious how we continue to make Obsidian the best and most refined tool for thought-processing? Check out our [roadmap](https://obsidian.md/roadmap/) to see what we're working on.
+Neugierig, wie wir Obsidian weiterhin zum besten und raffiniertesten Werkzeug für deine Gedankenverarbeitung machen? Wirf einen Blick auf unsere [Roadmap](https://obsidian.md/roadmap/), um zu sehen, woran wir gerade arbeiten.
 
-Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), feel free to follow. We mostly tweet about product updates.
+Unser X-Handle lautet [@obsdmd](https://x.com/obsdmd) - folge uns gern. Wir posten hauptsächlich Produkt-Updates.

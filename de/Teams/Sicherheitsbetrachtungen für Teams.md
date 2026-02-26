@@ -58,7 +58,7 @@ Obsidian sendet Netzwerkanfragen an `github.com` und `raw.githubusercontent.co
 Obsidian bietet keine SSO-Unterstützung. In den meisten Fällen musst du dich zur Arbeit mit Obsidian nicht anmelden, lediglich bei der Verwendung von [[Einführung in Obsidian Publish|Obsidian Publish]] oder [[Einführung in Obsidian Sync|Obsidian Sync]].
 
 **Unterstützt Obsidian die Multi-Faktor-Authentifizierung (MFA)?**
-Obsidian unterstützt die [[2-factor authentication|2-Faktor-Authentifizierung]] (2FA) für Obsidian-Benutzerkonten, jedoch nicht für das Öffnen und Verwenden der Basis-Anwendung. Wenn du [[Einführung in Obsidian Sync|Obsidian Sync]] oder [[Einführung in Obsidian Publish|Obsidian Publish]] verwendest und 2FA aktiviert hast, wirst du beim erstmaligen Anmelden in der Anwendung zur Eingabe deines 2FA-Schlüssels aufgefordert.
+Obsidian unterstützt die [[2-Faktor-Authentifizierung|2-Faktor-Authentifizierung]] (2FA) für Obsidian-Benutzerkonten, jedoch nicht für das Öffnen und Verwenden der Basis-Anwendung. Wenn du [[Einführung in Obsidian Sync|Obsidian Sync]] oder [[Einführung in Obsidian Publish|Obsidian Publish]] verwendest und 2FA aktiviert hast, wirst du beim erstmaligen Anmelden in der Anwendung zur Eingabe deines 2FA-Schlüssels aufgefordert.
 
 ### Bewertungen und Zertifizierungen
 

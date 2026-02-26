@@ -5,8 +5,6 @@ publish: true
 
 Die Listen-Sicht zeigt die Dateien in deiner [[Einführung in Bases|Base]] als ungeordnete oder nummerierte [[Formatierungsgrundlagen#Listen|Liste]] an.
 
-> [!info] Erfordert Obsidian 1.10
-
 ## Einstellungen
 
 Die Listen-Sicht kann in den [[Sichten#Sicht-Einstellungen|Sicht-Einstellungen]] konfiguriert werden.

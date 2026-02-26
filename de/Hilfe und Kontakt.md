@@ -66,10 +66,10 @@ Wenn du ein Sicherheitsrisiko in Obsidian entdeckt hast oder vermutest, dass ein
 
 ## Verstöße gegen den Verhaltenscodex melden
 
-Wenn du selbst Opfer oder Zeuge einer Verletzung unserer [[Community code of conduct|Community-Regeln]] geworden bist, kannst du den Vorfall an unser Moderatoren-Team über einen der folgenden Community-Kanäle melden:
+Wenn du selbst Opfer oder Zeuge einer Verletzung unserer [[Community-Verhaltenskodex|Community-Regeln]] geworden bist, kannst du den Vorfall an unser Moderatoren-Team über einen der folgenden Community-Kanäle melden:
 
-- [[Community code of conduct#Report on Discord|Meldung auf Discord]]
-- [[Community code of conduct#Report on the forum|Meldung im Forum]]
+- [[Community-Verhaltenskodex#Meldung auf Discord|Meldung auf Discord]]
+- [[Community-Verhaltenskodex#Meldung im Forum|Meldung im Forum]]
 
 ## Mitmachen
 
