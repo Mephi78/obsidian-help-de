@@ -23,7 +23,7 @@ Jede Sicht hat ihre eigenen Konfigurationsoptionen. Um Sichten anzupassen:
 
 ## Layout
 
-Sichten können in verschiedenen Layouts angezeigt werden, als **Tabelle**, **Liste** oder **Karten**. [[Externe Erweiterungen]] können zusätzliche Layouts hinzufügen. Einige Layouts sind noch in Entwicklung und nur im Obsidian-[[early access versions|Insider-Build]] verfügbar.
+Sichten können in verschiedenen Layouts angezeigt werden, als **Tabelle**, **Liste** oder **Karten**. [[Externe Erweiterungen]] können zusätzliche Layouts hinzufügen. Einige Layouts sind noch in Entwicklung und nur im Obsidian-[[Early-Access-Versionen|Insider-Build]] verfügbar.
 
 | Layout                  | Beschreibung                                                                                        | App&nbsp;Version |
 | ----------------------- | --------------------------------------------------------------------------------------------------- | ---------------- |
@@ -64,6 +64,31 @@ Mit Filtergruppen kannst du komplexere logische Verknüpfungen definieren.
 #### Editor für komplexe Filter
 
 Klicke im **Filter**-Menü auf die Code-Schaltfläche ( ![[lucide-code-xml.svg#icon]] ), um in den Editor für **komplexe Filter** zu wechseln. Damit wird die reine [[Bases Syntax|Base Syntax]] zur Bearbeitung des Filters angezeigt und du kannst komplexere [[Funktionen|Funktionen]] verwenden, die im interaktiven Editor für **einfache Filter** nicht verfügbar sind.
+
+## Ergebnisse sortieren und gruppieren
+
+Öffne das Menü ![[lucide-arrow-up-down.svg#icon]] **Sortieren** und gruppiere die Ergebnisse in einer Sicht.
+
+Du kannst Ergebnisse nach einer oder mehreren Eigenschaften in aufsteigender bzw. absteigender Reihenfolge sortieren. So lassen sich Notizen ganz einfach nach Name, Zeitpunkt der letzten Bearbeitung oder jeder anderen Eigenschaft - einschließlich Formeln - auflisten.
+
+Du kannst Ergebnisse auch nach einer Eigenschaft gruppieren, um ähnliche Elemente in visuell unterscheidbaren Abschnitten zu organisieren. Derzeit unterstützt Obsidian lediglich eine Gruppierung nach einer einzelnen Eigenschaft.
+
+### Eine Sortierung hinzufügen
+
+1. Öffne das Menü **Sortieren** oberhalb der Sicht.
+2. Wähle die Eigenschaft, nach der du sortieren (oder gruppieren) möchtest.
+3. Wenn du mehrere Sortierungen hast, ziehe sie über das ![[lucide-grip-vertical.svg#icon]] Handle nach oben oder unten, um deren Priorität zu ändern.
+
+Die Optionen zum Sortieren der Ergebnisse sind abhängig vom Eigenschaftstyp:
+
+- **Text**: Sortiere *alphabetisch* (A→Z) oder in *umgekehrter alphabetischer Reihenfolge* (Z→A).
+- **Zahl**: Sortiere von *klein nach groß* (0→1) oder *groß nach klein* (1→0).
+- **Datum und Uhrzeit**: Sortiere von *alt bis neu* oder *neu bis alt*.
+
+### Eine Sortierung entfernen
+
+1. Öffne das Menü **Sortieren** oberhalb der Sicht.
+2. Entferne eine Sortierung oder Gruppierung über die Schaltfläche ![[lucide-trash-2.svg#icon]] daneben.
 
 ## Ergebnisse begrenzen, kopieren und exportieren
 

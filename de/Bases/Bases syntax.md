@@ -35,10 +35,15 @@ properties:
     displayName: "Preis"
   file.ext:
     displayName: Dateieindung
+summaries:
+  customAverage: 'values.mean().round(3)'
 views:
   - type: table
     name: "Meine Tabelle"
     limit: 10
+    groupBy:
+      property: note.age
+      direction: DESC
     filters:
       and:
         - 'status != "erledigt"'
@@ -51,6 +56,8 @@ views:
       - note.alter
       - formula.stp
       - formula.formatierter_preis
+    summaries:
+      formula.stp: Average
 ```
 
 ### Filter
@@ -131,6 +138,39 @@ In Filtern oder Formeln werden Anzeigenamen nicht verwendet.
 > [!note] Hinweis
 > Achte darauf, im Abschnitt `properties` auch Notiz-Eigenschaften in der vollständigen Punkt-Notation zu verwenden. Die [[#Notiz-Eigenschaften|Kurzschreibweise]] funktioniert hier nicht.
 
+### Zusammenfassungen
+
+Der Abschnitt `summaries` kann verwendet werden, um benutzerdefinierte Zusammenfassungsformeln zu definieren. Zusätzlich zur Definition eigener Formeln stehen hier einige Standard-Zusammenfassungsformeln zur Verfügung.
+
+```yaml
+summaries:
+  customAverage: 'values.mean().round(3)'
+```
+
+Die benutzerdefinierte Formel `customAverage` im Beispiel entspricht der Standard-Formel `Average`, bis auf dass der Wert auf eine andere Anzahl von Stellen gerundet wird. In Zusammenfassungsformeln steht das Schlüsselwort `values` für eine Liste aller Werte für diese Eigenschaft über alle Notizen des Ergebnissatzes hinweg. Eine Zusammenfassungsformel sollte einen einzigen Wert (`Value`) zurückgeben.
+
+Beachte, dass dieser `summaries`-Abschnitt sich vom gleichnamigen Abschnitt `summaries` in der [[#Sichten|Sichten-Konfiguration]] unterscheidet, in welchem Zusammenfassungsformeln bestimmten Eigenschaften zugewiesen werden.
+
+#### Standard-Zusammenfassungsformeln
+
+| Name      | Typ     | Beschreibung                                                     |
+| --------- | ------- | ---------------------------------------------------------------- |
+| Average   | Zahl    | Der mathematische Mittelwert aller Zahlen aus den Eingabewerten. |
+| Min       | Zahl    | Die kleinste Zahl aus den Eingabewerten.                         |
+| Max       | Zahl    | Die größte Zahl aus den Eingabewerten.                           |
+| Sum       | Zahl    | Die Summe aller Zahlen aus den Eingabewerten.                    |
+| Range     | Zahl    | Die Differenz zwischen `Max` und `Min`.                          |
+| Median    | Zahl    | Der mathematische Median aller Zahlen aus den Eingabewerten.     |
+| Stddev    | Zahl    | Die Standardabweichung aller Zahlen aus den Eingabewerten.       |
+| Earliest  | Datum   | Das früheste Datum aus den Eingabewerten.                        |
+| Latest    | Datum   | Das späteste Datum aus den Eingabewerten.                        |
+| Range     | Datum   | Die Differenz zwischen `Latest` und `Earliest`.                  |
+| Checked   | Boolean | Die Anzahl aller `true`-Werte.                                   |
+| Unchecked | Boolean | Die Anzahl aller `false`-Werte.                                  |
+| Empty     | Jeder   | Die Anzahl aller Werte, die leer sind.                           |
+| Filled    | Jeder   | Die Anzahl aller Werte, die nicht leer sind.                     |
+| Unique    | Jeder   | Die Anzahl der eindeutigen Werte aus der Eingabe.                |
+
 ### Sichten
 
 Der Abschnitt `views` bestimmt, wie die anzuzeigenden Daten gerendert werden. Jeder Eintrag in der `views`-Liste definiert eine separate Sicht auf dieselben Daten. Du kannst so viele Sichten definieren, wie du benötigst.
@@ -142,6 +182,9 @@ views:
   - type: table
     name: "Meine Tabelle"
     limit: 10
+    groupBy:
+      property: note.age
+      direction: DESC
     filters:
       and:
         - 'status != "erledigt"'
@@ -154,12 +197,16 @@ views:
       - note.alter
       - formula.stp
       - formula.formatierter_preis
+    summaries:
+      formula.stp: Average
 ```
 
 - `type` kann eines der integrierten oder durch Plugins hinzugefügten [[Sichten#Layout|Layouts]] enthalten.
 - `name` ist der Anzeigename, der verwendet werden kann, um das Standard-Layout festzulegen (mittels [[Erstelle eine Base#Base-Datei einbetten|Anchor Tag]]).
 - `filters` definiert die auf eine bestimmte Sicht anzuwendenden Filter, wie oben beschrieben.
 - `order` bestimmt, welche Elemente in welcher Reihenfolge angezeigt werden sollen. Im Beispiel ist eine Tabellen-Sicht definiert, wobei die in `order` gelisteten Elemente als anzuzeigende Spalten interpretiert werden.
+- `groupBy` bestimmt eine Eigenschaft und Sortierreihenfolge. Der Wert der angegebenen Eigenschaft für jede Zeile wird verwendet, um die Zeile in Gruppen einzuordnen.
+- `summaries` ordnet Eigenschaftsnamen einer benannten Zusammenfassung zu. Zusammenfassungen führen eine Aggregation der Eigenschaft über alle Zeilen hinweg durch.
 
 [[Sichten]] können *zusätzliche Daten* hinzugefügt werden, die für die Funktionsweise oder Darstellung eines spezifischen Layouts notwendig sind. Plugin-Entwickler sollten jedoch darauf achten, keine Schlüssel zu verwenden, die bereits durch die Standarderweiterung *Bases* verwendet werden.
 
