@@ -103,3 +103,19 @@ Um den Zugriff auf Obsidian Sync in deinem Netzwerk zu regulieren, musst du die 
 Das `xx` steht für eine Zahl zwischen `1` und `100`.
 
 > [!tip] Falls deine Firewall dies unterstützt, empfehlen wir ein Whitelisting für `sync-*.obsidian.md`, um der kontinuierlichen Erweiterung unserer Subdomains Rechnung zu tragen.
+
+## Einschränkungen
+
+Obsidian Sync wurde entwickelt, um deine Notizen privat und sicher zu halten. Um eine schnelle, zuverlässige Synchronisierung sowie effiziente Speicherung über alle Geräte hinweg zu gewährleisten, gehen wir bei der Anwendung von Verschlüsselung bewusst einige Kompromisse ein.
+
+## Deterministische Datei-Hash-Verschlüsselung
+
+Wir verschlüsseln Datei-Hashes deterministisch: Derselbe Dateiinhalt, der denselben Verschlüsselungsschlüssel und Salt verwendet, erzeugt auf dem Server immer denselben verschlüsselten Hash. Das hilft Sync dabei, Duplikate zu erkennen und ein erneutes Hochladen oder Speichern identischer Daten zu vermeiden, was Bandbreite wie auch Speicherplatz spart, insbesondere im Versionsverlauf oder wenn sich große Dateien wiederholen.
+
+Wenn jedoch ein Angreifer einen Sync-Server kompromittiert und über eine separate Möglichkeit verfügt, einen Anwender zum Hochladen von Dateien seiner Wahl zu zwingen, könnte der Angreifer den Anwender zwingen, bestimmte Dateien hochzuladen und feststellen, ob die Datei mit einer zuvor vom Anwender hochgeladenen Datei übereinstimmt.
+
+### Keine kryptographische Verbindung zwischen Pfad und Inhalt
+
+Einige Metadaten sind nicht Ende-zu-Ende-verschlüsselt: Von welchem Gerät eine Datei hochgeladen oder gelöscht wurde, wann sie hochgeladen wurde und die Zuordnung (*mapping*) zwischen verschlüsselten Dateipfaden und verschlüsseltem Inhalt. Diese Daten sind für den Server lesbar, damit Änderungen weitergeleitet, der Versionsverlauf einer Datei bestimmt und Geräte synchron gehalten werden können.
+
+Wenn ein Sync-Server kompromittiert wurde, könnte ein Angreifer diese Zuordnung manipulieren und dafür sorgen, dass der Inhalt einer verschlüsselten Datei unter einem anderen Dateipfad bereitgestellt wird. Dadurch werden deine Klartext-Daten jedoch nicht offengelegt, sie bleiben verschlüsselt.

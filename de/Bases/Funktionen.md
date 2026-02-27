@@ -37,12 +37,24 @@ Globale Funktionen werden eigenständig, ohne [[Eigenschaften|Eigenschaft]] verw
 - In Datumsberechnungen wird die Dauer automatisch geparst (z.B. `now() + '1d'`), allerdings muss eine Dauer explizit umgewandelt werden, bevor arithmetische Operationen darauf angewendet werden (z.B. `now() + (duration('1d') * 2)`).
 - Für arithmetische Berechnungen mit einer Zeitdauer und einem Skalarwert muss die Dauer auf der linken Seite des Operators stehen, z.B. `duration('5h') * 2` anstelle von `2 * duration('5h')`.
 
+### `escapeHTML()`
+
+`escapeHTML(html: string): string`
+
+- Wird verwendet, um Sonderzeichen in einer Zeichenkette zu escapen, damit diese sicher in HTML eingebunden werden kann.
+
 ### `file()`
 
 `file(path: string | file | url): file`
 
 - Erwartet einen Dateinamen, eine URL oder Dateipfad zu einer Datei und gibt die Entsprechung als Datei-Objekt zurück.
 - Beispiel: `file(link("[[dateiname]]"))` oder `file("pfad/zur/datei")`.
+
+### `html()`
+
+`html(html: string): html`
+
+- Konvertiert eine Zeichenfolge in einen Code-Schnipsel um, der als HTML gerendert wird.
 
 ### `icon()`
 
@@ -245,6 +257,13 @@ Diese Funktionen können auf Zeichenfolgen angewendet werden.
 
 - Konvertiert die aufrufende `zeichenfolge` in Kleinbuchstaben und gibt diese zurück.
 
+### `repeat()`
+
+`string.repeat(count: number): string`
+
+- `count` bestimmt, wie oft die Zeichenkette wiederholt werden soll.
+- Beispiel: `"123".repeat(2)` gibt `"123123"` zurück.
+
 ### `replace()`
 
 `zeichenfolge.replace(pattern: string | regexp, replacement: string): string`
@@ -424,6 +443,18 @@ Diese Funktionen kannst du auf geordnete Listen von Elementen anwenden , bspw. `
 - `value` entspricht dem Wert des geprüften Listenelements.
 - `index` entspricht dem nullbasierten Index des geprüften Listenelements.
 - Beispiel: `[1,2,3,4].map(value + 1)` gibt `[2,3,4,5]` zurück.
+
+### `reduce()`
+
+`list.reduce(expression: Any, acc: Any): Any`
+
+- Fasst die Elemente der Liste zu einem einzigen Wert zusammen, indem ein Ausdruck auf jedes Element angewendet wird. Der Ausdruck kann die Variablen `index`, `value` und `acc` (Akkumulator) verwenden und sollte den nächsten Akkumulatorwert zurückgeben.
+- `expression` wird für jedes Element in der Liste ausgewertet.
+- `value` entspricht dem Wert des aktuellen Elements in der Liste.
+- `index` ist der Index des aktuellen Elements in der Liste.
+- `acc` ist der bisher akkumulierte Wert.
+- Beispiel (Summe): `[1,2,3].reduce(acc + value, 0)` gibt `6` zurück.
+- Beispiel (Maximum): `values.filter(value.isType("number")).reduce(if(acc == null || value > acc, value, acc), null)` die größte Zahl zurück oder `null`, wenn keine vorhanden ist.
 
 ### `reverse()`
 
